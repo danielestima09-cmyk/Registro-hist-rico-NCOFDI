@@ -120,12 +120,19 @@ def escudos_em_ordem(z, slide):
     return _ordem_de_leitura(imgs)
 
 
-def _ordem_de_leitura(imgs):
-    """Linha a linha, da esquerda para a direita."""
+def _ordem_de_leitura(imgs, tolerancia=40):
+    """Linha a linha, da esquerda para a direita.
+
+    `tolerancia` (em pixels) é o quanto dois itens podem diferir em altura e
+    ainda contarem como da mesma linha. Na grade do slide inteiro ela é folgada;
+    dentro de uma célula precisa ser estreita, porque quando um país tem três
+    campeões os escudos formam um triângulo, e agrupar os dois de cima como se
+    fossem uma linha invertia a ordem (foi o que trocou Quilmes e Independiente).
+    """
     imgs = sorted(imgs)
     linhas, atual, ref = [], [], None
     for it in imgs:
-        if ref is None or abs(it[0] - ref) <= 40 * EMU:
+        if ref is None or abs(it[0] - ref) <= tolerancia * EMU:
             atual.append(it)
             ref = it[0] if ref is None else ref
         else:
@@ -173,7 +180,7 @@ def celulas_por_pais(z, slide):
         cx, cy = centro(e)
         dist = [((cx - bx) ** 2 + (cy - by) ** 2, k) for k, (bx, by) in enumerate(cband)]
         grupos[min(dist)[1]].append(e)
-    return [_ordem_de_leitura(g) for g in grupos]
+    return [_ordem_de_leitura(g, tolerancia=10) for g in grupos]
 
 
 def titulo(z, slide):
@@ -218,6 +225,14 @@ PLANO = {
 # Slides que não são grade de países: a posição de cada escudo é fixa e foi
 # conferida visualmente. O índice é a ordem de leitura dentro do slide; os que
 # faltam na sequência são logotipos de seção (CBF, Supercopa, confederações).
+# Escudos que estão errados na própria apresentação. Não são extraídos; o
+# arquivo correto entra à mão em assets/escudos/.
+ESCUDOS_ERRADOS_NA_FONTE = {
+    # No slide dos estaduais do Ano 2 está o escudo do Cametá, mas o campeão
+    # paraense de 2027 é o São Raimundo.
+    "São Raimundo-PA",
+}
+
 PLANO_MANUAL = {
     ("continentais", 1, "slide1"): [
         (0, "afc", "AFC Champions League Elite"),
@@ -331,6 +346,8 @@ def main():
                                    f"para {len(campeoes)} campeão(ões)")
                 continue
             for esc, clube in zip(grupo, campeoes):
+                if clube in ESCUDOS_ERRADOS_NA_FONTE:
+                    continue
                 dados = z.read(f"ppt/media/{esc[4]}")
                 h = hashlib.sha1(dados).hexdigest()[:10]
                 if clube in atrib and atrib[clube][0] != h:

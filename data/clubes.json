@@ -3483,7 +3483,8 @@
   "pais": "Argentina"
  },
  "Independiente-ARG": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escudo": "independiente-arg.svg"
  },
  "Independiente-PAN": {
   "pais": "Panamá"
@@ -5911,8 +5912,7 @@
   "pais": "França"
  },
  "Quilmes": {
-  "pais": "Argentina",
-  "escudo": "quilmes.svg"
+  "pais": "Argentina"
  },
  "Quixadá": {
   "pais": "Brasil"
