@@ -10,11 +10,11 @@
       "campeoes": [
         {
           "temporada": "2026",
-          "clube": "Grêmio"
+          "clube": "Grêmio-RS"
         },
         {
           "temporada": "2027",
-          "clube": "Corinthians"
+          "clube": "Corinthians-SP"
         }
       ]
     },
@@ -70,11 +70,11 @@
       "campeoes": [
         {
           "temporada": "2026",
-          "clube": "Guarani"
+          "clube": "Guarani-SP"
         },
         {
           "temporada": "2027",
-          "clube": "Corinthians"
+          "clube": "Corinthians-SP"
         }
       ]
     },
@@ -85,11 +85,11 @@
       "campeoes": [
         {
           "temporada": "2026",
-          "clube": "Flamengo"
+          "clube": "Flamengo-RJ"
         },
         {
           "temporada": "2027",
-          "clube": "Grêmio"
+          "clube": "Grêmio-RS"
         }
       ]
     }

@@ -1007,9 +1007,6 @@
  "Barnsley": {
   "pais": "Inglaterra"
  },
- "Barra": {
-  "pais": "Brasil"
- },
  "Barra Mansa": {
   "pais": "Brasil"
  },
@@ -1240,9 +1237,6 @@
  },
  "Boston River-URU": {
   "pais": "Uruguai"
- },
- "Botafogo": {
-  "pais": "Brasil"
  },
  "Botafogo-PB": {
   "pais": "Brasil"
@@ -1676,9 +1670,6 @@
  "Celtic": {
   "pais": "Escócia"
  },
- "Central": {
-  "pais": "Brasil"
- },
  "Central Coast": {
   "pais": "Ilhas Salomão"
  },
@@ -1922,9 +1913,6 @@
  "Concórdia": {
   "pais": "Brasil"
  },
- "Confiança": {
-  "pais": "Brasil"
- },
  "Confiança-PB": {
   "pais": "Brasil"
  },
@@ -1941,9 +1929,6 @@
   "pais": "Chile"
  },
  "Cordino": {
-  "pais": "Brasil"
- },
- "Corinthians": {
   "pais": "Brasil"
  },
  "Corinthians-SP": {
@@ -2011,9 +1996,6 @@
  },
  "Cruz Azul": {
   "pais": "México"
- },
- "Cruzeiro": {
-  "pais": "Brasil"
  },
  "Cruzeiro-AL": {
   "pais": "Brasil"
@@ -2723,13 +2705,7 @@
  "Ferrocarril Midland": {
   "pais": "Argentina"
  },
- "Ferroviária": {
-  "pais": "Brasil"
- },
  "Ferroviária-SP": {
-  "pais": "Brasil"
- },
- "Ferroviário": {
   "pais": "Brasil"
  },
  "Ferroviário-CE": {
@@ -2749,9 +2725,6 @@
  },
  "First Wien": {
   "pais": "Áustria"
- },
- "Flamengo": {
-  "pais": "Brasil"
  },
  "Flamengo-PI": {
   "pais": "Brasil"
@@ -2789,9 +2762,6 @@
  "Floridsdorfer AC": {
   "pais": "Áustria"
  },
- "Fluminense": {
-  "pais": "Brasil"
- },
  "Fluminense-BA": {
   "pais": "Brasil"
  },
@@ -2824,9 +2794,6 @@
  },
  "Forlì": {
   "pais": "Itália"
- },
- "Fortaleza": {
-  "pais": "Brasil"
  },
  "Fortaleza-CE": {
   "pais": "Brasil"
@@ -3101,9 +3068,6 @@
  "Groningen": {
   "pais": "Holanda"
  },
- "Grêmio": {
-  "pais": "Brasil"
- },
  "Grêmio Anápolis": {
   "pais": "Brasil"
  },
@@ -3141,9 +3105,6 @@
   "pais": "Brasil"
  },
  "Guaporé": {
-  "pais": "Brasil"
- },
- "Guarani": {
   "pais": "Brasil"
  },
  "Guarani-CE": {
@@ -3521,9 +3482,6 @@
  "Independiente-PAN": {
   "pais": "Panamá"
  },
- "Independência": {
-  "pais": "Brasil"
- },
  "Independência-AC": {
   "pais": "Brasil"
  },
@@ -3571,9 +3529,6 @@
  },
  "Interclube": {
   "pais": "Angola"
- },
- "Internacional": {
-  "pais": "Brasil"
  },
  "Internacional de Bogotá": {
   "pais": "Colômbia"
@@ -3811,9 +3766,6 @@
  },
  "Juventud Torremolinos": {
   "pais": "Espanha"
- },
- "Juventude": {
-  "pais": "Brasil"
  },
  "Juventude-RS": {
   "pais": "Brasil"
@@ -5168,9 +5120,6 @@
  "Náuas": {
   "pais": "Brasil"
  },
- "Náutico": {
-  "pais": "Brasil"
- },
  "Náutico-PE": {
   "pais": "Brasil"
  },
@@ -5275,9 +5224,6 @@
  },
  "One Taguig": {
   "pais": "Filipinas"
- },
- "Operário": {
-  "pais": "Brasil"
  },
  "Operário-AM": {
   "pais": "Brasil"
@@ -5436,9 +5382,6 @@
   "pais": "Chile"
  },
  "Palmas": {
-  "pais": "Brasil"
- },
- "Palmeiras": {
   "pais": "Brasil"
  },
  "Palmeiras-SP": {
@@ -5828,9 +5771,6 @@
  "Potenza": {
   "pais": "Itália"
  },
- "Potiguar": {
-  "pais": "Brasil"
- },
  "Potiguar-RN": {
   "pais": "Brasil"
  },
@@ -5878,9 +5818,6 @@
  },
  "Progreso-URU": {
   "pais": "Uruguai"
- },
- "Progresso": {
-  "pais": "Brasil"
  },
  "Progresso-RR": {
   "pais": "Brasil"
@@ -6503,9 +6440,6 @@
  "Santa Clara": {
   "pais": "Portugal"
  },
- "Santa Cruz": {
-  "pais": "Brasil"
- },
  "Santa Cruz-AC": {
   "pais": "Brasil"
  },
@@ -6555,9 +6489,6 @@
   "pais": "Brasil"
  },
  "Santo André": {
-  "pais": "Brasil"
- },
- "Santos": {
   "pais": "Brasil"
  },
  "Santos Laguna": {
@@ -6791,9 +6722,6 @@
  "Smouha SC": {
   "pais": "Egito"
  },
- "Sobradinho": {
-  "pais": "Brasil"
- },
  "Sobradinho-DF": {
   "pais": "Brasil"
  },
@@ -6871,9 +6799,6 @@
  },
  "Spezia": {
   "pais": "Itália"
- },
- "Sport": {
-  "pais": "Brasil"
  },
  "Sport Belém": {
   "pais": "Brasil"
@@ -7104,9 +7029,6 @@
   "pais": "Brasil"
  },
  "São Luís": {
-  "pais": "Brasil"
- },
- "São Paulo": {
   "pais": "Brasil"
  },
  "São Paulo Crystal": {
@@ -7691,9 +7613,6 @@
  "Varginha": {
   "pais": "Brasil"
  },
- "Vasco": {
-  "pais": "Brasil"
- },
  "Vasco-AC": {
   "pais": "Brasil"
  },
@@ -7754,9 +7673,6 @@
  "Viktoria Plzen": {
   "pais": "Tchéquia"
  },
- "Vila Nova": {
-  "pais": "Brasil"
- },
  "Vila Nova-GO": {
   "pais": "Brasil"
  },
@@ -7807,9 +7723,6 @@
  },
  "Vitesse": {
   "pais": "Holanda"
- },
- "Vitória": {
-  "pais": "Brasil"
  },
  "Vitória da Conquista": {
   "pais": "Brasil"
@@ -8014,9 +7927,6 @@
  },
  "Young Lions": {
   "pais": "Singapura"
- },
- "Ypiranga": {
-  "pais": "Brasil"
  },
  "Ypiranga-AP": {
   "pais": "Brasil"

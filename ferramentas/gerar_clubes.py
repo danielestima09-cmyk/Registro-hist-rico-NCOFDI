@@ -86,6 +86,7 @@ def main():
                 pais_por_aba[norm(p["nome"])] = (p["nome"], siglas.get(norm(p["nome"])))
 
     origem = collections.defaultdict(set)      # nome final -> {país}
+    brutos_brasileiros = set()                 # clubes vindos das abas nacionais
     for caminho in sorted(glob.glob(os.path.join(RAIZ, "fontes", "*.xlsx"))):
         m = NOME_ARQ.search(os.path.basename(caminho))
         if not m or m.group(1) in ABAS_MISTAS:
@@ -94,8 +95,11 @@ def main():
         wb = openpyxl.load_workbook(caminho, data_only=True)
         for aba in wb.sheetnames:
             if base == "Brasileiros":
-                pais, sufixo = "Brasil", None      # sufixo estadual não se aplica aqui
-            elif base == "Estaduais":
+                # O Brasileirão não diz de que estado é o clube: guarda para
+                # resolver depois, contra o índice montado pelos estaduais.
+                brutos_brasileiros |= clubes_da_aba(wb[aba])
+                continue
+            if base == "Estaduais":
                 pais, sufixo = "Brasil", aba
             else:
                 lid = M.ABA_PARA_LOCAL.get((base, aba))
@@ -106,6 +110,28 @@ def main():
             for clube in clubes_da_aba(wb[aba]):
                 nome = f"{clube}-{sufixo}" if (sufixo and norm(clube) in comuns) else clube
                 origem[nome].add(pais)
+
+    # resolve os clubes das abas nacionais brasileiras
+    br_por_base = collections.defaultdict(set)
+    for final, paises in origem.items():
+        if paises == {"Brasil"}:
+            br_por_base[norm(re.sub(r"-[A-Z]{2}$", "", final))].add(final)
+    ambiguos = []
+    for clube in sorted(brutos_brasileiros):
+        if norm(clube) not in comuns:
+            origem[clube].add("Brasil")
+            continue
+        cands = br_por_base.get(norm(clube), set())
+        if len(cands) == 1:
+            origem[next(iter(cands))].add("Brasil")
+        else:
+            ambiguos.append((clube, sorted(cands)))
+
+    if ambiguos:
+        print(f"\nNomes comuns das abas nacionais brasileiras sem estado definido "
+              f"({len(ambiguos)}) — precisam de CLUBES_MANUAIS:")
+        for clube, cands in ambiguos:
+            print(f"   {clube:<20} candidatos: {cands or 'nenhum'}")
 
     for _bruto, (canon, pais) in M.CLUBES_MANUAIS.items():
         origem[canon] = {pais}

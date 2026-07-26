@@ -99,6 +99,21 @@ for s, nomes in por_slug.items():
     if len(nomes) > 1:
         avisos.append("grafias diferentes do mesmo clube: " + " / ".join(f"'{n}'" for n in sorted(nomes)))
 
+# nome comum sem sufixo: risco de somar clubes homônimos no mesmo ranking
+LISTA_COMUNS = os.path.join(RAIZ, "ferramentas", "nomes-comuns.txt")
+if os.path.exists(LISTA_COMUNS):
+    comuns = set()
+    with open(LISTA_COMUNS, encoding="utf-8") as f:
+        for linha in f:
+            linha = linha.split("#")[0].strip()
+            if linha:
+                comuns.add(slug(linha))
+    for nome in sorted(por_clube):
+        if slug(nome) in comuns:
+            erros.append(f"'{nome}' é um nome comum e está SEM sufixo de estado/país — "
+                         f"vai somar títulos de clubes diferentes no ranking "
+                         f"({por_clube[nome]} título(s))")
+
 # ----------------------------------------------------------------- escudos
 arquivos_escudo = {}
 if os.path.isdir(DIR_ESCUDOS):

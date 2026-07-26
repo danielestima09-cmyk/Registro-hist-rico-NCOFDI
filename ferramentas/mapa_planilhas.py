@@ -151,4 +151,11 @@ CLUBES_MANUAIS = {
     "South Melbourne": ("South Melbourne", "Austrália"),
     # Copa Centroamericana: é o Aurora da Guatemala, não o da Bolívia.
     "Aurora": ("Aurora-GUA", "Guatemala"),
+    # As abas nacionais brasileiras não trazem o estado do clube, e estes
+    # nomes se repetem em vários estados. Só valem quando o local não decide
+    # (Brasileirão, Copa do Brasil, Supercopa, copas regionais) — num estadual
+    # o próprio estado manda.
+    "Guarani": ("Guarani-SP", "Brasil"),
+    "Flamengo": ("Flamengo-RJ", "Brasil"),
+    "Vitória": ("Vitória-BA", "Brasil"),
 }

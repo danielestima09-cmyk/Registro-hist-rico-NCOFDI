@@ -335,26 +335,33 @@ def main():
     nao_resolvidos = []
 
     def sufixo(lid, clube):
-        """Nome canônico do clube: o do índice das planilhas, se houver."""
+        """Nome canônico do clube.
+
+        Quando o local já determina a origem (estado ou país), ele manda: é a
+        informação mais específica que existe. O índice das planilhas só entra
+        quando o local não diz nada — confederações e competições nacionais
+        brasileiras, onde o clube pode ser de qualquer estado.
+        """
+        comum = norm(clube) in comuns
+
+        if lid.startswith("br-"):                       # estadual
+            return f"{clube}-{lid[3:].upper()}" if comum else clube
+        sig = siglas.get(norm(locais[lid][1]["nome"]))
+        if sig:                                         # país
+            return f"{clube}-{sig}" if comum else clube
+
+        # o local não decide: vale o mapeamento manual, depois o índice
         if clube in M.CLUBES_MANUAIS:
             return M.CLUBES_MANUAIS[clube][0]
-        if indice:
-            if norm(clube) in indice["final"]:          # já veio com o sufixo certo
+        if indice:                                      # confederação ou nacional brasileira
+            if norm(clube) in indice["final"]:
                 return indice["final"][norm(clube)]
-            achado = indice["base"].get(norm(clube))    # nome-base sem ambiguidade
+            achado = indice["base"].get(norm(clube))
             if achado:
                 return achado
-            # só é problema quando o local é confederação: ali não há país
-            # de onde deduzir o sufixo.
-            if norm(clube) in comuns and not lid.startswith("br-") and \
-               siglas.get(norm(locais[lid][1]["nome"])) is None:
-                nao_resolvidos.append(clube)
-        # sem índice: deduz pelo local
-        if lid.startswith("br-"):
-            return f"{clube}-{lid[3:].upper()}" if norm(clube) in comuns else clube
-        _cam, dados, _c = locais[lid]
-        sig = siglas.get(norm(dados["nome"]))
-        return f"{clube}-{sig}" if (sig and norm(clube) in comuns) else clube
+        if comum:
+            nao_resolvidos.append((lid, clube))
+        return clube
 
     finais = [(lid, cid, nc, sufixo(lid, cl), base, aba, temp, org)
               for lid, cid, nc, cl, base, aba, temp, org in registros]
@@ -378,7 +385,7 @@ def main():
 
     if nao_resolvidos:
         print(f"\n⚠ {len(nao_resolvidos)} campeões de nome comum sem entrada única no índice: "
-              + ", ".join(sorted(set(nao_resolvidos))))
+              + ", ".join(f"{c} ({l})" for l, c in sorted(set(nao_resolvidos))))
 
     if avisos:
         print(f"\n── Avisos ({len(avisos)}) ──")
