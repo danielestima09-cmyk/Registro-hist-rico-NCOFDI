@@ -28,7 +28,7 @@ NS = {'a': 'http://schemas.openxmlformats.org/drawingml/2006/main',
       'r': 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'}
 EMU = 9525                      # EMU por pixel
 LARG_BANNER = 250               # acima disso é decoração, não escudo
-PROPORCAO_MAX = 1.30            # acima disso é bandeira de país, não escudo
+PROPORCAO_MAX = 1.15            # usado só para reconhecer o formato de bandeira
 
 
 def slug(t):
@@ -106,15 +106,14 @@ def imagens_do_slide(z, slide):
 def escudos_em_ordem(z, slide):
     """Escudos do slide em ordem de leitura (linha a linha, esquerda p/ direita).
 
-    Cada célula traz a bandeira do país e o escudo do campeão. O que separa os
-    dois com segurança não é o tamanho — que muda conforme a grade é densa ou
-    esparsa — e sim a proporção: bandeiras são nitidamente retangulares
-    (~1,4 de largura por altura) e escudos são quase quadrados (≤1,15).
+    Escudo é tudo que não é bandeira nem faixa decorativa. Não uso proporção
+    para decidir: há escudos largos (74x52 no da Nigéria, 74x40 no do Molde)
+    que um corte por proporção descartaria. A bandeira é reconhecida pelo
+    tamanho exato, que se repete em todas as células do slide.
     """
     todas = [i for i in imagens_do_slide(z, slide) if i[2] < LARG_BANNER]
     tam = _tamanho_das_bandeiras(todas)
-    imgs = [i for i in todas
-            if not _eh_bandeira(i, tam) and i[3] and i[2] / i[3] <= PROPORCAO_MAX]
+    imgs = [i for i in todas if not _eh_bandeira(i, tam) and i[3]]
     return _ordem_de_leitura(imgs)
 
 
@@ -318,25 +317,32 @@ PLANO_MANUAL = {
         (11, "uefa", "UEFA Champions League"),
     ],
     ("continentais", 1, "slide3"): [
-        (0, "intercontinental", "Copa Intercontinental"),
+        (1, "intercontinental", "Copa Intercontinental"),  # 0 = troféu
     ],
     ("brasileiras", 1, "slide1"): [
-        (1, "brasil-nacional", "Brasileirão Série A"),
-        (2, "brasil-nacional", "Brasileirão Série B"),
-        (3, "brasil-nacional", "Brasileirão Série C"),
-        (4, "brasil-nacional", "Brasileirão Série D"),
-        (6, "brasil-nacional", "Copa do Brasil"),      # 5 = troféu da Copa
-        (8, "brasil-nacional", "Supercopa do Brasil"),  # 7 = troféu da Supercopa
+        # ímpares são logotipos: CBF (0) e o troféu de cada competição
+        (2, "brasil-nacional", "Brasileirão Série A"),
+        (4, "brasil-nacional", "Brasileirão Série B"),
+        (6, "brasil-nacional", "Brasileirão Série C"),
+        (8, "brasil-nacional", "Brasileirão Série D"),
+        (10, "brasil-nacional", "Copa do Brasil"),
+        (12, "brasil-nacional", "Supercopa do Brasil")
     ],
     ("brasileiras", 2, "slide1"): [
-        (1, "brasil-nacional", "Brasileirão Série A"),
-        (2, "brasil-nacional", "Brasileirão Série B"),
-        (3, "brasil-nacional", "Brasileirão Série C"),
-        (4, "brasil-nacional", "Brasileirão Série D"),
-        (6, "brasil-nacional", "Copa do Brasil"),      # 5 = troféu da Copa
-        (8, "brasil-nacional", "Supercopa do Brasil"),  # 7 = troféu da Supercopa
+        # ímpares são logotipos: CBF (0) e o troféu de cada competição
+        (2, "brasil-nacional", "Brasileirão Série A"),
+        (4, "brasil-nacional", "Brasileirão Série B"),
+        (6, "brasil-nacional", "Brasileirão Série C"),
+        (8, "brasil-nacional", "Brasileirão Série D"),
+        (10, "brasil-nacional", "Copa do Brasil"),
+        (12, "brasil-nacional", "Supercopa do Brasil")
     ],
 }
+
+
+def _tem_algum_campeao(arquivo, temporada):
+    return any(str(t["temporada"]) == temporada
+               for c in arquivo["competicoes"] for t in c.get("campeoes", []))
 
 
 def _campeoes_por_local(secao_id, temporada, tipos, so_primeira, est, comp, todos=False):
@@ -365,8 +371,12 @@ def _campeoes_por_local(secao_id, temporada, tipos, so_primeira, est, comp, todo
             nomes += [t["clube"] for t in c["campeoes"] if str(t["temporada"]) == temporada]
         if nomes:
             saida.append((p["id"], nomes))
-        elif todos and tem_competicao:
-            saida.append((p["id"], [None]))     # célula existe, campeão desconhecido
+        elif todos and tem_competicao and _tem_algum_campeao(comp[p["id"]], temporada):
+            # a célula existe no slide, mas o campeão não está nos dados.
+            # Exijo que o país tenha algum campeão no ano para não incluir
+            # países que sequer foram simulados — o Japão está no site, mas
+            # não aparece nas planilhas nem nos slides asiáticos.
+            saida.append((p["id"], [None]))
     return saida
 
 

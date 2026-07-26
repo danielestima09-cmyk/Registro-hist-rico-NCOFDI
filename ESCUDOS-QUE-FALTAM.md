@@ -1,32 +1,8 @@
 # Escudos que faltam
 
-51 clubes. O arquivo vai em `assets/escudos/` com o nome da coluna do meio (minúsculo, sem acento, hífen no lugar do espaço).
+35 clubes. O arquivo vai em `assets/escudos/` com o nome da coluna do meio (minúsculo, sem acento, hífen no lugar do espaço).
 
-Aceito PNG, JPG, WEBP, GIF ou SVG — eu converto e registro. Depois de acrescentar, rode `python3 checar.py`.
-
-## Copa Nacional (19)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Abia Warriors | `abia-warriors.png` | Nigéria |
-| Al Faisaly | `al-faisaly.png` | Jordânia |
-| Al Shorta | `al-shorta.png` | Iraque |
-| Al Wahda | `al-wahda.png` | Emirados Árabes Unidos |
-| Bangkok United | `bangkok-united.png` | Tailândia |
-| Caspiy | `caspiy.png` | Cazaquistão |
-| Cebu FC | `cebu-fc.png` | Filipinas |
-| FC Ravshan Kulob | `fc-ravshan-kulob.png` | Tajiquistão |
-| Kitchee | `kitchee.png` | Hong Kong |
-| Melbourne City | `melbourne-city.png` | Austrália |
-| Mira | `mira.png` | Taiti |
-| Molde | `molde.png` | Noruega |
-| PVF-Công An Nhân Dân | `pvf-cong-an-nhan-dan.png` | Vietnã |
-| Qatar SC | `qatar-sc.png` | Catar |
-| Qizilqum Zarafshon | `qizilqum-zarafshon.png` | Uzbequistão |
-| Seoul E-Land | `seoul-e-land.png` | Coréia do Sul |
-| Spartak Moscou | `spartak-moscou.png` | Rússia |
-| Tianjin Jinmen Tiger | `tianjin-jinmen-tiger.png` | China |
-| Western Springs | `western-springs.png` | Nova Zelândia |
+Aceito PNG, JPG, WEBP, GIF ou SVG — eu converto e registro. Depois, rode `python3 checar.py`.
 
 ## Copa Estadual (17)
 
@@ -69,3 +45,11 @@ Aceito PNG, JPG, WEBP, GIF ou SVG — eu converto e registro. Depois de acrescen
 | União Barbarense | `uniao-barbarense.png` | Brasil |
 | Vila Real | `vila-real.png` | Brasil |
 | Vila Rica | `vila-rica.png` | Brasil |
+
+## Copa Nacional (3)
+
+| clube | arquivo | país |
+| --- | --- | --- |
+| Caspiy | `caspiy.png` | Cazaquistão |
+| Mira | `mira.png` | Taiti |
+| Western Springs | `western-springs.png` | Nova Zelândia |
