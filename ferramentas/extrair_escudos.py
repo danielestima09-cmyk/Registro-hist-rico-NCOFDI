@@ -176,10 +176,26 @@ def celulas_por_pais(z, slide):
 
     grupos = [[] for _ in bandeiras]
     cband = [centro(b) for b in bandeiras]
+    # um escudo pertence a uma célula, logo tem de estar perto da bandeira dela.
+    # O que ficar muito longe é decoração do slide — o logotipo do canto
+    # superior chegou a ser eleito "campeão" pela regra do mais em cima.
+    # Na célula, o escudo fica sempre abaixo da bandeira. O que estiver todo
+    # acima da primeira bandeira é decoração do slide — foi assim que o
+    # logotipo do canto superior virou "campeão" pela regra do mais em cima.
+    topo = min(b[0] for b in bandeiras)
+    escudos = [e for e in escudos if e[0] + e[3] * EMU > topo]
+
+    proximos = []
     for e in escudos:
         cx, cy = centro(e)
-        dist = [((cx - bx) ** 2 + (cy - by) ** 2, k) for k, (bx, by) in enumerate(cband)]
-        grupos[min(dist)[1]].append(e)
+        d2, k = min(((cx - bx) ** 2 + (cy - by) ** 2, k) for k, (bx, by) in enumerate(cband))
+        proximos.append((d2, k, e))
+    if proximos:
+        mediana = sorted(d for d, _k, _e in proximos)[len(proximos) // 2]
+        limite = max(mediana * 9, (60 * EMU) ** 2)   # 3x a distância típica
+        proximos = [t for t in proximos if t[0] <= limite]
+    for _d, k, e in proximos:
+        grupos[k].append(e)
     return [_ordem_de_leitura(g, tolerancia=10) for g in grupos]
 
 
@@ -220,6 +236,37 @@ PLANO = {
     ("estaduais", 1, "slide1"): ("brasil", {"Estadual"}, True),
     ("estaduais", 2, "slide1"): ("brasil", {"Estadual"}, True),
 }
+
+# Slides de PROMOVIDOS: mostram quem subiu de divisão, e o campeão está entre
+# eles. Regra do autor: com 2 escudos, o campeão é o mais à esquerda; com 3, o
+# mais em cima. Com 1, é ele mesmo. Com 4 ou mais, não dá para decidir.
+PLANO_PROMOVIDOS = {
+    ("estaduais", 1, "slide3"): ("brasil", "2ª Divisão"),
+    ("estaduais", 2, "slide3"): ("brasil", "2ª Divisão"),
+    ("estaduais", 1, "slide5"): ("brasil", "3ª Divisão"),
+    ("estaduais", 2, "slide5"): ("brasil", "3ª Divisão"),
+    ("estaduais", 1, "slide7"): ("brasil", "4ª Divisão"),
+    ("estaduais", 2, "slide7"): ("brasil", "4ª Divisão"),
+    ("estaduais", 1, "slide9"): ("brasil", "5ª Divisão"),
+    ("estaduais", 2, "slide9"): ("brasil", "5ª Divisão"),
+    ("europeias", 1, "slide3"): ("europa", "2ª Divisão"),
+    ("europeias", 1, "slide5"): ("europa", "3ª Divisão"),
+    ("europeias", 1, "slide7"): ("europa", "4ª Divisão"),
+    ("asiáticas", 1, "slide3"): ("asia", "2ª Divisão"),
+    ("sulamericanas", 1, "slide3"): ("america-do-sul", "2ª Divisão"),
+    ("sulamericanas", 2, "slide3"): ("america-do-sul", "2ª Divisão"),
+}
+
+
+def campeao_entre_promovidos(grupo):
+    """Qual dos promovidos é o campeão, pela regra do autor."""
+    if len(grupo) == 1:
+        return grupo[0]
+    if len(grupo) == 2:
+        return min(grupo, key=lambda e: e[1])      # mais à esquerda
+    if len(grupo) == 3:
+        return min(grupo, key=lambda e: e[0])      # mais em cima
+    return None
 
 
 # Slides que não são grade de países: a posição de cada escudo é fixa e foi
@@ -295,6 +342,23 @@ def _campeoes_por_local(secao_id, temporada, tipos, so_primeira, est, comp, todo
     return saida
 
 
+def _campeoes_por_divisao(secao_id, temporada, marca, est, comp):
+    """[(local, campeão)] dos países/estados cuja competição contém `marca` no nome."""
+    secao = next(s for s in est["secoes"] if s["id"] == secao_id)
+    paises = sorted((secao.get("paises") or []),
+                    key=lambda p: p["sigla"] if p.get("sigla") else _norm(p["nome"]))
+    saida = []
+    for p in paises:
+        for c in comp[p["id"]]["competicoes"]:
+            if marca not in c["nome"] and c["tipo"] != marca:
+                continue
+            ch = [t["clube"] for t in c["campeoes"] if str(t["temporada"]) == temporada]
+            if ch:
+                saida.append((p["id"], ch[0]))
+            break
+    return saida
+
+
 def _base_xlsx(caminho):
     import re as _re
     m = _re.search(r"Campeonatos (.+) - NCOFDI", os.path.basename(caminho))
@@ -365,6 +429,33 @@ def main():
                 else:
                     atrib[clube] = (h, dados, origem)
 
+    # slides de promovidos
+    for (pres, ano, sl), (secao_id, marca) in sorted(PLANO_PROMOVIDOS.items()):
+        cam = os.path.join(RAIZ, "fontes", f"Campeões competições {pres} NCOFDI - ANO {ano}.pptx")
+        if not os.path.exists(cam):
+            continue
+        z = zipfile.ZipFile(cam)
+        grupos = celulas_por_pais(z, f"ppt/slides/{sl}.xml")
+        locais = _campeoes_por_divisao(secao_id, str(2025 + ano), marca, est, comp)
+        origem = f"{pres} ANO {ano}/{sl} (promovidos)"
+        if len(grupos) != len(locais):
+            pulados.append(f"{origem}: {len(grupos)} células para {len(locais)} locais")
+            continue
+        for grupo, (lid, clube) in zip(grupos, locais):
+            esc = campeao_entre_promovidos(grupo)
+            if esc is None:
+                pulados.append(f"{origem} · {lid}: {len(grupo)} promovidos, "
+                               f"regra não decide ({clube})")
+                continue
+            if clube in ESCUDOS_ERRADOS_NA_FONTE:
+                continue
+            dados = z.read(f"ppt/media/{esc[4]}")
+            h = hashlib.sha1(dados).hexdigest()[:10]
+            if clube in atrib and atrib[clube][0] != h:
+                conflitos.append(f"{clube}: {atrib[clube][2]} != {origem}")
+            else:
+                atrib[clube] = (h, dados, origem)
+
     # slides de posição fixa
     for (pres, ano, sl), itens in sorted(PLANO_MANUAL.items()):
         cam = os.path.join(RAIZ, "fontes", f"Campeões competições {pres} NCOFDI - ANO {ano}.pptx")
@@ -394,7 +485,11 @@ def main():
     por_hash = collections.defaultdict(list)
     for clube, (h, _d, _o) in atrib.items():
         por_hash[h].append(clube)
-    repetidos = {h: c for h, c in por_hash.items() if len(c) > 1}
+    # times B usam o escudo do clube principal: não é erro de alinhamento
+    def _mesma_familia(nomes):
+        bases = {n[:-2] if n.endswith(" B") else n for n in nomes}
+        return len(bases) == 1
+    repetidos = {h: c for h, c in por_hash.items() if len(c) > 1 and not _mesma_familia(c)}
 
     print(f"{len(atrib)} escudos associados a clubes")
     print(f"conflitos (mesmo clube, imagens diferentes): {len(conflitos)}")

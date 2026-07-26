@@ -1,98 +1,64 @@
 # Escudos que faltam
 
-161 clubes. O arquivo vai em `assets/escudos/` com exatamente o nome da coluna do meio (minúsculo, sem acento, hífen no lugar do espaço).
+122 clubes. O arquivo vai em `assets/escudos/` com exatamente o nome da coluna do meio.
 
-Depois de acrescentar, rode `python3 checar.py`: se o nome não bater, ele acusa como "escudo sem clube correspondente".
+Depois de acrescentar, rode `python3 checar.py`.
 
-As apresentações cobrem 1ª divisão, copa nacional, continentais e Brasileirão — por isso o que falta é sobretudo divisão inferior, copa estadual e copa regional.
-
-## Estadual (81)
+## Estadual (49)
 
 | clube | arquivo | país |
 | --- | --- | --- |
-| 4 de Julho | `4-de-julho.png` | Brasil |
 | ADEC | `adec.png` | Brasil |
 | Afogados | `afogados.png` | Brasil |
 | Aparecida | `aparecida.png` | Brasil |
-| Araucária | `araucaria.png` | Brasil |
-| Barra Mansa | `barra-mansa.png` | Brasil |
-| Barra-SE | `barra-se.png` | Brasil |
 | Barreiras | `barreiras.png` | Brasil |
-| Barretos | `barretos.png` | Brasil |
 | Baré | `bare.png` | Brasil |
-| Blumenau | `blumenau.png` | Brasil |
 | Bom Jesus | `bom-jesus.png` | Brasil |
 | Cacerense | `cacerense.png` | Brasil |
-| Ceilandense | `ceilandense.png` | Brasil |
 | Colatina | `colatina.png` | Brasil |
-| Comercial-MS | `comercial-ms.png` | Brasil |
-| Cordino | `cordino.png` | Brasil |
 | Dimensão Saúde | `dimensao-saude.png` | Brasil |
 | Esportiva Aquidabã | `esportiva-aquidaba.png` | Brasil |
 | Essube | `essube.png` | Brasil |
-| Ferroviária-SP | `ferroviaria-sp.png` | Brasil |
 | Francana | `francana.png` | Brasil |
 | Gama | `gama.png` | Brasil |
 | Glória | `gloria.png` | Brasil |
-| Gramadense | `gramadense.png` | Brasil |
 | Grêmio Maringá | `gremio-maringa.png` | Brasil |
 | Guaporé | `guapore.png` | Brasil |
 | Guarani-SC | `guarani-sc.png` | Brasil |
-| Guarany-CE | `guarany-ce.png` | Brasil |
-| Guarulhos | `guarulhos.png` | Brasil |
 | Gurupi | `gurupi.png` | Brasil |
 | Inter de Lages | `inter-de-lages.png` | Brasil |
 | Internacional-MG | `internacional-mg.png` | Brasil |
 | Internacional-PB | `internacional-pb.png` | Brasil |
-| Interporto | `interporto.png` | Brasil |
-| Ipatinga | `ipatinga.png` | Brasil |
 | Iporá | `ipora.png` | Brasil |
 | Itapipoca | `itapipoca.png` | Brasil |
-| Jaciobá | `jacioba.png` | Brasil |
-| José Bonifácio | `jose-bonifacio.png` | Brasil |
 | Juventus-SC | `juventus-sc.png` | Brasil |
 | Lago Verde | `lago-verde.png` | Brasil |
-| Laguna | `laguna.png` | Brasil |
-| Magé Brescia | `mage-brescia.png` | Brasil |
-| Mazagão | `mazagao.png` | Brasil |
-| Mineiros | `mineiros.png` | Brasil |
-| Miramar | `miramar.png` | Brasil |
 | Misto | `misto.png` | Brasil |
-| Nova Venécia | `nova-venecia.png` | Brasil |
 | Pacatuba | `pacatuba.png` | Brasil |
 | Paragominas | `paragominas.png` | Brasil |
 | Paraná | `parana.png` | Brasil |
-| Penarol-AM | `penarol-am.png` | Brasil |
 | Picuiense | `picuiense.png` | Brasil |
-| Plácido de Castro | `placido-de-castro.png` | Brasil |
 | Portuguesa-PR | `portuguesa-pr.png` | Brasil |
 | Pouso Alegre | `pouso-alegre.png` | Brasil |
 | Pérolas Negras | `perolas-negras.png` | Brasil |
 | QFC | `qfc.png` | Brasil |
 | Queimadense | `queimadense.png` | Brasil |
 | Real-RS | `real-rs.png` | Brasil |
-| Rio Barra | `rio-barra.png` | Brasil |
 | Rio Branco-RR | `rio-branco-rr.png` | Brasil |
 | River-PI | `river-pi.png` | Brasil |
-| Santos-PA | `santos-pa.png` | Brasil |
 | Sete de Junho | `sete-de-junho.png` | Brasil |
 | Socorrense | `socorrense.png` | Brasil |
 | Sport Belém | `sport-belem.png` | Brasil |
 | São Cristóvão | `sao-cristovao.png` | Brasil |
 | São Francisco-AC | `sao-francisco-ac.png` | Brasil |
 | São Gabriel | `sao-gabriel.png` | Brasil |
-| São Raimundo-PA | `sao-raimundo-pa.png` | Brasil |
 | Tarumã | `taruma.png` | Brasil |
 | Taubaté | `taubate.png` | Brasil |
-| Uirapuru | `uirapuru.png` | Brasil |
 | União Barbarense | `uniao-barbarense.png` | Brasil |
 | Vila Real | `vila-real.png` | Brasil |
 | Vila Rica | `vila-rica.png` | Brasil |
-| Vilhena | `vilhena.png` | Brasil |
-| Ypiranga-BA | `ypiranga-ba.png` | Brasil |
-| Ypiranga-PE | `ypiranga-pe.png` | Brasil |
 
-## Copa Estadual (19)
+## Copa Estadual (18)
 
 | clube | arquivo | país |
 | --- | --- | --- |
@@ -101,7 +67,6 @@ As apresentações cobrem 1ª divisão, copa nacional, continentais e Brasileir�
 | Atlético Gloriense | `atletico-gloriense.png` | Brasil |
 | Atlético-CE | `atletico-ce.png` | Brasil |
 | Avenida | `avenida.png` | Brasil |
-| Barra-SE | `barra-se.png` | Brasil |
 | CRB | `crb.png` | Brasil |
 | Campinense | `campinense.png` | Brasil |
 | Iguatu | `iguatu.png` | Brasil |
@@ -160,16 +125,13 @@ As apresentações cobrem 1ª divisão, copa nacional, continentais e Brasileir�
 | Spartak Moscou | `spartak-moscou.png` | Rússia |
 | Tianjin Jinmen Tiger | `tianjin-jinmen-tiger.png` | China |
 
-## 2ª Divisão (14)
+## 2ª Divisão (11)
 
 | clube | arquivo | país |
 | --- | --- | --- |
 | ADO Den Haag | `ado-den-haag.png` | Holanda |
-| Almagro | `almagro.png` | Argentina |
 | Austria Lustenau | `austria-lustenau.png` | Áustria |
 | Beveren | `beveren.png` | Bélgica |
-| Busan Ipark | `busan-ipark.png` | Coréia do Sul |
-| Colegiales | `colegiales.png` | Argentina |
 | Coventry City | `coventry-city.png` | Inglaterra |
 | Darmstadt | `darmstadt.png` | Alemanha |
 | Erzurumspor | `erzurumspor.png` | Turquia |
@@ -189,16 +151,6 @@ As apresentações cobrem 1ª divisão, copa nacional, continentais e Brasileir�
 | Real Betis | `real-betis.png` | Espanha |
 | Zamalek | `zamalek.png` | Egito |
 
-## 3ª Divisão (5)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Arezzo | `arezzo.png` | Itália |
-| Atlético de Madrid B | `atletico-de-madrid-b.png` | Espanha |
-| Hansa Rostock | `hansa-rostock.png` | Alemanha |
-| Lincoln City | `lincoln-city.png` | Inglaterra |
-| Sochaux | `sochaux.png` | França |
-
 ## Copa Regional (5)
 
 | clube | arquivo | país |
@@ -214,6 +166,12 @@ As apresentações cobrem 1ª divisão, copa nacional, continentais e Brasileir�
 | clube | arquivo | país |
 | --- | --- | --- |
 | Bromley | `bromley.png` | Inglaterra |
+
+## 3ª Divisão (1)
+
+| clube | arquivo | país |
+| --- | --- | --- |
+| Arezzo | `arezzo.png` | Itália |
 
 ## Supercopa (1)
 
