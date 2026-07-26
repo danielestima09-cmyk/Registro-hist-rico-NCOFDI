@@ -38,6 +38,7 @@ data/
   competicoes/*.json  → um arquivo por local (154), com os campeões
 lista.txt             → lista original de competições do jogo
 NOMES-DAS-COMPETICOES.md → lista de todas as competições cadastradas
+ferramentas/           → importadores das planilhas e extrator de escudos dos slides
 ```
 
 Sem dependências e sem build: HTML, CSS e JavaScript puros.
