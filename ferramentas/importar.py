@@ -330,7 +330,26 @@ def main():
                                             f"coluna='{decl}' chaveamento='{calc}'")
 
     # ------------------------------------------------------------ sufixos
+    cam_idx = os.path.join(RAIZ, "ferramentas", "indice-clubes.json")
+    indice = json.load(io.open(cam_idx, encoding="utf-8")) if os.path.exists(cam_idx) else None
+    nao_resolvidos = []
+
     def sufixo(lid, clube):
+        """Nome canônico do clube: o do índice das planilhas, se houver."""
+        if clube in M.CLUBES_MANUAIS:
+            return M.CLUBES_MANUAIS[clube][0]
+        if indice:
+            if norm(clube) in indice["final"]:          # já veio com o sufixo certo
+                return indice["final"][norm(clube)]
+            achado = indice["base"].get(norm(clube))    # nome-base sem ambiguidade
+            if achado:
+                return achado
+            # só é problema quando o local é confederação: ali não há país
+            # de onde deduzir o sufixo.
+            if norm(clube) in comuns and not lid.startswith("br-") and \
+               siglas.get(norm(locais[lid][1]["nome"])) is None:
+                nao_resolvidos.append(clube)
+        # sem índice: deduz pelo local
         if lid.startswith("br-"):
             return f"{clube}-{lid[3:].upper()}" if norm(clube) in comuns else clube
         _cam, dados, _c = locais[lid]
@@ -356,6 +375,10 @@ def main():
             print("   ⚠", d)
     else:
         print("\n✓ coluna e chaveamento concordam em todos os blocos conferíveis")
+
+    if nao_resolvidos:
+        print(f"\n⚠ {len(nao_resolvidos)} campeões de nome comum sem entrada única no índice: "
+              + ", ".join(sorted(set(nao_resolvidos))))
 
     if avisos:
         print(f"\n── Avisos ({len(avisos)}) ──")

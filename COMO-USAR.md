@@ -5,7 +5,7 @@ Todo o conteúdo do site vem dos arquivos JSON dentro de `data/`. Você nunca pr
 ```
 data/
 ├── estrutura.json          → seções, confederações, países e estados (o menu do site)
-├── clubes.json             → país e escudo de cada clube (opcional)
+├── clubes.json             → país e escudo de cada clube (gerado)
 └── competicoes/            → 154 arquivos, um por local
     ├── uefa.json           → Champions, Europa League, Conference, Super Cup
     ├── espanha.json        → LaLiga, Hypermotion, Primera Federación, Copa del Rey
@@ -77,10 +77,18 @@ O ranking de **Maiores campeões** é calculado sozinho a partir de tudo que est
 
 ## 3. País e escudo de um clube
 
-`data/clubes.json` é opcional, mas resolve dois casos:
+`data/clubes.json` é **gerado automaticamente** por `ferramentas/gerar_clubes.py`, que varre as tabelas de classificação de todas as planilhas e descobre o país de cada clube. É assim que os campeões de torneios continentais aparecem com a bandeira do país de origem.
 
-- clubes que aparecem em torneios continentais (o site não tem como adivinhar o país);
-- escudos com nome de arquivo diferente do padrão.
+Rode-o sempre **antes** do importador, e de novo quando acrescentar planilhas:
+
+```bash
+python3 ferramentas/gerar_clubes.py --aplicar   # descobre o país de cada clube
+python3 ferramentas/importar.py --aplicar       # importa os campeões
+```
+
+Clubes que não aparecem em nenhuma aba de país (só como campeões continentais) ficam em `CLUBES_MANUAIS`, em `ferramentas/mapa_planilhas.py`.
+
+Você ainda pode editar o arquivo à mão para acrescentar campos:
 
 ```json
 {
@@ -123,7 +131,7 @@ Dentro do arquivo do local, acrescente um objeto em `competicoes`:
 
 Troque o campo `nome` no JSON do local. O `id` pode continuar o mesmo — ele só aparece no endereço da página.
 
-**[NOMES-DAS-COMPETICOES.md](NOMES-DAS-COMPETICOES.md)** lista as 357 competições com o arquivo de cada uma, para você encontrar rápido onde mexer. Esse arquivo é **gerado a partir dos dados**: editar ele não muda o site.
+**[NOMES-DAS-COMPETICOES.md](NOMES-DAS-COMPETICOES.md)** lista as 359 competições com o arquivo de cada uma, para você encontrar rápido onde mexer. Esse arquivo é **gerado a partir dos dados**: editar ele não muda o site.
 
 ---
 

@@ -1,1 +1,8183 @@
-{}
+{
+ "07 Vestur": {
+  "pais": "Ilhas Faroé"
+ },
+ "1. FC Slovácko": {
+  "pais": "Tchéquia"
+ },
+ "1860 München": {
+  "pais": "Alemanha"
+ },
+ "1o de Agosto": {
+  "pais": "Angola"
+ },
+ "1o de Maio": {
+  "pais": "Angola"
+ },
+ "2 de Mayo": {
+  "pais": "Paraguai"
+ },
+ "4 de Julho": {
+  "pais": "Brasil"
+ },
+ "7 de Abril": {
+  "pais": "Brasil"
+ },
+ "AB Argir": {
+  "pais": "Ilhas Faroé"
+ },
+ "ABB": {
+  "pais": "Bolívia"
+ },
+ "ABC": {
+  "pais": "Brasil"
+ },
+ "ABD": {
+  "pais": "Brasil"
+ },
+ "ABM Galaxy": {
+  "pais": "Vanuatu"
+ },
+ "ADEC": {
+  "pais": "Brasil"
+ },
+ "ADO Den Haag": {
+  "pais": "Holanda"
+ },
+ "ADT": {
+  "pais": "Peru"
+ },
+ "AEK Atenas": {
+  "pais": "Grécia"
+ },
+ "AEK Larnaca": {
+  "pais": "Chipre"
+ },
+ "AEL Limassol": {
+  "pais": "Chipre"
+ },
+ "AF Elbasani": {
+  "pais": "Albânia"
+ },
+ "AGF": {
+  "pais": "Dinamarca"
+ },
+ "AIK": {
+  "pais": "Suécia"
+ },
+ "AP Brera": {
+  "pais": "Macedônia do Norte"
+ },
+ "ARUC": {
+  "pais": "Brasil"
+ },
+ "AS Gabès": {
+  "pais": "Tunísia"
+ },
+ "AS Kaloum": {
+  "pais": "Guiné"
+ },
+ "AS Soliman": {
+  "pais": "Tunísia"
+ },
+ "ASA": {
+  "pais": "Brasil"
+ },
+ "ASEEV": {
+  "pais": "Brasil"
+ },
+ "ASFAG": {
+  "pais": "Guiné"
+ },
+ "ASFAR": {
+  "pais": "Marrocos"
+ },
+ "ASM Sangarédi": {
+  "pais": "Guiné"
+ },
+ "ASO Chlef": {
+  "pais": "Argélia"
+ },
+ "AVS": {
+  "pais": "Portugal"
+ },
+ "AZ": {
+  "pais": "Holanda"
+ },
+ "Aalesunds": {
+  "pais": "Noruega"
+ },
+ "Aberdeen": {
+  "pais": "Escócia"
+ },
+ "Abia Warriors": {
+  "pais": "Nigéria"
+ },
+ "Academia": {
+  "pais": "Brasil"
+ },
+ "Académica do Lobito": {
+  "pais": "Angola"
+ },
+ "Académico de Viseu": {
+  "pais": "Portugal"
+ },
+ "Acassuso": {
+  "pais": "Argentina"
+ },
+ "Accrington": {
+  "pais": "Inglaterra"
+ },
+ "Adana Demirspor": {
+  "pais": "Turquia"
+ },
+ "Adelaide United": {
+  "pais": "Austrália"
+ },
+ "Adesg": {
+  "pais": "Brasil"
+ },
+ "Aduana Stars": {
+  "pais": "Gana"
+ },
+ "Afogados": {
+  "pais": "Brasil"
+ },
+ "Agrimaq": {
+  "pais": "Brasil"
+ },
+ "Agropecuario": {
+  "pais": "Argentina"
+ },
+ "Aguilas-Umak": {
+  "pais": "Filipinas"
+ },
+ "Aimoré": {
+  "pais": "Brasil"
+ },
+ "Ajax": {
+  "pais": "Holanda"
+ },
+ "Ajman": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Akhmat Grozny": {
+  "pais": "Rússia"
+ },
+ "Akron": {
+  "pais": "Rússia"
+ },
+ "Aktobe": {
+  "pais": "Cazaquistão"
+ },
+ "Al Ahli-ARA": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Ahli-CAT": {
+  "pais": "Catar"
+ },
+ "Al Ahli-JOR": {
+  "pais": "Jordânia"
+ },
+ "Al Ahly": {
+  "pais": "Egito"
+ },
+ "Al Ain": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Arabi-CAT": {
+  "pais": "Catar"
+ },
+ "Al Arabi-KUW": {
+  "pais": "Kuwait"
+ },
+ "Al Bataeh": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Dhafra": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Duhail": {
+  "pais": "Catar"
+ },
+ "Al Ettifaq": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Fahaheel": {
+  "pais": "Kuwait"
+ },
+ "Al Faisaly": {
+  "pais": "Jordânia"
+ },
+ "Al Fateh": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Fayha": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Fujairah": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Gharafa": {
+  "pais": "Catar"
+ },
+ "Al Gharraf": {
+  "pais": "Iraque"
+ },
+ "Al Hazem": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Hilal": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Hussein": {
+  "pais": "Jordânia"
+ },
+ "Al Ittihad Kalba": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Ittihad-ARA": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Ittihad-EGI": {
+  "pais": "Egito"
+ },
+ "Al Jahra": {
+  "pais": "Kuwait"
+ },
+ "Al Jazeera": {
+  "pais": "Jordânia"
+ },
+ "Al Jazira": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Kahraba'a": {
+  "pais": "Iraque"
+ },
+ "Al Karkh": {
+  "pais": "Iraque"
+ },
+ "Al Karma": {
+  "pais": "Iraque"
+ },
+ "Al Khaleej": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Kholood": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Masry": {
+  "pais": "Egito"
+ },
+ "Al Mina'a": {
+  "pais": "Iraque"
+ },
+ "Al Mokawloon": {
+  "pais": "Egito"
+ },
+ "Al Mosul": {
+  "pais": "Iraque"
+ },
+ "Al Naft": {
+  "pais": "Iraque"
+ },
+ "Al Najaf": {
+  "pais": "Iraque"
+ },
+ "Al Najma": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Nasr-EAU": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Nasr-KUW": {
+  "pais": "Kuwait"
+ },
+ "Al Nassr": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Okhdood": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Qadisiya": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Qasim": {
+  "pais": "Iraque"
+ },
+ "Al Quwa Al Jawiya": {
+  "pais": "Iraque"
+ },
+ "Al Ramtha": {
+  "pais": "Jordânia"
+ },
+ "Al Rayyan": {
+  "pais": "Catar"
+ },
+ "Al Riyadh": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Sadd": {
+  "pais": "Catar"
+ },
+ "Al Sailiya": {
+  "pais": "Catar"
+ },
+ "Al Salmiya": {
+  "pais": "Kuwait"
+ },
+ "Al Salt": {
+  "pais": "Jordânia"
+ },
+ "Al Shabab-ARA": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Shabab-KUW": {
+  "pais": "Kuwait"
+ },
+ "Al Shahaniya": {
+  "pais": "Catar"
+ },
+ "Al Shamal": {
+  "pais": "Catar"
+ },
+ "Al Sharjah": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Shorta": {
+  "pais": "Iraque"
+ },
+ "Al Taawoun": {
+  "pais": "Arábia Saudita"
+ },
+ "Al Tadhamon": {
+  "pais": "Kuwait"
+ },
+ "Al Talaba": {
+  "pais": "Iraque"
+ },
+ "Al Wahda": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Wakrah": {
+  "pais": "Catar"
+ },
+ "Al Wasl": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Al Wehdat": {
+  "pais": "Jordânia"
+ },
+ "Al Zawraa": {
+  "pais": "Iraque"
+ },
+ "Alajuelense": {
+  "pais": "Costa Rica"
+ },
+ "Alanyaspor": {
+  "pais": "Turquia"
+ },
+ "Alashkert": {
+  "pais": "Armênia"
+ },
+ "Albacete": {
+  "pais": "Espanha"
+ },
+ "Albinoleffe": {
+  "pais": "Itália"
+ },
+ "Albion": {
+  "pais": "Uruguai"
+ },
+ "Albirex Niigata": {
+  "pais": "Singapura"
+ },
+ "Alcione": {
+  "pais": "Itália"
+ },
+ "Alcorcón": {
+  "pais": "Espanha"
+ },
+ "Aldosivi": {
+  "pais": "Argentina"
+ },
+ "Alecrim": {
+  "pais": "Brasil"
+ },
+ "Alemannia Aachen": {
+  "pais": "Alemanha"
+ },
+ "Algeciras": {
+  "pais": "Espanha"
+ },
+ "Alianza Atlético": {
+  "pais": "Peru"
+ },
+ "Alianza Lima": {
+  "pais": "Peru"
+ },
+ "Alianza-COL": {
+  "pais": "Colômbia"
+ },
+ "Alianza-PAN": {
+  "pais": "Panamá"
+ },
+ "All Boys": {
+  "pais": "Argentina"
+ },
+ "Almagro": {
+  "pais": "Argentina"
+ },
+ "Almere City": {
+  "pais": "Holanda"
+ },
+ "Almería": {
+  "pais": "Espanha"
+ },
+ "Almirante Brown": {
+  "pais": "Argentina"
+ },
+ "Altai": {
+  "pais": "Cazaquistão"
+ },
+ "Altamira": {
+  "pais": "Brasil"
+ },
+ "Altos": {
+  "pais": "Brasil"
+ },
+ "Aluminium Arak": {
+  "pais": "Irã"
+ },
+ "Alverca": {
+  "pais": "Portugal"
+ },
+ "Alvorada": {
+  "pais": "Brasil"
+ },
+ "Always Ready": {
+  "pais": "Bolívia"
+ },
+ "Aláves": {
+  "pais": "Espanha"
+ },
+ "Amadense": {
+  "pais": "Brasil"
+ },
+ "Amanat Baghdad": {
+  "pais": "Iraque"
+ },
+ "Amazonas": {
+  "pais": "Brasil"
+ },
+ "Amazulu": {
+  "pais": "África do Sul"
+ },
+ "Amazônia": {
+  "pais": "Brasil"
+ },
+ "Amed": {
+  "pais": "Turquia"
+ },
+ "Americano": {
+  "pais": "Brasil"
+ },
+ "Americano-RJ": {
+  "pais": "Brasil"
+ },
+ "Amiens": {
+  "pais": "França"
+ },
+ "América de Cali": {
+  "pais": "Colômbia"
+ },
+ "América de Pedrinhas": {
+  "pais": "Brasil"
+ },
+ "América de Propriá": {
+  "pais": "Brasil"
+ },
+ "América-GO": {
+  "pais": "Brasil"
+ },
+ "América-MEX": {
+  "pais": "México"
+ },
+ "América-MG": {
+  "pais": "Brasil"
+ },
+ "América-PE": {
+  "pais": "Brasil"
+ },
+ "América-RJ": {
+  "pais": "Brasil"
+ },
+ "América-RN": {
+  "pais": "Brasil"
+ },
+ "América-SE": {
+  "pais": "Brasil"
+ },
+ "América-SP": {
+  "pais": "Brasil"
+ },
+ "Anapolina": {
+  "pais": "Brasil"
+ },
+ "Anderlecht": {
+  "pais": "Bélgica"
+ },
+ "Andijan": {
+  "pais": "Uzbequistão"
+ },
+ "Andirá": {
+  "pais": "Brasil"
+ },
+ "Andorra": {
+  "pais": "Espanha"
+ },
+ "Andraus": {
+  "pais": "Brasil"
+ },
+ "Angers": {
+  "pais": "França"
+ },
+ "Angra dos Reis": {
+  "pais": "Brasil"
+ },
+ "Annecy": {
+  "pais": "França"
+ },
+ "Ansan Greeners": {
+  "pais": "Coréia do Sul"
+ },
+ "Antalyaspor": {
+  "pais": "Turquia"
+ },
+ "Antequera": {
+  "pais": "Espanha"
+ },
+ "Antigua": {
+  "pais": "Guatemala"
+ },
+ "Anzoátegui": {
+  "pais": "Venezuela"
+ },
+ "Anápolis": {
+  "pais": "Brasil"
+ },
+ "Apafut": {
+  "pais": "Brasil"
+ },
+ "Aparecida": {
+  "pais": "Brasil"
+ },
+ "Aparecidense": {
+  "pais": "Brasil"
+ },
+ "Apoel": {
+  "pais": "Chipre"
+ },
+ "Apollon Limassol": {
+  "pais": "Chipre"
+ },
+ "Aquidauana": {
+  "pais": "Brasil"
+ },
+ "Aquidauanense": {
+  "pais": "Brasil"
+ },
+ "Aracaju": {
+  "pais": "Brasil"
+ },
+ "Araguaia": {
+  "pais": "Brasil"
+ },
+ "Araguaína": {
+  "pais": "Brasil"
+ },
+ "Araioses": {
+  "pais": "Brasil"
+ },
+ "Ararat Armenia": {
+  "pais": "Armênia"
+ },
+ "Ararat Yerevan": {
+  "pais": "Armênia"
+ },
+ "Araruama": {
+  "pais": "Brasil"
+ },
+ "Araucária": {
+  "pais": "Brasil"
+ },
+ "Araz-Naxçivan": {
+  "pais": "Azerbaijão"
+ },
+ "Araçatuba": {
+  "pais": "Brasil"
+ },
+ "Arda Kardzhali": {
+  "pais": "Bulgária"
+ },
+ "Arema FC": {
+  "pais": "Indonésia"
+ },
+ "Arenas Club": {
+  "pais": "Espanha"
+ },
+ "Arenteiro": {
+  "pais": "Espanha"
+ },
+ "Arezzo": {
+  "pais": "Itália"
+ },
+ "Argentinos Juniors": {
+  "pais": "Argentina"
+ },
+ "Argeș Pitești": {
+  "pais": "Romênia"
+ },
+ "Aris": {
+  "pais": "Grécia"
+ },
+ "Aris Limassol": {
+  "pais": "Chipre"
+ },
+ "Arka Gdynia": {
+  "pais": "Polônia"
+ },
+ "Arminia Bielefeld": {
+  "pais": "Alemanha"
+ },
+ "Arnett Gardens": {
+  "pais": "Jamaica"
+ },
+ "Arouca": {
+  "pais": "Portugal"
+ },
+ "Arsenal Dzerzhinsk": {
+  "pais": "Belarus"
+ },
+ "Arsenal Tivat": {
+  "pais": "Montenegro"
+ },
+ "Arsenal-ING": {
+  "pais": "Inglaterra"
+ },
+ "Arsimi": {
+  "pais": "Macedônia do Norte"
+ },
+ "Arzignano": {
+  "pais": "Itália"
+ },
+ "Asante Kotoko": {
+  "pais": "Gana"
+ },
+ "Ascoli": {
+  "pais": "Itália"
+ },
+ "Ashanti Golden Boys": {
+  "pais": "Guiné"
+ },
+ "Ashdod": {
+  "pais": "Israel"
+ },
+ "Assisense": {
+  "pais": "Brasil"
+ },
+ "Astana": {
+  "pais": "Cazaquistão"
+ },
+ "Aston Villa": {
+  "pais": "Inglaterra"
+ },
+ "Atalanta": {
+  "pais": "Itália"
+ },
+ "Atalanta U23": {
+  "pais": "Itália"
+ },
+ "Atert Bissen": {
+  "pais": "Luxemburgo"
+ },
+ "Athletic": {
+  "pais": "Brasil"
+ },
+ "Athletic Bilbao": {
+  "pais": "Espanha"
+ },
+ "Athletic Bilbao B": {
+  "pais": "Espanha"
+ },
+ "Athletico-PR": {
+  "pais": "Brasil"
+ },
+ "Atlanta": {
+  "pais": "Argentina"
+ },
+ "Atlanta United": {
+  "pais": "Estados Unidos"
+ },
+ "Atlante": {
+  "pais": "México"
+ },
+ "Atlas": {
+  "pais": "México"
+ },
+ "Atlètic D'Escaldes": {
+  "pais": "Andorra"
+ },
+ "Atlético Central": {
+  "pais": "Brasil"
+ },
+ "Atlético Gloriense": {
+  "pais": "Brasil"
+ },
+ "Atlético Grau": {
+  "pais": "Peru"
+ },
+ "Atlético Nacional": {
+  "pais": "Colômbia"
+ },
+ "Atlético Ottawa": {
+  "pais": "Canadá"
+ },
+ "Atlético Paraense": {
+  "pais": "Brasil"
+ },
+ "Atlético San Luís": {
+  "pais": "México"
+ },
+ "Atlético Sanluqueño": {
+  "pais": "Espanha"
+ },
+ "Atlético Tucumán": {
+  "pais": "Argentina"
+ },
+ "Atlético de Madrid": {
+  "pais": "Espanha"
+ },
+ "Atlético de Madrid B": {
+  "pais": "Espanha"
+ },
+ "Atlético de Rafaela": {
+  "pais": "Argentina"
+ },
+ "Atlético-AC": {
+  "pais": "Brasil"
+ },
+ "Atlético-BA": {
+  "pais": "Brasil"
+ },
+ "Atlético-CE": {
+  "pais": "Brasil"
+ },
+ "Atlético-GO": {
+  "pais": "Brasil"
+ },
+ "Atlético-MG": {
+  "pais": "Brasil"
+ },
+ "Atlético-MT": {
+  "pais": "Brasil"
+ },
+ "Atlético-PA": {
+  "pais": "Brasil"
+ },
+ "Atlético-PB": {
+  "pais": "Brasil"
+ },
+ "Atlético-PE": {
+  "pais": "Brasil"
+ },
+ "Atlético-PI": {
+  "pais": "Brasil"
+ },
+ "Atlético-RR": {
+  "pais": "Brasil"
+ },
+ "Atyrau": {
+  "pais": "Cazaquistão"
+ },
+ "Aubagne": {
+  "pais": "França"
+ },
+ "Aucas": {
+  "pais": "Equador"
+ },
+ "Auckland City": {
+  "pais": "Nova Zelândia"
+ },
+ "Auckland FC": {
+  "pais": "Austrália"
+ },
+ "Auckland FC Reserves": {
+  "pais": "Nova Zelândia"
+ },
+ "Auckland United": {
+  "pais": "Nova Zelândia"
+ },
+ "Audace Cerignola": {
+  "pais": "Itália"
+ },
+ "Audax": {
+  "pais": "Brasil"
+ },
+ "Audax Italiano": {
+  "pais": "Chile"
+ },
+ "Audax São Mateus": {
+  "pais": "Brasil"
+ },
+ "Augsburg": {
+  "pais": "Alemanha"
+ },
+ "Aurora-BOL": {
+  "pais": "Bolívia"
+ },
+ "Aurora-GUA": {
+  "pais": "Guatemala"
+ },
+ "Austin FC": {
+  "pais": "Estados Unidos"
+ },
+ "Austria Klagenfurt": {
+  "pais": "Áustria"
+ },
+ "Austria Lustenau": {
+  "pais": "Áustria"
+ },
+ "Austria Salzburg": {
+  "pais": "Áustria"
+ },
+ "Austria Wien": {
+  "pais": "Áustria"
+ },
+ "Austria Wien II": {
+  "pais": "Áustria"
+ },
+ "Auto Esporte-PB": {
+  "pais": "Brasil"
+ },
+ "Auxerre": {
+  "pais": "França"
+ },
+ "Avaí": {
+  "pais": "Brasil"
+ },
+ "Avellino": {
+  "pais": "Itália"
+ },
+ "Avenida": {
+  "pais": "Brasil"
+ },
+ "Aymorés": {
+  "pais": "Brasil"
+ },
+ "Ayutthaya United": {
+  "pais": "Tailândia"
+ },
+ "Azam": {
+  "pais": "Tanzânia"
+ },
+ "Azuriz": {
+  "pais": "Brasil"
+ },
+ "Ação": {
+  "pais": "Brasil"
+ },
+ "B36 Tórshavn": {
+  "pais": "Ilhas Faroé"
+ },
+ "B68 Toftir": {
+  "pais": "Ilhas Faroé"
+ },
+ "BARE": {
+  "pais": "Brasil"
+ },
+ "BFC Daugavpils": {
+  "pais": "Letônia"
+ },
+ "BG Pathum United": {
+  "pais": "Tailândia"
+ },
+ "BK Häcken": {
+  "pais": "Suécia"
+ },
+ "BKMA Yerevan": {
+  "pais": "Armênia"
+ },
+ "BZ BZ": {
+  "pais": "Brasil"
+ },
+ "Ba Fa": {
+  "pais": "Fiji"
+ },
+ "Bagé": {
+  "pais": "Brasil"
+ },
+ "Bahia": {
+  "pais": "Brasil"
+ },
+ "Bahia de Feira": {
+  "pais": "Brasil"
+ },
+ "Bala Town": {
+  "pais": "País de Gales"
+ },
+ "Balestier": {
+  "pais": "Singapura"
+ },
+ "Bali United": {
+  "pais": "Indonésia"
+ },
+ "Ballkani": {
+  "pais": "Kosovo"
+ },
+ "Ballymena United": {
+  "pais": "Irlanda do Norte"
+ },
+ "Balsas": {
+  "pais": "Brasil"
+ },
+ "Baltika Kaliningrad": {
+  "pais": "Rússia"
+ },
+ "Bandeirante": {
+  "pais": "Brasil"
+ },
+ "Bandırmaspor": {
+  "pais": "Turquia"
+ },
+ "Banfield": {
+  "pais": "Argentina"
+ },
+ "Bangkok United": {
+  "pais": "Tailândia"
+ },
+ "Bangor": {
+  "pais": "Irlanda do Norte"
+ },
+ "Bangu": {
+  "pais": "Brasil"
+ },
+ "Baniyas": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Baník Ostrava": {
+  "pais": "Tchéquia"
+ },
+ "Barakaldo": {
+  "pais": "Espanha"
+ },
+ "Barau FC": {
+  "pais": "Nigéria"
+ },
+ "Baraúnas": {
+  "pais": "Brasil"
+ },
+ "Barbalha": {
+  "pais": "Brasil"
+ },
+ "Barcelona-BA": {
+  "pais": "Brasil"
+ },
+ "Barcelona-EQU": {
+  "pais": "Equador"
+ },
+ "Barcelona-ESP": {
+  "pais": "Espanha"
+ },
+ "Barcelona-RJ": {
+  "pais": "Brasil"
+ },
+ "Barcelona-RO": {
+  "pais": "Brasil"
+ },
+ "Barcelona-SP": {
+  "pais": "Brasil"
+ },
+ "Bari": {
+  "pais": "Itália"
+ },
+ "Barnet": {
+  "pais": "Inglaterra"
+ },
+ "Barnsley": {
+  "pais": "Inglaterra"
+ },
+ "Barra": {
+  "pais": "Brasil"
+ },
+ "Barra Mansa": {
+  "pais": "Brasil"
+ },
+ "Barra-SC": {
+  "pais": "Brasil"
+ },
+ "Barra-SE": {
+  "pais": "Brasil"
+ },
+ "Barracas Central": {
+  "pais": "Argentina"
+ },
+ "Barreiras": {
+  "pais": "Brasil"
+ },
+ "Barretos": {
+  "pais": "Brasil"
+ },
+ "Barrow": {
+  "pais": "Inglaterra"
+ },
+ "Barry Town United": {
+  "pais": "País de Gales"
+ },
+ "Baré": {
+  "pais": "Brasil"
+ },
+ "Baré-RR": {
+  "pais": "Brasil"
+ },
+ "Basake Holy Stars": {
+  "pais": "Gana"
+ },
+ "Basel": {
+  "pais": "Suíça"
+ },
+ "Bashkimi": {
+  "pais": "Macedônia do Norte"
+ },
+ "Bastia": {
+  "pais": "França"
+ },
+ "Bataguassu": {
+  "pais": "Brasil"
+ },
+ "Batalhão": {
+  "pais": "Brasil"
+ },
+ "Batatais": {
+  "pais": "Brasil"
+ },
+ "Bate Borisov": {
+  "pais": "Belarus"
+ },
+ "Batel": {
+  "pais": "Brasil"
+ },
+ "Bayelsa United": {
+  "pais": "Nigéria"
+ },
+ "Bayern": {
+  "pais": "Alemanha"
+ },
+ "Becamex Binh Duong": {
+  "pais": "Vietnã"
+ },
+ "Bechem United": {
+  "pais": "Gana"
+ },
+ "Beerschot": {
+  "pais": "Bélgica"
+ },
+ "Beijing Guoan": {
+  "pais": "China"
+ },
+ "Beitar Jerusalem": {
+  "pais": "Israel"
+ },
+ "Bela Vista": {
+  "pais": "Brasil"
+ },
+ "Belenense": {
+  "pais": "Brasil"
+ },
+ "Belford Roxo": {
+  "pais": "Brasil"
+ },
+ "Belgrano": {
+  "pais": "Argentina"
+ },
+ "Belo Jardim": {
+  "pais": "Brasil"
+ },
+ "Belouizdad": {
+  "pais": "Argélia"
+ },
+ "Belshina Bobruisk": {
+  "pais": "Belarus"
+ },
+ "Ben Aknoun": {
+  "pais": "Argélia"
+ },
+ "Ben Guerdane": {
+  "pais": "Tunísia"
+ },
+ "Bendel Insurance": {
+  "pais": "Nigéria"
+ },
+ "Benevento": {
+  "pais": "Itália"
+ },
+ "Benfica": {
+  "pais": "Portugal"
+ },
+ "Benfica B": {
+  "pais": "Portugal"
+ },
+ "Bengaluru": {
+  "pais": "Índia"
+ },
+ "Berekum Chelsea": {
+  "pais": "Gana"
+ },
+ "Besiktas": {
+  "pais": "Turquia"
+ },
+ "Betim": {
+  "pais": "Brasil"
+ },
+ "Beveren": {
+  "pais": "Bélgica"
+ },
+ "Bhayangkara": {
+  "pais": "Indonésia"
+ },
+ "Bibiani Gold Stars": {
+  "pais": "Gana"
+ },
+ "Birkenhead United": {
+  "pais": "Nova Zelândia"
+ },
+ "Birmingham City": {
+  "pais": "Inglaterra"
+ },
+ "Bizertin": {
+  "pais": "Tunísia"
+ },
+ "Black Lions": {
+  "pais": "Botswana"
+ },
+ "Blackburn Rovers": {
+  "pais": "Inglaterra"
+ },
+ "Blackpool": {
+  "pais": "Inglaterra"
+ },
+ "Blau Weiß Linz": {
+  "pais": "Áustria"
+ },
+ "Blooming": {
+  "pais": "Bolívia"
+ },
+ "Blumenau": {
+  "pais": "Brasil"
+ },
+ "Bnei Sakhnin": {
+  "pais": "Israel"
+ },
+ "Boa Esporte": {
+  "pais": "Brasil"
+ },
+ "Boavista": {
+  "pais": "Brasil"
+ },
+ "Boca Juniors": {
+  "pais": "Argentina"
+ },
+ "Boca Júnior": {
+  "pais": "Brasil"
+ },
+ "Bochum": {
+  "pais": "Alemanha"
+ },
+ "Bodrumspor": {
+  "pais": "Turquia"
+ },
+ "Bodø/Glimt": {
+  "pais": "Noruega"
+ },
+ "Bohemians-IRL": {
+  "pais": "Irlanda"
+ },
+ "Bohemians-TCH": {
+  "pais": "Tchéquia"
+ },
+ "Bokelj": {
+  "pais": "Montenegro"
+ },
+ "Bologna": {
+  "pais": "Itália"
+ },
+ "Bolton": {
+  "pais": "Inglaterra"
+ },
+ "Boluspor": {
+  "pais": "Turquia"
+ },
+ "Bolívar": {
+  "pais": "Bolívia"
+ },
+ "Bom Jesus": {
+  "pais": "Brasil"
+ },
+ "Bonsucesso": {
+  "pais": "Brasil"
+ },
+ "Boquinhense": {
+  "pais": "Brasil"
+ },
+ "Borac Banja Luka": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "Borneo Samarinda": {
+  "pais": "Indonésia"
+ },
+ "Boston City": {
+  "pais": "Brasil"
+ },
+ "Boston River-URU": {
+  "pais": "Uruguai"
+ },
+ "Botafogo": {
+  "pais": "Brasil"
+ },
+ "Botafogo-PB": {
+  "pais": "Brasil"
+ },
+ "Botafogo-RJ": {
+  "pais": "Brasil"
+ },
+ "Botafogo-SE": {
+  "pais": "Brasil"
+ },
+ "Botafogo-SP": {
+  "pais": "Brasil"
+ },
+ "Botev Plovdiv": {
+  "pais": "Bulgária"
+ },
+ "Botev Vratsa": {
+  "pais": "Bulgária"
+ },
+ "Botoşani": {
+  "pais": "Romênia"
+ },
+ "Botswana Police": {
+  "pais": "Botswana"
+ },
+ "Boulogne": {
+  "pais": "França"
+ },
+ "Bournemouth": {
+  "pais": "Inglaterra"
+ },
+ "Boyacá Chicó": {
+  "pais": "Colômbia"
+ },
+ "Bra": {
+  "pais": "Itália"
+ },
+ "Bradford City": {
+  "pais": "Inglaterra"
+ },
+ "Braga": {
+  "pais": "Portugal"
+ },
+ "Bragantino": {
+  "pais": "Brasil"
+ },
+ "Bragantino-PA": {
+  "pais": "Brasil"
+ },
+ "Brann": {
+  "pais": "Noruega"
+ },
+ "Brasil de Farroupilha": {
+  "pais": "Brasil"
+ },
+ "Brasil de Pelotas": {
+  "pais": "Brasil"
+ },
+ "Brasiliense": {
+  "pais": "Brasil"
+ },
+ "Brasília": {
+  "pais": "Brasil"
+ },
+ "Braunschweig": {
+  "pais": "Alemanha"
+ },
+ "Bravos do Maquis": {
+  "pais": "Angola"
+ },
+ "Breiðablik": {
+  "pais": "Islândia"
+ },
+ "Brentford": {
+  "pais": "Inglaterra"
+ },
+ "Brest": {
+  "pais": "França"
+ },
+ "Brighton": {
+  "pais": "Inglaterra"
+ },
+ "Brisbane Roar": {
+  "pais": "Austrália"
+ },
+ "Bristol City": {
+  "pais": "Inglaterra"
+ },
+ "Bristol Rovers": {
+  "pais": "Inglaterra"
+ },
+ "Briton Ferry": {
+  "pais": "País de Gales"
+ },
+ "Bromley": {
+  "pais": "Inglaterra"
+ },
+ "Brommapojkarna": {
+  "pais": "Suécia"
+ },
+ "Brusque": {
+  "pais": "Brasil"
+ },
+ "Brøndby": {
+  "pais": "Dinamarca"
+ },
+ "Bucaramanga": {
+  "pais": "Colômbia"
+ },
+ "Bucheon 1995": {
+  "pais": "Coréia do Sul"
+ },
+ "Budućnost": {
+  "pais": "Montenegro"
+ },
+ "Bulo Bulo": {
+  "pais": "Bolívia"
+ },
+ "Bunyodkor": {
+  "pais": "Uzbequistão"
+ },
+ "Burgos": {
+  "pais": "Espanha"
+ },
+ "Buriram United": {
+  "pais": "Tailândia"
+ },
+ "Burnley": {
+  "pais": "Inglaterra"
+ },
+ "Burton Albion": {
+  "pais": "Inglaterra"
+ },
+ "Busan Ipark": {
+  "pais": "Coréia do Sul"
+ },
+ "Bylis Ballsh": {
+  "pais": "Albânia"
+ },
+ "Béja": {
+  "pais": "Tunísia"
+ },
+ "Búzios": {
+  "pais": "Brasil"
+ },
+ "Bălţi": {
+  "pais": "Moldávia"
+ },
+ "CAAC Brasil": {
+  "pais": "Brasil"
+ },
+ "CD Choloma": {
+  "pais": "Honduras"
+ },
+ "CD Victoria": {
+  "pais": "Honduras"
+ },
+ "CDC da Amazônia": {
+  "pais": "Brasil"
+ },
+ "CE Europa": {
+  "pais": "Espanha"
+ },
+ "CEOV Operário": {
+  "pais": "Brasil"
+ },
+ "CF Montréal-CAN": {
+  "pais": "Canadá"
+ },
+ "CF Montréal-EUA": {
+  "pais": "Estados Unidos"
+ },
+ "CI Kamsar": {
+  "pais": "Guiné"
+ },
+ "CODM": {
+  "pais": "Marrocos"
+ },
+ "CRAC": {
+  "pais": "Brasil"
+ },
+ "CRB": {
+  "pais": "Brasil"
+ },
+ "CS Constantine": {
+  "pais": "Argélia"
+ },
+ "CSA": {
+  "pais": "Brasil"
+ },
+ "CSE": {
+  "pais": "Brasil"
+ },
+ "CSKA 1948 Sofia": {
+  "pais": "Bulgária"
+ },
+ "CSKA Moscou": {
+  "pais": "Rússia"
+ },
+ "CSKA Pamir Dushanbe": {
+  "pais": "Tajiquistão"
+ },
+ "CSKA Sofia": {
+  "pais": "Bulgária"
+ },
+ "CSP": {
+  "pais": "Brasil"
+ },
+ "Cabofriense": {
+  "pais": "Brasil"
+ },
+ "Cacerense": {
+  "pais": "Brasil"
+ },
+ "Cacereño": {
+  "pais": "Espanha"
+ },
+ "Caen": {
+  "pais": "França"
+ },
+ "Caernarfon Town": {
+  "pais": "País de Gales"
+ },
+ "Caeté": {
+  "pais": "Brasil"
+ },
+ "Cagliari": {
+  "pais": "Itália"
+ },
+ "Cailungo": {
+  "pais": "San Marino"
+ },
+ "Caiçara": {
+  "pais": "Brasil"
+ },
+ "Cajamarca": {
+  "pais": "Peru"
+ },
+ "Caldense": {
+  "pais": "Brasil"
+ },
+ "Calendar Stars": {
+  "pais": "Botswana"
+ },
+ "Camaçari": {
+  "pais": "Brasil"
+ },
+ "Camboriú": {
+  "pais": "Brasil"
+ },
+ "Cambridge United": {
+  "pais": "Inglaterra"
+ },
+ "Cambuur": {
+  "pais": "Holanda"
+ },
+ "Cambé": {
+  "pais": "Brasil"
+ },
+ "Cametá": {
+  "pais": "Brasil"
+ },
+ "Campinense": {
+  "pais": "Brasil"
+ },
+ "Campo Grande": {
+  "pais": "Brasil"
+ },
+ "Campo Mourão": {
+  "pais": "Brasil"
+ },
+ "Campo Novo": {
+  "pais": "Brasil"
+ },
+ "Campobasso": {
+  "pais": "Itália"
+ },
+ "Campos": {
+  "pais": "Brasil"
+ },
+ "Canaã": {
+  "pais": "Brasil"
+ },
+ "Candango": {
+  "pais": "Brasil"
+ },
+ "Canindé": {
+  "pais": "Brasil"
+ },
+ "Canário": {
+  "pais": "Brasil"
+ },
+ "Capital-DF": {
+  "pais": "Brasil"
+ },
+ "Capital-TO": {
+  "pais": "Brasil"
+ },
+ "Capitão Poço": {
+  "pais": "Brasil"
+ },
+ "Capivariano": {
+  "pais": "Brasil"
+ },
+ "Capixaba": {
+  "pais": "Brasil"
+ },
+ "Carabobo": {
+  "pais": "Venezuela"
+ },
+ "Caracas": {
+  "pais": "Venezuela"
+ },
+ "Carajás": {
+  "pais": "Brasil"
+ },
+ "Carapebus": {
+  "pais": "Brasil"
+ },
+ "Caravaggio": {
+  "pais": "Brasil"
+ },
+ "Cardiff City": {
+  "pais": "Inglaterra"
+ },
+ "Cardiff MU": {
+  "pais": "País de Gales"
+ },
+ "Cardoso Moreira": {
+  "pais": "Brasil"
+ },
+ "Cariri": {
+  "pais": "Brasil"
+ },
+ "Carlos Renaux": {
+  "pais": "Brasil"
+ },
+ "Carmópolis": {
+  "pais": "Brasil"
+ },
+ "Carpi": {
+  "pais": "Itália"
+ },
+ "Carrarese": {
+  "pais": "Itália"
+ },
+ "Carrick Rangers": {
+  "pais": "Irlanda do Norte"
+ },
+ "Carroi": {
+  "pais": "Andorra"
+ },
+ "Cartagena": {
+  "pais": "Espanha"
+ },
+ "Cartaginés": {
+  "pais": "Costa Rica"
+ },
+ "Caruaru City": {
+  "pais": "Brasil"
+ },
+ "Casa Pia": {
+  "pais": "Portugal"
+ },
+ "Casarano": {
+  "pais": "Itália"
+ },
+ "Cascavel": {
+  "pais": "Brasil"
+ },
+ "Casertana": {
+  "pais": "Itália"
+ },
+ "Caspiy": {
+  "pais": "Cazaquistão"
+ },
+ "Castanhal": {
+  "pais": "Brasil"
+ },
+ "Castellón": {
+  "pais": "Espanha"
+ },
+ "Catanduva": {
+  "pais": "Brasil"
+ },
+ "Catania": {
+  "pais": "Itália"
+ },
+ "Catanzaro": {
+  "pais": "Itália"
+ },
+ "Caucaia": {
+  "pais": "Brasil"
+ },
+ "Cavalier": {
+  "pais": "Jamaica"
+ },
+ "Cavalry": {
+  "pais": "Canadá"
+ },
+ "Cavalry FC": {
+  "pais": "Canadá"
+ },
+ "Cavese": {
+  "pais": "Itália"
+ },
+ "Caxias": {
+  "pais": "Brasil"
+ },
+ "Ceará": {
+  "pais": "Brasil"
+ },
+ "Cebu FC": {
+  "pais": "Filipinas"
+ },
+ "Ceilandense": {
+  "pais": "Brasil"
+ },
+ "Ceilândia": {
+  "pais": "Brasil"
+ },
+ "Celje": {
+  "pais": "Eslovênia"
+ },
+ "Celta de Vigo": {
+  "pais": "Espanha"
+ },
+ "Celta de Vigo B": {
+  "pais": "Espanha"
+ },
+ "Celtic": {
+  "pais": "Escócia"
+ },
+ "Central": {
+  "pais": "Brasil"
+ },
+ "Central Coast": {
+  "pais": "Ilhas Salomão"
+ },
+ "Central Coast Mariners": {
+  "pais": "Austrália"
+ },
+ "Central Córdoba": {
+  "pais": "Argentina"
+ },
+ "Central Español": {
+  "pais": "Uruguai"
+ },
+ "Central Norte": {
+  "pais": "Argentina"
+ },
+ "Central Paraíso": {
+  "pais": "Brasil"
+ },
+ "Central Sport": {
+  "pais": "Taiti"
+ },
+ "Central-PE": {
+  "pais": "Brasil"
+ },
+ "Centro Limoeirense": {
+  "pais": "Brasil"
+ },
+ "Centro-Oeste": {
+  "pais": "Brasil"
+ },
+ "Ceramica Cleopatra": {
+  "pais": "Egito"
+ },
+ "Cercle Brugge": {
+  "pais": "Bélgica"
+ },
+ "Ceres": {
+  "pais": "Brasil"
+ },
+ "Cerro": {
+  "pais": "Uruguai"
+ },
+ "Cerro Largo": {
+  "pais": "Uruguai"
+ },
+ "Cerro Porteño": {
+  "pais": "Paraguai"
+ },
+ "Cesena": {
+  "pais": "Itália"
+ },
+ "Ceuta": {
+  "pais": "Espanha"
+ },
+ "Chacarita Juniors": {
+  "pais": "Argentina"
+ },
+ "Chaco For Ever": {
+  "pais": "Argentina"
+ },
+ "Chaco for Ever": {
+  "pais": "Argentina"
+ },
+ "Chador Malu": {
+  "pais": "Irã"
+ },
+ "Chapada": {
+  "pais": "Brasil"
+ },
+ "Chapecoense": {
+  "pais": "Brasil"
+ },
+ "Chapelton Maroons": {
+  "pais": "Jamaica"
+ },
+ "Charlotte FC": {
+  "pais": "Estados Unidos"
+ },
+ "Charlton Athletic": {
+  "pais": "Inglaterra"
+ },
+ "Chaves": {
+  "pais": "Portugal"
+ },
+ "Chelsea": {
+  "pais": "Inglaterra"
+ },
+ "Cheltenham Town": {
+  "pais": "Inglaterra"
+ },
+ "Chengdu Rongcheng": {
+  "pais": "China"
+ },
+ "Chennaiyin": {
+  "pais": "Índia"
+ },
+ "Cheonan City": {
+  "pais": "Coréia do Sul"
+ },
+ "Cherno More": {
+  "pais": "Bulgária"
+ },
+ "Chesterfield": {
+  "pais": "Inglaterra"
+ },
+ "Chiangrai United": {
+  "pais": "Tailândia"
+ },
+ "Chicago Fire": {
+  "pais": "Estados Unidos"
+ },
+ "Chippa United": {
+  "pais": "África do Sul"
+ },
+ "Chivas": {
+  "pais": "México"
+ },
+ "Chonburi": {
+  "pais": "Tailândia"
+ },
+ "Christchurch United": {
+  "pais": "Nova Zelândia"
+ },
+ "Chrobry Głogów": {
+  "pais": "Polônia"
+ },
+ "Chungbuk Gheongju": {
+  "pais": "Coréia do Sul"
+ },
+ "Chungnam Asan": {
+  "pais": "Coréia do Sul"
+ },
+ "Châteauroux": {
+  "pais": "França"
+ },
+ "Cianorte": {
+  "pais": "Brasil"
+ },
+ "Cienciano": {
+  "pais": "Peru"
+ },
+ "Cittadella": {
+  "pais": "Itália"
+ },
+ "City London": {
+  "pais": "Brasil"
+ },
+ "Ciudad de Bolívar": {
+  "pais": "Argentina"
+ },
+ "Clermont Foot": {
+  "pais": "França"
+ },
+ "Cliftonville": {
+  "pais": "Irlanda do Norte"
+ },
+ "Clipper": {
+  "pais": "Brasil"
+ },
+ "Club Africain": {
+  "pais": "Tunísia"
+ },
+ "Club Brugge": {
+  "pais": "Bélgica"
+ },
+ "Club NXT": {
+  "pais": "Bélgica"
+ },
+ "Cluj": {
+  "pais": "Romênia"
+ },
+ "Coastal Spirit": {
+  "pais": "Nova Zelândia"
+ },
+ "Coastal Union": {
+  "pais": "Tanzânia"
+ },
+ "Cobresal": {
+  "pais": "Chile"
+ },
+ "Cobán Imperial": {
+  "pais": "Guatemala"
+ },
+ "Coimbra FC Porto": {
+  "pais": "Brasil"
+ },
+ "Colatina": {
+  "pais": "Brasil"
+ },
+ "Colchester United": {
+  "pais": "Inglaterra"
+ },
+ "Colegiales": {
+  "pais": "Argentina"
+ },
+ "Coleraine": {
+  "pais": "Irlanda do Norte"
+ },
+ "Colo Colo": {
+  "pais": "Brasil"
+ },
+ "Colo-Colo": {
+  "pais": "Chile"
+ },
+ "Colorado Caieiras": {
+  "pais": "Brasil"
+ },
+ "Colorado Rapids": {
+  "pais": "Estados Unidos"
+ },
+ "Columbus Crew": {
+  "pais": "Estados Unidos"
+ },
+ "Colwyn Bay": {
+  "pais": "País de Gales"
+ },
+ "Colón": {
+  "pais": "Argentina"
+ },
+ "Comercial-MS": {
+  "pais": "Brasil"
+ },
+ "Comercial-PI": {
+  "pais": "Brasil"
+ },
+ "Comercial-SP": {
+  "pais": "Brasil"
+ },
+ "Comerciantes Unidos": {
+  "pais": "Peru"
+ },
+ "Como": {
+  "pais": "Itália"
+ },
+ "Comunicaciones": {
+  "pais": "Guatemala"
+ },
+ "Concarneau": {
+  "pais": "França"
+ },
+ "Concórdia": {
+  "pais": "Brasil"
+ },
+ "Confiança": {
+  "pais": "Brasil"
+ },
+ "Confiança-PB": {
+  "pais": "Brasil"
+ },
+ "Confiança-SE": {
+  "pais": "Brasil"
+ },
+ "Cong An Ha Noi": {
+  "pais": "Vietnã"
+ },
+ "Connah's Quay": {
+  "pais": "País de Gales"
+ },
+ "Coquimbo Unido": {
+  "pais": "Chile"
+ },
+ "Cordino": {
+  "pais": "Brasil"
+ },
+ "Corinthians": {
+  "pais": "Brasil"
+ },
+ "Corinthians-SP": {
+  "pais": "Brasil"
+ },
+ "Corisabbá": {
+  "pais": "Brasil"
+ },
+ "Coritiba": {
+  "pais": "Brasil"
+ },
+ "Corumbaense": {
+  "pais": "Brasil"
+ },
+ "Coruripe": {
+  "pais": "Brasil"
+ },
+ "Cosenza": {
+  "pais": "Itália"
+ },
+ "Cosmos": {
+  "pais": "San Marino"
+ },
+ "Costa Rica": {
+  "pais": "Brasil"
+ },
+ "Coventry City": {
+  "pais": "Inglaterra"
+ },
+ "Coxim": {
+  "pais": "Brasil"
+ },
+ "Cracovia": {
+  "pais": "Polônia"
+ },
+ "Crateús": {
+  "pais": "Brasil"
+ },
+ "Crato": {
+  "pais": "Brasil"
+ },
+ "Crawley Town": {
+  "pais": "Inglaterra"
+ },
+ "Cremonese": {
+  "pais": "Itália"
+ },
+ "Crewe Alexandra": {
+  "pais": "Inglaterra"
+ },
+ "Criciúma": {
+  "pais": "Brasil"
+ },
+ "Cristal": {
+  "pais": "Brasil"
+ },
+ "Crixás": {
+  "pais": "Brasil"
+ },
+ "Crotone": {
+  "pais": "Itália"
+ },
+ "Crusaders": {
+  "pais": "Irlanda do Norte"
+ },
+ "Cruz Azul": {
+  "pais": "México"
+ },
+ "Cruzeiro": {
+  "pais": "Brasil"
+ },
+ "Cruzeiro-AL": {
+  "pais": "Brasil"
+ },
+ "Cruzeiro-AP": {
+  "pais": "Brasil"
+ },
+ "Cruzeiro-DF": {
+  "pais": "Brasil"
+ },
+ "Cruzeiro-MG": {
+  "pais": "Brasil"
+ },
+ "Cruzeiro-PB": {
+  "pais": "Brasil"
+ },
+ "Crvena Zvezda": {
+  "pais": "Sérvia"
+ },
+ "Crystal Palace": {
+  "pais": "Inglaterra"
+ },
+ "Csíkszereda": {
+  "pais": "Romênia"
+ },
+ "Cuiabá": {
+  "pais": "Brasil"
+ },
+ "Cultural Leonesa": {
+  "pais": "Espanha"
+ },
+ "Cusco": {
+  "pais": "Peru"
+ },
+ "Cáceres": {
+  "pais": "Brasil"
+ },
+ "Cádiz": {
+  "pais": "Espanha"
+ },
+ "Córdoba": {
+  "pais": "Espanha"
+ },
+ "Công An HCMC": {
+  "pais": "Vietnã"
+ },
+ "Cúcuta Deportivo": {
+  "pais": "Colômbia"
+ },
+ "DAC 1904": {
+  "pais": "Eslováquia"
+ },
+ "DC United": {
+  "pais": "Estados Unidos"
+ },
+ "DHJ": {
+  "pais": "Marrocos"
+ },
+ "DPMM": {
+  "pais": "Malásia"
+ },
+ "Dacia Buiucani": {
+  "pais": "Moldávia"
+ },
+ "Daegu": {
+  "pais": "Coréia do Sul"
+ },
+ "Daejeon Hana Citizen": {
+  "pais": "Coréia do Sul"
+ },
+ "Dalian Yingbo": {
+  "pais": "China"
+ },
+ "Damac": {
+  "pais": "Arábia Saudita"
+ },
+ "Danubio": {
+  "pais": "Uruguai"
+ },
+ "Darmstadt": {
+  "pais": "Alemanha"
+ },
+ "De Graafschap": {
+  "pais": "Holanda"
+ },
+ "Debreceni VSC": {
+  "pais": "Hungria"
+ },
+ "Decisão": {
+  "pais": "Brasil"
+ },
+ "Defence Force": {
+  "pais": "Botswana"
+ },
+ "Defensa y Justicia": {
+  "pais": "Argentina"
+ },
+ "Defensor": {
+  "pais": "Uruguai"
+ },
+ "Defensores de Belgrano": {
+  "pais": "Argentina"
+ },
+ "Degerfors": {
+  "pais": "Suécia"
+ },
+ "Del Valle": {
+  "pais": "Equador"
+ },
+ "Delfín": {
+  "pais": "Equador"
+ },
+ "Democrata GV": {
+  "pais": "Brasil"
+ },
+ "Democrata SL": {
+  "pais": "Brasil"
+ },
+ "Den Bosch": {
+  "pais": "Holanda"
+ },
+ "Deportes Concepción": {
+  "pais": "Chile"
+ },
+ "Deportes La Serena": {
+  "pais": "Chile"
+ },
+ "Deportes Limache": {
+  "pais": "Chile"
+ },
+ "Deportivo Achuapa": {
+  "pais": "Guatemala"
+ },
+ "Deportivo Cali": {
+  "pais": "Colômbia"
+ },
+ "Deportivo Cuenca": {
+  "pais": "Equador"
+ },
+ "Deportivo Garcilaso": {
+  "pais": "Peru"
+ },
+ "Deportivo La Guaira": {
+  "pais": "Venezuela"
+ },
+ "Deportivo Madryn": {
+  "pais": "Argentina"
+ },
+ "Deportivo Maipú": {
+  "pais": "Argentina"
+ },
+ "Deportivo Maldonado": {
+  "pais": "Uruguai"
+ },
+ "Deportivo Morón": {
+  "pais": "Argentina"
+ },
+ "Deportivo Pasto": {
+  "pais": "Colômbia"
+ },
+ "Deportivo Pereira": {
+  "pais": "Colômbia"
+ },
+ "Deportivo Riestra": {
+  "pais": "Argentina"
+ },
+ "Deportivo Táchira": {
+  "pais": "Venezuela"
+ },
+ "Derby County": {
+  "pais": "Inglaterra"
+ },
+ "Derry City": {
+  "pais": "Irlanda"
+ },
+ "Desportiva Aracaju": {
+  "pais": "Brasil"
+ },
+ "Desportiva Ferroviária": {
+  "pais": "Brasil"
+ },
+ "Desportiva Guarabira": {
+  "pais": "Brasil"
+ },
+ "Desportivo Aliança": {
+  "pais": "Brasil"
+ },
+ "Desportivo Brasil": {
+  "pais": "Brasil"
+ },
+ "Dewa United": {
+  "pais": "Indonésia"
+ },
+ "Dečić": {
+  "pais": "Montenegro"
+ },
+ "Differdange": {
+  "pais": "Luxemburgo"
+ },
+ "Dijon": {
+  "pais": "França"
+ },
+ "Dila Gori": {
+  "pais": "Geórgia"
+ },
+ "Dimensão Saúde": {
+  "pais": "Brasil"
+ },
+ "Dinamo Batumi": {
+  "pais": "Geórgia"
+ },
+ "Dinamo Bucureşti": {
+  "pais": "Romênia"
+ },
+ "Dinamo City": {
+  "pais": "Albânia"
+ },
+ "Dinamo Makhachkala": {
+  "pais": "Rússia"
+ },
+ "Dinamo Minsk": {
+  "pais": "Belarus"
+ },
+ "Dinamo Moscou": {
+  "pais": "Rússia"
+ },
+ "Dinamo Samarqand": {
+  "pais": "Uzbequistão"
+ },
+ "Dinamo Tbilisi": {
+  "pais": "Geórgia"
+ },
+ "Dinamo Zagreb": {
+  "pais": "Croácia"
+ },
+ "Diriangén": {
+  "pais": "Nicarágua"
+ },
+ "Diyala": {
+  "pais": "Iraque"
+ },
+ "Diósgyőri": {
+  "pais": "Hungria"
+ },
+ "Djurgården": {
+  "pais": "Suécia"
+ },
+ "Dnepr Mogilev": {
+  "pais": "Belarus"
+ },
+ "Dodoma Jiji": {
+  "pais": "Tanzânia"
+ },
+ "Dolomiti Bellunesi": {
+  "pais": "Itália"
+ },
+ "Dom Bosco": {
+  "pais": "Brasil"
+ },
+ "Domagnano": {
+  "pais": "San Marino"
+ },
+ "Don Bosco": {
+  "pais": "Filipinas"
+ },
+ "Doncaster": {
+  "pais": "Inglaterra"
+ },
+ "Dordrecht": {
+  "pais": "Holanda"
+ },
+ "Dorense": {
+  "pais": "Brasil"
+ },
+ "Dortmund": {
+  "pais": "Alemanha"
+ },
+ "Dourados": {
+  "pais": "Brasil"
+ },
+ "Doze": {
+  "pais": "Brasil"
+ },
+ "Dragon": {
+  "pais": "Taiti"
+ },
+ "Dreams FC": {
+  "pais": "Gana"
+ },
+ "Drita": {
+  "pais": "Kosovo"
+ },
+ "Drogheda United": {
+  "pais": "Irlanda"
+ },
+ "Dudelange": {
+  "pais": "Luxemburgo"
+ },
+ "Duhok": {
+  "pais": "Iraque"
+ },
+ "Duisburg": {
+  "pais": "Alemanha"
+ },
+ "Dukla Praga": {
+  "pais": "Tchéquia"
+ },
+ "Dunbeholden": {
+  "pais": "Jamaica"
+ },
+ "Dundalk": {
+  "pais": "Irlanda"
+ },
+ "Dundee": {
+  "pais": "Escócia"
+ },
+ "Dundee United": {
+  "pais": "Escócia"
+ },
+ "Dungannon Swifts": {
+  "pais": "Irlanda do Norte"
+ },
+ "Dunkerque": {
+  "pais": "França"
+ },
+ "Duque Caxiense": {
+  "pais": "Brasil"
+ },
+ "Duque de Caxias": {
+  "pais": "Brasil"
+ },
+ "Durban City": {
+  "pais": "África do Sul"
+ },
+ "Dynamo Brest": {
+  "pais": "Belarus"
+ },
+ "Dynamo Dresden": {
+  "pais": "Alemanha"
+ },
+ "Dynamo Kiev": {
+  "pais": "Ucrânia"
+ },
+ "Džiugas Telšiai": {
+  "pais": "Lituânia"
+ },
+ "EB/Streymur": {
+  "pais": "Ilhas Faroé"
+ },
+ "EC Resende": {
+  "pais": "Brasil"
+ },
+ "EC São Bernardo": {
+  "pais": "Brasil"
+ },
+ "EC de Patos": {
+  "pais": "Brasil"
+ },
+ "ECUS": {
+  "pais": "Brasil"
+ },
+ "ENPPI": {
+  "pais": "Egito"
+ },
+ "ES Sétif": {
+  "pais": "Argélia"
+ },
+ "ETO Győr": {
+  "pais": "Hungria"
+ },
+ "East Bengal": {
+  "pais": "Índia"
+ },
+ "Eastern": {
+  "pais": "Hong Kong"
+ },
+ "Eastern District": {
+  "pais": "Hong Kong"
+ },
+ "Egnatia": {
+  "pais": "Albânia"
+ },
+ "Eibar": {
+  "pais": "Espanha"
+ },
+ "El Gouna": {
+  "pais": "Egito"
+ },
+ "El Kanemi Warriors": {
+  "pais": "Nigéria"
+ },
+ "El Nacional": {
+  "pais": "Equador"
+ },
+ "Elche": {
+  "pais": "Espanha"
+ },
+ "Eldense": {
+  "pais": "Espanha"
+ },
+ "Eleven Wonders": {
+  "pais": "Gana"
+ },
+ "Elfsborg": {
+  "pais": "Suécia"
+ },
+ "Elversberg": {
+  "pais": "Alemanha"
+ },
+ "Emelec": {
+  "pais": "Equador"
+ },
+ "Emmen": {
+  "pais": "Holanda"
+ },
+ "Empoli": {
+  "pais": "Itália"
+ },
+ "Energie Cottbus": {
+  "pais": "Alemanha"
+ },
+ "Enyimba": {
+  "pais": "Nigéria"
+ },
+ "Epitsentr": {
+  "pais": "Ucrânia"
+ },
+ "Erbil": {
+  "pais": "Iraque"
+ },
+ "Erokspor": {
+  "pais": "Turquia"
+ },
+ "Erzgebirge Aue": {
+  "pais": "Alemanha"
+ },
+ "Erzurumspor": {
+  "pais": "Turquia"
+ },
+ "Eskhata": {
+  "pais": "Tajiquistão"
+ },
+ "Esmac": {
+  "pais": "Brasil"
+ },
+ "Espanyol": {
+  "pais": "Espanha"
+ },
+ "Esperança": {
+  "pais": "Andorra"
+ },
+ "Esporte Limoeiro": {
+  "pais": "Brasil"
+ },
+ "Esportiva Aquidabã": {
+  "pais": "Brasil"
+ },
+ "Esportivo-RS": {
+  "pais": "Brasil"
+ },
+ "Espérance": {
+  "pais": "Tunísia"
+ },
+ "Essube": {
+  "pais": "Brasil"
+ },
+ "Estanciano": {
+  "pais": "Brasil"
+ },
+ "Esteghlal": {
+  "pais": "Irã"
+ },
+ "Esteghlal KH": {
+  "pais": "Irã"
+ },
+ "Estoril": {
+  "pais": "Portugal"
+ },
+ "Estrela da Amadora": {
+  "pais": "Portugal"
+ },
+ "Estrela do Norte": {
+  "pais": "Brasil"
+ },
+ "Estudiantes (BA)": {
+  "pais": "Argentina"
+ },
+ "Estudiantes Río Cuarto": {
+  "pais": "Argentina"
+ },
+ "Estudiantes de Mérida": {
+  "pais": "Venezuela"
+ },
+ "Estudiantes-ARG": {
+  "pais": "Argentina"
+ },
+ "Europa FC": {
+  "pais": "Gibraltar"
+ },
+ "Everton-CHL": {
+  "pais": "Chile"
+ },
+ "Everton-ING": {
+  "pais": "Inglaterra"
+ },
+ "Excelsior": {
+  "pais": "Holanda"
+ },
+ "Exeter City": {
+  "pais": "Inglaterra"
+ },
+ "Expressinho": {
+  "pais": "Brasil"
+ },
+ "Extension Gunners": {
+  "pais": "Botswana"
+ },
+ "Extremo Norte": {
+  "pais": "Brasil"
+ },
+ "Eyüpspor": {
+  "pais": "Turquia"
+ },
+ "FA Šiauliai": {
+  "pais": "Lituânia"
+ },
+ "FBBP": {
+  "pais": "França"
+ },
+ "FC Anyang": {
+  "pais": "Coréia do Sul"
+ },
+ "FC Balzers": {
+  "pais": "Liechtenstein"
+ },
+ "FC Barqchi": {
+  "pais": "Tajiquistão"
+ },
+ "FC Cincinnati": {
+  "pais": "Estados Unidos"
+ },
+ "FC Dallas": {
+  "pais": "Estados Unidos"
+ },
+ "FC Eindhoven": {
+  "pais": "Holanda"
+ },
+ "FC Goa": {
+  "pais": "Índia"
+ },
+ "FC Hegelmann": {
+  "pais": "Lituânia"
+ },
+ "FC Istaravshan": {
+  "pais": "Tajiquistão"
+ },
+ "FC Istiklol": {
+  "pais": "Tajiquistão"
+ },
+ "FC Kairat": {
+  "pais": "Cazaquistão"
+ },
+ "FC Kaisar": {
+  "pais": "Cazaquistão"
+ },
+ "FC Khujand": {
+  "pais": "Tajiquistão"
+ },
+ "FC Mamer 32": {
+  "pais": "Luxemburgo"
+ },
+ "FC Minsk": {
+  "pais": "Belarus"
+ },
+ "FC Okzhetpes": {
+  "pais": "Cazaquistão"
+ },
+ "FC Ravshan Kulob": {
+  "pais": "Tajiquistão"
+ },
+ "FC Rodange 91": {
+  "pais": "Luxemburgo"
+ },
+ "FC Santa Coloma": {
+  "pais": "Andorra"
+ },
+ "FC Seoul": {
+  "pais": "Coréia do Sul"
+ },
+ "FC Supra du Québec": {
+  "pais": "Canadá"
+ },
+ "FC Triesen": {
+  "pais": "Liechtenstein"
+ },
+ "FC Zhenys": {
+  "pais": "Cazaquistão"
+ },
+ "FC Zhetysu": {
+  "pais": "Cazaquistão"
+ },
+ "FCSB": {
+  "pais": "Romênia"
+ },
+ "FCV Dender": {
+  "pais": "Bélgica"
+ },
+ "FH": {
+  "pais": "Islândia"
+ },
+ "FK Auda": {
+  "pais": "Letônia"
+ },
+ "FK Banga Gargždai": {
+  "pais": "Lituânia"
+ },
+ "FK Baranovichi": {
+  "pais": "Belarus"
+ },
+ "FK Buxoro": {
+  "pais": "Uzbequistão"
+ },
+ "FK Dobrudzha": {
+  "pais": "Bulgária"
+ },
+ "FK Grobiņa": {
+  "pais": "Letônia"
+ },
+ "FK Obolon": {
+  "pais": "Ucrânia"
+ },
+ "FK Panevėžys": {
+  "pais": "Lituânia"
+ },
+ "FK Partizani": {
+  "pais": "Albânia"
+ },
+ "FK Riteriai": {
+  "pais": "Lituânia"
+ },
+ "FK Sarajevo": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "FK Sūduva": {
+  "pais": "Lituânia"
+ },
+ "FK Transinvest": {
+  "pais": "Lituânia"
+ },
+ "FK Tukums 2000": {
+  "pais": "Letônia"
+ },
+ "FS Jelgava": {
+  "pais": "Letônia"
+ },
+ "FUS": {
+  "pais": "Marrocos"
+ },
+ "Faetano": {
+  "pais": "San Marino"
+ },
+ "Fajr Sepasi": {
+  "pais": "Irã"
+ },
+ "Falcon": {
+  "pais": "Brasil"
+ },
+ "Falkirk": {
+  "pais": "Escócia"
+ },
+ "Famalicão": {
+  "pais": "Portugal"
+ },
+ "Farense": {
+  "pais": "Portugal"
+ },
+ "Farul Constanța": {
+  "pais": "Romênia"
+ },
+ "Fast Clube": {
+  "pais": "Brasil"
+ },
+ "Feira": {
+  "pais": "Brasil"
+ },
+ "Feirense": {
+  "pais": "Portugal"
+ },
+ "Felgueiras": {
+  "pais": "Portugal"
+ },
+ "Femar": {
+  "pais": "Brasil"
+ },
+ "Fenerbahçe": {
+  "pais": "Turquia"
+ },
+ "Ferencvaros": {
+  "pais": "Hungria"
+ },
+ "Ferizaj": {
+  "pais": "Kosovo"
+ },
+ "Ferro Carril Oeste": {
+  "pais": "Argentina"
+ },
+ "Ferrocarril Midland": {
+  "pais": "Argentina"
+ },
+ "Ferroviária": {
+  "pais": "Brasil"
+ },
+ "Ferroviária-SP": {
+  "pais": "Brasil"
+ },
+ "Ferroviário": {
+  "pais": "Brasil"
+ },
+ "Ferroviário-CE": {
+  "pais": "Brasil"
+ },
+ "Feyenoord": {
+  "pais": "Holanda"
+ },
+ "Figueirense": {
+  "pais": "Brasil"
+ },
+ "Fiorentina": {
+  "pais": "Itália"
+ },
+ "Fiorentino": {
+  "pais": "San Marino"
+ },
+ "First Wien": {
+  "pais": "Áustria"
+ },
+ "Flamengo": {
+  "pais": "Brasil"
+ },
+ "Flamengo-PI": {
+  "pais": "Brasil"
+ },
+ "Flamengo-RJ": {
+  "pais": "Brasil"
+ },
+ "Flamengo-SE": {
+  "pais": "Brasil"
+ },
+ "Flamengo-SP": {
+  "pais": "Brasil"
+ },
+ "Flamurtari Vlorë": {
+  "pais": "Albânia"
+ },
+ "Fleetwood Town": {
+  "pais": "Inglaterra"
+ },
+ "Fleury": {
+  "pais": "França"
+ },
+ "Flint Town United": {
+  "pais": "País de Gales"
+ },
+ "Flora": {
+  "pais": "Estônia"
+ },
+ "Floresta": {
+  "pais": "Brasil"
+ },
+ "Floriana": {
+  "pais": "Malta"
+ },
+ "Floridsdorfer AC": {
+  "pais": "Áustria"
+ },
+ "Fluminense": {
+  "pais": "Brasil"
+ },
+ "Fluminense-BA": {
+  "pais": "Brasil"
+ },
+ "Fluminense-PI": {
+  "pais": "Brasil"
+ },
+ "Fluminense-RJ": {
+  "pais": "Brasil"
+ },
+ "Fluminense-SC": {
+  "pais": "Brasil"
+ },
+ "Flyeralarm Admira": {
+  "pais": "Áustria"
+ },
+ "Foggia": {
+  "pais": "Itália"
+ },
+ "Folgore": {
+  "pais": "San Marino"
+ },
+ "Foolad": {
+  "pais": "Irã"
+ },
+ "Foot Elite": {
+  "pais": "Guiné"
+ },
+ "Forge FC": {
+  "pais": "Canadá"
+ },
+ "Forlì": {
+  "pais": "Itália"
+ },
+ "Fortaleza": {
+  "pais": "Brasil"
+ },
+ "Fortaleza-CE": {
+  "pais": "Brasil"
+ },
+ "Fortaleza-COL": {
+  "pais": "Colômbia"
+ },
+ "Forte": {
+  "pais": "Brasil"
+ },
+ "Fortuna Düsseldorf": {
+  "pais": "Alemanha"
+ },
+ "Fortuna Sittard": {
+  "pais": "Holanda"
+ },
+ "Foz do Iguaçu": {
+  "pais": "Brasil"
+ },
+ "Fram": {
+  "pais": "Islândia"
+ },
+ "Francana": {
+  "pais": "Brasil"
+ },
+ "Francs Borains": {
+  "pais": "Bélgica"
+ },
+ "Frankfurt": {
+  "pais": "Alemanha"
+ },
+ "Fredericia": {
+  "pais": "Dinamarca"
+ },
+ "Fredrikstad": {
+  "pais": "Noruega"
+ },
+ "Freiburg": {
+  "pais": "Alemanha"
+ },
+ "Freipaulistano": {
+  "pais": "Brasil"
+ },
+ "Friburguense": {
+  "pais": "Brasil"
+ },
+ "Frosinone": {
+  "pais": "Itália"
+ },
+ "Fulham": {
+  "pais": "Inglaterra"
+ },
+ "Futebol com Vida": {
+  "pais": "Brasil"
+ },
+ "Fürth": {
+  "pais": "Alemanha"
+ },
+ "GAIS": {
+  "pais": "Suécia"
+ },
+ "GAS": {
+  "pais": "Brasil"
+ },
+ "GKS Tychy": {
+  "pais": "Polônia"
+ },
+ "GV San José": {
+  "pais": "Bolívia"
+ },
+ "Gabala": {
+  "pais": "Azerbaijão"
+ },
+ "Gaborone United": {
+  "pais": "Botswana"
+ },
+ "Gagra": {
+  "pais": "Geórgia"
+ },
+ "Galatasaray": {
+  "pais": "Turquia"
+ },
+ "Galo Maringá": {
+  "pais": "Brasil"
+ },
+ "Galvez": {
+  "pais": "Brasil"
+ },
+ "Galway United": {
+  "pais": "Irlanda"
+ },
+ "Galícia": {
+  "pais": "Brasil"
+ },
+ "Gama": {
+  "pais": "Brasil"
+ },
+ "Gandzasar": {
+  "pais": "Armênia"
+ },
+ "Gangwon": {
+  "pais": "Coréia do Sul"
+ },
+ "Gavião Kyikatejê": {
+  "pais": "Brasil"
+ },
+ "Gaziantep": {
+  "pais": "Turquia"
+ },
+ "Gaúcho": {
+  "pais": "Brasil"
+ },
+ "Genk": {
+  "pais": "Bélgica"
+ },
+ "Genoa": {
+  "pais": "Itália"
+ },
+ "Gent": {
+  "pais": "Bélgica"
+ },
+ "Genus": {
+  "pais": "Brasil"
+ },
+ "Gençlerbirliği": {
+  "pais": "Turquia"
+ },
+ "Getafe": {
+  "pais": "Espanha"
+ },
+ "Geylang International": {
+  "pais": "Singapura"
+ },
+ "Ghazl El Mahalla": {
+  "pais": "Egito"
+ },
+ "Ghupo FC": {
+  "pais": "Ilhas Salomão"
+ },
+ "Giana Erminio": {
+  "pais": "Itália"
+ },
+ "Gil Vicente": {
+  "pais": "Portugal"
+ },
+ "Gillingham": {
+  "pais": "Inglaterra"
+ },
+ "Gimcheon Sangmu": {
+  "pais": "Coréia do Sul"
+ },
+ "Gimhae FC": {
+  "pais": "Coréia do Sul"
+ },
+ "Gimnasia LP": {
+  "pais": "Argentina"
+ },
+ "Gimnasia de Jujuy": {
+  "pais": "Argentina"
+ },
+ "Gimnasia de Mendoza": {
+  "pais": "Argentina"
+ },
+ "Gimnasia y Esgrima (Jujuy)": {
+  "pais": "Argentina"
+ },
+ "Gimnasia y Esgrima (LP)": {
+  "pais": "Argentina"
+ },
+ "Gimnasia y Esgrima (Mendoza)": {
+  "pais": "Argentina"
+ },
+ "Gimnasia y Tiro": {
+  "pais": "Argentina"
+ },
+ "Gimnàstic de Tarragona": {
+  "pais": "Espanha"
+ },
+ "Gimpo FC": {
+  "pais": "Coréia do Sul"
+ },
+ "Girona": {
+  "pais": "Espanha"
+ },
+ "Giugliano": {
+  "pais": "Itália"
+ },
+ "Gjilani": {
+  "pais": "Kosovo"
+ },
+ "Glenavon": {
+  "pais": "Irlanda do Norte"
+ },
+ "Glentoran": {
+  "pais": "Irlanda do Norte"
+ },
+ "Gliwice": {
+  "pais": "Polônia"
+ },
+ "Globo": {
+  "pais": "Brasil"
+ },
+ "Glória": {
+  "pais": "Brasil"
+ },
+ "Gnistan": {
+  "pais": "Finlândia"
+ },
+ "Go Ahead Eagles": {
+  "pais": "Holanda"
+ },
+ "Godoy Cruz": {
+  "pais": "Argentina"
+ },
+ "Goianésia": {
+  "pais": "Brasil"
+ },
+ "Goiatuba": {
+  "pais": "Brasil"
+ },
+ "Goiás": {
+  "pais": "Brasil"
+ },
+ "Goiânia": {
+  "pais": "Brasil"
+ },
+ "Gol Gohar": {
+  "pais": "Irã"
+ },
+ "Golden Arrows": {
+  "pais": "África do Sul"
+ },
+ "Gomel": {
+  "pais": "Belarus"
+ },
+ "Gorica": {
+  "pais": "Croácia"
+ },
+ "Goytacaz": {
+  "pais": "Brasil"
+ },
+ "Gramadense": {
+  "pais": "Brasil"
+ },
+ "Granada": {
+  "pais": "Espanha"
+ },
+ "Grapiúna": {
+  "pais": "Brasil"
+ },
+ "Grasshopper": {
+  "pais": "Suíça"
+ },
+ "Grazer AK": {
+  "pais": "Áustria"
+ },
+ "Green Buffaloes": {
+  "pais": "Zâmbia"
+ },
+ "Green Eagles": {
+  "pais": "Zâmbia"
+ },
+ "Green Shield": {
+  "pais": "Ilhas Salomão"
+ },
+ "Grenoble Foot": {
+  "pais": "França"
+ },
+ "Grimsby Town": {
+  "pais": "Inglaterra"
+ },
+ "Groningen": {
+  "pais": "Holanda"
+ },
+ "Grêmio": {
+  "pais": "Brasil"
+ },
+ "Grêmio Anápolis": {
+  "pais": "Brasil"
+ },
+ "Grêmio Catanduvense": {
+  "pais": "Brasil"
+ },
+ "Grêmio Laranjeiras": {
+  "pais": "Brasil"
+ },
+ "Grêmio Maringá": {
+  "pais": "Brasil"
+ },
+ "Grêmio Prudente": {
+  "pais": "Brasil"
+ },
+ "Grêmio Sorriso": {
+  "pais": "Brasil"
+ },
+ "Grêmio Valparaíso": {
+  "pais": "Brasil"
+ },
+ "Grêmio-RS": {
+  "pais": "Brasil"
+ },
+ "Guabirá": {
+  "pais": "Bolívia"
+ },
+ "Guadalajara": {
+  "pais": "Espanha"
+ },
+ "Guadalupe": {
+  "pais": "Costa Rica"
+ },
+ "Guanabara City": {
+  "pais": "Brasil"
+ },
+ "Guaporé": {
+  "pais": "Brasil"
+ },
+ "Guarani": {
+  "pais": "Brasil"
+ },
+ "Guarani-CE": {
+  "pais": "Brasil"
+ },
+ "Guarani-MG": {
+  "pais": "Brasil"
+ },
+ "Guarani-RS": {
+  "pais": "Brasil"
+ },
+ "Guarani-SC": {
+  "pais": "Brasil"
+ },
+ "Guarani-SP": {
+  "pais": "Brasil"
+ },
+ "Guarany de Bagé": {
+  "pais": "Brasil"
+ },
+ "Guarany-CE": {
+  "pais": "Brasil"
+ },
+ "Guarany-RS": {
+  "pais": "Brasil"
+ },
+ "Guarany-SE": {
+  "pais": "Brasil"
+ },
+ "Guaraní-PAR": {
+  "pais": "Paraguai"
+ },
+ "Guaraí": {
+  "pais": "Brasil"
+ },
+ "Guarulhos": {
+  "pais": "Brasil"
+ },
+ "Guastatoya": {
+  "pais": "Guatemala"
+ },
+ "Guayaquil City": {
+  "pais": "Equador"
+ },
+ "Gubbio": {
+  "pais": "Itália"
+ },
+ "Guelson": {
+  "pais": "Angola"
+ },
+ "Guidonia": {
+  "pais": "Itália"
+ },
+ "Guingamp": {
+  "pais": "França"
+ },
+ "Gurupi": {
+  "pais": "Brasil"
+ },
+ "Gwangju": {
+  "pais": "Coréia do Sul"
+ },
+ "Gyeongnam": {
+  "pais": "Coréia do Sul"
+ },
+ "Gálatas": {
+  "pais": "Brasil"
+ },
+ "Génesis PN": {
+  "pais": "Honduras"
+ },
+ "Górnik Zabrze": {
+  "pais": "Polônia"
+ },
+ "Górnik Łęczna": {
+  "pais": "Polônia"
+ },
+ "Göteborg": {
+  "pais": "Suécia"
+ },
+ "Göztepe": {
+  "pais": "Turquia"
+ },
+ "Güemes": {
+  "pais": "Argentina"
+ },
+ "Gżira United": {
+  "pais": "Malta"
+ },
+ "HB Torshávn": {
+  "pais": "Ilhas Faroé"
+ },
+ "HFX Wanderers": {
+  "pais": "Canadá"
+ },
+ "HJK": {
+  "pais": "Finlândia"
+ },
+ "Hafia": {
+  "pais": "Guiné"
+ },
+ "Haiphong": {
+  "pais": "Vietnã"
+ },
+ "Hajduk Split": {
+  "pais": "Croácia"
+ },
+ "Halmstads": {
+  "pais": "Suécia"
+ },
+ "HamKam": {
+  "pais": "Noruega"
+ },
+ "Hamburgo": {
+  "pais": "Alemanha"
+ },
+ "Hammarby": {
+  "pais": "Suécia"
+ },
+ "Hannover": {
+  "pais": "Alemanha"
+ },
+ "Hanoi": {
+  "pais": "Vietnã"
+ },
+ "Hansa Rostock": {
+  "pais": "Alemanha"
+ },
+ "Hapoel Be'er Sheva": {
+  "pais": "Israel"
+ },
+ "Hapoel Haifa": {
+  "pais": "Israel"
+ },
+ "Hapoel Jerusalem": {
+  "pais": "Israel"
+ },
+ "Hapoel Petah Tikva": {
+  "pais": "Israel"
+ },
+ "Hapoel Tel Aviv": {
+  "pais": "Israel"
+ },
+ "Haras El Hodoud": {
+  "pais": "Egito"
+ },
+ "Harbour View": {
+  "pais": "Jamaica"
+ },
+ "Harju JK": {
+  "pais": "Estônia"
+ },
+ "Harrogate Town": {
+  "pais": "Inglaterra"
+ },
+ "Hartberg": {
+  "pais": "Áustria"
+ },
+ "Hassania Agadir": {
+  "pais": "Marrocos"
+ },
+ "Hatayspor": {
+  "pais": "Turquia"
+ },
+ "Havelse": {
+  "pais": "Alemanha"
+ },
+ "Haverfordwest": {
+  "pais": "País de Gales"
+ },
+ "Heart of Lions": {
+  "pais": "Gana"
+ },
+ "Hearts": {
+  "pais": "Escócia"
+ },
+ "Hearts of Oak": {
+  "pais": "Gana"
+ },
+ "Heerenveen": {
+  "pais": "Holanda"
+ },
+ "Heidenheim": {
+  "pais": "Alemanha"
+ },
+ "Hellas Verona": {
+  "pais": "Itália"
+ },
+ "Helmond Sport": {
+  "pais": "Holanda"
+ },
+ "Henan FC": {
+  "pais": "China"
+ },
+ "Heracles Almelo": {
+  "pais": "Holanda"
+ },
+ "Hercílio Luz": {
+  "pais": "Brasil"
+ },
+ "Herediano": {
+  "pais": "Costa Rica"
+ },
+ "Hermannstadt": {
+  "pais": "Romênia"
+ },
+ "Herrera": {
+  "pais": "Panamá"
+ },
+ "Hertha Berlin": {
+  "pais": "Alemanha"
+ },
+ "Hertha Wels": {
+  "pais": "Áustria"
+ },
+ "Hibernian": {
+  "pais": "Escócia"
+ },
+ "Hoffenheim": {
+  "pais": "Alemanha"
+ },
+ "Hoffenheim II": {
+  "pais": "Alemanha"
+ },
+ "Hohoe United": {
+  "pais": "Gana"
+ },
+ "Hong Kong FC": {
+  "pais": "Hong Kong"
+ },
+ "Hong Linh Ha Tinh": {
+  "pais": "Vietnã"
+ },
+ "Honiara City": {
+  "pais": "Ilhas Salomão"
+ },
+ "Hope Internacional": {
+  "pais": "Brasil"
+ },
+ "Horizonte": {
+  "pais": "Brasil"
+ },
+ "Horoya": {
+  "pais": "Guiné"
+ },
+ "Hougang United": {
+  "pais": "Singapura"
+ },
+ "Houston Dynamo": {
+  "pais": "Estados Unidos"
+ },
+ "Hoàng Anh Gia Lai": {
+  "pais": "Vietnã"
+ },
+ "Hradec Králové": {
+  "pais": "Tchéquia"
+ },
+ "Huachipato": {
+  "pais": "Chile"
+ },
+ "Huddersfield": {
+  "pais": "Inglaterra"
+ },
+ "Huesca": {
+  "pais": "Espanha"
+ },
+ "Hull City": {
+  "pais": "Inglaterra"
+ },
+ "Humaitá": {
+  "pais": "Brasil"
+ },
+ "Huracán": {
+  "pais": "Argentina"
+ },
+ "Huíla": {
+  "pais": "Angola"
+ },
+ "Hwaseong FC": {
+  "pais": "Coréia do Sul"
+ },
+ "Hércules": {
+  "pais": "Espanha"
+ },
+ "HŠK Posušje": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "IAPE": {
+  "pais": "Brasil"
+ },
+ "IK Sirius": {
+  "pais": "Suécia"
+ },
+ "IK Start": {
+  "pais": "Noruega"
+ },
+ "IR Tanger": {
+  "pais": "Marrocos"
+ },
+ "ITZ Sport": {
+  "pais": "Brasil"
+ },
+ "Iberia": {
+  "pais": "Geórgia"
+ },
+ "Ibiza": {
+  "pais": "Espanha"
+ },
+ "Icasa": {
+  "pais": "Brasil"
+ },
+ "Icount Yatel": {
+  "pais": "Vanuatu"
+ },
+ "Ifira Black Bird": {
+  "pais": "Vanuatu"
+ },
+ "Igaci": {
+  "pais": "Brasil"
+ },
+ "Igdir": {
+  "pais": "Turquia"
+ },
+ "Iguatu": {
+  "pais": "Brasil"
+ },
+ "Iguaçu": {
+  "pais": "Brasil"
+ },
+ "Ikorodu City": {
+  "pais": "Nigéria"
+ },
+ "Ilves": {
+  "pais": "Finlândia"
+ },
+ "Imbituba": {
+  "pais": "Brasil"
+ },
+ "Immigration": {
+  "pais": "Malásia"
+ },
+ "Imperatriz": {
+  "pais": "Brasil"
+ },
+ "Incheon United": {
+  "pais": "Coréia do Sul"
+ },
+ "Independente-AP": {
+  "pais": "Brasil"
+ },
+ "Independente-PA": {
+  "pais": "Brasil"
+ },
+ "Independente-RJ": {
+  "pais": "Brasil"
+ },
+ "Independente-SE": {
+  "pais": "Brasil"
+ },
+ "Independente-SP": {
+  "pais": "Brasil"
+ },
+ "Independiente Medellín": {
+  "pais": "Colômbia"
+ },
+ "Independiente Petrolero": {
+  "pais": "Bolívia"
+ },
+ "Independiente Rivadavia": {
+  "pais": "Argentina"
+ },
+ "Independiente-ARG": {
+  "pais": "Argentina"
+ },
+ "Independiente-PAN": {
+  "pais": "Panamá"
+ },
+ "Independência": {
+  "pais": "Brasil"
+ },
+ "Independência-AC": {
+  "pais": "Brasil"
+ },
+ "Ingolstadt": {
+  "pais": "Alemanha"
+ },
+ "Inhumas": {
+  "pais": "Brasil"
+ },
+ "Instituto": {
+  "pais": "Argentina"
+ },
+ "Inter Bogotá": {
+  "pais": "Colômbia"
+ },
+ "Inter Club D'Escaldes": {
+  "pais": "Andorra"
+ },
+ "Inter Kashi": {
+  "pais": "Índia"
+ },
+ "Inter Miami": {
+  "pais": "Estados Unidos"
+ },
+ "Inter SM": {
+  "pais": "Brasil"
+ },
+ "Inter Toronto": {
+  "pais": "Canadá"
+ },
+ "Inter Turku": {
+  "pais": "Finlândia"
+ },
+ "Inter U23": {
+  "pais": "Itália"
+ },
+ "Inter de Bebedouro": {
+  "pais": "Brasil"
+ },
+ "Inter de Lages": {
+  "pais": "Brasil"
+ },
+ "Inter de Limeira": {
+  "pais": "Brasil"
+ },
+ "Interclube": {
+  "pais": "Angola"
+ },
+ "Internacional": {
+  "pais": "Brasil"
+ },
+ "Internacional de Bogotá": {
+  "pais": "Colômbia"
+ },
+ "Internacional-MG": {
+  "pais": "Brasil"
+ },
+ "Internacional-PB": {
+  "pais": "Brasil"
+ },
+ "Internacional-RS": {
+  "pais": "Brasil"
+ },
+ "Internacional-SC": {
+  "pais": "Brasil"
+ },
+ "Internazionale": {
+  "pais": "Itália"
+ },
+ "Interporto": {
+  "pais": "Brasil"
+ },
+ "Ipatinga": {
+  "pais": "Brasil"
+ },
+ "Ipojuca": {
+  "pais": "Brasil"
+ },
+ "Iporá": {
+  "pais": "Brasil"
+ },
+ "Ipswich Town": {
+  "pais": "Inglaterra"
+ },
+ "Iranduba": {
+  "pais": "Brasil"
+ },
+ "Iraty": {
+  "pais": "Brasil"
+ },
+ "Ironi Tiberias": {
+  "pais": "Israel"
+ },
+ "Irtysh": {
+  "pais": "Cazaquistão"
+ },
+ "Isloch": {
+  "pais": "Belarus"
+ },
+ "Ismailia": {
+  "pais": "Egito"
+ },
+ "Ismaily": {
+  "pais": "Egito"
+ },
+ "Istra 1961": {
+  "pais": "Croácia"
+ },
+ "Itabaiana": {
+  "pais": "Brasil"
+ },
+ "Itabirito": {
+  "pais": "Brasil"
+ },
+ "Itaboraí Profute": {
+  "pais": "Brasil"
+ },
+ "Itabuna": {
+  "pais": "Brasil"
+ },
+ "Itacoatiara": {
+  "pais": "Brasil"
+ },
+ "Itapipoca": {
+  "pais": "Brasil"
+ },
+ "Itapirense": {
+  "pais": "Brasil"
+ },
+ "Itaquaquecetuba": {
+  "pais": "Brasil"
+ },
+ "Ituano": {
+  "pais": "Brasil"
+ },
+ "Itumbiara": {
+  "pais": "Brasil"
+ },
+ "Itupiranga": {
+  "pais": "Brasil"
+ },
+ "Ivinhema": {
+  "pais": "Brasil"
+ },
+ "Izabelense": {
+  "pais": "Brasil"
+ },
+ "JDT": {
+  "pais": "Malásia"
+ },
+ "JKT Tanzania": {
+  "pais": "Tanzânia"
+ },
+ "JS Kabylie": {
+  "pais": "Argélia"
+ },
+ "JS Omrane": {
+  "pais": "Tunísia"
+ },
+ "JS Saoura": {
+  "pais": "Argélia"
+ },
+ "Jabaquara": {
+  "pais": "Brasil"
+ },
+ "Jablonec": {
+  "pais": "Tchéquia"
+ },
+ "Jacareí": {
+  "pais": "Brasil"
+ },
+ "Jaciobá": {
+  "pais": "Brasil"
+ },
+ "Jacobina": {
+  "pais": "Brasil"
+ },
+ "Jacuipense": {
+  "pais": "Brasil"
+ },
+ "Jagiellonia": {
+  "pais": "Polônia"
+ },
+ "Jaguar": {
+  "pais": "Brasil"
+ },
+ "Jaguares": {
+  "pais": "Colômbia"
+ },
+ "Jaguaré": {
+  "pais": "Brasil"
+ },
+ "Jamshedpur": {
+  "pais": "Índia"
+ },
+ "Jaraguá": {
+  "pais": "Brasil"
+ },
+ "Jaro": {
+  "pais": "Finlândia"
+ },
+ "Jataiense": {
+  "pais": "Brasil"
+ },
+ "Jedinstvo": {
+  "pais": "Montenegro"
+ },
+ "Jeju SK": {
+  "pais": "Coréia do Sul"
+ },
+ "Jeonbuk Hyundai": {
+  "pais": "Coréia do Sul"
+ },
+ "Jeonnam Dragons": {
+  "pais": "Coréia do Sul"
+ },
+ "Jequié": {
+  "pais": "Brasil"
+ },
+ "Jeunes Tahitiens": {
+  "pais": "Taiti"
+ },
+ "Jeunesse Canach": {
+  "pais": "Luxemburgo"
+ },
+ "Jeunesse Esch": {
+  "pais": "Luxemburgo"
+ },
+ "Jezero": {
+  "pais": "Montenegro"
+ },
+ "Ji-Paraná": {
+  "pais": "Brasil"
+ },
+ "Joinville": {
+  "pais": "Brasil"
+ },
+ "Jong AZ": {
+  "pais": "Holanda"
+ },
+ "Jong Ajax": {
+  "pais": "Holanda"
+ },
+ "Jong Genk": {
+  "pais": "Bélgica"
+ },
+ "Jong Gent": {
+  "pais": "Bélgica"
+ },
+ "Jong PSV": {
+  "pais": "Holanda"
+ },
+ "Jong Utrecht": {
+  "pais": "Holanda"
+ },
+ "Joseense": {
+  "pais": "Brasil"
+ },
+ "José Bonifácio": {
+  "pais": "Brasil"
+ },
+ "Juan Pablo II": {
+  "pais": "Peru"
+ },
+ "Juazeirense": {
+  "pais": "Brasil"
+ },
+ "Junior": {
+  "pais": "Colômbia"
+ },
+ "Juniper FC": {
+  "pais": "Ilhas Salomão"
+ },
+ "Juticalpa": {
+  "pais": "Honduras"
+ },
+ "Juve Stabia": {
+  "pais": "Itália"
+ },
+ "Juvenes/Dogana": {
+  "pais": "San Marino"
+ },
+ "Juventud Las Piedras": {
+  "pais": "Uruguai"
+ },
+ "Juventud Torremolinos": {
+  "pais": "Espanha"
+ },
+ "Juventude": {
+  "pais": "Brasil"
+ },
+ "Juventude-RS": {
+  "pais": "Brasil"
+ },
+ "Juventus Next Gen": {
+  "pais": "Itália"
+ },
+ "Juventus-ITA": {
+  "pais": "Itália"
+ },
+ "Juventus-MG": {
+  "pais": "Brasil"
+ },
+ "Juventus-RJ": {
+  "pais": "Brasil"
+ },
+ "Juventus-SC": {
+  "pais": "Brasil"
+ },
+ "Juventus-SP": {
+  "pais": "Brasil"
+ },
+ "Juárez": {
+  "pais": "México"
+ },
+ "Jwaneng Galaxy": {
+  "pais": "Botswana"
+ },
+ "KA": {
+  "pais": "Islândia"
+ },
+ "KACM": {
+  "pais": "Marrocos"
+ },
+ "KAS Eupen": {
+  "pais": "Bélgica"
+ },
+ "KF Drenica": {
+  "pais": "Kosovo"
+ },
+ "KF Dukagjini": {
+  "pais": "Kosovo"
+ },
+ "KF Malisheva": {
+  "pais": "Kosovo"
+ },
+ "KF Prishtina e Re": {
+  "pais": "Kosovo"
+ },
+ "KF Teuta": {
+  "pais": "Albânia"
+ },
+ "KF Tirana": {
+  "pais": "Albânia"
+ },
+ "KF Vllaznia": {
+  "pais": "Albânia"
+ },
+ "KF Vora": {
+  "pais": "Albânia"
+ },
+ "KFUM Oslo": {
+  "pais": "Noruega"
+ },
+ "KLC": {
+  "pais": "Malásia"
+ },
+ "KMC": {
+  "pais": "Tanzânia"
+ },
+ "KR": {
+  "pais": "Islândia"
+ },
+ "KSC Lokeren": {
+  "pais": "Bélgica"
+ },
+ "KV Mechelen": {
+  "pais": "Bélgica"
+ },
+ "KVC Westerlo": {
+  "pais": "Bélgica"
+ },
+ "Kabuscorp": {
+  "pais": "Angola"
+ },
+ "Kabwe Warriors": {
+  "pais": "Zâmbia"
+ },
+ "Kairouanaise": {
+  "pais": "Tunísia"
+ },
+ "Kaiserslautern": {
+  "pais": "Alemanha"
+ },
+ "Kaizer Chiefs": {
+  "pais": "África do Sul"
+ },
+ "Kalmar": {
+  "pais": "Suécia"
+ },
+ "Kanchanaburi Power": {
+  "pais": "Tailândia"
+ },
+ "Kano Pillars": {
+  "pais": "Nigéria"
+ },
+ "Kanshanshi Dynamos": {
+  "pais": "Zâmbia"
+ },
+ "Kapaz PFK": {
+  "pais": "Azerbaijão"
+ },
+ "Kapfenberger": {
+  "pais": "Áustria"
+ },
+ "Karagümrük": {
+  "pais": "Turquia"
+ },
+ "Karela United": {
+  "pais": "Gana"
+ },
+ "Karfamoriah": {
+  "pais": "Guiné"
+ },
+ "Karlsruher": {
+  "pais": "Alemanha"
+ },
+ "Karpaty": {
+  "pais": "Ucrânia"
+ },
+ "Karvan FK": {
+  "pais": "Azerbaijão"
+ },
+ "Karviná": {
+  "pais": "Tchéquia"
+ },
+ "Kasimpasa": {
+  "pais": "Turquia"
+ },
+ "Katowice": {
+  "pais": "Polônia"
+ },
+ "Katsina United": {
+  "pais": "Nigéria"
+ },
+ "Kauno Žalgiris": {
+  "pais": "Lituânia"
+ },
+ "Kaya-Iloilo": {
+  "pais": "Filipinas"
+ },
+ "Kayserispor": {
+  "pais": "Turquia"
+ },
+ "Kazincbarcika": {
+  "pais": "Hungria"
+ },
+ "Kazma SC": {
+  "pais": "Kuwait"
+ },
+ "Keflavík": {
+  "pais": "Islândia"
+ },
+ "Kelantan TRW": {
+  "pais": "Malásia"
+ },
+ "Kerala Blasters": {
+  "pais": "Índia"
+ },
+ "Keçiörengücü": {
+  "pais": "Turquia"
+ },
+ "Kheybar Khorrambad": {
+  "pais": "Irã"
+ },
+ "Khor Fakkan": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Khosilot Parkhar": {
+  "pais": "Tajiquistão"
+ },
+ "Kiel": {
+  "pais": "Alemanha"
+ },
+ "Kilmarnock": {
+  "pais": "Escócia"
+ },
+ "Kiryat Shmona": {
+  "pais": "Israel"
+ },
+ "Kisvárda": {
+  "pais": "Hungria"
+ },
+ "Kitchee": {
+  "pais": "Hong Kong"
+ },
+ "Kocaelispor": {
+  "pais": "Turquia"
+ },
+ "Kokand 1912": {
+  "pais": "Uzbequistão"
+ },
+ "Kolos Kovalivka": {
+  "pais": "Ucrânia"
+ },
+ "Konkola Blades": {
+  "pais": "Zâmbia"
+ },
+ "Konyaspor": {
+  "pais": "Turquia"
+ },
+ "Koper": {
+  "pais": "Eslovênia"
+ },
+ "Korona Kielce": {
+  "pais": "Polônia"
+ },
+ "Kortrijk": {
+  "pais": "Bélgica"
+ },
+ "Kossa FC": {
+  "pais": "Ilhas Salomão"
+ },
+ "Kowloon City": {
+  "pais": "Hong Kong"
+ },
+ "Košice": {
+  "pais": "Eslováquia"
+ },
+ "Krasnodar": {
+  "pais": "Rússia"
+ },
+ "Kristiansund": {
+  "pais": "Noruega"
+ },
+ "Krylia Sovetov": {
+  "pais": "Rússia"
+ },
+ "Kryvbas Kryvyi Rih": {
+  "pais": "Ucrânia"
+ },
+ "KuPs": {
+  "pais": "Finlândia"
+ },
+ "Kuching City": {
+  "pais": "Malásia"
+ },
+ "Kudrivka": {
+  "pais": "Ucrânia"
+ },
+ "Kun Khalifat": {
+  "pais": "Nigéria"
+ },
+ "Kuressaare": {
+  "pais": "Estônia"
+ },
+ "Kuwait SC": {
+  "pais": "Kuwait"
+ },
+ "Kwara United": {
+  "pais": "Nigéria"
+ },
+ "Kyzylzhar": {
+  "pais": "Cazaquistão"
+ },
+ "KÍ Klaksvík": {
+  "pais": "Ilhas Faroé"
+ },
+ "Köln": {
+  "pais": "Alemanha"
+ },
+ "København": {
+  "pais": "Dinamarca"
+ },
+ "LA Galaxy": {
+  "pais": "Estados Unidos"
+ },
+ "LAFC": {
+  "pais": "Estados Unidos"
+ },
+ "LASK": {
+  "pais": "Áustria"
+ },
+ "LDU": {
+  "pais": "Equador"
+ },
+ "LNZ Cherkasy": {
+  "pais": "Ucrânia"
+ },
+ "La Coruña": {
+  "pais": "Espanha"
+ },
+ "La Fiorita": {
+  "pais": "San Marino"
+ },
+ "La Louvière": {
+  "pais": "Bélgica"
+ },
+ "Labasa FC": {
+  "pais": "Fiji"
+ },
+ "Lagarto": {
+  "pais": "Brasil"
+ },
+ "Lago Verde": {
+  "pais": "Brasil"
+ },
+ "Lagoa": {
+  "pais": "Brasil"
+ },
+ "Laguna": {
+  "pais": "Brasil"
+ },
+ "Lahti": {
+  "pais": "Finlândia"
+ },
+ "Lajeadense": {
+  "pais": "Brasil"
+ },
+ "Lamphun Warriors": {
+  "pais": "Tailândia"
+ },
+ "Lanús": {
+  "pais": "Argentina"
+ },
+ "Laranja Mecânica": {
+  "pais": "Brasil"
+ },
+ "Larne": {
+  "pais": "Irlanda do Norte"
+ },
+ "Las Palmas": {
+  "pais": "Espanha"
+ },
+ "Latina": {
+  "pais": "Itália"
+ },
+ "Latitude Zero": {
+  "pais": "Brasil"
+ },
+ "Laugu United": {
+  "pais": "Ilhas Salomão"
+ },
+ "Lautoka FC": {
+  "pais": "Fiji"
+ },
+ "Laval": {
+  "pais": "França"
+ },
+ "Lazio": {
+  "pais": "Itália"
+ },
+ "Le Havre": {
+  "pais": "França"
+ },
+ "Le Mans": {
+  "pais": "França"
+ },
+ "Le Puy Foot": {
+  "pais": "França"
+ },
+ "Lecce": {
+  "pais": "Itália"
+ },
+ "Lecco": {
+  "pais": "Itália"
+ },
+ "Lech Poznań": {
+  "pais": "Polônia"
+ },
+ "Lechia Gdánsk": {
+  "pais": "Polônia"
+ },
+ "Lee Man": {
+  "pais": "Hong Kong"
+ },
+ "Leeds United": {
+  "pais": "Inglaterra"
+ },
+ "Leganés": {
+  "pais": "Espanha"
+ },
+ "Legia Varsóvia": {
+  "pais": "Polônia"
+ },
+ "Legião": {
+  "pais": "Brasil"
+ },
+ "Leicester City": {
+  "pais": "Inglaterra"
+ },
+ "Leixões": {
+  "pais": "Portugal"
+ },
+ "Lemense": {
+  "pais": "Brasil"
+ },
+ "Lens": {
+  "pais": "França"
+ },
+ "Leones del Norte": {
+  "pais": "Equador"
+ },
+ "Levadia": {
+  "pais": "Estônia"
+ },
+ "Levadiakos": {
+  "pais": "Grécia"
+ },
+ "Levante": {
+  "pais": "Espanha"
+ },
+ "Leverkusen": {
+  "pais": "Alemanha"
+ },
+ "Levski Sofia": {
+  "pais": "Bulgária"
+ },
+ "Leyton Orient": {
+  "pais": "Inglaterra"
+ },
+ "León": {
+  "pais": "México"
+ },
+ "Leônico": {
+  "pais": "Brasil"
+ },
+ "Liaoning Tieren": {
+  "pais": "China"
+ },
+ "Liberia": {
+  "pais": "Costa Rica"
+ },
+ "Libertad-EQU": {
+  "pais": "Equador"
+ },
+ "Libertad-PAR": {
+  "pais": "Paraguai"
+ },
+ "Libertas": {
+  "pais": "San Marino"
+ },
+ "Libolo": {
+  "pais": "Angola"
+ },
+ "Liefering": {
+  "pais": "Áustria"
+ },
+ "Liepāja": {
+  "pais": "Letônia"
+ },
+ "Lierse": {
+  "pais": "Bélgica"
+ },
+ "Lille": {
+  "pais": "França"
+ },
+ "Lillestrøm": {
+  "pais": "Noruega"
+ },
+ "Lincoln City": {
+  "pais": "Inglaterra"
+ },
+ "Lincoln Red Imps": {
+  "pais": "Gibraltar"
+ },
+ "Linense": {
+  "pais": "Brasil"
+ },
+ "Linfield": {
+  "pais": "Irlanda do Norte"
+ },
+ "Linhares": {
+  "pais": "Brasil"
+ },
+ "Lion City Sailors": {
+  "pais": "Singapura"
+ },
+ "Lions Gibraltar": {
+  "pais": "Gibraltar"
+ },
+ "Liverpool-ING": {
+  "pais": "Inglaterra"
+ },
+ "Liverpool-URU": {
+  "pais": "Uruguai"
+ },
+ "Livingston": {
+  "pais": "Escócia"
+ },
+ "Livorno": {
+  "pais": "Itália"
+ },
+ "Liège": {
+  "pais": "Bélgica"
+ },
+ "Llanelli": {
+  "pais": "País de Gales"
+ },
+ "Llaneros": {
+  "pais": "Colômbia"
+ },
+ "Llapi": {
+  "pais": "Kosovo"
+ },
+ "Lobos Unidos": {
+  "pais": "Honduras"
+ },
+ "Lokomotiv Moscou": {
+  "pais": "Rússia"
+ },
+ "Lokomotiv Plovdiv": {
+  "pais": "Bulgária"
+ },
+ "Lokomotiv Sofia": {
+  "pais": "Bulgária"
+ },
+ "Lokomotiv Tashkent": {
+  "pais": "Uzbequistão"
+ },
+ "Lokomotiva Zagreb": {
+  "pais": "Croácia"
+ },
+ "Lommel": {
+  "pais": "Bélgica"
+ },
+ "Londrina": {
+  "pais": "Brasil"
+ },
+ "Lorient": {
+  "pais": "França"
+ },
+ "Los Andes": {
+  "pais": "Argentina"
+ },
+ "Los Chankas": {
+  "pais": "Peru"
+ },
+ "Loubha": {
+  "pais": "Guiné"
+ },
+ "Luanda City": {
+  "pais": "Angola"
+ },
+ "Ludogorets": {
+  "pais": "Bulgária"
+ },
+ "Lugano": {
+  "pais": "Suíça"
+ },
+ "Lugo": {
+  "pais": "Espanha"
+ },
+ "Lumezzane": {
+  "pais": "Itália"
+ },
+ "Luminense": {
+  "pais": "Brasil"
+ },
+ "Lunda Sul": {
+  "pais": "Angola"
+ },
+ "Lusitânia": {
+  "pais": "Portugal"
+ },
+ "Luton Town": {
+  "pais": "Inglaterra"
+ },
+ "Luverdense": {
+  "pais": "Brasil"
+ },
+ "Luziânia": {
+  "pais": "Brasil"
+ },
+ "Lynx FC": {
+  "pais": "Gibraltar"
+ },
+ "Lyon": {
+  "pais": "França"
+ },
+ "MB Rouissat": {
+  "pais": "Argélia"
+ },
+ "MC Alger": {
+  "pais": "Argélia"
+ },
+ "MC El Bayadh": {
+  "pais": "Argélia"
+ },
+ "MC Oran": {
+  "pais": "Argélia"
+ },
+ "MK Dons": {
+  "pais": "Inglaterra"
+ },
+ "ML Vitebsk": {
+  "pais": "Belarus"
+ },
+ "MTK Budapest": {
+  "pais": "Hungria"
+ },
+ "MVV": {
+  "pais": "Holanda"
+ },
+ "Macapá": {
+  "pais": "Brasil"
+ },
+ "Macarthur": {
+  "pais": "Austrália"
+ },
+ "Macará": {
+  "pais": "Equador"
+ },
+ "Macaé": {
+  "pais": "Brasil"
+ },
+ "Maccabi Bnei Reineh": {
+  "pais": "Israel"
+ },
+ "Maccabi Haifa": {
+  "pais": "Israel"
+ },
+ "Maccabi Netanya": {
+  "pais": "Israel"
+ },
+ "Maccabi Tel Aviv": {
+  "pais": "Israel"
+ },
+ "Machida Zelvia": {
+  "pais": "Japão"
+ },
+ "Madura United": {
+  "pais": "Indonésia"
+ },
+ "Madureira": {
+  "pais": "Brasil"
+ },
+ "Maestro United": {
+  "pais": "Zâmbia"
+ },
+ "Magdeburg": {
+  "pais": "Alemanha"
+ },
+ "Mageense": {
+  "pais": "Brasil"
+ },
+ "Magesi": {
+  "pais": "África do Sul"
+ },
+ "Maghreb de Fès": {
+  "pais": "Marrocos"
+ },
+ "Maguary": {
+  "pais": "Brasil"
+ },
+ "Magé Brescia": {
+  "pais": "Brasil"
+ },
+ "Maharlika": {
+  "pais": "Filipinas"
+ },
+ "Mainz": {
+  "pais": "Alemanha"
+ },
+ "Makedonija": {
+  "pais": "Macedônia do Norte"
+ },
+ "Malacateco": {
+  "pais": "Guatemala"
+ },
+ "Malaita Kingz": {
+  "pais": "Ilhas Salomão"
+ },
+ "Malavan": {
+  "pais": "Irã"
+ },
+ "Mallorca": {
+  "pais": "Espanha"
+ },
+ "Malmö": {
+  "pais": "Suécia"
+ },
+ "Malut United": {
+  "pais": "Indonésia"
+ },
+ "Mamelodi Sundowns": {
+  "pais": "África do Sul"
+ },
+ "Mamoré": {
+  "pais": "Brasil"
+ },
+ "Managua": {
+  "pais": "Nicarágua"
+ },
+ "Manauara": {
+  "pais": "Brasil"
+ },
+ "Manaus": {
+  "pais": "Brasil"
+ },
+ "Manchester City": {
+  "pais": "Inglaterra"
+ },
+ "Manchester United": {
+  "pais": "Inglaterra"
+ },
+ "Manila Digger": {
+  "pais": "Filipinas"
+ },
+ "Manisa": {
+  "pais": "Turquia"
+ },
+ "Mansfield Town": {
+  "pais": "Inglaterra"
+ },
+ "Manta": {
+  "pais": "Equador"
+ },
+ "Manthiqueira": {
+  "pais": "Brasil"
+ },
+ "Mantova": {
+  "pais": "Itália"
+ },
+ "Maracaju": {
+  "pais": "Brasil"
+ },
+ "Maracanã": {
+  "pais": "Brasil"
+ },
+ "Maranguape": {
+  "pais": "Brasil"
+ },
+ "Maranhão": {
+  "pais": "Brasil"
+ },
+ "Marathón": {
+  "pais": "Honduras"
+ },
+ "Marbella": {
+  "pais": "Espanha"
+ },
+ "Marcílio Dias": {
+  "pais": "Brasil"
+ },
+ "Maribor": {
+  "pais": "Eslovênia"
+ },
+ "Maricá": {
+  "pais": "Brasil"
+ },
+ "Mariehamn": {
+  "pais": "Finlândia"
+ },
+ "Maringá": {
+  "pais": "Brasil"
+ },
+ "Marist FC": {
+  "pais": "Ilhas Salomão"
+ },
+ "Marquense": {
+  "pais": "Guatemala"
+ },
+ "Marsa": {
+  "pais": "Tunísia"
+ },
+ "Marsaxlokk": {
+  "pais": "Malta"
+ },
+ "Maruinense": {
+  "pais": "Brasil"
+ },
+ "Marumo Gallants": {
+  "pais": "África do Sul"
+ },
+ "Marília": {
+  "pais": "Brasil"
+ },
+ "Marítimo": {
+  "pais": "Portugal"
+ },
+ "Mash'al Mubarek": {
+  "pais": "Uzbequistão"
+ },
+ "Mashujaa": {
+  "pais": "Tanzânia"
+ },
+ "Matagalpa": {
+  "pais": "Nicarágua"
+ },
+ "Matebele": {
+  "pais": "Botswana"
+ },
+ "Matonense": {
+  "pais": "Brasil"
+ },
+ "Mauaense": {
+  "pais": "Brasil"
+ },
+ "Mauriki": {
+  "pais": "Vanuatu"
+ },
+ "Mauá": {
+  "pais": "Brasil"
+ },
+ "Mazagão": {
+  "pais": "Brasil"
+ },
+ "Mazatlán": {
+  "pais": "México"
+ },
+ "Mbeya City": {
+  "pais": "Tanzânia"
+ },
+ "Medeama": {
+  "pais": "Gana"
+ },
+ "Melaka": {
+  "pais": "Malásia"
+ },
+ "Melbourne City": {
+  "pais": "Austrália"
+ },
+ "Melbourne Victory": {
+  "pais": "Austrália"
+ },
+ "Melgar": {
+  "pais": "Peru"
+ },
+ "Mes Rafsanjan": {
+  "pais": "Irã"
+ },
+ "Meshakhte Tkibuli": {
+  "pais": "Geórgia"
+ },
+ "Mesquita": {
+  "pais": "Brasil"
+ },
+ "Metalist": {
+  "pais": "Ucrânia"
+ },
+ "Metaloglobus": {
+  "pais": "Romênia"
+ },
+ "Metropolitano-SC": {
+  "pais": "Brasil"
+ },
+ "Metropolitanos": {
+  "pais": "Venezuela"
+ },
+ "Metz": {
+  "pais": "França"
+ },
+ "Mictlan": {
+  "pais": "Guatemala"
+ },
+ "Middlesbrough": {
+  "pais": "Inglaterra"
+ },
+ "Midtjylland": {
+  "pais": "Dinamarca"
+ },
+ "Miedź Legnica": {
+  "pais": "Polônia"
+ },
+ "Miguelense": {
+  "pais": "Brasil"
+ },
+ "Milan": {
+  "pais": "Itália"
+ },
+ "Millonarios": {
+  "pais": "Colômbia"
+ },
+ "Millwall": {
+  "pais": "Inglaterra"
+ },
+ "Milo FC": {
+  "pais": "Guiné"
+ },
+ "Milsami Orhei": {
+  "pais": "Moldávia"
+ },
+ "Mineiros": {
+  "pais": "Brasil"
+ },
+ "Mines United": {
+  "pais": "Zâmbia"
+ },
+ "Minnesota United": {
+  "pais": "Estados Unidos"
+ },
+ "Mira": {
+  "pais": "Taiti"
+ },
+ "Miramar": {
+  "pais": "Brasil"
+ },
+ "Miramar Rangers": {
+  "pais": "Nova Zelândia"
+ },
+ "Mirandés": {
+  "pais": "Espanha"
+ },
+ "Mirassol": {
+  "pais": "Brasil"
+ },
+ "Misto": {
+  "pais": "Brasil"
+ },
+ "Mitre": {
+  "pais": "Argentina"
+ },
+ "Mixco": {
+  "pais": "Guatemala"
+ },
+ "Mixto": {
+  "pais": "Brasil"
+ },
+ "Mjällby": {
+  "pais": "Suécia"
+ },
+ "Mladost DG": {
+  "pais": "Montenegro"
+ },
+ "Mladá Boleslav": {
+  "pais": "Tchéquia"
+ },
+ "Mochudi": {
+  "pais": "Botswana"
+ },
+ "Modena": {
+  "pais": "Itália"
+ },
+ "Modern SC": {
+  "pais": "Egito"
+ },
+ "Mogi Mirim": {
+  "pais": "Brasil"
+ },
+ "Mohammedan": {
+  "pais": "Índia"
+ },
+ "Mohun Bagan": {
+  "pais": "Índia"
+ },
+ "Molde": {
+  "pais": "Noruega"
+ },
+ "Molynes United": {
+  "pais": "Jamaica"
+ },
+ "Monaco": {
+  "pais": "França"
+ },
+ "Monagas": {
+  "pais": "Venezuela"
+ },
+ "Monastir": {
+  "pais": "Tunísia"
+ },
+ "Monopoli": {
+  "pais": "Itália"
+ },
+ "Mons Calpe": {
+  "pais": "Gibraltar"
+ },
+ "Monsoon": {
+  "pais": "Brasil"
+ },
+ "Monte Azul": {
+  "pais": "Brasil"
+ },
+ "Monte Roraima": {
+  "pais": "Brasil"
+ },
+ "Montego Bay United": {
+  "pais": "Jamaica"
+ },
+ "Monterrey": {
+  "pais": "México"
+ },
+ "Montevideo City Torque": {
+  "pais": "Uruguai"
+ },
+ "Montevideo Wanderers": {
+  "pais": "Uruguai"
+ },
+ "Montpellier": {
+  "pais": "França"
+ },
+ "Monza": {
+  "pais": "Itália"
+ },
+ "Moquegua": {
+  "pais": "Peru"
+ },
+ "Moreirense": {
+  "pais": "Portugal"
+ },
+ "Mornar": {
+  "pais": "Montenegro"
+ },
+ "Morrinhos": {
+  "pais": "Brasil"
+ },
+ "Morupule Wanderers": {
+  "pais": "Botswana"
+ },
+ "Mossoró": {
+  "pais": "Brasil"
+ },
+ "Mostaganem": {
+  "pais": "Argélia"
+ },
+ "Motagua": {
+  "pais": "Honduras"
+ },
+ "Motherwell": {
+  "pais": "Escócia"
+ },
+ "Moto Club": {
+  "pais": "Brasil"
+ },
+ "Motor Lublin": {
+  "pais": "Polônia"
+ },
+ "Mount Pleasant": {
+  "pais": "Jamaica"
+ },
+ "Mtibwa Sugar": {
+  "pais": "Tanzânia"
+ },
+ "Muangthong United": {
+  "pais": "Tailândia"
+ },
+ "Mufulira Wanderers": {
+  "pais": "Zâmbia"
+ },
+ "Mumbai City": {
+  "pais": "Índia"
+ },
+ "Municipal": {
+  "pais": "Guatemala"
+ },
+ "Municipal Jalapa": {
+  "pais": "Nicarágua"
+ },
+ "Mura": {
+  "pais": "Eslovênia"
+ },
+ "Murata": {
+  "pais": "San Marino"
+ },
+ "Murici": {
+  "pais": "Brasil"
+ },
+ "Mushuc Runa": {
+  "pais": "Equador"
+ },
+ "Mutondo Stars": {
+  "pais": "Zâmbia"
+ },
+ "Málaga": {
+  "pais": "Espanha"
+ },
+ "Mérida": {
+  "pais": "Espanha"
+ },
+ "Métlaoui": {
+  "pais": "Tunísia"
+ },
+ "Mönchengladbach": {
+  "pais": "Alemanha"
+ },
+ "MŠK Žilina": {
+  "pais": "Eslováquia"
+ },
+ "NAC Breda": {
+  "pais": "Holanda"
+ },
+ "NEC": {
+  "pais": "Holanda"
+ },
+ "NK Aluminij": {
+  "pais": "Eslovênia"
+ },
+ "NK Bravo": {
+  "pais": "Eslovênia"
+ },
+ "NK Radomlje": {
+  "pais": "Eslovênia"
+ },
+ "NK Varaždin": {
+  "pais": "Croácia"
+ },
+ "NK Veres": {
+  "pais": "Ucrânia"
+ },
+ "NSÍ Runavík": {
+  "pais": "Ilhas Faroé"
+ },
+ "Nacional Potosí": {
+  "pais": "Bolívia"
+ },
+ "Nacional de Muriaé": {
+  "pais": "Brasil"
+ },
+ "Nacional de Uberaba": {
+  "pais": "Brasil"
+ },
+ "Nacional-AM": {
+  "pais": "Brasil"
+ },
+ "Nacional-PAR": {
+  "pais": "Paraguai"
+ },
+ "Nacional-PB": {
+  "pais": "Brasil"
+ },
+ "Nacional-POR": {
+  "pais": "Portugal"
+ },
+ "Nacional-PR": {
+  "pais": "Brasil"
+ },
+ "Nacional-SP": {
+  "pais": "Brasil"
+ },
+ "Nacional-URU": {
+  "pais": "Uruguai"
+ },
+ "Nadi FC": {
+  "pais": "Fiji"
+ },
+ "Nadroga FC": {
+  "pais": "Fiji"
+ },
+ "Naft Missan": {
+  "pais": "Iraque"
+ },
+ "Naftan Novopolotsk": {
+  "pais": "Belarus"
+ },
+ "Naka": {
+  "pais": "Vanuatu"
+ },
+ "Nakhon Ratchasima": {
+  "pais": "Tailândia"
+ },
+ "Nam Dinh": {
+  "pais": "Vietnã"
+ },
+ "Namungo": {
+  "pais": "Tanzânia"
+ },
+ "Nancy": {
+  "pais": "França"
+ },
+ "Nantes": {
+  "pais": "França"
+ },
+ "Napoli": {
+  "pais": "Itália"
+ },
+ "Napsa Stars": {
+  "pais": "Zâmbia"
+ },
+ "Narva Trans": {
+  "pais": "Estônia"
+ },
+ "Nasaf": {
+  "pais": "Uzbequistão"
+ },
+ "Nasarawa United": {
+  "pais": "Nigéria"
+ },
+ "Nashville SC": {
+  "pais": "Estados Unidos"
+ },
+ "Nasinu FC": {
+  "pais": "Fiji"
+ },
+ "National Bank": {
+  "pais": "Egito"
+ },
+ "Nations FC": {
+  "pais": "Gana"
+ },
+ "Navbahor Namangan": {
+  "pais": "Uzbequistão"
+ },
+ "Naviraiense": {
+  "pais": "Brasil"
+ },
+ "Navua FC": {
+  "pais": "Fiji"
+ },
+ "Naxxar Lions": {
+  "pais": "Malta"
+ },
+ "Nação": {
+  "pais": "Brasil"
+ },
+ "Nchanga Rangers": {
+  "pais": "Zâmbia"
+ },
+ "Necaxa": {
+  "pais": "México"
+ },
+ "Neftchi": {
+  "pais": "Uzbequistão"
+ },
+ "Neftçi": {
+  "pais": "Azerbaijão"
+ },
+ "Negeri Sembilan": {
+  "pais": "Malásia"
+ },
+ "Neman Grodno": {
+  "pais": "Belarus"
+ },
+ "Neom": {
+  "pais": "Arábia Saudita"
+ },
+ "New England Revolution": {
+  "pais": "Estados Unidos"
+ },
+ "New York City FC": {
+  "pais": "Estados Unidos"
+ },
+ "New York Red Bulls": {
+  "pais": "Estados Unidos"
+ },
+ "Newcastle": {
+  "pais": "Inglaterra"
+ },
+ "Newcastle Jets": {
+  "pais": "Austrália"
+ },
+ "Newell's": {
+  "pais": "Argentina"
+ },
+ "Newells": {
+  "pais": "Argentina"
+ },
+ "Newport County": {
+  "pais": "Inglaterra"
+ },
+ "Newroz": {
+  "pais": "Iraque"
+ },
+ "Nice": {
+  "pais": "França"
+ },
+ "Nico United": {
+  "pais": "Botswana"
+ },
+ "Nieciecza": {
+  "pais": "Polônia"
+ },
+ "Niger Tornadoes": {
+  "pais": "Nigéria"
+ },
+ "Ninh Bình": {
+  "pais": "Vietnã"
+ },
+ "Niteroiense": {
+  "pais": "Brasil"
+ },
+ "Nizhny Novgorod": {
+  "pais": "Rússia"
+ },
+ "Nkana": {
+  "pais": "Zâmbia"
+ },
+ "Nkwazi": {
+  "pais": "Zâmbia"
+ },
+ "Noah": {
+  "pais": "Armênia"
+ },
+ "Nordsjælland": {
+  "pais": "Dinamarca"
+ },
+ "Noroeste": {
+  "pais": "Brasil"
+ },
+ "North": {
+  "pais": "Brasil"
+ },
+ "North District": {
+  "pais": "Hong Kong"
+ },
+ "North Efate United": {
+  "pais": "Vanuatu"
+ },
+ "Northampton": {
+  "pais": "Inglaterra"
+ },
+ "Northeast United": {
+  "pais": "Índia"
+ },
+ "Norwich City": {
+  "pais": "Inglaterra"
+ },
+ "Nottingham Forest": {
+  "pais": "Inglaterra"
+ },
+ "Notts County": {
+  "pais": "Inglaterra"
+ },
+ "Nova Cidade": {
+  "pais": "Brasil"
+ },
+ "Nova Iguaçu": {
+  "pais": "Brasil"
+ },
+ "Nova Mutum": {
+  "pais": "Brasil"
+ },
+ "Nova Prata": {
+  "pais": "Brasil"
+ },
+ "Nova Venécia": {
+  "pais": "Brasil"
+ },
+ "Novara": {
+  "pais": "Itália"
+ },
+ "Novi Pazar": {
+  "pais": "Sérvia"
+ },
+ "Novo Esporte": {
+  "pais": "Brasil"
+ },
+ "Novo Hamburgo": {
+  "pais": "Brasil"
+ },
+ "Novo Horizonte": {
+  "pais": "Brasil"
+ },
+ "Novorizontino": {
+  "pais": "Brasil"
+ },
+ "Nueva Chicago": {
+  "pais": "Argentina"
+ },
+ "Nyíregyháza": {
+  "pais": "Hungria"
+ },
+ "Náuas": {
+  "pais": "Brasil"
+ },
+ "Náutico": {
+  "pais": "Brasil"
+ },
+ "Náutico-PE": {
+  "pais": "Brasil"
+ },
+ "Náutico-RR": {
+  "pais": "Brasil"
+ },
+ "Nõmme Kalju": {
+  "pais": "Estônia"
+ },
+ "Nõmme United": {
+  "pais": "Estônia"
+ },
+ "Nüremberg": {
+  "pais": "Alemanha"
+ },
+ "O'Higgins": {
+  "pais": "Chile"
+ },
+ "OB": {
+  "pais": "Dinamarca"
+ },
+ "OFI Crete": {
+  "pais": "Grécia"
+ },
+ "OFK Beograd": {
+  "pais": "Sérvia"
+ },
+ "OH Leuven": {
+  "pais": "Bélgica"
+ },
+ "OKMK": {
+  "pais": "Uzbequistão"
+ },
+ "OM": {
+  "pais": "França"
+ },
+ "Odisha": {
+  "pais": "Índia"
+ },
+ "Odra Opole": {
+  "pais": "Polônia"
+ },
+ "Oeirense": {
+  "pais": "Brasil"
+ },
+ "Oeste Brasil": {
+  "pais": "Brasil"
+ },
+ "Ogre United": {
+  "pais": "Letônia"
+ },
+ "Olancho": {
+  "pais": "Honduras"
+ },
+ "Olaria": {
+  "pais": "Brasil"
+ },
+ "Oldham Athletic": {
+  "pais": "Inglaterra"
+ },
+ "Oleksandriya": {
+  "pais": "Ucrânia"
+ },
+ "Olimpia-HON": {
+  "pais": "Honduras"
+ },
+ "Olimpia-PAR": {
+  "pais": "Paraguai"
+ },
+ "Olimpija Ljubljana": {
+  "pais": "Eslovênia"
+ },
+ "Oliveirense": {
+  "pais": "Portugal"
+ },
+ "Olympiacos": {
+  "pais": "Grécia"
+ },
+ "Olympic Charleroi": {
+  "pais": "Bélgica"
+ },
+ "Olympic Safi": {
+  "pais": "Marrocos"
+ },
+ "Olympique Akbou": {
+  "pais": "Argélia"
+ },
+ "Olympique Dcheira": {
+  "pais": "Marrocos"
+ },
+ "Olímpia-SP": {
+  "pais": "Brasil"
+ },
+ "Olímpico-SE": {
+  "pais": "Brasil"
+ },
+ "Omonia": {
+  "pais": "Chipre"
+ },
+ "Once Caldas": {
+  "pais": "Colômbia"
+ },
+ "One Taguig": {
+  "pais": "Filipinas"
+ },
+ "Operário": {
+  "pais": "Brasil"
+ },
+ "Operário-AM": {
+  "pais": "Brasil"
+ },
+ "Operário-MS": {
+  "pais": "Brasil"
+ },
+ "Operário-PR": {
+  "pais": "Brasil"
+ },
+ "Orapa United": {
+  "pais": "Botswana"
+ },
+ "Oratório": {
+  "pais": "Brasil"
+ },
+ "Orbit College": {
+  "pais": "África do Sul"
+ },
+ "Ordabasy": {
+  "pais": "Cazaquistão"
+ },
+ "Ordino": {
+  "pais": "Andorra"
+ },
+ "Orenburg": {
+  "pais": "Rússia"
+ },
+ "Orense": {
+  "pais": "Equador"
+ },
+ "Oriente Petrolero": {
+  "pais": "Bolívia"
+ },
+ "Orlando City": {
+  "pais": "Estados Unidos"
+ },
+ "Orlando Pirates": {
+  "pais": "África do Sul"
+ },
+ "Orléans": {
+  "pais": "França"
+ },
+ "Osasco Sporting": {
+  "pais": "Brasil"
+ },
+ "Osasuna": {
+  "pais": "Espanha"
+ },
+ "Osasuna B": {
+  "pais": "Espanha"
+ },
+ "Osijek": {
+  "pais": "Croácia"
+ },
+ "Osnabrück": {
+  "pais": "Alemanha"
+ },
+ "Ospitaletto": {
+  "pais": "Itália"
+ },
+ "Oulu": {
+  "pais": "Finlândia"
+ },
+ "Ourense": {
+  "pais": "Espanha"
+ },
+ "Ouvidorense": {
+  "pais": "Brasil"
+ },
+ "Oxford United": {
+  "pais": "Inglaterra"
+ },
+ "Oțelul Galați": {
+  "pais": "Romênia"
+ },
+ "PAOK": {
+  "pais": "Grécia"
+ },
+ "PDRM": {
+  "pais": "Malásia"
+ },
+ "PEC Zwolle": {
+  "pais": "Holanda"
+ },
+ "PFC Beroe": {
+  "pais": "Bulgária"
+ },
+ "PFC Montana": {
+  "pais": "Bulgária"
+ },
+ "PFK Xorazm": {
+  "pais": "Uzbequistão"
+ },
+ "PSBS Biak": {
+  "pais": "Indonésia"
+ },
+ "PSG": {
+  "pais": "França"
+ },
+ "PSIM Yogyakarta": {
+  "pais": "Indonésia"
+ },
+ "PSM Makassar": {
+  "pais": "Indonésia"
+ },
+ "PSTC": {
+  "pais": "Brasil"
+ },
+ "PSV": {
+  "pais": "Holanda"
+ },
+ "PT Prachuap": {
+  "pais": "Tailândia"
+ },
+ "PVF-Công An Nhân Dân": {
+  "pais": "Vietnã"
+ },
+ "Pacatuba": {
+  "pais": "Brasil"
+ },
+ "Pachuca": {
+  "pais": "México"
+ },
+ "Pacific FC": {
+  "pais": "Canadá"
+ },
+ "Paderborn": {
+  "pais": "Alemanha"
+ },
+ "Padova": {
+  "pais": "Itália"
+ },
+ "Paduano": {
+  "pais": "Brasil"
+ },
+ "Pafos": {
+  "pais": "Chipre"
+ },
+ "Paide": {
+  "pais": "Estônia"
+ },
+ "Paju Citizen": {
+  "pais": "Coréia do Sul"
+ },
+ "Pakhtakor Tashkent": {
+  "pais": "Uzbequistão"
+ },
+ "Paksi": {
+  "pais": "Hungria"
+ },
+ "Palermo": {
+  "pais": "Itália"
+ },
+ "Palestino": {
+  "pais": "Chile"
+ },
+ "Palmas": {
+  "pais": "Brasil"
+ },
+ "Palmeiras": {
+  "pais": "Brasil"
+ },
+ "Palmeiras-SP": {
+  "pais": "Brasil"
+ },
+ "Pamba Jiji": {
+  "pais": "Tanzânia"
+ },
+ "Panathinaikos": {
+  "pais": "Grécia"
+ },
+ "Pantanal": {
+  "pais": "Brasil"
+ },
+ "Paracatu": {
+  "pais": "Brasil"
+ },
+ "Paradou": {
+  "pais": "Argélia"
+ },
+ "Paraense": {
+  "pais": "Brasil"
+ },
+ "Paragominas": {
+  "pais": "Brasil"
+ },
+ "Paranavaí": {
+  "pais": "Brasil"
+ },
+ "Paranoá": {
+  "pais": "Brasil"
+ },
+ "Paraná": {
+  "pais": "Brasil"
+ },
+ "Paraty": {
+  "pais": "Brasil"
+ },
+ "Paraíso": {
+  "pais": "Brasil"
+ },
+ "Pardubice": {
+  "pais": "Tchéquia"
+ },
+ "Parintins": {
+  "pais": "Brasil"
+ },
+ "Paris 13": {
+  "pais": "França"
+ },
+ "Paris FC": {
+  "pais": "França"
+ },
+ "Parma": {
+  "pais": "Itália"
+ },
+ "Parnahyba": {
+  "pais": "Brasil"
+ },
+ "Partizan": {
+  "pais": "Sérvia"
+ },
+ "Parvoz": {
+  "pais": "Tajiquistão"
+ },
+ "Passo Fundo": {
+  "pais": "Brasil"
+ },
+ "Passos": {
+  "pais": "Brasil"
+ },
+ "Patriotas": {
+  "pais": "Brasil"
+ },
+ "Patro Eisden": {
+  "pais": "Bélgica"
+ },
+ "Patrocinense": {
+  "pais": "Brasil"
+ },
+ "Patronato": {
+  "pais": "Argentina"
+ },
+ "Pau FC": {
+  "pais": "França"
+ },
+ "Paulinense": {
+  "pais": "Brasil"
+ },
+ "Paulista": {
+  "pais": "Brasil"
+ },
+ "Paulistano": {
+  "pais": "Brasil"
+ },
+ "Paulínia": {
+  "pais": "Brasil"
+ },
+ "Paykan": {
+  "pais": "Irã"
+ },
+ "Paysandu": {
+  "pais": "Brasil"
+ },
+ "Paços de Ferreira": {
+  "pais": "Portugal"
+ },
+ "Pedreira": {
+  "pais": "Brasil"
+ },
+ "Pelister Bitola": {
+  "pais": "Macedônia do Norte"
+ },
+ "Pelotas": {
+  "pais": "Brasil"
+ },
+ "Penafiel": {
+  "pais": "Portugal"
+ },
+ "Penang": {
+  "pais": "Malásia"
+ },
+ "Penapolense": {
+  "pais": "Brasil"
+ },
+ "Penarol-AM": {
+  "pais": "Brasil"
+ },
+ "Pendikspor": {
+  "pais": "Turquia"
+ },
+ "Penedense": {
+  "pais": "Brasil"
+ },
+ "Pennarossa": {
+  "pais": "San Marino"
+ },
+ "Penya D'Andorra": {
+  "pais": "Andorra"
+ },
+ "Penybont": {
+  "pais": "País de Gales"
+ },
+ "Pergolettese": {
+  "pais": "Itália"
+ },
+ "Perilima": {
+  "pais": "Brasil"
+ },
+ "Persebaya Surabaya": {
+  "pais": "Indonésia"
+ },
+ "Persepolis": {
+  "pais": "Irã"
+ },
+ "Persib Bandung": {
+  "pais": "Indonésia"
+ },
+ "Persija Jakarta": {
+  "pais": "Indonésia"
+ },
+ "Persijap Jepara": {
+  "pais": "Indonésia"
+ },
+ "Persik Kediri": {
+  "pais": "Indonésia"
+ },
+ "Persis Solo": {
+  "pais": "Indonésia"
+ },
+ "Persita Tangerang": {
+  "pais": "Indonésia"
+ },
+ "Perth Glory": {
+  "pais": "Austrália"
+ },
+ "Perugia": {
+  "pais": "Itália"
+ },
+ "Pescara": {
+  "pais": "Itália"
+ },
+ "Pesqueira": {
+  "pais": "Brasil"
+ },
+ "Peterborough": {
+  "pais": "Inglaterra"
+ },
+ "Petro de Luanda": {
+  "pais": "Angola"
+ },
+ "Petrocub": {
+  "pais": "Moldávia"
+ },
+ "Petrojet": {
+  "pais": "Egito"
+ },
+ "Petrolina": {
+  "pais": "Brasil"
+ },
+ "Petrolul Ploiești": {
+  "pais": "Romênia"
+ },
+ "Petrovac": {
+  "pais": "Montenegro"
+ },
+ "Petrópolis": {
+  "pais": "Brasil"
+ },
+ "Peñarol-URU": {
+  "pais": "Uruguai"
+ },
+ "Pharco": {
+  "pais": "Egito"
+ },
+ "Philadelphia Union": {
+  "pais": "Estados Unidos"
+ },
+ "Philippine Army": {
+  "pais": "Filipinas"
+ },
+ "Pianese": {
+  "pais": "Itália"
+ },
+ "Piauí": {
+  "pais": "Brasil"
+ },
+ "Picerno": {
+  "pais": "Itália"
+ },
+ "Picos": {
+  "pais": "Brasil"
+ },
+ "Picuiense": {
+  "pais": "Brasil"
+ },
+ "Pineto": {
+  "pais": "Itália"
+ },
+ "Pinheirense": {
+  "pais": "Brasil"
+ },
+ "Pinheiro": {
+  "pais": "Brasil"
+ },
+ "Pinheiros": {
+  "pais": "Brasil"
+ },
+ "Pirae": {
+  "pais": "Taiti"
+ },
+ "Pires do Rio": {
+  "pais": "Brasil"
+ },
+ "Pisa": {
+  "pais": "Itália"
+ },
+ "Planaltina": {
+  "pais": "Brasil"
+ },
+ "Plateau United": {
+  "pais": "Nigéria"
+ },
+ "Platense-ARG": {
+  "pais": "Argentina"
+ },
+ "Platense-HON": {
+  "pais": "Honduras"
+ },
+ "Plaza Amador": {
+  "pais": "Panamá"
+ },
+ "Plymouth Argyle": {
+  "pais": "Inglaterra"
+ },
+ "Plácido de Castro": {
+  "pais": "Brasil"
+ },
+ "Podbrezová": {
+  "pais": "Eslováquia"
+ },
+ "Pogoń Grodzisk": {
+  "pais": "Polônia"
+ },
+ "Pogoń Siedlce": {
+  "pais": "Polônia"
+ },
+ "Pogoń Szczecin": {
+  "pais": "Polônia"
+ },
+ "Pohang Steelers": {
+  "pais": "Coréia do Sul"
+ },
+ "Polissya Zhytomyr": {
+  "pais": "Ucrânia"
+ },
+ "Politehnica": {
+  "pais": "Moldávia"
+ },
+ "Polokwane": {
+  "pais": "África do Sul"
+ },
+ "Polonia Bytom": {
+  "pais": "Polônia"
+ },
+ "Polonia Varsóvia": {
+  "pais": "Polônia"
+ },
+ "Poltava": {
+  "pais": "Ucrânia"
+ },
+ "Pombal": {
+  "pais": "Brasil"
+ },
+ "Ponferradina": {
+  "pais": "Espanha"
+ },
+ "Ponte Preta": {
+  "pais": "Brasil"
+ },
+ "Pontedera": {
+  "pais": "Itália"
+ },
+ "Pontevedra": {
+  "pais": "Espanha"
+ },
+ "Port FC": {
+  "pais": "Tailândia"
+ },
+ "Port Vale": {
+  "pais": "Inglaterra"
+ },
+ "Portadown": {
+  "pais": "Irlanda do Norte"
+ },
+ "Portimonense": {
+  "pais": "Portugal"
+ },
+ "Portland Timbers": {
+  "pais": "Estados Unidos"
+ },
+ "Portmore United": {
+  "pais": "Jamaica"
+ },
+ "Porto B": {
+  "pais": "Portugal"
+ },
+ "Porto Velho": {
+  "pais": "Brasil"
+ },
+ "Porto Vitória": {
+  "pais": "Brasil"
+ },
+ "Porto-BA": {
+  "pais": "Brasil"
+ },
+ "Porto-PE": {
+  "pais": "Brasil"
+ },
+ "Porto-POR": {
+  "pais": "Portugal"
+ },
+ "Porto-SC": {
+  "pais": "Brasil"
+ },
+ "Portsmouth": {
+  "pais": "Inglaterra"
+ },
+ "Portuguesa Santista": {
+  "pais": "Brasil"
+ },
+ "Portuguesa-AP": {
+  "pais": "Brasil"
+ },
+ "Portuguesa-PR": {
+  "pais": "Brasil"
+ },
+ "Portuguesa-RJ": {
+  "pais": "Brasil"
+ },
+ "Portuguesa-SP": {
+  "pais": "Brasil"
+ },
+ "Portuguesa-VEN": {
+  "pais": "Venezuela"
+ },
+ "Potenza": {
+  "pais": "Itália"
+ },
+ "Potiguar": {
+  "pais": "Brasil"
+ },
+ "Potiguar-RN": {
+  "pais": "Brasil"
+ },
+ "Potyguar": {
+  "pais": "Brasil"
+ },
+ "Pouso Alegre": {
+  "pais": "Brasil"
+ },
+ "Power Dynamos": {
+  "pais": "Zâmbia"
+ },
+ "Preston": {
+  "pais": "Inglaterra"
+ },
+ "Preußen Münster": {
+  "pais": "Alemanha"
+ },
+ "Primavera": {
+  "pais": "Brasil"
+ },
+ "Primavera-MT": {
+  "pais": "Brasil"
+ },
+ "Primavera-SP": {
+  "pais": "Brasil"
+ },
+ "Primorje": {
+  "pais": "Eslovênia"
+ },
+ "Princesa": {
+  "pais": "Brasil"
+ },
+ "Prishtina": {
+  "pais": "Kosovo"
+ },
+ "Prison Leopards": {
+  "pais": "Zâmbia"
+ },
+ "Pro Patria": {
+  "pais": "Itália"
+ },
+ "Pro Vercelli": {
+  "pais": "Itália"
+ },
+ "Progreso-URU": {
+  "pais": "Uruguai"
+ },
+ "Progresso": {
+  "pais": "Brasil"
+ },
+ "Progresso-RR": {
+  "pais": "Brasil"
+ },
+ "Progrès": {
+  "pais": "Luxemburgo"
+ },
+ "Propriá": {
+  "pais": "Brasil"
+ },
+ "Prudentópolis": {
+  "pais": "Brasil"
+ },
+ "Puebla": {
+  "pais": "México"
+ },
+ "Puerto Cabello": {
+  "pais": "Venezuela"
+ },
+ "Pueu": {
+  "pais": "Taiti"
+ },
+ "Pumas": {
+  "pais": "México"
+ },
+ "Punjab": {
+  "pais": "Índia"
+ },
+ "Puntarenas": {
+  "pais": "Costa Rica"
+ },
+ "Puskás Akadémia": {
+  "pais": "Hungria"
+ },
+ "Puszcza Niepołomice": {
+  "pais": "Polônia"
+ },
+ "Pyramids": {
+  "pais": "Egito"
+ },
+ "Pyunik": {
+  "pais": "Armênia"
+ },
+ "Pärnu JK Vaprus": {
+  "pais": "Estônia"
+ },
+ "Pérez Zeledón": {
+  "pais": "Costa Rica"
+ },
+ "Pérolas Negras": {
+  "pais": "Brasil"
+ },
+ "QFC": {
+  "pais": "Brasil"
+ },
+ "QPR": {
+  "pais": "Inglaterra"
+ },
+ "Qadsia SC": {
+  "pais": "Kuwait"
+ },
+ "Qarabag": {
+  "pais": "Azerbaijão"
+ },
+ "Qatar SC": {
+  "pais": "Catar"
+ },
+ "Qingdao Hainiu": {
+  "pais": "China"
+ },
+ "Qingdao West Coast": {
+  "pais": "China"
+ },
+ "Qizilqum Zarafshon": {
+  "pais": "Uzbequistão"
+ },
+ "Queimadense": {
+  "pais": "Brasil"
+ },
+ "Querétaro": {
+  "pais": "México"
+ },
+ "Quevilly-Rouen": {
+  "pais": "França"
+ },
+ "Quilmes": {
+  "pais": "Argentina"
+ },
+ "Quixadá": {
+  "pais": "Brasil"
+ },
+ "RB Bragantino": {
+  "pais": "Brasil"
+ },
+ "RB Leipzig": {
+  "pais": "Alemanha"
+ },
+ "RB Salzburg": {
+  "pais": "Áustria"
+ },
+ "RB do Norte": {
+  "pais": "Brasil"
+ },
+ "RCC Kamsar": {
+  "pais": "Guiné"
+ },
+ "RFC Seraing": {
+  "pais": "Bélgica"
+ },
+ "RFS": {
+  "pais": "Letônia"
+ },
+ "RS Berkane": {
+  "pais": "Marrocos"
+ },
+ "RSCA Futures": {
+  "pais": "Bélgica"
+ },
+ "RWDM Brussels": {
+  "pais": "Bélgica"
+ },
+ "Rabotnički": {
+  "pais": "Macedônia do Norte"
+ },
+ "Racing FC": {
+  "pais": "Luxemburgo"
+ },
+ "Racing Santander": {
+  "pais": "Espanha"
+ },
+ "Racing United": {
+  "pais": "Jamaica"
+ },
+ "Racing de Córdoba": {
+  "pais": "Argentina"
+ },
+ "Racing de Ferrol": {
+  "pais": "Espanha"
+ },
+ "Racing-ARG": {
+  "pais": "Argentina"
+ },
+ "Racing-URU": {
+  "pais": "Uruguai"
+ },
+ "Radnik Bijeljina": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "Radnik Surdulica": {
+  "pais": "Sérvia"
+ },
+ "Radomiak Radom": {
+  "pais": "Polônia"
+ },
+ "Raja Casablanca": {
+  "pais": "Marrocos"
+ },
+ "Raków Częstochowa": {
+  "pais": "Polônia"
+ },
+ "Rancho Santana": {
+  "pais": "Nicarágua"
+ },
+ "Randers": {
+  "pais": "Dinamarca"
+ },
+ "Rangers-ESC": {
+  "pais": "Escócia"
+ },
+ "Rangers-HKG": {
+  "pais": "Hong Kong"
+ },
+ "Rangers-NIG": {
+  "pais": "Nigéria"
+ },
+ "Rapid Bucureşti": {
+  "pais": "Romênia"
+ },
+ "Rapid Wien": {
+  "pais": "Áustria"
+ },
+ "Rapid Wien II": {
+  "pais": "Áustria"
+ },
+ "Ratchaburi": {
+  "pais": "Tailândia"
+ },
+ "Ravenna": {
+  "pais": "Itália"
+ },
+ "Rayo Vallecano": {
+  "pais": "Espanha"
+ },
+ "Rayo Zuliano": {
+  "pais": "Venezuela"
+ },
+ "Rayong": {
+  "pais": "Tailândia"
+ },
+ "Reading": {
+  "pais": "Inglaterra"
+ },
+ "Real Avilés": {
+  "pais": "Espanha"
+ },
+ "Real Betis": {
+  "pais": "Espanha"
+ },
+ "Real Betis B": {
+  "pais": "Espanha"
+ },
+ "Real Brasília": {
+  "pais": "Brasil"
+ },
+ "Real España": {
+  "pais": "Honduras"
+ },
+ "Real Estelí": {
+  "pais": "Nicarágua"
+ },
+ "Real Madrid": {
+  "pais": "Espanha"
+ },
+ "Real Madrid Castilla": {
+  "pais": "Espanha"
+ },
+ "Real Madriz": {
+  "pais": "Nicarágua"
+ },
+ "Real Murcia": {
+  "pais": "Espanha"
+ },
+ "Real Noroeste": {
+  "pais": "Brasil"
+ },
+ "Real Oruro": {
+  "pais": "Bolívia"
+ },
+ "Real Oviedo": {
+  "pais": "Espanha"
+ },
+ "Real Potosí": {
+  "pais": "Bolívia"
+ },
+ "Real Salt Lake": {
+  "pais": "Estados Unidos"
+ },
+ "Real Sociedad": {
+  "pais": "Espanha"
+ },
+ "Real Sociedad B": {
+  "pais": "Espanha"
+ },
+ "Real Tomayapo": {
+  "pais": "Bolívia"
+ },
+ "Real Valladolid": {
+  "pais": "Espanha"
+ },
+ "Real Zaragoza": {
+  "pais": "Espanha"
+ },
+ "Real-RR": {
+  "pais": "Brasil"
+ },
+ "Real-RS": {
+  "pais": "Brasil"
+ },
+ "Recoleta": {
+  "pais": "Paraguai"
+ },
+ "Red Arrows": {
+  "pais": "Zâmbia"
+ },
+ "Red Star": {
+  "pais": "França"
+ },
+ "Redenção": {
+  "pais": "Brasil"
+ },
+ "Redonda": {
+  "pais": "Angola"
+ },
+ "Regar-Tadaz Tursunzoda": {
+  "pais": "Tajiquistão"
+ },
+ "Regensburg": {
+  "pais": "Alemanha"
+ },
+ "Reggiana": {
+  "pais": "Itália"
+ },
+ "Reims": {
+  "pais": "França"
+ },
+ "Remo": {
+  "pais": "Brasil"
+ },
+ "Remo Stars": {
+  "pais": "Nigéria"
+ },
+ "Renaissance": {
+  "pais": "Guiné"
+ },
+ "Renassaince Zemamra": {
+  "pais": "Marrocos"
+ },
+ "Renate": {
+  "pais": "Itália"
+ },
+ "Rennes": {
+  "pais": "França"
+ },
+ "Renovação": {
+  "pais": "Brasil"
+ },
+ "Resende": {
+  "pais": "Brasil"
+ },
+ "Retrô": {
+  "pais": "Brasil"
+ },
+ "Rewa FC": {
+  "pais": "Fiji"
+ },
+ "Riacho City": {
+  "pais": "Brasil"
+ },
+ "Riachão": {
+  "pais": "Brasil"
+ },
+ "Richards Bay": {
+  "pais": "África do Sul"
+ },
+ "Riga FC": {
+  "pais": "Letônia"
+ },
+ "Rijeka": {
+  "pais": "Croácia"
+ },
+ "Rio Ave": {
+  "pais": "Portugal"
+ },
+ "Rio Barra": {
+  "pais": "Brasil"
+ },
+ "Rio Branco VN": {
+  "pais": "Brasil"
+ },
+ "Rio Branco-AC": {
+  "pais": "Brasil"
+ },
+ "Rio Branco-ES": {
+  "pais": "Brasil"
+ },
+ "Rio Branco-PR": {
+  "pais": "Brasil"
+ },
+ "Rio Branco-RR": {
+  "pais": "Brasil"
+ },
+ "Rio Branco-SP": {
+  "pais": "Brasil"
+ },
+ "Rio Claro": {
+  "pais": "Brasil"
+ },
+ "Rio Grande": {
+  "pais": "Brasil"
+ },
+ "Rio Negro-RR": {
+  "pais": "Brasil"
+ },
+ "Rio Norte": {
+  "pais": "Brasil"
+ },
+ "Rio Preto": {
+  "pais": "Brasil"
+ },
+ "Rio Verde": {
+  "pais": "Brasil"
+ },
+ "Rio de Janeiro": {
+  "pais": "Brasil"
+ },
+ "Riograndense": {
+  "pais": "Brasil"
+ },
+ "Riopretano": {
+  "pais": "Brasil"
+ },
+ "Riostrense": {
+  "pais": "Brasil"
+ },
+ "Rioverdense": {
+  "pais": "Brasil"
+ },
+ "Rive": {
+  "pais": "Brasil"
+ },
+ "River Plate": {
+  "pais": "Argentina"
+ },
+ "River-PI": {
+  "pais": "Brasil"
+ },
+ "River-RR": {
+  "pais": "Brasil"
+ },
+ "Rivers United": {
+  "pais": "Nigéria"
+ },
+ "Rizespor": {
+  "pais": "Turquia"
+ },
+ "Roda JC": {
+  "pais": "Holanda"
+ },
+ "Rodez": {
+  "pais": "França"
+ },
+ "Rolim de Moura": {
+  "pais": "Brasil"
+ },
+ "Roma": {
+  "pais": "Itália"
+ },
+ "Rondoniense": {
+  "pais": "Brasil"
+ },
+ "Rosario Central": {
+  "pais": "Argentina"
+ },
+ "Rosenborg": {
+  "pais": "Noruega"
+ },
+ "Rostov": {
+  "pais": "Rússia"
+ },
+ "Rot-Weiss Essen": {
+  "pais": "Alemanha"
+ },
+ "Rotherham United": {
+  "pais": "Inglaterra"
+ },
+ "Rouen": {
+  "pais": "França"
+ },
+ "Royal Antwerp": {
+  "pais": "Bélgica"
+ },
+ "Rubin Kazan": {
+  "pais": "Rússia"
+ },
+ "Rubio Ñu": {
+  "pais": "Paraguai"
+ },
+ "Ruch Chorzów": {
+  "pais": "Polônia"
+ },
+ "Rudar Prijedor": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "Rukh Lviv": {
+  "pais": "Ucrânia"
+ },
+ "Rustavi": {
+  "pais": "Geórgia"
+ },
+ "Rànger's": {
+  "pais": "Andorra"
+ },
+ "SC Delhi": {
+  "pais": "Índia"
+ },
+ "SCR Altach": {
+  "pais": "Áustria"
+ },
+ "SHB Da Nang": {
+  "pais": "Vietnã"
+ },
+ "SJK Seinäjoki": {
+  "pais": "Finlândia"
+ },
+ "SK Super Nova": {
+  "pais": "Letônia"
+ },
+ "SKN St. Pölten": {
+  "pais": "Áustria"
+ },
+ "SKU Amstetten": {
+  "pais": "Áustria"
+ },
+ "SSA": {
+  "pais": "Brasil"
+ },
+ "STVV": {
+  "pais": "Bélgica"
+ },
+ "SV Ried": {
+  "pais": "Áustria"
+ },
+ "SW Bregenz": {
+  "pais": "Áustria"
+ },
+ "Saarbrücken": {
+  "pais": "Alemanha"
+ },
+ "Sabadell": {
+  "pais": "Espanha"
+ },
+ "Sabah": {
+  "pais": "Azerbaijão"
+ },
+ "Sabah FC": {
+  "pais": "Malásia"
+ },
+ "Sabugy": {
+  "pais": "Brasil"
+ },
+ "Sagrada Esperança": {
+  "pais": "Angola"
+ },
+ "Saint-Éttiene": {
+  "pais": "França"
+ },
+ "Sakaryaspor": {
+  "pais": "Turquia"
+ },
+ "Salernitana": {
+  "pais": "Itália"
+ },
+ "Salford City": {
+  "pais": "Inglaterra"
+ },
+ "Salgueiro": {
+  "pais": "Brasil"
+ },
+ "Sama Al Sarhan": {
+  "pais": "Jordânia"
+ },
+ "Samambaia": {
+  "pais": "Brasil"
+ },
+ "Samartex": {
+  "pais": "Gana"
+ },
+ "Samas": {
+  "pais": "Brasil"
+ },
+ "Sambenedettese": {
+  "pais": "Itália"
+ },
+ "Samgurali Tskhaltubo": {
+  "pais": "Geórgia"
+ },
+ "Sampaio Corrêa": {
+  "pais": "Brasil"
+ },
+ "Sampaio Corrêa-MA": {
+  "pais": "Brasil"
+ },
+ "Sampaio Corrêa-RJ": {
+  "pais": "Brasil"
+ },
+ "Sampdoria": {
+  "pais": "Itália"
+ },
+ "Samsunspor": {
+  "pais": "Turquia"
+ },
+ "San Carlos": {
+  "pais": "Costa Rica"
+ },
+ "San Diego": {
+  "pais": "Estados Unidos"
+ },
+ "San Francisco": {
+  "pais": "Panamá"
+ },
+ "San Giovanni": {
+  "pais": "San Marino"
+ },
+ "San Jose Earthquakes": {
+  "pais": "Estados Unidos"
+ },
+ "San Lorenzo-ARG": {
+  "pais": "Argentina"
+ },
+ "San Lorenzo-PAR": {
+  "pais": "Paraguai"
+ },
+ "San Luís": {
+  "pais": "México"
+ },
+ "San Marino Academy": {
+  "pais": "San Marino"
+ },
+ "San Martín (San Juan)": {
+  "pais": "Argentina"
+ },
+ "San Martín (Tucumán)": {
+  "pais": "Argentina"
+ },
+ "San Miguel": {
+  "pais": "Argentina"
+ },
+ "San Miguelito": {
+  "pais": "Panamá"
+ },
+ "San Telmo": {
+  "pais": "Argentina"
+ },
+ "Sandefjord": {
+  "pais": "Noruega"
+ },
+ "Santa Catarina": {
+  "pais": "Brasil"
+ },
+ "Santa Clara": {
+  "pais": "Portugal"
+ },
+ "Santa Cruz": {
+  "pais": "Brasil"
+ },
+ "Santa Cruz-AC": {
+  "pais": "Brasil"
+ },
+ "Santa Cruz-MT": {
+  "pais": "Brasil"
+ },
+ "Santa Cruz-PE": {
+  "pais": "Brasil"
+ },
+ "Santa Cruz-RJ": {
+  "pais": "Brasil"
+ },
+ "Santa Cruz-RN": {
+  "pais": "Brasil"
+ },
+ "Santa Cruz-RS": {
+  "pais": "Brasil"
+ },
+ "Santa Cruz-SE": {
+  "pais": "Brasil"
+ },
+ "Santa Fe": {
+  "pais": "Colômbia"
+ },
+ "Santa Fé": {
+  "pais": "Brasil"
+ },
+ "Santa Green": {
+  "pais": "Botswana"
+ },
+ "Santa Helena": {
+  "pais": "Brasil"
+ },
+ "Santa Rita": {
+  "pais": "Brasil"
+ },
+ "Santa Rosa": {
+  "pais": "Brasil"
+ },
+ "Santacruzense": {
+  "pais": "Brasil"
+ },
+ "Santana": {
+  "pais": "Brasil"
+ },
+ "Santiago": {
+  "pais": "Brasil"
+ },
+ "Santo André": {
+  "pais": "Brasil"
+ },
+ "Santos": {
+  "pais": "Brasil"
+ },
+ "Santos Laguna": {
+  "pais": "México"
+ },
+ "Santos-AP": {
+  "pais": "Brasil"
+ },
+ "Santos-PA": {
+  "pais": "Brasil"
+ },
+ "Santos-PB": {
+  "pais": "Brasil"
+ },
+ "Santos-SP": {
+  "pais": "Brasil"
+ },
+ "Saprissa": {
+  "pais": "Costa Rica"
+ },
+ "Sardor Tursunzoda": {
+  "pais": "Tajiquistão"
+ },
+ "Sarmiento": {
+  "pais": "Argentina"
+ },
+ "Sarpsborg": {
+  "pais": "Noruega"
+ },
+ "Sarıyer": {
+  "pais": "Turquia"
+ },
+ "Sassuolo": {
+  "pais": "Itália"
+ },
+ "Schalke 04": {
+  "pais": "Alemanha"
+ },
+ "Schweinfurt": {
+  "pais": "Alemanha"
+ },
+ "Seattle Sounders": {
+  "pais": "Estados Unidos"
+ },
+ "Sekhukhune": {
+  "pais": "África do Sul"
+ },
+ "Selangor": {
+  "pais": "Malásia"
+ },
+ "Semen Padang": {
+  "pais": "Indonésia"
+ },
+ "Seongnam": {
+  "pais": "Coréia do Sul"
+ },
+ "Seoul E-Land": {
+  "pais": "Coréia do Sul"
+ },
+ "Sepahan": {
+  "pais": "Irã"
+ },
+ "Septemvri Sofia": {
+  "pais": "Bulgária"
+ },
+ "Sergipe": {
+  "pais": "Brasil"
+ },
+ "Serik Belediyespor": {
+  "pais": "Turquia"
+ },
+ "Serra": {
+  "pais": "Brasil"
+ },
+ "Serra Branca": {
+  "pais": "Brasil"
+ },
+ "Serra Macaense": {
+  "pais": "Brasil"
+ },
+ "Serranense": {
+  "pais": "Brasil"
+ },
+ "Serrano-PB": {
+  "pais": "Brasil"
+ },
+ "Serrano-RJ": {
+  "pais": "Brasil"
+ },
+ "Sertãozinho": {
+  "pais": "Brasil"
+ },
+ "Sete": {
+  "pais": "Brasil"
+ },
+ "Sete de Junho": {
+  "pais": "Brasil"
+ },
+ "Sete de Setembro": {
+  "pais": "Brasil"
+ },
+ "Sevilla": {
+  "pais": "Espanha"
+ },
+ "Sevilla Atlético": {
+  "pais": "Espanha"
+ },
+ "Sfaxien": {
+  "pais": "Tunísia"
+ },
+ "Shabab Al Ahli": {
+  "pais": "Emirados Árabes Unidos"
+ },
+ "Shabab Al Baqa'a": {
+  "pais": "Jordânia"
+ },
+ "Shabab Al Ordon": {
+  "pais": "Jordânia"
+ },
+ "Shakhtar Donetsk": {
+  "pais": "Ucrânia"
+ },
+ "Shamakhi FK": {
+  "pais": "Azerbaijão"
+ },
+ "Shamrock Rovers": {
+  "pais": "Irlanda"
+ },
+ "Shams Azar": {
+  "pais": "Irã"
+ },
+ "Shandong Taishan": {
+  "pais": "China"
+ },
+ "Shanghai Port": {
+  "pais": "China"
+ },
+ "Shanghai Shenhua": {
+  "pais": "China"
+ },
+ "Sheffield United": {
+  "pais": "Inglaterra"
+ },
+ "Sheffield Wednesday": {
+  "pais": "Inglaterra"
+ },
+ "Shelbourne": {
+  "pais": "Irlanda"
+ },
+ "Shenzhen Peng City": {
+  "pais": "China"
+ },
+ "Sheriff": {
+  "pais": "Moldávia"
+ },
+ "Shirak": {
+  "pais": "Armênia"
+ },
+ "Shkupi": {
+  "pais": "Macedônia do Norte"
+ },
+ "Shkëndija": {
+  "pais": "Macedônia do Norte"
+ },
+ "Shooting Stars": {
+  "pais": "Nigéria"
+ },
+ "Shrewsbury": {
+  "pais": "Inglaterra"
+ },
+ "Sigma Olomouc": {
+  "pais": "Tchéquia"
+ },
+ "Sileks Kratovo": {
+  "pais": "Macedônia do Norte"
+ },
+ "Silkeborg": {
+  "pais": "Dinamarca"
+ },
+ "Simba": {
+  "pais": "Tanzânia"
+ },
+ "Singida Black Stars": {
+  "pais": "Tanzânia"
+ },
+ "Singida Fountain Gate": {
+  "pais": "Tanzânia"
+ },
+ "Sinop": {
+  "pais": "Brasil"
+ },
+ "Sion": {
+  "pais": "Suíça"
+ },
+ "Siracusa": {
+  "pais": "Itália"
+ },
+ "Sivasspor": {
+  "pais": "Turquia"
+ },
+ "Siwelele": {
+  "pais": "África do Sul"
+ },
+ "Skála ÍF": {
+  "pais": "Ilhas Faroé"
+ },
+ "Slaven Belupo": {
+  "pais": "Croácia"
+ },
+ "Slavia Mozyr": {
+  "pais": "Belarus"
+ },
+ "Slavia Praga": {
+  "pais": "Tchéquia"
+ },
+ "Slavia Sofia": {
+  "pais": "Bulgária"
+ },
+ "Sligo Rovers": {
+  "pais": "Irlanda"
+ },
+ "Sloga Doboj": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "Slovan Bratislava": {
+  "pais": "Eslováquia"
+ },
+ "Slovan Liberec": {
+  "pais": "Tchéquia"
+ },
+ "Smouha SC": {
+  "pais": "Egito"
+ },
+ "Sobradinho": {
+  "pais": "Brasil"
+ },
+ "Sobradinho-DF": {
+  "pais": "Brasil"
+ },
+ "Sochaux": {
+  "pais": "França"
+ },
+ "Sochi": {
+  "pais": "Rússia"
+ },
+ "Socorrense": {
+  "pais": "Brasil"
+ },
+ "Socorro": {
+  "pais": "Brasil"
+ },
+ "Sogdiana Jizzakh": {
+  "pais": "Uzbequistão"
+ },
+ "Song Lam Nghe An": {
+  "pais": "Vietnã"
+ },
+ "Sorrento": {
+  "pais": "Itália"
+ },
+ "Sorriso EC": {
+  "pais": "Brasil"
+ },
+ "Sorriso FC": {
+  "pais": "Brasil"
+ },
+ "Sosa FC": {
+  "pais": "Ilhas Salomão"
+ },
+ "Sousa": {
+  "pais": "Brasil"
+ },
+ "South Melbourne": {
+  "pais": "Austrália"
+ },
+ "Southampton": {
+  "pais": "Inglaterra"
+ },
+ "Southern": {
+  "pais": "Hong Kong"
+ },
+ "Southern United": {
+  "pais": "Ilhas Salomão"
+ },
+ "Spaeri": {
+  "pais": "Geórgia"
+ },
+ "Spanish Town Police": {
+  "pais": "Jamaica"
+ },
+ "Sparta Praga": {
+  "pais": "Tchéquia"
+ },
+ "Sparta Rotterdam": {
+  "pais": "Holanda"
+ },
+ "Spartak Moscou": {
+  "pais": "Rússia"
+ },
+ "Spartak Trnava": {
+  "pais": "Eslováquia"
+ },
+ "Spartak Varna": {
+  "pais": "Bulgária"
+ },
+ "Spartanii Sportul": {
+  "pais": "Moldávia"
+ },
+ "Spartax": {
+  "pais": "Brasil"
+ },
+ "Spezia": {
+  "pais": "Itália"
+ },
+ "Sport": {
+  "pais": "Brasil"
+ },
+ "Sport Belém": {
+  "pais": "Brasil"
+ },
+ "Sport Boys": {
+  "pais": "Peru"
+ },
+ "Sport Huancayo": {
+  "pais": "Peru"
+ },
+ "Sport Sinop": {
+  "pais": "Brasil"
+ },
+ "Sport-ES": {
+  "pais": "Brasil"
+ },
+ "Sport-PB": {
+  "pais": "Brasil"
+ },
+ "Sport-PE": {
+  "pais": "Brasil"
+ },
+ "Sporting B": {
+  "pais": "Portugal"
+ },
+ "Sporting Charleroi": {
+  "pais": "Bélgica"
+ },
+ "Sporting Cristal": {
+  "pais": "Peru"
+ },
+ "Sporting Gijón": {
+  "pais": "Espanha"
+ },
+ "Sporting Kansas City": {
+  "pais": "Estados Unidos"
+ },
+ "Sporting-AL": {
+  "pais": "Brasil"
+ },
+ "Sporting-CRC": {
+  "pais": "Costa Rica"
+ },
+ "Sporting-POR": {
+  "pais": "Portugal"
+ },
+ "Sportivo Ameliano": {
+  "pais": "Paraguai"
+ },
+ "Sportivo Luqueño": {
+  "pais": "Paraguai"
+ },
+ "Sportivo Trinidense": {
+  "pais": "Paraguai"
+ },
+ "St. Gallen": {
+  "pais": "Suíça"
+ },
+ "St. Joseph's": {
+  "pais": "Gibraltar"
+ },
+ "St. Louis": {
+  "pais": "Estados Unidos"
+ },
+ "St. Mirren": {
+  "pais": "Escócia"
+ },
+ "St. Patrick's": {
+  "pais": "Irlanda"
+ },
+ "St. Pauli": {
+  "pais": "Alemanha"
+ },
+ "Stade Briochin": {
+  "pais": "França"
+ },
+ "Stade Tunisien": {
+  "pais": "Tunísia"
+ },
+ "Stal Mielec": {
+  "pais": "Polônia"
+ },
+ "Stal Rzeszow": {
+  "pais": "Polônia"
+ },
+ "Stallion Laguna": {
+  "pais": "Filipinas"
+ },
+ "Standard Liege": {
+  "pais": "Bélgica"
+ },
+ "Standard Liège": {
+  "pais": "Bélgica"
+ },
+ "Stellenbosch": {
+  "pais": "África do Sul"
+ },
+ "Stevenage": {
+  "pais": "Inglaterra"
+ },
+ "Stjarnan": {
+  "pais": "Islândia"
+ },
+ "Stockport": {
+  "pais": "Inglaterra"
+ },
+ "Stoke City": {
+  "pais": "Inglaterra"
+ },
+ "Strasbourg": {
+  "pais": "França"
+ },
+ "Struga": {
+  "pais": "Macedônia do Norte"
+ },
+ "Sturm Graz": {
+  "pais": "Áustria"
+ },
+ "Sturm Graz II": {
+  "pais": "Áustria"
+ },
+ "Stuttgart": {
+  "pais": "Alemanha"
+ },
+ "Stuttgart II": {
+  "pais": "Alemanha"
+ },
+ "Sua Flamingoes": {
+  "pais": "Botswana"
+ },
+ "Sukhothai": {
+  "pais": "Tailândia"
+ },
+ "Sul América": {
+  "pais": "Brasil"
+ },
+ "Sumgayit FK": {
+  "pais": "Azerbaijão"
+ },
+ "Sunderland": {
+  "pais": "Inglaterra"
+ },
+ "Supra du Québec": {
+  "pais": "Canadá"
+ },
+ "Surkhon Termez": {
+  "pais": "Uzbequistão"
+ },
+ "Sutjeska": {
+  "pais": "Montenegro"
+ },
+ "Suva FC": {
+  "pais": "Fiji"
+ },
+ "Suwon Bluewings": {
+  "pais": "Coréia do Sul"
+ },
+ "Suwon FC": {
+  "pais": "Coréia do Sul"
+ },
+ "Swansea City": {
+  "pais": "Inglaterra"
+ },
+ "Swedru All Blacks": {
+  "pais": "Gana"
+ },
+ "Swift Hesperange": {
+  "pais": "Luxemburgo"
+ },
+ "Swindon Town": {
+  "pais": "Inglaterra"
+ },
+ "Sydney FC": {
+  "pais": "Austrália"
+ },
+ "São Bento": {
+  "pais": "Brasil"
+ },
+ "São Bernardo": {
+  "pais": "Brasil"
+ },
+ "São Caetano": {
+  "pais": "Brasil"
+ },
+ "São Carlos": {
+  "pais": "Brasil"
+ },
+ "São Cristóvão": {
+  "pais": "Brasil"
+ },
+ "São Domingos": {
+  "pais": "Brasil"
+ },
+ "São Francisco-AC": {
+  "pais": "Brasil"
+ },
+ "São Francisco-PA": {
+  "pais": "Brasil"
+ },
+ "São Francisco-RR": {
+  "pais": "Brasil"
+ },
+ "São Gabrie": {
+  "pais": "Brasil"
+ },
+ "São Gabriel": {
+  "pais": "Brasil"
+ },
+ "São Gonçalo": {
+  "pais": "Brasil"
+ },
+ "São Joseense": {
+  "pais": "Brasil"
+ },
+ "São José-AP": {
+  "pais": "Brasil"
+ },
+ "São José-MA": {
+  "pais": "Brasil"
+ },
+ "São José-RS": {
+  "pais": "Brasil"
+ },
+ "São José-SP": {
+  "pais": "Brasil"
+ },
+ "São Luiz": {
+  "pais": "Brasil"
+ },
+ "São Luís": {
+  "pais": "Brasil"
+ },
+ "São Paulo": {
+  "pais": "Brasil"
+ },
+ "São Paulo Crystal": {
+  "pais": "Brasil"
+ },
+ "São Paulo-AP": {
+  "pais": "Brasil"
+ },
+ "São Paulo-RS": {
+  "pais": "Brasil"
+ },
+ "São Paulo-SP": {
+  "pais": "Brasil"
+ },
+ "São Raimundo-AM": {
+  "pais": "Brasil"
+ },
+ "São Raimundo-PA": {
+  "pais": "Brasil"
+ },
+ "São Raimundo-RR": {
+  "pais": "Brasil"
+ },
+ "São Salvador": {
+  "pais": "Angola"
+ },
+ "São-Carlense": {
+  "pais": "Brasil"
+ },
+ "Sébaco": {
+  "pais": "Nicarágua"
+ },
+ "Sønderjyske": {
+  "pais": "Dinamarca"
+ },
+ "Südtirol": {
+  "pais": "Itália"
+ },
+ "TPS": {
+  "pais": "Finlândia"
+ },
+ "TRA United": {
+  "pais": "Tanzânia"
+ },
+ "TS Galaxy": {
+  "pais": "África do Sul"
+ },
+ "Tafic": {
+  "pais": "Botswana"
+ },
+ "Tai Po": {
+  "pais": "Hong Kong"
+ },
+ "Taiarapu": {
+  "pais": "Taiti"
+ },
+ "Tailevu Naitasiri": {
+  "pais": "Fiji"
+ },
+ "Tala'ea El Gaish": {
+  "pais": "Egito"
+ },
+ "Talavera": {
+  "pais": "Espanha"
+ },
+ "Talleres": {
+  "pais": "Argentina"
+ },
+ "Tamarii Punaruu": {
+  "pais": "Taiti"
+ },
+ "Tamarii Puneruu": {
+  "pais": "Taiti"
+ },
+ "Tammeka": {
+  "pais": "Estônia"
+ },
+ "Tampines Rovers": {
+  "pais": "Singapura"
+ },
+ "Tanabi": {
+  "pais": "Brasil"
+ },
+ "Tanjong Pagar": {
+  "pais": "Singapura"
+ },
+ "Tanzania Prisons": {
+  "pais": "Tanzânia"
+ },
+ "Tapajós": {
+  "pais": "Brasil"
+ },
+ "Taquaritinga": {
+  "pais": "Brasil"
+ },
+ "Taquarussu": {
+  "pais": "Brasil"
+ },
+ "Tarazona": {
+  "pais": "Espanha"
+ },
+ "Tarumã": {
+  "pais": "Brasil"
+ },
+ "Tatran Prešov": {
+  "pais": "Eslováquia"
+ },
+ "Taubaté": {
+  "pais": "Brasil"
+ },
+ "Tauro": {
+  "pais": "Panamá"
+ },
+ "Taveirópolis": {
+  "pais": "Brasil"
+ },
+ "Team Altamura": {
+  "pais": "Itália"
+ },
+ "Tefana": {
+  "pais": "Taiti"
+ },
+ "Telstar": {
+  "pais": "Holanda"
+ },
+ "Temperley": {
+  "pais": "Argentina"
+ },
+ "Tenerife": {
+  "pais": "Espanha"
+ },
+ "Teplice": {
+  "pais": "Tchéquia"
+ },
+ "Terengganu": {
+  "pais": "Malásia"
+ },
+ "Teresina": {
+  "pais": "Brasil"
+ },
+ "Ternana": {
+  "pais": "Itália"
+ },
+ "Teruel": {
+  "pais": "Espanha"
+ },
+ "Tesla": {
+  "pais": "Brasil"
+ },
+ "Thanh Hóa": {
+  "pais": "Vietnã"
+ },
+ "The New Saints": {
+  "pais": "País de Gales"
+ },
+ "The Strongest": {
+  "pais": "Bolívia"
+ },
+ "Thun": {
+  "pais": "Suíça"
+ },
+ "Tianjin Jinmen Tiger": {
+  "pais": "China"
+ },
+ "Tigre": {
+  "pais": "Argentina"
+ },
+ "Tigres": {
+  "pais": "México"
+ },
+ "Tigres do Brasil": {
+  "pais": "Brasil"
+ },
+ "Tijuana": {
+  "pais": "México"
+ },
+ "Tikveš": {
+  "pais": "Macedônia do Norte"
+ },
+ "Timon": {
+  "pais": "Brasil"
+ },
+ "Tiradentes-CE": {
+  "pais": "Brasil"
+ },
+ "Tiradentes-PA": {
+  "pais": "Brasil"
+ },
+ "Tirol": {
+  "pais": "Brasil"
+ },
+ "Tivoli Gardens": {
+  "pais": "Jamaica"
+ },
+ "Tobol": {
+  "pais": "Cazaquistão"
+ },
+ "Tocantins": {
+  "pais": "Brasil"
+ },
+ "Tocantinópolis": {
+  "pais": "Brasil"
+ },
+ "Toledo": {
+  "pais": "Brasil"
+ },
+ "Tolima": {
+  "pais": "Colômbia"
+ },
+ "Toluca": {
+  "pais": "México"
+ },
+ "Tombense": {
+  "pais": "Brasil"
+ },
+ "Tondela": {
+  "pais": "Portugal"
+ },
+ "Tongliang Long": {
+  "pais": "China"
+ },
+ "Top OSS": {
+  "pais": "Holanda"
+ },
+ "Torino": {
+  "pais": "Itália"
+ },
+ "Toronto FC-CAN": {
+  "pais": "Canadá"
+ },
+ "Toronto FC-EUA": {
+  "pais": "Estados Unidos"
+ },
+ "Torpedo Kutaisi": {
+  "pais": "Geórgia"
+ },
+ "Torpedo-Belaz": {
+  "pais": "Belarus"
+ },
+ "Torreense": {
+  "pais": "Portugal"
+ },
+ "Torres": {
+  "pais": "Itália"
+ },
+ "Tottenham": {
+  "pais": "Inglaterra"
+ },
+ "Toulouse": {
+  "pais": "França"
+ },
+ "Township Rollers": {
+  "pais": "Botswana"
+ },
+ "Trabzonspor": {
+  "pais": "Turquia"
+ },
+ "Tractor": {
+  "pais": "Irã"
+ },
+ "Tranmere Rovers": {
+  "pais": "Inglaterra"
+ },
+ "Trapani": {
+  "pais": "Itália"
+ },
+ "Tre Fiori": {
+  "pais": "San Marino"
+ },
+ "Tre Penne": {
+  "pais": "San Marino"
+ },
+ "Treasure Beach": {
+  "pais": "Jamaica"
+ },
+ "Trem": {
+  "pais": "Brasil"
+ },
+ "Trento": {
+  "pais": "Itália"
+ },
+ "Treze": {
+  "pais": "Brasil"
+ },
+ "Triestina": {
+  "pais": "Itália"
+ },
+ "Trindade": {
+  "pais": "Brasil"
+ },
+ "Tristan Suárez": {
+  "pais": "Argentina"
+ },
+ "Tristán Suárez": {
+  "pais": "Argentina"
+ },
+ "Tromsø": {
+  "pais": "Noruega"
+ },
+ "Troyes": {
+  "pais": "França"
+ },
+ "Trujillanos": {
+  "pais": "Venezuela"
+ },
+ "Tubarão": {
+  "pais": "Brasil"
+ },
+ "Tuloy": {
+  "pais": "Filipinas"
+ },
+ "Tuna Luso": {
+  "pais": "Brasil"
+ },
+ "Tuntum": {
+  "pais": "Brasil"
+ },
+ "Tupan": {
+  "pais": "Brasil"
+ },
+ "Tupi-MG": {
+  "pais": "Brasil"
+ },
+ "Tupy": {
+  "pais": "Brasil"
+ },
+ "Tupã": {
+  "pais": "Brasil"
+ },
+ "Turan Tovuz": {
+  "pais": "Azerbaijão"
+ },
+ "Twente": {
+  "pais": "Holanda"
+ },
+ "UCV": {
+  "pais": "Venezuela"
+ },
+ "UE Santa Coloma": {
+  "pais": "Andorra"
+ },
+ "UN Käerjéng": {
+  "pais": "Luxemburgo"
+ },
+ "UNA Strassen": {
+  "pais": "Luxemburgo"
+ },
+ "URT": {
+  "pais": "Brasil"
+ },
+ "US Hostert": {
+  "pais": "Luxemburgo"
+ },
+ "US Mondorf": {
+  "pais": "Luxemburgo"
+ },
+ "USM Alger": {
+  "pais": "Argélia"
+ },
+ "USM Khenchela": {
+  "pais": "Argélia"
+ },
+ "USV Eschen/Mauren": {
+  "pais": "Liechtenstein"
+ },
+ "USYM": {
+  "pais": "Marrocos"
+ },
+ "UTA Arad": {
+  "pais": "Romênia"
+ },
+ "UTC": {
+  "pais": "Peru"
+ },
+ "UberLÂNDIA": {
+  "pais": "Brasil"
+ },
+ "Uberaba": {
+  "pais": "Brasil"
+ },
+ "Uberlândia": {
+  "pais": "Brasil"
+ },
+ "Udinese": {
+  "pais": "Itália"
+ },
+ "Uirapuru": {
+  "pais": "Brasil"
+ },
+ "Ulm": {
+  "pais": "Alemanha"
+ },
+ "Ulsan HD": {
+  "pais": "Coréia do Sul"
+ },
+ "Ulytau": {
+  "pais": "Cazaquistão"
+ },
+ "Umecit": {
+  "pais": "Panamá"
+ },
+ "Umm Salal": {
+  "pais": "Catar"
+ },
+ "Unan Managua": {
+  "pais": "Nicarágua"
+ },
+ "Uni Souza": {
+  "pais": "Brasil"
+ },
+ "Unidos do Alvorada": {
+  "pais": "Brasil"
+ },
+ "Union Berlin": {
+  "pais": "Alemanha"
+ },
+ "Union Brescia": {
+  "pais": "Itália"
+ },
+ "Union SG": {
+  "pais": "Bélgica"
+ },
+ "Union Titus Pétange": {
+  "pais": "Luxemburgo"
+ },
+ "Union de Touarga": {
+  "pais": "Marrocos"
+ },
+ "Unionistas de Salamanca": {
+  "pais": "Espanha"
+ },
+ "Unirea Slobozia": {
+  "pais": "Romênia"
+ },
+ "Univap": {
+  "pais": "Brasil"
+ },
+ "Univassouras Artsul": {
+  "pais": "Brasil"
+ },
+ "Universidad Católica-CHL": {
+  "pais": "Chile"
+ },
+ "Universidad Católica-EQU": {
+  "pais": "Equador"
+ },
+ "Universidad de Chile": {
+  "pais": "Chile"
+ },
+ "Universidad de Concepción": {
+  "pais": "Chile"
+ },
+ "Universitario-BOL": {
+  "pais": "Bolívia"
+ },
+ "Universitario-PAN": {
+  "pais": "Panamá"
+ },
+ "Universitario-PER": {
+  "pais": "Peru"
+ },
+ "Universitatea Cluj": {
+  "pais": "Romênia"
+ },
+ "Universitatea Craiova": {
+  "pais": "Romênia"
+ },
+ "União ABC": {
+  "pais": "Brasil"
+ },
+ "União Barbarense": {
+  "pais": "Brasil"
+ },
+ "União Cacoalense": {
+  "pais": "Brasil"
+ },
+ "União Central": {
+  "pais": "Brasil"
+ },
+ "União Frederiquense": {
+  "pais": "Brasil"
+ },
+ "União Leiria": {
+  "pais": "Portugal"
+ },
+ "União Luziense": {
+  "pais": "Brasil"
+ },
+ "União Mogi": {
+  "pais": "Brasil"
+ },
+ "União Paraense": {
+  "pais": "Brasil"
+ },
+ "União Rondonópolis": {
+  "pais": "Brasil"
+ },
+ "União Suzano": {
+  "pais": "Brasil"
+ },
+ "União São João": {
+  "pais": "Brasil"
+ },
+ "União de Araguaína": {
+  "pais": "Brasil"
+ },
+ "União de Palmas": {
+  "pais": "Brasil"
+ },
+ "União-PR": {
+  "pais": "Brasil"
+ },
+ "Unión": {
+  "pais": "Argentina"
+ },
+ "Unión Coclé": {
+  "pais": "Panamá"
+ },
+ "Unión La Calera": {
+  "pais": "Chile"
+ },
+ "Urartu": {
+  "pais": "Armênia"
+ },
+ "Urumajó": {
+  "pais": "Brasil"
+ },
+ "Uthai Thani": {
+  "pais": "Tailândia"
+ },
+ "Utrecht": {
+  "pais": "Holanda"
+ },
+ "VPS": {
+  "pais": "Finlândia"
+ },
+ "VVV Venlo": {
+  "pais": "Holanda"
+ },
+ "Vaduz": {
+  "pais": "Liechtenstein"
+ },
+ "Vakhsh": {
+  "pais": "Tajiquistão"
+ },
+ "Valencia": {
+  "pais": "Espanha"
+ },
+ "Valenciennes": {
+  "pais": "França"
+ },
+ "Valenzuela": {
+  "pais": "Filipinas"
+ },
+ "Valeriodoce": {
+  "pais": "Brasil"
+ },
+ "Valletta": {
+  "pais": "Malta"
+ },
+ "Valur": {
+  "pais": "Islândia"
+ },
+ "Van": {
+  "pais": "Armênia"
+ },
+ "Vancouver FC": {
+  "pais": "Canadá"
+ },
+ "Vancouver Whitecaps-CAN": {
+  "pais": "Canadá"
+ },
+ "Vancouver Whitecaps-EUA": {
+  "pais": "Estados Unidos"
+ },
+ "Vanspor": {
+  "pais": "Turquia"
+ },
+ "Vardar Skopje": {
+  "pais": "Macedônia do Norte"
+ },
+ "Varginha": {
+  "pais": "Brasil"
+ },
+ "Vasco": {
+  "pais": "Brasil"
+ },
+ "Vasco-AC": {
+  "pais": "Brasil"
+ },
+ "Vasco-RJ": {
+  "pais": "Brasil"
+ },
+ "Vejle": {
+  "pais": "Dinamarca"
+ },
+ "Velež Mostar": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "Velo Clube": {
+  "pais": "Brasil"
+ },
+ "Venezia": {
+  "pais": "Itália"
+ },
+ "Venus": {
+  "pais": "Taiti"
+ },
+ "Vera Cruz": {
+  "pais": "Brasil"
+ },
+ "Veraguas United": {
+  "pais": "Panamá"
+ },
+ "Veranópolis": {
+  "pais": "Brasil"
+ },
+ "Verl": {
+  "pais": "Alemanha"
+ },
+ "Versailles": {
+  "pais": "França"
+ },
+ "Viana": {
+  "pais": "Brasil"
+ },
+ "Viborg": {
+  "pais": "Dinamarca"
+ },
+ "Vicenza": {
+  "pais": "Itália"
+ },
+ "Victoria Rosport": {
+  "pais": "Luxemburgo"
+ },
+ "Viettel": {
+  "pais": "Vietnã"
+ },
+ "Viking": {
+  "pais": "Noruega"
+ },
+ "Viktoria Köln": {
+  "pais": "Alemanha"
+ },
+ "Viktoria Plzen": {
+  "pais": "Tchéquia"
+ },
+ "Vila Nova": {
+  "pais": "Brasil"
+ },
+ "Vila Nova-GO": {
+  "pais": "Brasil"
+ },
+ "Vila Real": {
+  "pais": "Brasil"
+ },
+ "Vila Rica": {
+  "pais": "Brasil"
+ },
+ "Vilavelhense": {
+  "pais": "Brasil"
+ },
+ "Vilhena": {
+  "pais": "Brasil"
+ },
+ "Villa Nova": {
+  "pais": "Brasil"
+ },
+ "Villarreal": {
+  "pais": "Espanha"
+ },
+ "Villarreal B": {
+  "pais": "Espanha"
+ },
+ "Villefranche": {
+  "pais": "França"
+ },
+ "Virtus": {
+  "pais": "San Marino"
+ },
+ "Virtus Entella": {
+  "pais": "Itália"
+ },
+ "Virtus Verona": {
+  "pais": "Itália"
+ },
+ "Vis Pesaro": {
+  "pais": "Itália"
+ },
+ "Vision FC": {
+  "pais": "Gana"
+ },
+ "Visão Celeste": {
+  "pais": "Brasil"
+ },
+ "Vitebsk": {
+  "pais": "Belarus"
+ },
+ "Vitesse": {
+  "pais": "Holanda"
+ },
+ "Vitória": {
+  "pais": "Brasil"
+ },
+ "Vitória da Conquista": {
+  "pais": "Brasil"
+ },
+ "Vitória de Guimarães": {
+  "pais": "Portugal"
+ },
+ "Vitória-BA": {
+  "pais": "Brasil"
+ },
+ "Vitória-ES": {
+  "pais": "Brasil"
+ },
+ "Vitória-PE": {
+  "pais": "Brasil"
+ },
+ "Vizela": {
+  "pais": "Portugal"
+ },
+ "Vocem": {
+  "pais": "Brasil"
+ },
+ "Vojvodina": {
+  "pais": "Sérvia"
+ },
+ "Volendam": {
+  "pais": "Holanda"
+ },
+ "Volos": {
+  "pais": "Grécia"
+ },
+ "Volta Redonda": {
+  "pais": "Brasil"
+ },
+ "Votoraty": {
+  "pais": "Brasil"
+ },
+ "Votuporanguense": {
+  "pais": "Brasil"
+ },
+ "Vukovar 91": {
+  "pais": "Croácia"
+ },
+ "Várzea Grande": {
+  "pais": "Brasil"
+ },
+ "Västerås": {
+  "pais": "Suécia"
+ },
+ "Vålerenga": {
+  "pais": "Noruega"
+ },
+ "Vélez": {
+  "pais": "Argentina"
+ },
+ "Vênus": {
+  "pais": "Brasil"
+ },
+ "Víkingur-FAR": {
+  "pais": "Ilhas Faroé"
+ },
+ "Víkingur-ISL": {
+  "pais": "Islândia"
+ },
+ "WSG Tirol": {
+  "pais": "Áustria"
+ },
+ "Waalwijk": {
+  "pais": "Holanda"
+ },
+ "Wadi Degla": {
+  "pais": "Egito"
+ },
+ "Wakriya": {
+  "pais": "Guiné"
+ },
+ "Waldhof Manheim": {
+  "pais": "Alemanha"
+ },
+ "Walsall": {
+  "pais": "Inglaterra"
+ },
+ "Walter Ferretti": {
+  "pais": "Nicarágua"
+ },
+ "Waneagu United": {
+  "pais": "Ilhas Salomão"
+ },
+ "Warri Wolves": {
+  "pais": "Nigéria"
+ },
+ "Waterford": {
+  "pais": "Irlanda"
+ },
+ "Waterhouse": {
+  "pais": "Jamaica"
+ },
+ "Watford": {
+  "pais": "Inglaterra"
+ },
+ "Wehen Wiesbaden": {
+  "pais": "Alemanha"
+ },
+ "Wellington Olympic": {
+  "pais": "Nova Zelândia"
+ },
+ "Wellington Phoenix": {
+  "pais": "Austrália"
+ },
+ "Wellington Phoenix Reserves": {
+  "pais": "Nova Zelândia"
+ },
+ "Werder Bremen": {
+  "pais": "Alemanha"
+ },
+ "West Brom": {
+  "pais": "Inglaterra"
+ },
+ "West Ham": {
+  "pais": "Inglaterra"
+ },
+ "Western Springs": {
+  "pais": "Nova Zelândia"
+ },
+ "Western Suburbs": {
+  "pais": "Nova Zelândia"
+ },
+ "Western Sydney Wanderers": {
+  "pais": "Austrália"
+ },
+ "Widzew Łódź": {
+  "pais": "Polônia"
+ },
+ "Wieczysta Kraków": {
+  "pais": "Polônia"
+ },
+ "Wigan Athletic": {
+  "pais": "Inglaterra"
+ },
+ "Wikki Tourists": {
+  "pais": "Nigéria"
+ },
+ "Wiliete": {
+  "pais": "Angola"
+ },
+ "Willem II": {
+  "pais": "Holanda"
+ },
+ "Wimbledon": {
+  "pais": "Inglaterra"
+ },
+ "Wisła Kraków": {
+  "pais": "Polônia"
+ },
+ "Wisła Płock": {
+  "pais": "Polônia"
+ },
+ "Wolfsberger": {
+  "pais": "Áustria"
+ },
+ "Wolfsburg": {
+  "pais": "Alemanha"
+ },
+ "Wolves": {
+  "pais": "Inglaterra"
+ },
+ "Wrexham": {
+  "pais": "Inglaterra"
+ },
+ "Wuhan Three Towns": {
+  "pais": "China"
+ },
+ "Wycombe Wanderers": {
+  "pais": "Inglaterra"
+ },
+ "Wydad": {
+  "pais": "Marrocos"
+ },
+ "XV de Jaú": {
+  "pais": "Brasil"
+ },
+ "XV de Piracicaba": {
+  "pais": "Brasil"
+ },
+ "Xelajú": {
+  "pais": "Guatemala"
+ },
+ "Yelimay": {
+  "pais": "Cazaquistão"
+ },
+ "Yongin FC": {
+  "pais": "Coréia do Sul"
+ },
+ "Young Africans": {
+  "pais": "Tanzânia"
+ },
+ "Young Apostles": {
+  "pais": "Gana"
+ },
+ "Young Boys": {
+  "pais": "Suíça"
+ },
+ "Young Lions": {
+  "pais": "Singapura"
+ },
+ "Ypiranga": {
+  "pais": "Brasil"
+ },
+ "Ypiranga-AP": {
+  "pais": "Brasil"
+ },
+ "Ypiranga-BA": {
+  "pais": "Brasil"
+ },
+ "Ypiranga-PE": {
+  "pais": "Brasil"
+ },
+ "Ypiranga-RS": {
+  "pais": "Brasil"
+ },
+ "Yunnan Yukun": {
+  "pais": "China"
+ },
+ "ZED": {
+  "pais": "Egito"
+ },
+ "Zagłębie Lubin": {
+  "pais": "Polônia"
+ },
+ "Zakho": {
+  "pais": "Iraque"
+ },
+ "Zalaegerszeg": {
+  "pais": "Hungria"
+ },
+ "Zamalek": {
+  "pais": "Egito"
+ },
+ "Zamora-ESP": {
+  "pais": "Espanha"
+ },
+ "Zamora-VEN": {
+  "pais": "Venezuela"
+ },
+ "Zanaco": {
+  "pais": "Zâmbia"
+ },
+ "Zarzis": {
+  "pais": "Tunísia"
+ },
+ "Zemplín Michalovce": {
+  "pais": "Eslováquia"
+ },
+ "Zenit": {
+  "pais": "Rússia"
+ },
+ "Zesco United": {
+  "pais": "Zâmbia"
+ },
+ "Zhejiang": {
+  "pais": "China"
+ },
+ "Zimbru": {
+  "pais": "Moldávia"
+ },
+ "Zira FK": {
+  "pais": "Azerbaijão"
+ },
+ "Zlín": {
+  "pais": "Tchéquia"
+ },
+ "Znicz Pruszków": {
+  "pais": "Polônia"
+ },
+ "Zob Ahan": {
+  "pais": "Irã"
+ },
+ "Zorya Lugansk": {
+  "pais": "Ucrânia"
+ },
+ "Zrinjski Mostar": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "Zulte Waregem": {
+  "pais": "Bélgica"
+ },
+ "Zumbi": {
+  "pais": "Brasil"
+ },
+ "Água Santa": {
+  "pais": "Brasil"
+ },
+ "Águia": {
+  "pais": "Brasil"
+ },
+ "Águia Negra": {
+  "pais": "Brasil"
+ },
+ "Águia de Marabá": {
+  "pais": "Brasil"
+ },
+ "Águilas Doradas": {
+  "pais": "Colômbia"
+ },
+ "Árabe Unido": {
+  "pais": "Panamá"
+ },
+ "Çorum": {
+  "pais": "Turquia"
+ },
+ "Étoile du Sahel": {
+  "pais": "Tunísia"
+ },
+ "ÍA": {
+  "pais": "Islândia"
+ },
+ "ÍBV": {
+  "pais": "Islândia"
+ },
+ "Íbis": {
+  "pais": "Brasil"
+ },
+ "Ñublense": {
+  "pais": "Chile"
+ },
+ "Örgryte": {
+  "pais": "Suécia"
+ },
+ "Újpest": {
+  "pais": "Hungria"
+ },
+ "Ümraniyespor": {
+  "pais": "Turquia"
+ },
+ "Þór Akureyri": {
+  "pais": "Islândia"
+ },
+ "Čukarički": {
+  "pais": "Sérvia"
+ },
+ "Ħamrun Spartans": {
+  "pais": "Malta"
+ },
+ "İmişli": {
+  "pais": "Azerbaijão"
+ },
+ "İstanbul Başakşehir": {
+  "pais": "Turquia"
+ },
+ "İstanbulspor": {
+  "pais": "Turquia"
+ },
+ "ŁKS Łódź": {
+  "pais": "Polônia"
+ },
+ "Śląsk Wrocław": {
+  "pais": "Polônia"
+ },
+ "Široki Brijeg": {
+  "pais": "Bósnia e Herzegovina"
+ },
+ "Žalgiris": {
+  "pais": "Lituânia"
+ },
+ "Železničar": {
+  "pais": "Sérvia"
+ },
+ "Željezničar": {
+  "pais": "Bósnia e Herzegovina"
+ }
+}

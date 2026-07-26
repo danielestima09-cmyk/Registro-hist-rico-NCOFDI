@@ -88,3 +88,22 @@ Universidad Católica
 Universitario
 Victoria
 Wanderers
+
+# Homônimos detectados nas tabelas das planilhas.
+Al Ahli
+Al Arabi
+Al Ittihad
+Al Nasr
+Al Shabab
+Alianza
+Aurora
+Bohemians
+CF Montréal
+Fortaleza
+Libertad
+Platense
+San Lorenzo
+Toronto FC
+Vancouver Whitecaps
+Víkingur
+Zamora

@@ -17,7 +17,9 @@ Cobertura atual: **9 seções, 154 locais e 357 competições** — as ligas e c
 ## Conferir os dados
 
 ```bash
-python3 checar.py    # valida os JSON, aponta grafias divergentes e escudos faltando
+python3 ferramentas/gerar_clubes.py --aplicar   # país de cada clube, a partir das planilhas
+python3 ferramentas/importar.py --aplicar       # importa os campeões
+python3 checar.py                               # valida tudo
 ```
 
 ## Cadastrar campeões

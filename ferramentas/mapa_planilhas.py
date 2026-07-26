@@ -138,3 +138,17 @@ BRASILEIROS = {
     "Regionais":      ("copas-regionais", ["Copa Sul-Sudeste", "Copa do Nordeste",
                                            "Copa Norte", "Copa Centro-Oeste", "Copa Verde"]),
 }
+
+
+# ---------------------------------------------------------------------------
+# Clubes que não aparecem em nenhuma aba de país (só como campeões
+# continentais), ou cujo nome-base é ambíguo entre países.
+# nome escrito na planilha -> (nome canônico no site, país de origem)
+CLUBES_MANUAIS = {
+    # Campeão da AFC Champions League Elite; o Japão não está nas planilhas.
+    "Machida Zelvia": ("Machida Zelvia", "Japão"),
+    # Clube australiano que disputa a OFC neste universo.
+    "South Melbourne": ("South Melbourne", "Austrália"),
+    # Copa Centroamericana: é o Aurora da Guatemala, não o da Bolívia.
+    "Aurora": ("Aurora-GUA", "Guatemala"),
+}
