@@ -271,6 +271,13 @@ POSICAO_NA_CELULA = {
     # a célula do Cazaquistão tem o logotipo da UEFA antes do escudo
     ("europeias", 1, "slide1", "cazaquistao"): 1,
     ("europeias", 1, "slide8", "cazaquistao"): 1,
+    # No Ano 1 estes países mostram dois escudos: à esquerda o campeão do
+    # Apertura, que terminou antes de as simulações começarem e não conta como
+    # título do NCOFDI, e à direita o do Clausura, que é o que vale.
+    ("concacaf", 1, "slide1", "costa-rica"): 1,
+    ("concacaf", 1, "slide1", "honduras"): 1,
+    ("concacaf", 1, "slide1", "mexico"): 1,
+    ("concacaf", 1, "slide1", "nicaragua"): 1,
 }
 
 PLANO_PROMOVIDOS = {
