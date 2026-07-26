@@ -141,7 +141,8 @@
   "pais": "Gana"
  },
  "Afogados": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escudo": "afogados.gif"
  },
  "Agrimaq": {
   "pais": "Brasil"
@@ -2081,7 +2082,8 @@
   "pais": "Uruguai"
  },
  "Darmstadt": {
-  "pais": "Alemanha"
+  "pais": "Alemanha",
+  "escudo": "darmstadt.svg"
  },
  "De Graafschap": {
   "pais": "Holanda"
@@ -3610,7 +3612,8 @@
   "pais": "Brasil"
  },
  "Itapipoca": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escudo": "itapipoca.gif"
  },
  "Itapirense": {
   "pais": "Brasil"
@@ -6861,7 +6864,8 @@
   "pais": "Paraguai"
  },
  "Sportivo Trinidense": {
-  "pais": "Paraguai"
+  "pais": "Paraguai",
+  "escudo": "sportivo-trinidense.svg"
  },
  "St. Gallen": {
   "pais": "Suíça"

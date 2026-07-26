@@ -25,7 +25,6 @@ NS = {'a': 'http://schemas.openxmlformats.org/drawingml/2006/main',
 EMU = 9525                      # EMU por pixel
 LARG_BANNER = 250               # acima disso é decoração, não escudo
 PROPORCAO_MAX = 1.30            # acima disso é bandeira de país, não escudo
-FRACAO_MIN = 0.40               # abaixo desta fração da mediana, é bandeira
 
 
 def slug(t):
@@ -108,16 +107,32 @@ def escudos_em_ordem(z, slide):
     esparsa — e sim a proporção: bandeiras são nitidamente retangulares
     (~1,4 de largura por altura) e escudos são quase quadrados (≤1,15).
     """
-    imgs = [i for i in imagens_do_slide(z, slide)
-            if i[2] < LARG_BANNER and i[3] and i[2] / i[3] <= PROPORCAO_MAX]
-    # Algumas bandeiras chegam a 1,29 de proporção e escapariam do filtro.
-    # Elas são sempre muito menores que os escudos do mesmo slide, então
-    # descarto o que estiver bem abaixo da mediana das larguras.
-    if imgs:
-        larg = sorted(i[2] for i in imgs)
-        mediana = larg[len(larg) // 2]
-        imgs = [i for i in imgs if i[2] >= mediana * FRACAO_MIN]
+    todas = [i for i in imagens_do_slide(z, slide) if i[2] < LARG_BANNER]
+    tam = _tamanho_das_bandeiras(todas)
+    imgs = [i for i in todas
+            if not _eh_bandeira(i, tam) and i[3] and i[2] / i[3] <= PROPORCAO_MAX]
     return _ordem_de_leitura(imgs)
+
+
+def _tamanho_das_bandeiras(imgs):
+    """(largura, altura) das bandeiras do slide, ou None.
+
+    Todas as bandeiras de um slide entram no mesmo tamanho, então formam o
+    grupo repetido de imagens pequenas e mais largas que altas. É um critério
+    melhor que cortar por tamanho relativo: há escudos pequenos — o da célula
+    da Argentina tem 24x37 — que um corte por tamanho descartaria, e aí eles
+    viravam "bandeira" e criavam uma célula fantasma.
+    """
+    cont = collections.Counter((i[2], i[3]) for i in imgs
+                               if i[2] <= 25 and i[3] and i[2] / i[3] > 1.15)
+    if not cont:
+        return None
+    (larg, alt), _n = cont.most_common(1)[0]
+    return (larg, alt)
+
+
+def _eh_bandeira(img, tam):
+    return tam is not None and abs(img[2] - tam[0]) <= 2 and abs(img[3] - tam[1]) <= 2
 
 
 def _ordem_de_leitura(imgs, tolerancia=40):
@@ -152,10 +167,17 @@ def bandeiras_em_ordem(z, slide):
     ou a menos desalinharia todo o resto do slide — foi o que aconteceu quando
     a "Tabela Geral da Liga" da Argentina não apareceu no slide.
     """
-    escudos = {(e[0], e[1], e[4]) for e in escudos_em_ordem(z, slide)}
-    imgs = [i for i in imagens_do_slide(z, slide)
-            if i[2] < LARG_BANNER and (i[0], i[1], i[4]) not in escudos and i[2] < 60]
-    return _ordem_de_leitura(imgs)
+    todas = [i for i in imagens_do_slide(z, slide) if i[2] < LARG_BANNER]
+    imgs = [i for i in todas if _eh_bandeira(i, _tamanho_das_bandeiras(todas))]
+    # a mesma bandeira às vezes vem duplicada na mesma posição (PNG + SVG),
+    # o que contaria como duas células
+    vistas, unicas = set(), []
+    for i in _ordem_de_leitura(imgs):
+        chave = (round(i[0] / EMU), round(i[1] / EMU))
+        if chave not in vistas:
+            vistas.add(chave)
+            unicas.append(i)
+    return unicas
 
 
 def celulas_por_pais(z, slide):
@@ -253,8 +275,9 @@ PLANO_PROMOVIDOS = {
     ("europeias", 1, "slide5"): ("europa", "3ª Divisão"),
     ("europeias", 1, "slide7"): ("europa", "4ª Divisão"),
     ("asiáticas", 1, "slide3"): ("asia", "2ª Divisão"),
-    ("sulamericanas", 1, "slide3"): ("america-do-sul", "2ª Divisão"),
-    ("sulamericanas", 2, "slide3"): ("america-do-sul", "2ª Divisão"),
+    # A América do Sul tem só a Argentina com 2ª divisão, então esse slide tem
+    # uma bandeira única — sem uma segunda célula para comparar, a decoração do
+    # canto entra junto e não há como distingui-la com segurança. Fica de fora.
 }
 
 
@@ -282,12 +305,13 @@ ESCUDOS_ERRADOS_NA_FONTE = {
 
 PLANO_MANUAL = {
     ("continentais", 1, "slide1"): [
-        (0, "afc", "AFC Champions League Elite"),
-        (1, "caf", "CAF Champions League"),
-        (2, "concacaf", "Concacaf Champions Cup"),
-        (3, "conmebol", "Copa Libertadores"),
-        (4, "ofc", "OFC Professional League"),
-        (5, "uefa", "UEFA Champions League"),
+        # cada escudo é precedido pelo logotipo da confederação
+        (1, "afc", "AFC Champions League Elite"),
+        (3, "caf", "CAF Champions League"),
+        (5, "concacaf", "Concacaf Champions Cup"),
+        (7, "conmebol", "Copa Libertadores"),
+        (9, "ofc", "OFC Professional League"),
+        (11, "uefa", "UEFA Champions League"),
     ],
     ("continentais", 1, "slide3"): [
         (0, "intercontinental", "Copa Intercontinental"),
@@ -297,16 +321,16 @@ PLANO_MANUAL = {
         (2, "brasil-nacional", "Brasileirão Série B"),
         (3, "brasil-nacional", "Brasileirão Série C"),
         (4, "brasil-nacional", "Brasileirão Série D"),
-        (5, "brasil-nacional", "Copa do Brasil"),
-        (7, "brasil-nacional", "Supercopa do Brasil"),
+        (6, "brasil-nacional", "Copa do Brasil"),      # 5 = troféu da Copa
+        (8, "brasil-nacional", "Supercopa do Brasil"),  # 7 = troféu da Supercopa
     ],
     ("brasileiras", 2, "slide1"): [
         (1, "brasil-nacional", "Brasileirão Série A"),
         (2, "brasil-nacional", "Brasileirão Série B"),
         (3, "brasil-nacional", "Brasileirão Série C"),
         (4, "brasil-nacional", "Brasileirão Série D"),
-        (5, "brasil-nacional", "Copa do Brasil"),
-        (7, "brasil-nacional", "Supercopa do Brasil"),
+        (6, "brasil-nacional", "Copa do Brasil"),      # 5 = troféu da Copa
+        (8, "brasil-nacional", "Supercopa do Brasil"),  # 7 = troféu da Supercopa
     ],
 }
 
