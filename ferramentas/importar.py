@@ -396,6 +396,12 @@ def main():
         print("\n[simulação] rode com --aplicar para gravar")
         return
 
+    for lid, nome_comp, temp, clube in getattr(M, "CAMPEOES_MANUAIS", []):
+        cid = locais[lid][2].get(norm(nome_comp))
+        if cid:
+            finais.append((lid, cid, nome_comp, clube, "manual", "-", temp, "manual"))
+            print(f"   + {clube} — {nome_comp} {temp} (dos slides, ausente na planilha)")
+
     porarq = collections.defaultdict(list)
     for lid, cid, _nc, clube, _b, _a, temp, _o in finais:
         porarq[lid].append((cid, temp, clube))

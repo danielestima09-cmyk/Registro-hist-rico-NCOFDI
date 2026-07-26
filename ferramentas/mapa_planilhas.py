@@ -159,3 +159,19 @@ CLUBES_MANUAIS = {
     "Flamengo": ("Flamengo-RJ", "Brasil"),
     "Vitória": ("Vitória-BA", "Brasil"),
 }
+
+
+# ---------------------------------------------------------------------------
+# Campeões que aparecem nos slides mas não nas planilhas.
+# No Ano 1 as abas de Costa Rica, Honduras, México e Nicarágua trazem só o
+# Clausura, enquanto o slide mostra dois escudos por país. O da direita bate
+# exatamente com o campeão da planilha em todos os quatro casos, o que
+# confirma a regra do autor: à esquerda o Apertura, à direita o Clausura.
+# Os clubes abaixo foram identificados pelo escudo e conferidos no índice de
+# clubes montado a partir das tabelas das planilhas.
+CAMPEOES_MANUAIS = [
+    ("costa-rica", "Costa Rica Primera División — Apertura", "2026", "Alajuelense"),
+    ("honduras",   "Honduras Liga Nacional — Apertura",      "2026", "Olimpia-HON"),
+    ("mexico",     "Liga MX — Apertura",                     "2026", "Toluca"),
+    ("nicaragua",  "Nicarágua Primera División — Apertura",  "2026", "Diriangén"),
+]

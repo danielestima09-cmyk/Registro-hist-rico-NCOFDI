@@ -265,6 +265,14 @@ PLANO = {
 # Slides de PROMOVIDOS: mostram quem subiu de divisão, e o campeão está entre
 # eles. Regra do autor: com 2 escudos, o campeão é o mais à esquerda; com 3, o
 # mais em cima. Com 1, é ele mesmo. Com 4 ou mais, não dá para decidir.
+# Células que trazem uma imagem a mais além dos escudos. O valor é o índice
+# do escudo dentro da célula.
+POSICAO_NA_CELULA = {
+    # a célula do Cazaquistão tem o logotipo da UEFA antes do escudo
+    ("europeias", 1, "slide1", "cazaquistao"): 1,
+    ("europeias", 1, "slide8", "cazaquistao"): 1,
+}
+
 PLANO_PROMOVIDOS = {
     ("estaduais", 1, "slide3"): ("brasil", "2ª Divisão"),
     ("estaduais", 2, "slide3"): ("brasil", "2ª Divisão"),
@@ -452,6 +460,9 @@ def main():
             pulados.append(f"{origem}: {len(grupos)} bandeiras para {len(locais)} locais")
             continue
         for grupo, (lid, campeoes) in zip(grupos, locais):
+            pos = POSICAO_NA_CELULA.get((pres, ano, sl, lid))
+            if pos is not None and len(grupo) > pos:
+                grupo = [grupo[pos]]
             if len(grupo) != len(campeoes):
                 if grupo or campeoes:
                     pulados.append(f"{origem} · {lid}: {len(grupo)} escudo(s) "
@@ -558,7 +569,10 @@ def main():
         destino = os.path.join(DESTINO, nome)
         # arquivos colocados à mão têm prioridade: são a correção de um escudo
         # errado ou ausente na apresentação. Só --forcar sobrescreve.
-        if os.path.exists(destino) and not forcar:
+        # A comparação é pelo nome-base: se já existe um .png do clube, não
+        # adianta gravar o .svg ao lado — os dois ficariam na pasta.
+        existente = glob.glob(os.path.join(DESTINO, glob.escape(slug(clube)) + ".*"))
+        if existente and not forcar:
             preservados.append(nome)
             continue
         with open(destino, "wb") as f:
