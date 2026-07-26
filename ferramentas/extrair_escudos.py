@@ -215,6 +215,40 @@ PLANO = {
 }
 
 
+# Slides que não são grade de países: a posição de cada escudo é fixa e foi
+# conferida visualmente. O índice é a ordem de leitura dentro do slide; os que
+# faltam na sequência são logotipos de seção (CBF, Supercopa, confederações).
+PLANO_MANUAL = {
+    ("continentais", 1, "slide1"): [
+        (0, "afc", "AFC Champions League Elite"),
+        (1, "caf", "CAF Champions League"),
+        (2, "concacaf", "Concacaf Champions Cup"),
+        (3, "conmebol", "Copa Libertadores"),
+        (4, "ofc", "OFC Professional League"),
+        (5, "uefa", "UEFA Champions League"),
+    ],
+    ("continentais", 1, "slide3"): [
+        (0, "intercontinental", "Copa Intercontinental"),
+    ],
+    ("brasileiras", 1, "slide1"): [
+        (1, "brasil-nacional", "Brasileirão Série A"),
+        (2, "brasil-nacional", "Brasileirão Série B"),
+        (3, "brasil-nacional", "Brasileirão Série C"),
+        (4, "brasil-nacional", "Brasileirão Série D"),
+        (5, "brasil-nacional", "Copa do Brasil"),
+        (7, "brasil-nacional", "Supercopa do Brasil"),
+    ],
+    ("brasileiras", 2, "slide1"): [
+        (1, "brasil-nacional", "Brasileirão Série A"),
+        (2, "brasil-nacional", "Brasileirão Série B"),
+        (3, "brasil-nacional", "Brasileirão Série C"),
+        (4, "brasil-nacional", "Brasileirão Série D"),
+        (5, "brasil-nacional", "Copa do Brasil"),
+        (7, "brasil-nacional", "Supercopa do Brasil"),
+    ],
+}
+
+
 def _campeoes_por_local(secao_id, temporada, tipos, so_primeira, est, comp):
     """[(local, [campeões])] na ORDEM ALFABÉTICA do nome do país.
 
@@ -303,6 +337,31 @@ def main():
                     conflitos.append(f"{clube}: {atrib[clube][2]} != {origem}")
                 else:
                     atrib[clube] = (h, dados, origem)
+
+    # slides de posição fixa
+    for (pres, ano, sl), itens in sorted(PLANO_MANUAL.items()):
+        cam = os.path.join(RAIZ, "fontes", f"Campeões competições {pres} NCOFDI - ANO {ano}.pptx")
+        if not os.path.exists(cam):
+            continue
+        z = zipfile.ZipFile(cam)
+        esc = escudos_em_ordem(z, f"ppt/slides/{sl}.xml")
+        origem = f"{pres} ANO {ano}/{sl} (posição fixa)"
+        for idx, lid, nome_comp in itens:
+            if idx >= len(esc):
+                pulados.append(f"{origem}: índice {idx} não existe")
+                continue
+            comp_alvo = next((c for c in comp[lid]["competicoes"] if c["nome"] == nome_comp), None)
+            clube = next((t["clube"] for t in (comp_alvo or {}).get("campeoes", [])
+                          if str(t["temporada"]) == str(2025 + ano)), None)
+            if not clube:
+                pulados.append(f"{origem}: sem campeão para {nome_comp}")
+                continue
+            dados = z.read(f"ppt/media/{esc[idx][4]}")
+            h = hashlib.sha1(dados).hexdigest()[:10]
+            if clube in atrib and atrib[clube][0] != h:
+                conflitos.append(f"{clube}: {atrib[clube][2]} != {origem}")
+            else:
+                atrib[clube] = (h, dados, origem)
 
     # um mesmo escudo em dois clubes diferentes também é erro de alinhamento
     por_hash = collections.defaultdict(list)
