@@ -193,47 +193,52 @@ def slides_de_campeoes(caminho):
 
 
 PLANO = {
-    # (apresentação, ano, slide): (planilha, tipos de competição, só 1ª divisão)
-    ("africanas", 1, "slide1"): ("Africanos", {"Liga Nacional"}, False),
-    ("africanas", 1, "slide2"): ("Africanos", {"Copa Nacional"}, False),
-    ("asiáticas", 1, "slide1"): ("Asiáticos", {"Liga Nacional"}, False),
-    ("asiáticas", 1, "slide4"): ("Asiáticos", {"Copa Nacional"}, False),
-    ("concacaf", 1, "slide1"): ("Concacaf", {"Liga Nacional"}, False),
-    ("concacaf", 1, "slide2"): ("Concacaf", {"Copa Nacional"}, False),
-    ("concacaf", 2, "slide1"): ("Concacaf", {"Liga Nacional"}, False),
-    ("concacaf", 2, "slide2"): ("Concacaf", {"Copa Nacional"}, False),
-    ("europeias", 1, "slide1"): ("Europeus", {"Liga Nacional"}, False),
-    ("europeias", 1, "slide8"): ("Europeus", {"Copa Nacional"}, False),
-    ("oceânicas", 1, "slide1"): ("Oceânicos", {"Liga Nacional"}, False),
-    ("oceânicas", 1, "slide2"): ("Oceânicos", {"Copa Nacional"}, False),
-    ("sulamericanas", 1, "slide1"): ("Sulamericanos", {"Liga Nacional"}, False),
-    ("sulamericanas", 1, "slide4"): ("Sulamericanos", {"Copa Nacional"}, False),
-    ("sulamericanas", 2, "slide1"): ("Sulamericanos", {"Liga Nacional"}, False),
-    ("sulamericanas", 2, "slide4"): ("Sulamericanos", {"Copa Nacional"}, False),
-    ("estaduais", 1, "slide1"): ("Estaduais", {"Estadual"}, True),
-    ("estaduais", 2, "slide1"): ("Estaduais", {"Estadual"}, True),
+    # (apresentação, ano, slide): (seção do site, tipos de competição, só 1ª divisão)
+    ("africanas", 1, "slide1"): ("africa", {"Liga Nacional"}, False),
+    ("africanas", 1, "slide2"): ("africa", {"Copa Nacional"}, False),
+    ("asiáticas", 1, "slide1"): ("asia", {"Liga Nacional"}, False),
+    ("asiáticas", 1, "slide4"): ("asia", {"Copa Nacional"}, False),
+    ("concacaf", 1, "slide1"): ("america-do-norte", {"Liga Nacional"}, False),
+    ("concacaf", 1, "slide2"): ("america-do-norte", {"Copa Nacional"}, False),
+    ("concacaf", 2, "slide1"): ("america-do-norte", {"Liga Nacional"}, False),
+    ("concacaf", 2, "slide2"): ("america-do-norte", {"Copa Nacional"}, False),
+    ("europeias", 1, "slide1"): ("europa", {"Liga Nacional"}, False),
+    ("europeias", 1, "slide8"): ("europa", {"Copa Nacional"}, False),
+    ("oceânicas", 1, "slide1"): ("oceania", {"Liga Nacional"}, False),
+    ("oceânicas", 1, "slide2"): ("oceania", {"Copa Nacional"}, False),
+    ("sulamericanas", 1, "slide1"): ("america-do-sul", {"Liga Nacional"}, False),
+    ("sulamericanas", 1, "slide4"): ("america-do-sul", {"Copa Nacional"}, False),
+    ("sulamericanas", 2, "slide1"): ("america-do-sul", {"Liga Nacional"}, False),
+    ("sulamericanas", 2, "slide4"): ("america-do-sul", {"Copa Nacional"}, False),
+    ("estaduais", 1, "slide1"): ("brasil", {"Estadual"}, True),
+    ("estaduais", 2, "slide1"): ("brasil", {"Estadual"}, True),
 }
 
 
-def _campeoes_por_local(xlsx, temporada, tipos, so_primeira, comp, por_nome):
-    """[(local, [campeões])] na ordem das abas da planilha."""
-    import openpyxl
-    wb = openpyxl.load_workbook(xlsx, data_only=True, read_only=True)
+def _campeoes_por_local(secao_id, temporada, tipos, so_primeira, est, comp):
+    """[(local, [campeões])] na ORDEM ALFABÉTICA do nome do país.
+
+    É essa a ordem das células nos slides — confirmada lendo as bandeiras da
+    apresentação europeia. Não dá para usar a ordem das abas da planilha: lá
+    França vem antes de Finlândia, e seguir isso trocava o escudo do PSG com
+    o do Inter Turku.
+    """
+    secao = next(s for s in est["secoes"] if s["id"] == secao_id)
+    # países vão por nome; estados brasileiros vão pela sigla (AM antes de AP,
+    # ao contrário do que daria a ordem por nome: Amapá antes de Amazonas)
+    paises = sorted((secao.get("paises") or []),
+                    key=lambda p: p["sigla"] if p.get("sigla") else _norm(p["nome"]))
     saida = []
-    for aba in wb.sheetnames:
-        lid = (f"br-{aba.lower()}" if "Estaduais" in xlsx
-               else M.ABA_PARA_LOCAL.get((_base_xlsx(xlsx), aba)) or por_nome.get(_norm(aba)))
-        if lid not in comp:
-            continue
+    for p in paises:
         nomes = []
-        for c in comp[lid]["competicoes"]:
+        for c in comp[p["id"]]["competicoes"]:
             if c["tipo"] not in tipos:
                 continue
             if so_primeira and "Divisão" in c["nome"]:
                 continue
             nomes += [t["clube"] for t in c["campeoes"] if str(t["temporada"]) == temporada]
         if nomes:
-            saida.append((lid, nomes))
+            saida.append((p["id"], nomes))
     return saida
 
 
@@ -276,12 +281,11 @@ def main():
     conflitos, pulados = [], []
     for (pres, ano, sl), (xl, tipos, so1) in sorted(PLANO.items()):
         cam = os.path.join(RAIZ, "fontes", f"Campeões competições {pres} NCOFDI - ANO {ano}.pptx")
-        xlsx = os.path.join(RAIZ, "fontes", f"Campeonatos {xl} - NCOFDI (ANO {ano}).xlsx")
-        if not (os.path.exists(cam) and os.path.exists(xlsx)):
+        if not os.path.exists(cam):
             continue
         z = zipfile.ZipFile(cam)
         grupos = celulas_por_pais(z, f"ppt/slides/{sl}.xml")
-        locais = _campeoes_por_local(xlsx, str(2025 + ano), tipos, so1, comp, por_nome)
+        locais = _campeoes_por_local(xl, str(2025 + ano), tipos, so1, est, comp)
         origem = f"{pres} ANO {ano}/{sl}"
         if len(grupos) != len(locais):
             pulados.append(f"{origem}: {len(grupos)} bandeiras para {len(locais)} locais")
