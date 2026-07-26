@@ -48,8 +48,10 @@ Cada campeão tem só dois campos, ambos obrigatórios:
 
 | Campo       | Observação                                                          |
 | ----------- | ------------------------------------------------------------------- |
-| `temporada` | `"2025"` ou `"2024/25"` — use o formato que fizer sentido pra liga   |
+| `temporada` | sempre o **ano de encerramento** (`"2026"`); a exibição cuida do resto |
 | `clube`     | escreva **sempre igual**; é a chave que soma os títulos              |
+
+**Temporadas que cruzam o ano.** Não escreva `"2025/26"` no JSON. Guarde `"2026"` e marque o país em `data/estrutura.json` com `"calendario": "europeu"` — o site então mostra `2025/26` em todas as competições daquele local. Assim a importação e a ordenação continuam simples, e mudar a classificação de um país é uma linha.
 
 > ⚠️ **Grafia consistente é o que importa.** "Real Madrid" e "Real Madrid CF" contam como dois clubes diferentes no ranking.
 

@@ -2,7 +2,8 @@
   "projeto": {
     "sigla": "NCOFDI",
     "nome": "Nível 100: O Futebol dos Iguais",
-    "descricao": "Registro histórico de um universo onde todos os clubes de futebol têm exatamente o mesmo nível."
+    "descricao": "Registro histórico de um universo onde todos os clubes de futebol têm exatamente o mesmo nível.",
+    "observacaoCalendario": "Locais com \"calendario\": \"europeu\" têm a temporada mostrada como 2025/26; os demais, como 2026. O dado guardado é sempre o ano de encerramento."
   },
   "secoes": [
     {
@@ -13,39 +14,46 @@
         {
           "id": "uefa",
           "nome": "UEFA",
-          "descricao": "Torneios continentais europeus"
+          "descricao": "Torneios continentais europeus",
+          "calendario": "europeu"
         }
       ],
       "paises": [
         {
           "id": "albania",
           "nome": "Albânia",
-          "iso": "al"
+          "iso": "al",
+          "calendario": "europeu"
         },
         {
           "id": "alemanha",
           "nome": "Alemanha",
-          "iso": "de"
+          "iso": "de",
+          "calendario": "europeu"
         },
         {
           "id": "andorra",
           "nome": "Andorra",
-          "iso": "ad"
+          "iso": "ad",
+          "calendario": "europeu"
         },
         {
           "id": "armenia",
           "nome": "Armênia",
-          "iso": "am"
+          "iso": "am",
+          "calendario": "europeu"
         },
         {
           "id": "austria",
           "nome": "Áustria",
-          "iso": "at"
+          "iso": "at",
+          "calendario": "europeu"
         },
         {
           "id": "azerbaijao",
           "nome": "Azerbaijão",
-          "iso": "az"
+          "iso": "az",
+          "calendario": "europeu"
         },
         {
           "id": "belarus",
@@ -55,17 +63,20 @@
         {
           "id": "belgica",
           "nome": "Bélgica",
-          "iso": "be"
+          "iso": "be",
+          "calendario": "europeu"
         },
         {
           "id": "bosnia-e-herzegovina",
           "nome": "Bósnia e Herzegovina",
-          "iso": "ba"
+          "iso": "ba",
+          "calendario": "europeu"
         },
         {
           "id": "bulgaria",
           "nome": "Bulgária",
-          "iso": "bg"
+          "iso": "bg",
+          "calendario": "europeu"
         },
         {
           "id": "cazaquistao",
@@ -75,38 +86,45 @@
         {
           "id": "chipre",
           "nome": "Chipre",
-          "iso": "cy"
+          "iso": "cy",
+          "calendario": "europeu"
         },
         {
           "id": "croacia",
           "nome": "Croácia",
-          "iso": "hr"
+          "iso": "hr",
+          "calendario": "europeu"
         },
         {
           "id": "dinamarca",
           "nome": "Dinamarca",
-          "iso": "dk"
+          "iso": "dk",
+          "calendario": "europeu"
         },
         {
           "id": "escocia",
           "nome": "Escócia",
           "iso": "gb",
-          "bandeira": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+          "bandeira": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "calendario": "europeu"
         },
         {
           "id": "eslovaquia",
           "nome": "Eslováquia",
-          "iso": "sk"
+          "iso": "sk",
+          "calendario": "europeu"
         },
         {
           "id": "eslovenia",
           "nome": "Eslovênia",
-          "iso": "si"
+          "iso": "si",
+          "calendario": "europeu"
         },
         {
           "id": "espanha",
           "nome": "Espanha",
-          "iso": "es"
+          "iso": "es",
+          "calendario": "europeu"
         },
         {
           "id": "estonia",
@@ -121,7 +139,8 @@
         {
           "id": "franca",
           "nome": "França",
-          "iso": "fr"
+          "iso": "fr",
+          "calendario": "europeu"
         },
         {
           "id": "georgia",
@@ -131,22 +150,26 @@
         {
           "id": "gibraltar",
           "nome": "Gibraltar",
-          "iso": "gi"
+          "iso": "gi",
+          "calendario": "europeu"
         },
         {
           "id": "grecia",
           "nome": "Grécia",
-          "iso": "gr"
+          "iso": "gr",
+          "calendario": "europeu"
         },
         {
           "id": "holanda",
           "nome": "Holanda",
-          "iso": "nl"
+          "iso": "nl",
+          "calendario": "europeu"
         },
         {
           "id": "hungria",
           "nome": "Hungria",
-          "iso": "hu"
+          "iso": "hu",
+          "calendario": "europeu"
         },
         {
           "id": "ilhas-faroe",
@@ -157,7 +180,8 @@
           "id": "inglaterra",
           "nome": "Inglaterra",
           "iso": "gb",
-          "bandeira": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+          "bandeira": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "calendario": "europeu"
         },
         {
           "id": "irlanda",
@@ -168,7 +192,8 @@
           "id": "irlanda-do-norte",
           "nome": "Irlanda do Norte",
           "iso": "gb",
-          "bandeira": "🇬🇧"
+          "bandeira": "🇬🇧",
+          "calendario": "europeu"
         },
         {
           "id": "islandia",
@@ -178,18 +203,21 @@
         {
           "id": "israel",
           "nome": "Israel",
-          "iso": "il"
+          "iso": "il",
+          "calendario": "europeu"
         },
         {
           "id": "italia",
           "nome": "Itália",
-          "iso": "it"
+          "iso": "it",
+          "calendario": "europeu"
         },
         {
           "id": "kosovo",
           "nome": "Kosovo",
           "iso": "xk",
-          "bandeira": "🇽🇰"
+          "bandeira": "🇽🇰",
+          "calendario": "europeu"
         },
         {
           "id": "letonia",
@@ -199,7 +227,8 @@
         {
           "id": "liechtenstein",
           "nome": "Liechtenstein",
-          "iso": "li"
+          "iso": "li",
+          "calendario": "europeu"
         },
         {
           "id": "lituania",
@@ -209,27 +238,32 @@
         {
           "id": "luxemburgo",
           "nome": "Luxemburgo",
-          "iso": "lu"
+          "iso": "lu",
+          "calendario": "europeu"
         },
         {
           "id": "macedonia-do-norte",
           "nome": "Macedônia do Norte",
-          "iso": "mk"
+          "iso": "mk",
+          "calendario": "europeu"
         },
         {
           "id": "malta",
           "nome": "Malta",
-          "iso": "mt"
+          "iso": "mt",
+          "calendario": "europeu"
         },
         {
           "id": "moldavia",
           "nome": "Moldávia",
-          "iso": "md"
+          "iso": "md",
+          "calendario": "europeu"
         },
         {
           "id": "montenegro",
           "nome": "Montenegro",
-          "iso": "me"
+          "iso": "me",
+          "calendario": "europeu"
         },
         {
           "id": "noruega",
@@ -240,37 +274,44 @@
           "id": "pais-de-gales",
           "nome": "País de Gales",
           "iso": "gb",
-          "bandeira": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+          "bandeira": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+          "calendario": "europeu"
         },
         {
           "id": "polonia",
           "nome": "Polônia",
-          "iso": "pl"
+          "iso": "pl",
+          "calendario": "europeu"
         },
         {
           "id": "portugal",
           "nome": "Portugal",
-          "iso": "pt"
+          "iso": "pt",
+          "calendario": "europeu"
         },
         {
           "id": "romenia",
           "nome": "Romênia",
-          "iso": "ro"
+          "iso": "ro",
+          "calendario": "europeu"
         },
         {
           "id": "russia",
           "nome": "Rússia",
-          "iso": "ru"
+          "iso": "ru",
+          "calendario": "europeu"
         },
         {
           "id": "san-marino",
           "nome": "San Marino",
-          "iso": "sm"
+          "iso": "sm",
+          "calendario": "europeu"
         },
         {
           "id": "servia",
           "nome": "Sérvia",
-          "iso": "rs"
+          "iso": "rs",
+          "calendario": "europeu"
         },
         {
           "id": "suecia",
@@ -280,22 +321,26 @@
         {
           "id": "suica",
           "nome": "Suíça",
-          "iso": "ch"
+          "iso": "ch",
+          "calendario": "europeu"
         },
         {
           "id": "tchequia",
           "nome": "Tchéquia",
-          "iso": "cz"
+          "iso": "cz",
+          "calendario": "europeu"
         },
         {
           "id": "turquia",
           "nome": "Turquia",
-          "iso": "tr"
+          "iso": "tr",
+          "calendario": "europeu"
         },
         {
           "id": "ucrania",
           "nome": "Ucrânia",
-          "iso": "ua"
+          "iso": "ua",
+          "calendario": "europeu"
         }
       ]
     },
@@ -307,24 +352,28 @@
         {
           "id": "afc",
           "nome": "AFC",
-          "descricao": "Torneios continentais asiáticos"
+          "descricao": "Torneios continentais asiáticos",
+          "calendario": "europeu"
         }
       ],
       "paises": [
         {
           "id": "arabia-saudita",
           "nome": "Arábia Saudita",
-          "iso": "sa"
+          "iso": "sa",
+          "calendario": "europeu"
         },
         {
           "id": "australia",
           "nome": "Austrália",
-          "iso": "au"
+          "iso": "au",
+          "calendario": "europeu"
         },
         {
           "id": "catar",
           "nome": "Catar",
-          "iso": "qa"
+          "iso": "qa",
+          "calendario": "europeu"
         },
         {
           "id": "china",
@@ -339,7 +388,8 @@
         {
           "id": "emirados-arabes-unidos",
           "nome": "Emirados Árabes Unidos",
-          "iso": "ae"
+          "iso": "ae",
+          "calendario": "europeu"
         },
         {
           "id": "filipinas",
@@ -349,27 +399,32 @@
         {
           "id": "hong-kong",
           "nome": "Hong Kong",
-          "iso": "hk"
+          "iso": "hk",
+          "calendario": "europeu"
         },
         {
           "id": "india",
           "nome": "Índia",
-          "iso": "in"
+          "iso": "in",
+          "calendario": "europeu"
         },
         {
           "id": "indonesia",
           "nome": "Indonésia",
-          "iso": "id"
+          "iso": "id",
+          "calendario": "europeu"
         },
         {
           "id": "ira",
           "nome": "Irã",
-          "iso": "ir"
+          "iso": "ir",
+          "calendario": "europeu"
         },
         {
           "id": "iraque",
           "nome": "Iraque",
-          "iso": "iq"
+          "iso": "iq",
+          "calendario": "europeu"
         },
         {
           "id": "japao",
@@ -379,17 +434,20 @@
         {
           "id": "jordania",
           "nome": "Jordânia",
-          "iso": "jo"
+          "iso": "jo",
+          "calendario": "europeu"
         },
         {
           "id": "kuwait",
           "nome": "Kuwait",
-          "iso": "kw"
+          "iso": "kw",
+          "calendario": "europeu"
         },
         {
           "id": "malasia",
           "nome": "Malásia",
-          "iso": "my"
+          "iso": "my",
+          "calendario": "europeu"
         },
         {
           "id": "singapura",
@@ -399,7 +457,8 @@
         {
           "id": "tailandia",
           "nome": "Tailândia",
-          "iso": "th"
+          "iso": "th",
+          "calendario": "europeu"
         },
         {
           "id": "tajiquistao",
@@ -414,7 +473,8 @@
         {
           "id": "vietna",
           "nome": "Vietnã",
-          "iso": "vn"
+          "iso": "vn",
+          "calendario": "europeu"
         }
       ]
     },
@@ -426,69 +486,82 @@
         {
           "id": "caf",
           "nome": "CAF",
-          "descricao": "Torneios continentais africanos"
+          "descricao": "Torneios continentais africanos",
+          "calendario": "europeu"
         }
       ],
       "paises": [
         {
           "id": "africa-do-sul",
           "nome": "África do Sul",
-          "iso": "za"
+          "iso": "za",
+          "calendario": "europeu"
         },
         {
           "id": "angola",
           "nome": "Angola",
-          "iso": "ao"
+          "iso": "ao",
+          "calendario": "europeu"
         },
         {
           "id": "argelia",
           "nome": "Argélia",
-          "iso": "dz"
+          "iso": "dz",
+          "calendario": "europeu"
         },
         {
           "id": "botswana",
           "nome": "Botswana",
-          "iso": "bw"
+          "iso": "bw",
+          "calendario": "europeu"
         },
         {
           "id": "egito",
           "nome": "Egito",
-          "iso": "eg"
+          "iso": "eg",
+          "calendario": "europeu"
         },
         {
           "id": "gana",
           "nome": "Gana",
-          "iso": "gh"
+          "iso": "gh",
+          "calendario": "europeu"
         },
         {
           "id": "guine",
           "nome": "Guiné",
-          "iso": "gn"
+          "iso": "gn",
+          "calendario": "europeu"
         },
         {
           "id": "marrocos",
           "nome": "Marrocos",
-          "iso": "ma"
+          "iso": "ma",
+          "calendario": "europeu"
         },
         {
           "id": "nigeria",
           "nome": "Nigéria",
-          "iso": "ng"
+          "iso": "ng",
+          "calendario": "europeu"
         },
         {
           "id": "tanzania",
           "nome": "Tanzânia",
-          "iso": "tz"
+          "iso": "tz",
+          "calendario": "europeu"
         },
         {
           "id": "tunisia",
           "nome": "Tunísia",
-          "iso": "tn"
+          "iso": "tn",
+          "calendario": "europeu"
         },
         {
           "id": "zambia",
           "nome": "Zâmbia",
-          "iso": "zm"
+          "iso": "zm",
+          "calendario": "europeu"
         }
       ]
     },
@@ -639,12 +712,14 @@
         {
           "id": "nova-zelandia",
           "nome": "Nova Zelândia",
-          "iso": "nz"
+          "iso": "nz",
+          "calendario": "europeu"
         },
         {
           "id": "taiti",
           "nome": "Taiti",
-          "iso": "pf"
+          "iso": "pf",
+          "calendario": "europeu"
         },
         {
           "id": "vanuatu",

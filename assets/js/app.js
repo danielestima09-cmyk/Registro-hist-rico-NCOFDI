@@ -105,6 +105,18 @@
   }
 
   // Ordena "2024/25", "2024" etc. pelo primeiro ano.
+  // "2026" -> "2025/26" onde a temporada cruza o ano (agosto a maio).
+  // O dado guardado é sempre o ano de encerramento; quem cruza é marcado com
+  // "calendario": "europeu" em estrutura.json.
+  function temporadaEmTexto(temporada, localId) {
+    var local = DADOS.locais[localId];
+    var t = String(temporada);
+    if (!local || (local.ref || {}).calendario !== "europeu" || !/^\d{4}$/.test(t)) {
+      return t;
+    }
+    return (parseInt(t, 10) - 1) + "/" + t.slice(2);
+  }
+
   function anoDe(temporada) {
     var m = String(temporada).match(/\d{4}/);
     return m ? parseInt(m[0], 10) : 0;
@@ -443,7 +455,7 @@
       "<th>Temporada</th><th>Campeão</th>" + (mostrarPais ? "<th>País</th>" : "") +
       "</tr></thead><tbody>";
     campeoes.forEach(function (t) {
-      h += '<tr><td class="temporada">' + esc(t.temporada) + "</td>" +
+      h += '<tr><td class="temporada">' + esc(temporadaEmTexto(t.temporada, localId)) + "</td>" +
         "<td>" + campeaoHTML(t.clube, prefixo + slug(t.clube)) + "</td>";
       if (mostrarPais) {
         var pais = (DADOS.clubes[t.clube] || {}).pais;
@@ -572,7 +584,7 @@
     h += '<div class="tabela-wrap"><table><thead><tr>' +
       "<th>Temporada</th><th>Competição</th><th>Onde</th></tr></thead><tbody>";
     titulos.forEach(function (t) {
-      h += '<tr><td class="temporada">' + esc(t.temporada) + "</td>" +
+      h += '<tr><td class="temporada">' + esc(temporadaEmTexto(t.temporada, t.localId)) + "</td>" +
         '<td><a href="#/local/' + t.localId + "/" + t.competicaoId + '">' + esc(t.competicao) + "</a></td>" +
         '<td><a href="#/local/' + t.localId + '">' + esc(t.localNome) + "</a></td></tr>";
     });
