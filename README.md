@@ -45,4 +45,13 @@ Sem dependências e sem build: HTML, CSS e JavaScript puros.
 
 ## Publicar
 
-Settings → Pages → Deploy from a branch → `main` / `/ (root)`.
+**GitHub Pages** — Settings → Pages → Deploy from a branch → `main` / `/ (root)`.
+
+**Render** — [render.com](https://render.com) → New → Blueprint → escolha este repositório.
+O `render.yaml` já traz a configuração; não há build.
+
+Os dois podem ficar no ar ao mesmo tempo, apontando para o mesmo `main`.
+
+> Ao mexer em `assets/js/app.js` ou `assets/css/estilo.css`, rode `./versionar.sh`
+> antes do commit. Ele troca o `?v=N` no `index.html` para o navegador buscar a
+> versão nova em vez da que está no cache.

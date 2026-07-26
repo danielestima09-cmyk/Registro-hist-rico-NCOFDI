@@ -1,0 +1,25 @@
+# Publicação no Render (https://render.com).
+#
+# O site é estático e não tem build: os arquivos são servidos como estão, a
+# partir da raiz do repositório. Com este arquivo no repo, o Render preenche
+# tudo sozinho em Blueprints → New Blueprint Instance.
+#
+# Não há regra de reescrita de rota: a navegação do site é por hash (#/...),
+# então todo endereço pedido ao servidor é um arquivo de verdade. Uma regra
+# de "mande tudo para o index.html" quebraria a leitura dos JSON em /data.
+
+services:
+  - type: web
+    name: ncofdi
+    runtime: static
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    headers:
+      # Os dados mudam a cada push; o navegador revalida antes de reusar.
+      - path: /data/*
+        name: Cache-Control
+        value: no-cache
+      # Escudos são imutáveis na prática — quando um muda, muda o arquivo.
+      - path: /assets/escudos/*
+        name: Cache-Control
+        value: public, max-age=86400
