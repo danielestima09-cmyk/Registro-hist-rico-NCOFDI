@@ -1,0 +1,19 @@
+{
+  "id": "chile",
+  "nome": "Chile",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "liga-de-primera",
+      "nome": "Liga de Primera",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-chile",
+      "nome": "Copa Chile",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "fiji",
+  "nome": "Fiji",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "digicel-premier-league",
+      "nome": "Digicel Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

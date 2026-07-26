@@ -1,0 +1,25 @@
+{
+  "id": "austria",
+  "nome": "Áustria",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "austrian-bundesliga",
+      "nome": "Austrian Bundesliga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "2-liga",
+      "nome": "2. Liga",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "ofb-cup",
+      "nome": "ÖFB Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

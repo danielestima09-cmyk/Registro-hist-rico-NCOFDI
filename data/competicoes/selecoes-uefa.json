@@ -1,0 +1,19 @@
+{
+  "id": "selecoes-uefa",
+  "nome": "UEFA",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "eurocopa",
+      "nome": "Eurocopa",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "liga-das-nacoes-da-uefa",
+      "nome": "Liga das Nações da UEFA",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

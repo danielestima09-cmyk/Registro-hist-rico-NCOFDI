@@ -1,0 +1,19 @@
+{
+  "id": "selecoes-mundiais",
+  "nome": "Internacionais",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-do-mundo",
+      "nome": "Copa do Mundo",
+      "tipo": "Torneio Mundial",
+      "campeoes": []
+    },
+    {
+      "id": "finalissima",
+      "nome": "Finalíssima",
+      "tipo": "Torneio Mundial",
+      "campeoes": []
+    }
+  ]
+}

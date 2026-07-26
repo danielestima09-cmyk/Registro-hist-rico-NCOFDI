@@ -1,0 +1,25 @@
+{
+  "id": "costa-rica",
+  "nome": "Costa Rica",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "costa-rica-primera-division-apertura",
+      "nome": "Costa Rica Primera División — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "costa-rica-primera-division-clausura",
+      "nome": "Costa Rica Primera División — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-costa-rica",
+      "nome": "Copa Costa Rica",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

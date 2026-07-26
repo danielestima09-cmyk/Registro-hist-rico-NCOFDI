@@ -1,0 +1,19 @@
+{
+  "id": "estonia",
+  "nome": "Estônia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "premium-liiga",
+      "nome": "Premium Liiga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "eesti-karikas",
+      "nome": "Eesti Karikas",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "liechtenstein",
+  "nome": "Liechtenstein",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "fl1-aktiv-cup",
+      "nome": "FL1 Aktiv Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

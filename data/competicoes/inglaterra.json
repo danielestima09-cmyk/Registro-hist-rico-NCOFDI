@@ -1,0 +1,43 @@
+{
+  "id": "inglaterra",
+  "nome": "Inglaterra",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "premier-league",
+      "nome": "Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "championship",
+      "nome": "Championship",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "league-one",
+      "nome": "League One",
+      "tipo": "3ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "league-two",
+      "nome": "League Two",
+      "tipo": "4ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "fa-cup",
+      "nome": "FA Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "carabao-cup",
+      "nome": "Carabao Cup",
+      "tipo": "Copa da Liga",
+      "campeoes": []
+    }
+  ]
+}

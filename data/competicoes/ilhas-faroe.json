@@ -1,0 +1,19 @@
+{
+  "id": "ilhas-faroe",
+  "nome": "Ilhas Faroé",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "faroe-islands-premier-league",
+      "nome": "Faroe Islands Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "faroe-islands-cup",
+      "nome": "Faroe Islands Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

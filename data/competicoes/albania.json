@@ -1,0 +1,19 @@
+{
+  "id": "albania",
+  "nome": "Albânia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "abissnet-superiore",
+      "nome": "Abissnet Superiore",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "kupa-e-shqiperise",
+      "nome": "Kupa e Shqipërisë",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

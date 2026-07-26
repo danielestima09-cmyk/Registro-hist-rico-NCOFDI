@@ -1,0 +1,19 @@
+{
+  "id": "selecoes-concacaf",
+  "nome": "CONCACAF",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-ouro",
+      "nome": "Copa Ouro",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "liga-das-nacoes-da-concacaf",
+      "nome": "Liga das Nações da CONCACAF",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

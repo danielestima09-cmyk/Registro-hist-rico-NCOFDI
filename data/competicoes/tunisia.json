@@ -1,0 +1,19 @@
+{
+  "id": "tunisia",
+  "nome": "Tunísia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "tunisian-league-professionnelle-1",
+      "nome": "Tunisian League Professionnelle 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "coupe-de-tunisie",
+      "nome": "Coupe de Tunisie",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

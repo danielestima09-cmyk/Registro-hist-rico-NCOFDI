@@ -1,0 +1,19 @@
+{
+  "id": "caf",
+  "nome": "CAF",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "caf-champions-league",
+      "nome": "CAF Champions League",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "caf-confederation-cup",
+      "nome": "CAF Confederation Cup",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

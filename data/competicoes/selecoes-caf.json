@@ -1,0 +1,13 @@
+{
+  "id": "selecoes-caf",
+  "nome": "CAF",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-africana-de-nacoes",
+      "nome": "Copa Africana de Nações",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

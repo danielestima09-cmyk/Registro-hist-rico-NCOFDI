@@ -1,0 +1,19 @@
+{
+  "id": "letonia",
+  "nome": "Letônia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "virsliga",
+      "nome": "Virsliga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "latvijas-kauss",
+      "nome": "Latvijas Kauss",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

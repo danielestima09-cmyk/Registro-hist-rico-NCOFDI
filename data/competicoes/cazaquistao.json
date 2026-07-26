@@ -1,0 +1,19 @@
+{
+  "id": "cazaquistao",
+  "nome": "Cazaquistão",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "kazakhstan-premier-league",
+      "nome": "Kazakhstan Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "kazakhstan-cup",
+      "nome": "Kazakhstan Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

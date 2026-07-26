@@ -1,0 +1,29 @@
+{
+  "id": "br-ro",
+  "nome": "Rondônia",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-rondoniense",
+      "nome": "Campeonato Rondoniense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Rondoniense"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-rondoniense-2a-divisao",
+      "nome": "Campeonato Rondoniense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Vilhena"
+        }
+      ]
+    }
+  ]
+}

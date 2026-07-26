@@ -1,0 +1,24 @@
+{
+  "id": "br-rr",
+  "nome": "Roraima",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-roraimense",
+      "nome": "Campeonato Roraimense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Baré"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-roraimense-2a-divisao",
+      "nome": "Campeonato Roraimense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tchequia",
+  "nome": "Tchéquia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "czech-first-league",
+      "nome": "Czech First League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "mol-cup",
+      "nome": "MOL Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

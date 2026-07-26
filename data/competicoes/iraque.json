@@ -1,0 +1,19 @@
+{
+  "id": "iraque",
+  "nome": "Iraque",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "iraq-stars-league",
+      "nome": "Iraq Stars League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "iraqi-fa-cup",
+      "nome": "Iraqi FA Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

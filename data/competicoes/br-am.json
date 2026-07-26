@@ -1,0 +1,29 @@
+{
+  "id": "br-am",
+  "nome": "Amazonas",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-amazonense",
+      "nome": "Campeonato Amazonense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Manauara"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-amazonense-2a-divisao",
+      "nome": "Campeonato Amazonense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Penarol-AM"
+        }
+      ]
+    }
+  ]
+}

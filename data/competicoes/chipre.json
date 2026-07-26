@@ -1,0 +1,19 @@
+{
+  "id": "chipre",
+  "nome": "Chipre",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "cyprus-league-by-stoiximan",
+      "nome": "Cyprus League by Stoiximan",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "cyprus-cup",
+      "nome": "Cyprus Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

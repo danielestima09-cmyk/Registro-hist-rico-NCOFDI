@@ -1,0 +1,19 @@
+{
+  "id": "honduras",
+  "nome": "Honduras",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "honduras-liga-nacional-apertura",
+      "nome": "Honduras Liga Nacional — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "honduras-liga-nacional-clausura",
+      "nome": "Honduras Liga Nacional — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

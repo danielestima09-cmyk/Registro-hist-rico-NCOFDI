@@ -1,0 +1,19 @@
+{
+  "id": "africa-do-sul",
+  "nome": "África do Sul",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "south-african-premier-division",
+      "nome": "South African Premier Division",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "nedbank-cup",
+      "nome": "Nedbank Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

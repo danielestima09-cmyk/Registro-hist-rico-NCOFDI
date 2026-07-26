@@ -1,0 +1,25 @@
+{
+  "id": "coreia-do-sul",
+  "nome": "Coréia do Sul",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "k-league-1",
+      "nome": "K League 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "k-league-2",
+      "nome": "K League 2",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "korean-cup",
+      "nome": "Korean Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

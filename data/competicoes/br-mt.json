@@ -1,0 +1,35 @@
+{
+  "id": "br-mt",
+  "nome": "Mato Grosso",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-mato-grossense",
+      "nome": "Campeonato Mato-Grossense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "CEOV Operário"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-mato-grossense-2a-divisao",
+      "nome": "Campeonato Mato-Grossense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Uirapuru"
+        }
+      ]
+    },
+    {
+      "id": "copa-fmf",
+      "nome": "Copa FMF",
+      "tipo": "Copa Estadual",
+      "campeoes": []
+    }
+  ]
+}

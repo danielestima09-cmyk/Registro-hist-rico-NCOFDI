@@ -1,0 +1,29 @@
+{
+  "id": "br-ac",
+  "nome": "Acre",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-acreano",
+      "nome": "Campeonato Acreano",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Santa Cruz-AC"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-acreano-2a-divisao",
+      "nome": "Campeonato Acreano — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Plácido de Castro"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "uzbequistao",
+  "nome": "Uzbequistão",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "uzbekistan-super-league",
+      "nome": "Uzbekistan Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "uzbekistan-cup",
+      "nome": "Uzbekistan Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

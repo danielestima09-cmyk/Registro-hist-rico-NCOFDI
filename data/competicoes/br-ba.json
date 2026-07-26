@@ -1,0 +1,29 @@
+{
+  "id": "br-ba",
+  "nome": "Bahia",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-baiano",
+      "nome": "Campeonato Baiano",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Juazeirense"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-baiano-2a-divisao",
+      "nome": "Campeonato Baiano — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ypiranga-BA"
+        }
+      ]
+    }
+  ]
+}

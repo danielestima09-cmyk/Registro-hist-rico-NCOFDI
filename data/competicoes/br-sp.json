@@ -1,0 +1,73 @@
+{
+  "id": "br-sp",
+  "nome": "São Paulo",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-paulista",
+      "nome": "Campeonato Paulista",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Velo Clube"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paulista-2a-divisao",
+      "nome": "Campeonato Paulista — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ferroviária-SP"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paulista-3a-divisao",
+      "nome": "Campeonato Paulista — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "União Barbarense"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paulista-4a-divisao",
+      "nome": "Campeonato Paulista — 4ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Barretos"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paulista-5a-divisao",
+      "nome": "Campeonato Paulista — 5ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Guarulhos"
+        }
+      ]
+    },
+    {
+      "id": "copa-paulista",
+      "nome": "Copa Paulista",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "São-Carlense"
+        }
+      ]
+    }
+  ]
+}

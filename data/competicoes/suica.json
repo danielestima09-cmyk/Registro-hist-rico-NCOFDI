@@ -1,0 +1,19 @@
+{
+  "id": "suica",
+  "nome": "Suíça",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "swiss-super-league",
+      "nome": "Swiss Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "schweizer-cup",
+      "nome": "Schweizer Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

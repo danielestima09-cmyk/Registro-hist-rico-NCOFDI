@@ -1,0 +1,51 @@
+{
+  "id": "br-se",
+  "nome": "Sergipe",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-sergipano",
+      "nome": "Campeonato Sergipano",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Lagarto"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-sergipano-2a-divisao",
+      "nome": "Campeonato Sergipano — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Barra-SE"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-sergipano-3a-divisao",
+      "nome": "Campeonato Sergipano — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Esportiva Aquidabã"
+        }
+      ]
+    },
+    {
+      "id": "copa-lotese",
+      "nome": "Copa Lotese",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Atlético Gloriense"
+        }
+      ]
+    }
+  ]
+}

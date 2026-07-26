@@ -1,0 +1,19 @@
+{
+  "id": "israel",
+  "nome": "Israel",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "israeli-premier-league",
+      "nome": "Israeli Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "state-cup",
+      "nome": "State Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "turquia",
+  "nome": "Turquia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "trendyol-super-lig",
+      "nome": "Trendyol Süper Lig",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "trendyol-1-lig",
+      "nome": "Trendyol 1. Lig",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "turkiye-kupas",
+      "nome": "Türkiye Kupası",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

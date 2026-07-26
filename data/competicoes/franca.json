@@ -1,0 +1,31 @@
+{
+  "id": "franca",
+  "nome": "França",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "ligue-1",
+      "nome": "Ligue 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "ligue-2",
+      "nome": "Ligue 2",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "national-1",
+      "nome": "National 1",
+      "tipo": "3ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "coupe-de-france",
+      "nome": "Coupe de France",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "servia",
+  "nome": "Sérvia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "mozzart-bet-superliga",
+      "nome": "Mozzart Bet Superliga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "mozzart-kup-srbije",
+      "nome": "Mozzart Kup Srbije",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

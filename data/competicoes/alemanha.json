@@ -1,0 +1,31 @@
+{
+  "id": "alemanha",
+  "nome": "Alemanha",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "bundesliga",
+      "nome": "Bundesliga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "2-bundesliga",
+      "nome": "2. Bundesliga",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "3-liga",
+      "nome": "3. Liga",
+      "tipo": "3ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "dfb-pokal",
+      "nome": "DFB-Pokal",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

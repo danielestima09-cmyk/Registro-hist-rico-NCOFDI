@@ -1,0 +1,19 @@
+{
+  "id": "nigeria",
+  "nome": "Nigéria",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "nigeria-premier-football-league",
+      "nome": "Nigeria Premier Football League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "nigeria-federation-cup",
+      "nome": "Nigeria Federation Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "guine",
+  "nome": "Guiné",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "guinea-ligue-1",
+      "nome": "Guinea Ligue 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

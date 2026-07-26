@@ -1,0 +1,31 @@
+{
+  "id": "argentina",
+  "nome": "Argentina",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "torneo-apertura",
+      "nome": "Torneo Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "torneo-clausura",
+      "nome": "Torneo Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "primera-nacional",
+      "nome": "Primera Nacional",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "copa-argentina",
+      "nome": "Copa Argentina",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

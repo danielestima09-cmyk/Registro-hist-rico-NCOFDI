@@ -1,0 +1,25 @@
+{
+  "id": "japao",
+  "nome": "Japão",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "j1-league",
+      "nome": "J1 League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "j2-league",
+      "nome": "J2 League",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "emperor-cup",
+      "nome": "Emperor Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

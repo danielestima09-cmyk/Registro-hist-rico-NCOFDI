@@ -1,0 +1,19 @@
+{
+  "id": "venezuela",
+  "nome": "Venezuela",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "liga-futve",
+      "nome": "Liga FUTVE",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-venezuela",
+      "nome": "Copa Venezuela",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

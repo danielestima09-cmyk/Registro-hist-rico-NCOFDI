@@ -1,0 +1,19 @@
+{
+  "id": "noruega",
+  "nome": "Noruega",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "eliteserien",
+      "nome": "Eliteserien",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "nm-cup",
+      "nome": "NM Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

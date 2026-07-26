@@ -1,0 +1,29 @@
+{
+  "id": "br-df",
+  "nome": "Distrito Federal",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-brasiliense",
+      "nome": "Campeonato Brasiliense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Sobradinho-DF"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-brasiliense-2a-divisao",
+      "nome": "Campeonato Brasiliense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ceilandense"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "irlanda",
+  "nome": "Irlanda",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "premier-division",
+      "nome": "Premier Division",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "fai-cup",
+      "nome": "FAI Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

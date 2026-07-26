@@ -1,0 +1,19 @@
+{
+  "id": "guatemala",
+  "nome": "Guatemala",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "guatemala-liga-nacional-apertura",
+      "nome": "Guatemala Liga Nacional — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "guatemala-liga-nacional-clausura",
+      "nome": "Guatemala Liga Nacional — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

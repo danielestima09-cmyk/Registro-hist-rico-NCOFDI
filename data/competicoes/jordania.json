@@ -1,0 +1,19 @@
+{
+  "id": "jordania",
+  "nome": "Jordânia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "jordan-pro-league",
+      "nome": "Jordan Pro League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "jordan-cup",
+      "nome": "Jordan Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

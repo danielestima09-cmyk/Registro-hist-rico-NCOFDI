@@ -1,0 +1,31 @@
+{
+  "id": "uefa",
+  "nome": "UEFA",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "uefa-champions-league",
+      "nome": "UEFA Champions League",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "uefa-europa-league",
+      "nome": "UEFA Europa League",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "uefa-conference-league",
+      "nome": "UEFA Conference League",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "uefa-super-cup",
+      "nome": "UEFA Super Cup",
+      "tipo": "Supercopa",
+      "campeoes": []
+    }
+  ]
+}

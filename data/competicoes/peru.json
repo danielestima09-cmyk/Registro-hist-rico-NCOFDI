@@ -1,0 +1,19 @@
+{
+  "id": "peru",
+  "nome": "Peru",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "liga-1",
+      "nome": "Liga 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-caliente-de-la-liga",
+      "nome": "Copa Caliente de la Liga",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

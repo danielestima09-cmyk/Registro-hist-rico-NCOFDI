@@ -1,0 +1,19 @@
+{
+  "id": "marrocos",
+  "nome": "Marrocos",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "botola-pro",
+      "nome": "Botola Pro",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "coupe-du-trone",
+      "nome": "Coupe du Trône",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

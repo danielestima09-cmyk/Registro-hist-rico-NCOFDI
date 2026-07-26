@@ -1,0 +1,51 @@
+{
+  "id": "br-sc",
+  "nome": "Santa Catarina",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-catarinense",
+      "nome": "Campeonato Catarinense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Barra-SC"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-catarinense-2a-divisao",
+      "nome": "Campeonato Catarinense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Blumenau"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-catarinense-3a-divisao",
+      "nome": "Campeonato Catarinense — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Inter de Lages"
+        }
+      ]
+    },
+    {
+      "id": "copa-santa-catarina",
+      "nome": "Copa Santa Catarina",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tubarão"
+        }
+      ]
+    }
+  ]
+}

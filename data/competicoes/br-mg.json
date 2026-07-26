@@ -1,0 +1,40 @@
+{
+  "id": "br-mg",
+  "nome": "Minas Gerais",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-mineiro",
+      "nome": "Campeonato Mineiro",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "URT"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-mineiro-2a-divisao",
+      "nome": "Campeonato Mineiro — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ipatinga"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-mineiro-3a-divisao",
+      "nome": "Campeonato Mineiro — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Internacional-MG"
+        }
+      ]
+    }
+  ]
+}

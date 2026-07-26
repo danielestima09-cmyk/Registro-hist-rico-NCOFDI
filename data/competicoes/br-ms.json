@@ -1,0 +1,35 @@
+{
+  "id": "br-ms",
+  "nome": "Mato Grosso do Sul",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-sul-mato-grossense",
+      "nome": "Campeonato Sul-Mato-Grossense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Dourados"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-sul-mato-grossense-2a-divisao",
+      "nome": "Campeonato Sul-Mato-Grossense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Comercial-MS"
+        }
+      ]
+    },
+    {
+      "id": "copa-ms",
+      "nome": "Copa MS",
+      "tipo": "Copa Estadual",
+      "campeoes": []
+    }
+  ]
+}

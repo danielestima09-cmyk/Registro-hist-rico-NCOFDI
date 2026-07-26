@@ -1,0 +1,25 @@
+{
+  "id": "holanda",
+  "nome": "Holanda",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "eredivisie",
+      "nome": "Eredivisie",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "eerste-divisie",
+      "nome": "Eerste Divisie",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "knvb-beker",
+      "nome": "KNVB Beker",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

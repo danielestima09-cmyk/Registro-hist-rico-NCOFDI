@@ -1,0 +1,51 @@
+{
+  "id": "br-rs",
+  "nome": "Rio Grande do Sul",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-gaucho",
+      "nome": "Campeonato Gaúcho",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Novo Hamburgo"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-gaucho-2a-divisao",
+      "nome": "Campeonato Gaúcho — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Gramadense"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-gaucho-3a-divisao",
+      "nome": "Campeonato Gaúcho — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Real-RS"
+        }
+      ]
+    },
+    {
+      "id": "copa-fgf",
+      "nome": "Copa FGF",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Avenida"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "concacaf",
+  "nome": "CONCACAF",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "concacaf-champions-cup",
+      "nome": "Concacaf Champions Cup",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "copa-centroamericana",
+      "nome": "Copa Centroamericana",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

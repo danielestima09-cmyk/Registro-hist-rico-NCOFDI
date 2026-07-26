@@ -1,0 +1,171 @@
+Competições da Europa
+##
+
+UEFA (Champions League, Europa League, Conference League e UEFA Super Cup)
+Albânia (Liga e Copa)
+Alemanha (1a, 2a, 3a Divisão e Copa)
+Andorra (Liga e Copa)
+Armênia (Liga e Copa)
+Áustria (1a, 2a Divisão e Copa)
+Azerbaijão (Liga e Copa)
+Belarus (Liga e Copa)
+Bélgica (1a, 2a Divisão e Copa)
+Bósnia e Herzegovina (Liga e Copa)
+Bulgária (Liga e Copa)
+Cazaquistão (Liga e Copa)
+Chipre (Liga e Copa)
+Croácia (Liga e Copa)
+Dinamarca (Liga e Copa)
+Escócia (Liga e Copa)
+Eslováquia (Liga e Copa)
+Eslovênia (Liga e Copa)
+Espanha (1a, 2a, 3a Divisão e Copa)
+Estônia (Liga e Copa)
+Finlândia (Liga e Copa)
+França (1a, 2a, 3a Divisão e Copa)
+Geórgia (Liga e Copa)
+Gibraltar (Liga e Copa)
+Grécia (Liga e Copa)
+Holanda (1a, 2a Divisão e Copa)
+Hungria (Liga e Copa)
+Ilhas Faroé (Liga e Copa)
+Inglaterra (1a, 2a, 3a, 4a Divisão, Copa e Copa da Liga)
+Irlanda (Liga e Copa)
+Irlanda do Norte (Liga e Copa)
+Islândia (Liga e Copa)
+Israel (Liga e Copa)
+Itália (1a, 2a, 3a Divisão e Copa)
+Kosovo (Liga e Copa)
+Letônia (Liga e Copa)
+Liechtenstein (Copa)
+Lituânia (Liga e Copa)
+Luxemburgo (Liga e Copa)
+Macedônia do Norte (Liga e Copa)
+Malta (Liga e Copa)
+Moldávia (Liga e Copa)
+Montenegro (Liga e Copa)
+Noruega (Liga e Copa)
+País de Gales (Liga e Copa)
+Polônia (1a, 2a Divisão e Copa)
+Portugal (1a, 2a Divisão e Copa)
+Romênia (Liga e Copa)
+Rússia (Liga e Copa)
+San Marino (Liga e Copa)
+Sérvia (Liga e Copa)
+Suécia (Liga e Copa)
+Suíça (Liga e Copa)
+Tchéquia (Liga e Copa)
+Turquia (1a, 2a Divisão e Copa)
+Ucrânia (Liga e Copa)
+
+Competições da Ásia
+##
+
+AFC (Champions League Elite, Champions League 2 e Challenge League)
+Arábia Saudita (Liga e Copa)
+Austrália (Liga e Copa)
+Catar (Liga e Copa)
+China (Liga e Copa)
+Coréia do Sul (1a, 2a Divisão e Copa)
+Emirados Árabes Unidos (Liga e Copa)
+Filipinas (Liga e Copa)
+Hong Kong (Liga e Copa)
+Índia (Liga e Copa)
+Indonésia (Liga)
+Irã (Liga e Copa)
+Iraque (Liga e Copa)
+Japão (1a, 2a Divisão e Copa)
+Jordânia (Liga e Copa)
+Kuwait (Liga e Copa)
+Malásia (Liga e Copa)
+Singapura (Liga e Copa)
+Tailândia (Liga e Copa)
+Tajiquistão (Liga e Copa)
+Uzbequistão (Liga e Copa)
+Vietnã (Liga e Copa)
+
+Competições da África
+##
+
+CAF (Champions League e Confederations Cup)
+África do Sul (Liga e Copa)
+Angola (Liga e Copa)
+Argélia (Liga e Copa)
+Botswana (Liga)
+Egito (Liga e Copa)
+Gana (Liga e Copa)
+Guiné (Liga)
+Marrocos (Liga e Copa)
+Nigéria (Liga e Copa)
+Tanzânia (Liga e Copa)
+Tunísia (Liga e Copa)
+Zâmbia (Liga)
+
+Competições da América do Sul
+##
+
+Conmebol (Libertadores, Sul-Americana e Recopa)
+Argentina (Apertura, Clausura, 2a Divisão e Copa)
+Bolívia (Liga e Copa)
+Chile (Liga e Copa)
+Colômbia (Apertura, Clausura e Copa)
+Equador (Liga e Copa)
+Paraguai (Apertura, Clausura e Copa)
+Peru (Liga e Copa)
+Uruguai (Liga e Copa)
+Venezuela (Liga e Copa)
+
+Competições da América do Norte/Central
+##
+
+CONCACAF (Champions Cup e Central American Cup)
+Canadá (Liga e Copa)
+Costa Rica (Apertura, Clausura e Copa)
+Estados Unidos (Liga e Copa)
+Guatemala (Apertura e Clausura)
+Honduras (Apertura e Clausura)
+Jamaica (Liga)
+México (Apertura e Clausura)
+Nicarágua (Apertura e Clausura)
+Panamá (Apertura e Clausura)
+
+Competições da Oceania
+##
+
+OFC (OFC Pro League)
+Fiji (Liga)
+Ilhas Salomão (Liga)
+Nova Zelândia (Liga e Copa)
+Taiti (Liga e Copa)
+Vanuatu (Liga)
+
+Competições Internacionais de Clubes
+##
+
+Intercontinental (Todo ano)
+Mundial de Clubes (A cada 4 anos)
+
+Competições do Brasil
+##
+
+Campeonato Brasileiro (1a, 2a, 3a e 4a Divisão)
+Campeonatos Estaduais 1a Divisão (AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PA, PB, PE, PI, PR, RJ, RN, RO, RR, RS, SC, SE, SP e TO)
+Campeonatos Estaduais 2a Divisão (AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PA, PB, PE, PI, PR, RJ, RN, RO, RR, RS, SC, SE, SP e TO)
+Campeonatos Estaduais 3a Divisão (CE, GO, MG, PA, PB, PR, RJ, RS, SC, SE e SP)
+Campeonatos Estaduais 4a Divisão (RJ e SP)
+Campeonatos Estaduais 5a Divisão (RJ e SP)
+Copas Estaduais (AL, CE, ES, MS, MT, PB, PR, RJ, RS, SC, SE e SP)
+Copas Regionais (Norte, Centro-Oeste, Verde, Nordeste e Sul-Sudeste)
+Copa Nacional (Copa do Brasil)
+Supercopa Nacional (Supercopa do Brasil)
+
+Competições de Seleções
+##
+
+Internacionais (Copa do Mundo e Finalíssima)
+AFC (Asian Cup)
+CAF (AFCON)
+CONCACAF (Gold Cup e Nations League)
+Conmebol (Copa América)
+OFC (Nations Cup)
+UEFA (Eurocopa e Nations League)

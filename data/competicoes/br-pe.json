@@ -1,0 +1,29 @@
+{
+  "id": "br-pe",
+  "nome": "Pernambuco",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-pernambucano",
+      "nome": "Campeonato Pernambucano",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Decisão"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-pernambucano-2a-divisao",
+      "nome": "Campeonato Pernambucano — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ypiranga-PE"
+        }
+      ]
+    }
+  ]
+}

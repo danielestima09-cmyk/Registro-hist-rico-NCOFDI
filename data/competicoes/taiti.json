@@ -1,0 +1,19 @@
+{
+  "id": "taiti",
+  "nome": "Taiti",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "ligue-1-vini",
+      "nome": "Ligue 1 Vini",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "coupe-de-polynesie",
+      "nome": "Coupe de Polynesie",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

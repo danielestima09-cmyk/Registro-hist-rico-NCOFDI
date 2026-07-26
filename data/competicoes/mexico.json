@@ -1,0 +1,19 @@
+{
+  "id": "mexico",
+  "nome": "México",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "liga-mx-apertura",
+      "nome": "Liga MX — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "liga-mx-clausura",
+      "nome": "Liga MX — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "azerbaijao",
+  "nome": "Azerbaijão",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "misli-premier-league",
+      "nome": "Misli Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "azerbaijan-cup",
+      "nome": "Azerbaijan Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

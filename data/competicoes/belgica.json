@@ -1,0 +1,25 @@
+{
+  "id": "belgica",
+  "nome": "Bélgica",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "jupiler-pro-league",
+      "nome": "Jupiler Pro League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "challenger-pro-league",
+      "nome": "Challenger Pro League",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "belgian-cup",
+      "nome": "Belgian Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

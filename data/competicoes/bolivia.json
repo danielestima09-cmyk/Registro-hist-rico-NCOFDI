@@ -1,0 +1,19 @@
+{
+  "id": "bolivia",
+  "nome": "Bolívia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "division-profesional",
+      "nome": "División Profesional",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-de-la-division-profesional",
+      "nome": "Copa de la División Profesional",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "china",
+  "nome": "China",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "chinese-super-league",
+      "nome": "Chinese Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "cfa-cup",
+      "nome": "CFA Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nicaragua",
+  "nome": "Nicarágua",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "nicaragua-primera-division-apertura",
+      "nome": "Nicarágua Primera División — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "nicaragua-primera-division-clausura",
+      "nome": "Nicarágua Primera División — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "br-ce",
+  "nome": "Ceará",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-cearense",
+      "nome": "Campeonato Cearense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Quixadá"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-cearense-2a-divisao",
+      "nome": "Campeonato Cearense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Guarany-CE"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-cearense-3a-divisao",
+      "nome": "Campeonato Cearense — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Vila Real"
+        }
+      ]
+    },
+    {
+      "id": "copa-fares-lopes",
+      "nome": "Copa Fares Lopes",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Iguatu"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "brasil-nacional",
+  "nome": "Competições Nacionais",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "brasileirao-serie-a",
+      "nome": "Brasileirão Série A",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "brasileirao-serie-b",
+      "nome": "Brasileirão Série B",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "brasileirao-serie-c",
+      "nome": "Brasileirão Série C",
+      "tipo": "3ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "brasileirao-serie-d",
+      "nome": "Brasileirão Série D",
+      "tipo": "4ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "copa-do-brasil",
+      "nome": "Copa do Brasil",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "supercopa-do-brasil",
+      "nome": "Supercopa do Brasil",
+      "tipo": "Supercopa",
+      "campeoes": []
+    }
+  ]
+}

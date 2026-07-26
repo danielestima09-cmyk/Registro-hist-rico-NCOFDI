@@ -1,0 +1,19 @@
+{
+  "id": "irlanda-do-norte",
+  "nome": "Irlanda do Norte",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "nifl-premiership",
+      "nome": "NIFL Premiership",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "irish-cup",
+      "nome": "Irish Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

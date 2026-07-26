@@ -1,0 +1,19 @@
+{
+  "id": "gana",
+  "nome": "Gana",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "ghana-premier-league",
+      "nome": "Ghana Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "ghana-fa-cup",
+      "nome": "Ghana FA Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ofc",
+  "nome": "OFC",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "ofc-professional-league",
+      "nome": "OFC Professional League",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

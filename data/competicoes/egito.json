@@ -1,0 +1,19 @@
+{
+  "id": "egito",
+  "nome": "Egito",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "egyptian-premier-league",
+      "nome": "Egyptian Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "egypt-cup",
+      "nome": "Egypt Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

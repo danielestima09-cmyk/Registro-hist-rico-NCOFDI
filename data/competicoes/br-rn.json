@@ -1,0 +1,29 @@
+{
+  "id": "br-rn",
+  "nome": "Rio Grande do Norte",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-potiguar",
+      "nome": "Campeonato Potiguar",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Potiguar-RN"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-potiguar-2a-divisao",
+      "nome": "Campeonato Potiguar — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Laguna"
+        }
+      ]
+    }
+  ]
+}

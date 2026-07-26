@@ -1,0 +1,19 @@
+{
+  "id": "uruguai",
+  "nome": "Uruguai",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "primera-division-uruguaia",
+      "nome": "Primera División Uruguaia",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-uruguay",
+      "nome": "Copa Uruguay",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

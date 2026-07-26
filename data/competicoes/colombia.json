@@ -1,0 +1,25 @@
+{
+  "id": "colombia",
+  "nome": "Colômbia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "primera-a-apertura",
+      "nome": "Primera A — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "primera-a-clausura",
+      "nome": "Primera A — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-colombia",
+      "nome": "Copa Colombia",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

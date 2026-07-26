@@ -1,0 +1,13 @@
+{
+  "id": "selecoes-afc",
+  "nome": "AFC",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-da-asia",
+      "nome": "Copa da Ásia",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "paraguai",
+  "nome": "Paraguai",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "primera-division-apertura",
+      "nome": "Primera División — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "primera-division-clausura",
+      "nome": "Primera División — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-paraguay",
+      "nome": "Copa Paraguay",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

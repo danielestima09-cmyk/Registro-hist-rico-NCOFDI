@@ -1,0 +1,19 @@
+{
+  "id": "hungria",
+  "nome": "Hungria",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "fizz-liga",
+      "nome": "Fizz Liga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "mol-magyar-kupa",
+      "nome": "MOL Magyar Kupa",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

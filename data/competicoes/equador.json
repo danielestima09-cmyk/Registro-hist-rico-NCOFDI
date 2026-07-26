@@ -1,0 +1,19 @@
+{
+  "id": "equador",
+  "nome": "Equador",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "ligapro-serie-a",
+      "nome": "LigaPro Serie A",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-ecuador",
+      "nome": "Copa Ecuador",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

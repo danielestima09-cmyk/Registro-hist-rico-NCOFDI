@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NCOFDI — Registro Histórico</title>
+  <meta name="description" content="Registro histórico do NCOFDI (Nível 100: O Futebol dos Iguais) — campeões de cada competição e o ranking dos maiores vencedores.">
+  <link rel="stylesheet" href="assets/css/estilo.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a class="marca" href="#/">
+        <span class="marca-sigla">NCOFDI</span>
+        <span class="marca-nome">Nível 100: O Futebol dos Iguais</span>
+      </a>
+      <nav class="menu">
+        <a href="#/" data-rota="inicio">Início</a>
+        <a href="#/maiores-campeoes" data-rota="maiores-campeoes">Maiores campeões</a>
+        <a href="#/competicoes" data-rota="competicoes">Competições</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container">
+    <div class="carregando">
+      <div class="bola"></div>
+      <p>Carregando o registro histórico…</p>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>NCOFDI — Nível 100: O Futebol dos Iguais · registro histórico</p>
+      <p class="rodape-sub" id="rodape-stats"></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

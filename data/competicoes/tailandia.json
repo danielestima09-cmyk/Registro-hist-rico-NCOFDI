@@ -1,0 +1,19 @@
+{
+  "id": "tailandia",
+  "nome": "Tailândia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "thai-league-1",
+      "nome": "Thai League 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "thai-fa-cup",
+      "nome": "Thai FA Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

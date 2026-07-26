@@ -1,0 +1,19 @@
+{
+  "id": "catar",
+  "nome": "Catar",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "qatar-stars-league",
+      "nome": "Qatar Stars League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "amir-cup",
+      "nome": "Amir Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

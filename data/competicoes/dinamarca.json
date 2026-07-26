@@ -1,0 +1,19 @@
+{
+  "id": "dinamarca",
+  "nome": "Dinamarca",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "danish-superliga",
+      "nome": "Danish Superliga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "oddset-pokalen",
+      "nome": "Oddset Pokalen",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

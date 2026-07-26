@@ -1,0 +1,19 @@
+{
+  "id": "ira",
+  "nome": "Irã",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "persian-gulf-pro-league",
+      "nome": "Persian Gulf Pro League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "hazfi-cup",
+      "nome": "Hazfi Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

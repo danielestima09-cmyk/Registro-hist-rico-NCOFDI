@@ -1,0 +1,19 @@
+{
+  "id": "bosnia-e-herzegovina",
+  "nome": "Bósnia e Herzegovina",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "wwin-liga-bih",
+      "nome": "WWIN Liga BiH",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "bosnia-herzegovina-cup",
+      "nome": "Bosnia & Herzegovina Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "br-ap",
+  "nome": "Amapá",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-amapaense",
+      "nome": "Campeonato Amapaense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ypiranga-AP"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-amapaense-2a-divisao",
+      "nome": "Campeonato Amapaense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mazagão"
+        }
+      ]
+    }
+  ]
+}

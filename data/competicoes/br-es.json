@@ -1,0 +1,40 @@
+{
+  "id": "br-es",
+  "nome": "Espírito Santo",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-capixaba",
+      "nome": "Campeonato Capixaba",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Forte"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-capixaba-2a-divisao",
+      "nome": "Campeonato Capixaba — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Nova Venécia"
+        }
+      ]
+    },
+    {
+      "id": "copa-es",
+      "nome": "Copa ES",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Forte"
+        }
+      ]
+    }
+  ]
+}

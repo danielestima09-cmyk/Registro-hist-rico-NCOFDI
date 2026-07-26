@@ -1,0 +1,31 @@
+{
+  "id": "espanha",
+  "nome": "Espanha",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "laliga",
+      "nome": "LaLiga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "laliga-hypermotion",
+      "nome": "LaLiga Hypermotion",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "primera-federacion",
+      "nome": "Primera Federación",
+      "tipo": "3ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "copa-del-rey",
+      "nome": "Copa del Rey",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

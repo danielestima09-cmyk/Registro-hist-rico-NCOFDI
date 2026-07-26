@@ -1,0 +1,13 @@
+{
+  "id": "selecoes-conmebol",
+  "nome": "Conmebol",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-america",
+      "nome": "Copa América",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

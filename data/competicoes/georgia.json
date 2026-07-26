@@ -1,0 +1,19 @@
+{
+  "id": "georgia",
+  "nome": "Geórgia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "erovnuli-liga",
+      "nome": "Erovnuli Liga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "georgian-cup",
+      "nome": "Georgian Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

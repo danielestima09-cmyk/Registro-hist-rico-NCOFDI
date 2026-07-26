@@ -1,0 +1,46 @@
+{
+  "id": "br-pb",
+  "nome": "Paraíba",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-paraibano",
+      "nome": "Campeonato Paraibano",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Sousa"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paraibano-2a-divisao",
+      "nome": "Campeonato Paraibano — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Miramar"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paraibano-3a-divisao",
+      "nome": "Campeonato Paraibano — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Internacional-PB"
+        }
+      ]
+    },
+    {
+      "id": "copa-paraiba",
+      "nome": "Copa Paraíba",
+      "tipo": "Copa Estadual",
+      "campeoes": []
+    }
+  ]
+}

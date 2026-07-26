@@ -1,0 +1,19 @@
+{
+  "id": "nova-zelandia",
+  "nome": "Nova Zelândia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "new-zealand-national-league",
+      "nome": "New Zealand National League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "chatham-cup",
+      "nome": "Chatham Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

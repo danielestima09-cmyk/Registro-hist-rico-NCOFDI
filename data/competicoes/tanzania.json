@@ -1,0 +1,19 @@
+{
+  "id": "tanzania",
+  "nome": "Tanzânia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "tanzanian-premier-league",
+      "nome": "Tanzanian Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "tanzanian-federation-cup",
+      "nome": "Tanzanian Federation Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

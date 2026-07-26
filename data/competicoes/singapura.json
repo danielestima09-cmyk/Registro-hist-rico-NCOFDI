@@ -1,0 +1,19 @@
+{
+  "id": "singapura",
+  "nome": "Singapura",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "singapore-premier-league",
+      "nome": "Singapore Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "singapore-cup",
+      "nome": "Singapore Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

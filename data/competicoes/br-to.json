@@ -1,0 +1,29 @@
+{
+  "id": "br-to",
+  "nome": "Tocantins",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-tocantinense",
+      "nome": "Campeonato Tocantinense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Capital-TO"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-tocantinense-2a-divisao",
+      "nome": "Campeonato Tocantinense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Interporto"
+        }
+      ]
+    }
+  ]
+}

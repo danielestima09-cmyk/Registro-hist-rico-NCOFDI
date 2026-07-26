@@ -1,0 +1,19 @@
+{
+  "id": "estados-unidos",
+  "nome": "Estados Unidos",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "mls",
+      "nome": "MLS",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "us-open-cup",
+      "nome": "US Open Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

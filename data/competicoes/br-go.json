@@ -1,0 +1,40 @@
+{
+  "id": "br-go",
+  "nome": "Goiás",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-goiano",
+      "nome": "Campeonato Goiano",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Aparecidense"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-goiano-2a-divisao",
+      "nome": "Campeonato Goiano — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mineiros"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-goiano-3a-divisao",
+      "nome": "Campeonato Goiano — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Aparecida"
+        }
+      ]
+    }
+  ]
+}

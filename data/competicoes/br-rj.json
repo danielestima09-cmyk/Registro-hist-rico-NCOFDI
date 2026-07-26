@@ -1,0 +1,73 @@
+{
+  "id": "br-rj",
+  "nome": "Rio de Janeiro",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-carioca",
+      "nome": "Campeonato Carioca",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Portuguesa-RJ"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-carioca-2a-divisao",
+      "nome": "Campeonato Carioca — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Resende"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-carioca-3a-divisao",
+      "nome": "Campeonato Carioca — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "São Cristóvão"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-carioca-4a-divisao",
+      "nome": "Campeonato Carioca — 4ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Barra Mansa"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-carioca-5a-divisao",
+      "nome": "Campeonato Carioca — 5ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Barra Mansa"
+        }
+      ]
+    },
+    {
+      "id": "copa-rio",
+      "nome": "Copa Rio",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Macaé"
+        }
+      ]
+    }
+  ]
+}

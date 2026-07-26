@@ -1,0 +1,19 @@
+{
+  "id": "hong-kong",
+  "nome": "Hong Kong",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "hong-kong-premier-league",
+      "nome": "Hong Kong Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "hong-kong-fa-cup",
+      "nome": "Hong Kong FA Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

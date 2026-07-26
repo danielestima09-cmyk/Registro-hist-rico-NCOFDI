@@ -1,0 +1,13 @@
+{
+  "id": "indonesia",
+  "nome": "Indonésia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "indonesia-super-league",
+      "nome": "Indonesia Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "malasia",
+  "nome": "Malásia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "malaysia-super-league",
+      "nome": "Malaysia Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "malaysia-cup",
+      "nome": "Malaysia Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+# Nomes de clube comuns no futebol brasileiro.
+#
+# Todo campeão cujo nome estiver nesta lista recebe o sufixo do estado ao ser
+# importado — "Ypiranga" vira "Ypiranga-AP", "Ypiranga-BA", "Ypiranga-PE".
+# Sem isso o ranking de maiores campeões somaria clubes diferentes como se
+# fossem o mesmo.
+#
+# A comparação ignora acentos e maiúsculas, e casa com o nome INTEIRO.
+# ("Atlético" recebe sufixo; "Atlético Gloriense" não, porque é inconfundível.)
+#
+# Para incluir um nome novo, basta acrescentar uma linha.
+
+América
+Athletico
+Atlético
+Auto Esporte
+Barra
+Botafogo
+Capital
+Central
+Comercial
+Confiança
+Corinthians
+Cruzeiro
+Desportiva
+Esportivo
+Ferroviária
+Ferroviário
+Flamengo
+Fluminense
+Grêmio
+Guarani
+Guarany
+Independente
+Independência
+Internacional
+Ipiranga
+Juventude
+Juventus
+Metropolitano
+Nacional
+Náutico
+Olímpico
+Operário
+Palmeiras
+Penarol
+Porto
+Portuguesa
+Potiguar
+Progresso
+Real
+Riachuelo
+Rio Branco
+Rio Negro
+River
+Santa Cruz
+Santos
+São Francisco
+São José
+São Paulo
+São Raimundo
+Serrano
+Sobradinho
+Sport
+Tiradentes
+Tupi
+União
+Vasco
+Vila Nova
+Vitória
+Ypiranga

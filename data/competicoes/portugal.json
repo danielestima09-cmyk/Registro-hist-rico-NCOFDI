@@ -1,0 +1,25 @@
+{
+  "id": "portugal",
+  "nome": "Portugal",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "liga-portugal-betclic",
+      "nome": "Liga Portugal Betclic",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "liga-portugal-2",
+      "nome": "Liga Portugal 2",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "taca-de-portugal",
+      "nome": "Taça de Portugal",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

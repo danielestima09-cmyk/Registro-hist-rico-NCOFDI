@@ -1,0 +1,19 @@
+{
+  "id": "vietna",
+  "nome": "Vietnã",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "v-league-1",
+      "nome": "V-League 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "vietnam-cup",
+      "nome": "Vietnam Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

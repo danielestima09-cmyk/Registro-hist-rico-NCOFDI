@@ -1,0 +1,19 @@
+{
+  "id": "tajiquistao",
+  "nome": "Tajiquistão",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "tajikistan-higher-league",
+      "nome": "Tajikistan Higher League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "tajikistan-cup",
+      "nome": "Tajikistan Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

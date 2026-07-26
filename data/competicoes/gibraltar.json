@@ -1,0 +1,19 @@
+{
+  "id": "gibraltar",
+  "nome": "Gibraltar",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "gibraltar-football-league",
+      "nome": "Gibraltar Football League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "rock-cup",
+      "nome": "Rock Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

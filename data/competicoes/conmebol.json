@@ -1,0 +1,25 @@
+{
+  "id": "conmebol",
+  "nome": "Conmebol",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-libertadores",
+      "nome": "Copa Libertadores",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "copa-sul-americana",
+      "nome": "Copa Sul-Americana",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "recopa-sul-americana",
+      "nome": "Recopa Sul-Americana",
+      "tipo": "Supercopa",
+      "campeoes": []
+    }
+  ]
+}

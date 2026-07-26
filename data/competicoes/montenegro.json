@@ -1,0 +1,19 @@
+{
+  "id": "montenegro",
+  "nome": "Montenegro",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "montenegrin-first-league",
+      "nome": "Montenegrin First League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "montenegrin-cup",
+      "nome": "Montenegrin Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

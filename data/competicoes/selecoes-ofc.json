@@ -1,0 +1,13 @@
+{
+  "id": "selecoes-ofc",
+  "nome": "OFC",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-das-nacoes-da-ofc",
+      "nome": "Copa das Nações da OFC",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

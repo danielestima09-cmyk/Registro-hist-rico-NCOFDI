@@ -1,0 +1,31 @@
+{
+  "id": "italia",
+  "nome": "Itália",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "serie-a-tim",
+      "nome": "Serie A TIM",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "serie-bkt",
+      "nome": "Serie BKT",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "serie-c",
+      "nome": "Serie C",
+      "tipo": "3ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "coppa-italia",
+      "nome": "Coppa Italia",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

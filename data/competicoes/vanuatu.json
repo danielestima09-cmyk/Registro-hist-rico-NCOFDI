@@ -1,0 +1,13 @@
+{
+  "id": "vanuatu",
+  "nome": "Vanuatu",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "pvfa-super-league",
+      "nome": "PVFA Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

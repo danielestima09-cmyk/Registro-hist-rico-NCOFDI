@@ -1,0 +1,19 @@
+{
+  "id": "panama",
+  "nome": "Panamá",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "liga-panamena-apertura",
+      "nome": "Liga Panameña — Apertura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "liga-panamena-clausura",
+      "nome": "Liga Panameña — Clausura",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

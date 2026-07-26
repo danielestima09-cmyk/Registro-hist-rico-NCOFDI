@@ -1,0 +1,19 @@
+{
+  "id": "intercontinental",
+  "nome": "Competições Mundiais",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-intercontinental",
+      "nome": "Copa Intercontinental",
+      "tipo": "Torneio Mundial",
+      "campeoes": []
+    },
+    {
+      "id": "mundial-de-clubes-da-fifa",
+      "nome": "Mundial de Clubes da FIFA",
+      "tipo": "Torneio Mundial",
+      "campeoes": []
+    }
+  ]
+}

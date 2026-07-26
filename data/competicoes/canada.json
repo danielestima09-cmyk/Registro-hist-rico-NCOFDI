@@ -1,0 +1,19 @@
+{
+  "id": "canada",
+  "nome": "Canadá",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "canadian-premier-league",
+      "nome": "Canadian Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "canadian-championship",
+      "nome": "Canadian Championship",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

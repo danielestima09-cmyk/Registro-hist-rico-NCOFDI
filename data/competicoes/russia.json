@@ -1,0 +1,19 @@
+{
+  "id": "russia",
+  "nome": "Rússia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "russian-premier-league",
+      "nome": "Russian Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "russian-cup",
+      "nome": "Russian Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

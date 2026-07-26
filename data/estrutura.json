@@ -1,0 +1,875 @@
+{
+  "projeto": {
+    "sigla": "NCOFDI",
+    "nome": "Nível 100: O Futebol dos Iguais",
+    "descricao": "Registro histórico de um universo onde todos os clubes de futebol têm exatamente o mesmo nível."
+  },
+  "secoes": [
+    {
+      "id": "europa",
+      "nome": "Europa",
+      "emoji": "🇪🇺",
+      "confederacoes": [
+        {
+          "id": "uefa",
+          "nome": "UEFA",
+          "descricao": "Torneios continentais europeus"
+        }
+      ],
+      "paises": [
+        {
+          "id": "albania",
+          "nome": "Albânia",
+          "iso": "al"
+        },
+        {
+          "id": "alemanha",
+          "nome": "Alemanha",
+          "iso": "de"
+        },
+        {
+          "id": "andorra",
+          "nome": "Andorra",
+          "iso": "ad"
+        },
+        {
+          "id": "armenia",
+          "nome": "Armênia",
+          "iso": "am"
+        },
+        {
+          "id": "austria",
+          "nome": "Áustria",
+          "iso": "at"
+        },
+        {
+          "id": "azerbaijao",
+          "nome": "Azerbaijão",
+          "iso": "az"
+        },
+        {
+          "id": "belarus",
+          "nome": "Belarus",
+          "iso": "by"
+        },
+        {
+          "id": "belgica",
+          "nome": "Bélgica",
+          "iso": "be"
+        },
+        {
+          "id": "bosnia-e-herzegovina",
+          "nome": "Bósnia e Herzegovina",
+          "iso": "ba"
+        },
+        {
+          "id": "bulgaria",
+          "nome": "Bulgária",
+          "iso": "bg"
+        },
+        {
+          "id": "cazaquistao",
+          "nome": "Cazaquistão",
+          "iso": "kz"
+        },
+        {
+          "id": "chipre",
+          "nome": "Chipre",
+          "iso": "cy"
+        },
+        {
+          "id": "croacia",
+          "nome": "Croácia",
+          "iso": "hr"
+        },
+        {
+          "id": "dinamarca",
+          "nome": "Dinamarca",
+          "iso": "dk"
+        },
+        {
+          "id": "escocia",
+          "nome": "Escócia",
+          "iso": "gb",
+          "bandeira": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        },
+        {
+          "id": "eslovaquia",
+          "nome": "Eslováquia",
+          "iso": "sk"
+        },
+        {
+          "id": "eslovenia",
+          "nome": "Eslovênia",
+          "iso": "si"
+        },
+        {
+          "id": "espanha",
+          "nome": "Espanha",
+          "iso": "es"
+        },
+        {
+          "id": "estonia",
+          "nome": "Estônia",
+          "iso": "ee"
+        },
+        {
+          "id": "finlandia",
+          "nome": "Finlândia",
+          "iso": "fi"
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "iso": "fr"
+        },
+        {
+          "id": "georgia",
+          "nome": "Geórgia",
+          "iso": "ge"
+        },
+        {
+          "id": "gibraltar",
+          "nome": "Gibraltar",
+          "iso": "gi"
+        },
+        {
+          "id": "grecia",
+          "nome": "Grécia",
+          "iso": "gr"
+        },
+        {
+          "id": "holanda",
+          "nome": "Holanda",
+          "iso": "nl"
+        },
+        {
+          "id": "hungria",
+          "nome": "Hungria",
+          "iso": "hu"
+        },
+        {
+          "id": "ilhas-faroe",
+          "nome": "Ilhas Faroé",
+          "iso": "fo"
+        },
+        {
+          "id": "inglaterra",
+          "nome": "Inglaterra",
+          "iso": "gb",
+          "bandeira": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        },
+        {
+          "id": "irlanda",
+          "nome": "Irlanda",
+          "iso": "ie"
+        },
+        {
+          "id": "irlanda-do-norte",
+          "nome": "Irlanda do Norte",
+          "iso": "gb",
+          "bandeira": "🇬🇧"
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "iso": "is"
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "iso": "il"
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "iso": "it"
+        },
+        {
+          "id": "kosovo",
+          "nome": "Kosovo",
+          "iso": "xk",
+          "bandeira": "🇽🇰"
+        },
+        {
+          "id": "letonia",
+          "nome": "Letônia",
+          "iso": "lv"
+        },
+        {
+          "id": "liechtenstein",
+          "nome": "Liechtenstein",
+          "iso": "li"
+        },
+        {
+          "id": "lituania",
+          "nome": "Lituânia",
+          "iso": "lt"
+        },
+        {
+          "id": "luxemburgo",
+          "nome": "Luxemburgo",
+          "iso": "lu"
+        },
+        {
+          "id": "macedonia-do-norte",
+          "nome": "Macedônia do Norte",
+          "iso": "mk"
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "iso": "mt"
+        },
+        {
+          "id": "moldavia",
+          "nome": "Moldávia",
+          "iso": "md"
+        },
+        {
+          "id": "montenegro",
+          "nome": "Montenegro",
+          "iso": "me"
+        },
+        {
+          "id": "noruega",
+          "nome": "Noruega",
+          "iso": "no"
+        },
+        {
+          "id": "pais-de-gales",
+          "nome": "País de Gales",
+          "iso": "gb",
+          "bandeira": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+        },
+        {
+          "id": "polonia",
+          "nome": "Polônia",
+          "iso": "pl"
+        },
+        {
+          "id": "portugal",
+          "nome": "Portugal",
+          "iso": "pt"
+        },
+        {
+          "id": "romenia",
+          "nome": "Romênia",
+          "iso": "ro"
+        },
+        {
+          "id": "russia",
+          "nome": "Rússia",
+          "iso": "ru"
+        },
+        {
+          "id": "san-marino",
+          "nome": "San Marino",
+          "iso": "sm"
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "iso": "rs"
+        },
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "iso": "se"
+        },
+        {
+          "id": "suica",
+          "nome": "Suíça",
+          "iso": "ch"
+        },
+        {
+          "id": "tchequia",
+          "nome": "Tchéquia",
+          "iso": "cz"
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "iso": "tr"
+        },
+        {
+          "id": "ucrania",
+          "nome": "Ucrânia",
+          "iso": "ua"
+        }
+      ]
+    },
+    {
+      "id": "asia",
+      "nome": "Ásia",
+      "emoji": "🌏",
+      "confederacoes": [
+        {
+          "id": "afc",
+          "nome": "AFC",
+          "descricao": "Torneios continentais asiáticos"
+        }
+      ],
+      "paises": [
+        {
+          "id": "arabia-saudita",
+          "nome": "Arábia Saudita",
+          "iso": "sa"
+        },
+        {
+          "id": "australia",
+          "nome": "Austrália",
+          "iso": "au"
+        },
+        {
+          "id": "catar",
+          "nome": "Catar",
+          "iso": "qa"
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "iso": "cn"
+        },
+        {
+          "id": "coreia-do-sul",
+          "nome": "Coréia do Sul",
+          "iso": "kr"
+        },
+        {
+          "id": "emirados-arabes-unidos",
+          "nome": "Emirados Árabes Unidos",
+          "iso": "ae"
+        },
+        {
+          "id": "filipinas",
+          "nome": "Filipinas",
+          "iso": "ph"
+        },
+        {
+          "id": "hong-kong",
+          "nome": "Hong Kong",
+          "iso": "hk"
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "iso": "in"
+        },
+        {
+          "id": "indonesia",
+          "nome": "Indonésia",
+          "iso": "id"
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "iso": "ir"
+        },
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "iso": "iq"
+        },
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "iso": "jp"
+        },
+        {
+          "id": "jordania",
+          "nome": "Jordânia",
+          "iso": "jo"
+        },
+        {
+          "id": "kuwait",
+          "nome": "Kuwait",
+          "iso": "kw"
+        },
+        {
+          "id": "malasia",
+          "nome": "Malásia",
+          "iso": "my"
+        },
+        {
+          "id": "singapura",
+          "nome": "Singapura",
+          "iso": "sg"
+        },
+        {
+          "id": "tailandia",
+          "nome": "Tailândia",
+          "iso": "th"
+        },
+        {
+          "id": "tajiquistao",
+          "nome": "Tajiquistão",
+          "iso": "tj"
+        },
+        {
+          "id": "uzbequistao",
+          "nome": "Uzbequistão",
+          "iso": "uz"
+        },
+        {
+          "id": "vietna",
+          "nome": "Vietnã",
+          "iso": "vn"
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "nome": "África",
+      "emoji": "🌍",
+      "confederacoes": [
+        {
+          "id": "caf",
+          "nome": "CAF",
+          "descricao": "Torneios continentais africanos"
+        }
+      ],
+      "paises": [
+        {
+          "id": "africa-do-sul",
+          "nome": "África do Sul",
+          "iso": "za"
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "iso": "ao"
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "iso": "dz"
+        },
+        {
+          "id": "botswana",
+          "nome": "Botswana",
+          "iso": "bw"
+        },
+        {
+          "id": "egito",
+          "nome": "Egito",
+          "iso": "eg"
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "iso": "gh"
+        },
+        {
+          "id": "guine",
+          "nome": "Guiné",
+          "iso": "gn"
+        },
+        {
+          "id": "marrocos",
+          "nome": "Marrocos",
+          "iso": "ma"
+        },
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "iso": "ng"
+        },
+        {
+          "id": "tanzania",
+          "nome": "Tanzânia",
+          "iso": "tz"
+        },
+        {
+          "id": "tunisia",
+          "nome": "Tunísia",
+          "iso": "tn"
+        },
+        {
+          "id": "zambia",
+          "nome": "Zâmbia",
+          "iso": "zm"
+        }
+      ]
+    },
+    {
+      "id": "america-do-sul",
+      "nome": "América do Sul",
+      "emoji": "🌎",
+      "confederacoes": [
+        {
+          "id": "conmebol",
+          "nome": "Conmebol",
+          "descricao": "Torneios continentais sul-americanos"
+        }
+      ],
+      "paises": [
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "iso": "ar"
+        },
+        {
+          "id": "bolivia",
+          "nome": "Bolívia",
+          "iso": "bo"
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "iso": "cl"
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "iso": "co"
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "iso": "ec"
+        },
+        {
+          "id": "paraguai",
+          "nome": "Paraguai",
+          "iso": "py"
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "iso": "pe"
+        },
+        {
+          "id": "uruguai",
+          "nome": "Uruguai",
+          "iso": "uy"
+        },
+        {
+          "id": "venezuela",
+          "nome": "Venezuela",
+          "iso": "ve"
+        }
+      ],
+      "verTambem": {
+        "texto": "As competições brasileiras ficam na seção Brasil",
+        "href": "#/secao/brasil"
+      }
+    },
+    {
+      "id": "america-do-norte",
+      "nome": "América do Norte/Central",
+      "emoji": "🌎",
+      "confederacoes": [
+        {
+          "id": "concacaf",
+          "nome": "CONCACAF",
+          "descricao": "Torneios continentais da América do Norte e Central"
+        }
+      ],
+      "paises": [
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "iso": "ca"
+        },
+        {
+          "id": "costa-rica",
+          "nome": "Costa Rica",
+          "iso": "cr"
+        },
+        {
+          "id": "estados-unidos",
+          "nome": "Estados Unidos",
+          "iso": "us"
+        },
+        {
+          "id": "guatemala",
+          "nome": "Guatemala",
+          "iso": "gt"
+        },
+        {
+          "id": "honduras",
+          "nome": "Honduras",
+          "iso": "hn"
+        },
+        {
+          "id": "jamaica",
+          "nome": "Jamaica",
+          "iso": "jm"
+        },
+        {
+          "id": "mexico",
+          "nome": "México",
+          "iso": "mx"
+        },
+        {
+          "id": "nicaragua",
+          "nome": "Nicarágua",
+          "iso": "ni"
+        },
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "iso": "pa"
+        }
+      ]
+    },
+    {
+      "id": "oceania",
+      "nome": "Oceania",
+      "emoji": "🌏",
+      "confederacoes": [
+        {
+          "id": "ofc",
+          "nome": "OFC",
+          "descricao": "Torneios continentais da Oceania"
+        }
+      ],
+      "paises": [
+        {
+          "id": "fiji",
+          "nome": "Fiji",
+          "iso": "fj"
+        },
+        {
+          "id": "ilhas-salomao",
+          "nome": "Ilhas Salomão",
+          "iso": "sb"
+        },
+        {
+          "id": "nova-zelandia",
+          "nome": "Nova Zelândia",
+          "iso": "nz"
+        },
+        {
+          "id": "taiti",
+          "nome": "Taiti",
+          "iso": "pf"
+        },
+        {
+          "id": "vanuatu",
+          "nome": "Vanuatu",
+          "iso": "vu"
+        }
+      ]
+    },
+    {
+      "id": "internacional",
+      "nome": "Internacional de Clubes",
+      "emoji": "🌐",
+      "confederacoes": [
+        {
+          "id": "intercontinental",
+          "nome": "Competições Mundiais",
+          "descricao": "Torneios interclubes mundiais"
+        }
+      ],
+      "paises": []
+    },
+    {
+      "id": "brasil",
+      "nome": "Brasil",
+      "emoji": "🇧🇷",
+      "confederacoes": [
+        {
+          "id": "brasil-nacional",
+          "nome": "Competições Nacionais",
+          "descricao": "Séries A a D, Copa do Brasil e Supercopa"
+        },
+        {
+          "id": "copas-regionais",
+          "nome": "Copas Regionais",
+          "descricao": "Torneios entre clubes de uma mesma região"
+        }
+      ],
+      "paises": [
+        {
+          "id": "br-ac",
+          "nome": "Acre",
+          "sigla": "AC"
+        },
+        {
+          "id": "br-al",
+          "nome": "Alagoas",
+          "sigla": "AL"
+        },
+        {
+          "id": "br-am",
+          "nome": "Amazonas",
+          "sigla": "AM"
+        },
+        {
+          "id": "br-ap",
+          "nome": "Amapá",
+          "sigla": "AP"
+        },
+        {
+          "id": "br-ba",
+          "nome": "Bahia",
+          "sigla": "BA"
+        },
+        {
+          "id": "br-ce",
+          "nome": "Ceará",
+          "sigla": "CE"
+        },
+        {
+          "id": "br-df",
+          "nome": "Distrito Federal",
+          "sigla": "DF"
+        },
+        {
+          "id": "br-es",
+          "nome": "Espírito Santo",
+          "sigla": "ES"
+        },
+        {
+          "id": "br-go",
+          "nome": "Goiás",
+          "sigla": "GO"
+        },
+        {
+          "id": "br-ma",
+          "nome": "Maranhão",
+          "sigla": "MA"
+        },
+        {
+          "id": "br-mg",
+          "nome": "Minas Gerais",
+          "sigla": "MG"
+        },
+        {
+          "id": "br-ms",
+          "nome": "Mato Grosso do Sul",
+          "sigla": "MS"
+        },
+        {
+          "id": "br-mt",
+          "nome": "Mato Grosso",
+          "sigla": "MT"
+        },
+        {
+          "id": "br-pa",
+          "nome": "Pará",
+          "sigla": "PA"
+        },
+        {
+          "id": "br-pb",
+          "nome": "Paraíba",
+          "sigla": "PB"
+        },
+        {
+          "id": "br-pe",
+          "nome": "Pernambuco",
+          "sigla": "PE"
+        },
+        {
+          "id": "br-pi",
+          "nome": "Piauí",
+          "sigla": "PI"
+        },
+        {
+          "id": "br-pr",
+          "nome": "Paraná",
+          "sigla": "PR"
+        },
+        {
+          "id": "br-rj",
+          "nome": "Rio de Janeiro",
+          "sigla": "RJ"
+        },
+        {
+          "id": "br-rn",
+          "nome": "Rio Grande do Norte",
+          "sigla": "RN"
+        },
+        {
+          "id": "br-ro",
+          "nome": "Rondônia",
+          "sigla": "RO"
+        },
+        {
+          "id": "br-rr",
+          "nome": "Roraima",
+          "sigla": "RR"
+        },
+        {
+          "id": "br-rs",
+          "nome": "Rio Grande do Sul",
+          "sigla": "RS"
+        },
+        {
+          "id": "br-sc",
+          "nome": "Santa Catarina",
+          "sigla": "SC"
+        },
+        {
+          "id": "br-se",
+          "nome": "Sergipe",
+          "sigla": "SE"
+        },
+        {
+          "id": "br-sp",
+          "nome": "São Paulo",
+          "sigla": "SP"
+        },
+        {
+          "id": "br-to",
+          "nome": "Tocantins",
+          "sigla": "TO"
+        }
+      ],
+      "rotuloConfederacoes": "Competições nacionais e regionais",
+      "rotuloPaises": "Estaduais",
+      "pais": {
+        "nome": "Brasil",
+        "iso": "br"
+      }
+    },
+    {
+      "id": "selecoes",
+      "nome": "Seleções",
+      "emoji": "🎽",
+      "confederacoes": [
+        {
+          "id": "selecoes-mundiais",
+          "nome": "Internacionais",
+          "descricao": "Torneios mundiais de seleções"
+        },
+        {
+          "id": "selecoes-uefa",
+          "nome": "UEFA",
+          "descricao": "Europa"
+        },
+        {
+          "id": "selecoes-conmebol",
+          "nome": "Conmebol",
+          "descricao": "América do Sul"
+        },
+        {
+          "id": "selecoes-concacaf",
+          "nome": "CONCACAF",
+          "descricao": "América do Norte e Central"
+        },
+        {
+          "id": "selecoes-caf",
+          "nome": "CAF",
+          "descricao": "África"
+        },
+        {
+          "id": "selecoes-afc",
+          "nome": "AFC",
+          "descricao": "Ásia"
+        },
+        {
+          "id": "selecoes-ofc",
+          "nome": "OFC",
+          "descricao": "Oceania"
+        }
+      ],
+      "paises": [],
+      "entidade": "selecao",
+      "rotuloConfederacoes": "Competições de seleções"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "islandia",
+  "nome": "Islândia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "besta-deild-karla",
+      "nome": "Besta Deild Karla",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "bikarkeppni",
+      "nome": "Bikarkeppni",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

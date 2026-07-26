@@ -1,0 +1,29 @@
+{
+  "id": "br-pi",
+  "nome": "Piauí",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-piauiense",
+      "nome": "Campeonato Piauiense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Teresina"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-piauiense-2a-divisao",
+      "nome": "Campeonato Piauiense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "4 de Julho"
+        }
+      ]
+    }
+  ]
+}

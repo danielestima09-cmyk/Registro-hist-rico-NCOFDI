@@ -1,0 +1,13 @@
+{
+  "id": "ilhas-salomao",
+  "nome": "Ilhas Salomão",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "telekom-s-league",
+      "nome": "Telekom S-League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

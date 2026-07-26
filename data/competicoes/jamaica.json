@@ -1,0 +1,13 @@
+{
+  "id": "jamaica",
+  "nome": "Jamaica",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "jamaica-premier-league",
+      "nome": "Jamaica Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

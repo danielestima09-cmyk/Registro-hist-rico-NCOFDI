@@ -1,0 +1,19 @@
+{
+  "id": "andorra",
+  "nome": "Andorra",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "primera-divisio",
+      "nome": "Primera Divisió",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-constitucio",
+      "nome": "Copa Constitució",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

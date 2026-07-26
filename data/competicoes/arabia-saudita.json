@@ -1,0 +1,19 @@
+{
+  "id": "arabia-saudita",
+  "nome": "Arábia Saudita",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "saudi-pro-league",
+      "nome": "Saudi Pro League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "kings-cup",
+      "nome": "King's Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

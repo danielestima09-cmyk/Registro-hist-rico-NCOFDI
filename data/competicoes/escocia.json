@@ -1,0 +1,19 @@
+{
+  "id": "escocia",
+  "nome": "Escócia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "scottish-premiership",
+      "nome": "Scottish Premiership",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "scottish-cup",
+      "nome": "Scottish Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

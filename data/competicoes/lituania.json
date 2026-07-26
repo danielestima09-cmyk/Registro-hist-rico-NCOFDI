@@ -1,0 +1,19 @@
+{
+  "id": "lituania",
+  "nome": "Lituânia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "a-lyga",
+      "nome": "A Lyga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "lff-cup",
+      "nome": "LFF Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

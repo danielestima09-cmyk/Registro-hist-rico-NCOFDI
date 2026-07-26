@@ -1,0 +1,25 @@
+{
+  "id": "afc",
+  "nome": "AFC",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "afc-champions-league-elite",
+      "nome": "AFC Champions League Elite",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "afc-champions-league-two",
+      "nome": "AFC Champions League Two",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    },
+    {
+      "id": "afc-challenge-league",
+      "nome": "AFC Challenge League",
+      "tipo": "Torneio Continental",
+      "campeoes": []
+    }
+  ]
+}

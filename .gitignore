@@ -1,0 +1,12 @@
+# Arquivos temporários do Excel/PowerPoint (criados enquanto o arquivo está aberto)
+~$*
+*.tmp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc

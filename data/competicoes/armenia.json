@@ -1,0 +1,19 @@
+{
+  "id": "armenia",
+  "nome": "Armênia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "armenian-premier-league",
+      "nome": "Armenian Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "armenian-cup",
+      "nome": "Armenian Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

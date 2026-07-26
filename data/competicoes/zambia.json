@@ -1,0 +1,13 @@
+{
+  "id": "zambia",
+  "nome": "Zâmbia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "zambia-super-league",
+      "nome": "Zambia Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

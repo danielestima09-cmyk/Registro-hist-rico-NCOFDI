@@ -1,0 +1,19 @@
+{
+  "id": "argelia",
+  "nome": "Argélia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "algerian-ligue-1",
+      "nome": "Algerian Ligue 1",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "algerian-cup",
+      "nome": "Algerian Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

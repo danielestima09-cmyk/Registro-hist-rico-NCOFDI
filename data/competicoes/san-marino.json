@@ -1,0 +1,19 @@
+{
+  "id": "san-marino",
+  "nome": "San Marino",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "campionato-sammarinese",
+      "nome": "Campionato Sammarinese",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "coppa-titano",
+      "nome": "Coppa Titano",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

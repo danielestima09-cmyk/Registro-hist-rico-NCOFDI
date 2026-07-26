@@ -1,0 +1,19 @@
+{
+  "id": "kosovo",
+  "nome": "Kosovo",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "albimall-superliga",
+      "nome": "AlbiMall Superliga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "kupa-e-kosoves",
+      "nome": "Kupa e Kosovës",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "macedonia-do-norte",
+  "nome": "Macedônia do Norte",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "1-mfl",
+      "nome": "1. MFL",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "north-macedonia-cup",
+      "nome": "North Macedonia Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

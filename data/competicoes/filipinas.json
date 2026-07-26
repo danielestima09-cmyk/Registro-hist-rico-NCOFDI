@@ -1,0 +1,19 @@
+{
+  "id": "filipinas",
+  "nome": "Filipinas",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "philippines-football-league",
+      "nome": "Philippines Football League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-paulino-alcantara",
+      "nome": "Copa Paulino Alcantara",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

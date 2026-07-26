@@ -1,0 +1,19 @@
+{
+  "id": "india",
+  "nome": "Índia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "indian-super-league",
+      "nome": "Indian Super League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "super-cup-india",
+      "nome": "Super Cup India",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

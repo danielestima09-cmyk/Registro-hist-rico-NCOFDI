@@ -1,0 +1,19 @@
+{
+  "id": "croacia",
+  "nome": "Croácia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "hnl",
+      "nome": "HNL",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "hrvatski-nogometni-kup",
+      "nome": "Hrvatski nogometni kup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

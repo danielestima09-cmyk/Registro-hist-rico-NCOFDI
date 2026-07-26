@@ -1,0 +1,19 @@
+{
+  "id": "romenia",
+  "nome": "Romênia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "romanian-superliga",
+      "nome": "Romanian SuperLiga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "cupa-romaniei-betano",
+      "nome": "Cupa României Betano",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

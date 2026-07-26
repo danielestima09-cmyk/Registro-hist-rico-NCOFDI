@@ -1,0 +1,25 @@
+{
+  "id": "polonia",
+  "nome": "Polônia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "ekstraklasa",
+      "nome": "Ekstraklasa",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "betclic-1-liga",
+      "nome": "Betclic 1. Liga",
+      "tipo": "2ª Divisão",
+      "campeoes": []
+    },
+    {
+      "id": "puchar-polski",
+      "nome": "Puchar Polski",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

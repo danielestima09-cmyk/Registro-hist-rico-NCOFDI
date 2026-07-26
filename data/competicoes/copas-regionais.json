@@ -1,0 +1,37 @@
+{
+  "id": "copas-regionais",
+  "nome": "Copas Regionais",
+  "tipo": "confederacao",
+  "competicoes": [
+    {
+      "id": "copa-verde",
+      "nome": "Copa Verde",
+      "tipo": "Copa Regional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-do-nordeste",
+      "nome": "Copa do Nordeste",
+      "tipo": "Copa Regional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-norte",
+      "nome": "Copa Norte",
+      "tipo": "Copa Regional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-centro-oeste",
+      "nome": "Copa Centro-Oeste",
+      "tipo": "Copa Regional",
+      "campeoes": []
+    },
+    {
+      "id": "copa-sul-sudeste",
+      "nome": "Copa Sul-Sudeste",
+      "tipo": "Copa Regional",
+      "campeoes": []
+    }
+  ]
+}

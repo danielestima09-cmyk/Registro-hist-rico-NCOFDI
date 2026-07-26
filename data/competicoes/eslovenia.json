@@ -1,0 +1,19 @@
+{
+  "id": "eslovenia",
+  "nome": "Eslovênia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "prvaliga",
+      "nome": "PrvaLiga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "slovenia-cup",
+      "nome": "Slovenia Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

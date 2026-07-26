@@ -1,0 +1,40 @@
+{
+  "id": "br-pa",
+  "nome": "Pará",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-paraense",
+      "nome": "Campeonato Paraense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tuna Luso"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paraense-2a-divisao",
+      "nome": "Campeonato Paraense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Santos-PA"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paraense-3a-divisao",
+      "nome": "Campeonato Paraense — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Vila Rica"
+        }
+      ]
+    }
+  ]
+}

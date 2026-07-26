@@ -1,0 +1,19 @@
+{
+  "id": "luxemburgo",
+  "nome": "Luxemburgo",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "division-nationale",
+      "nome": "Division Nationale",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "coupe-de-luxembourg",
+      "nome": "Coupe de Luxembourg",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

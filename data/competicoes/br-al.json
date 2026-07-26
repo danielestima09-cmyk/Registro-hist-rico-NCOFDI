@@ -1,0 +1,40 @@
+{
+  "id": "br-al",
+  "nome": "Alagoas",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-alagoano",
+      "nome": "Campeonato Alagoano",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Murici"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-alagoano-2a-divisao",
+      "nome": "Campeonato Alagoano — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Jaciobá"
+        }
+      ]
+    },
+    {
+      "id": "copa-alagoas",
+      "nome": "Copa Alagoas",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "CRB"
+        }
+      ]
+    }
+  ]
+}

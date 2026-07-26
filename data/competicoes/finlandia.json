@@ -1,0 +1,19 @@
+{
+  "id": "finlandia",
+  "nome": "Finlândia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "veikkausliiga",
+      "nome": "Veikkausliiga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "suomen-cup",
+      "nome": "Suomen Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

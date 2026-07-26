@@ -1,0 +1,19 @@
+{
+  "id": "kuwait",
+  "nome": "Kuwait",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "zain-premier-league",
+      "nome": "Zain Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "emir-cup",
+      "nome": "Emir Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

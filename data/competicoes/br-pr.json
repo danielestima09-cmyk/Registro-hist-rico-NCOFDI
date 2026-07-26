@@ -1,0 +1,51 @@
+{
+  "id": "br-pr",
+  "nome": "Paraná",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-paranaense",
+      "nome": "Campeonato Paranaense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Andraus"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paranaense-2a-divisao",
+      "nome": "Campeonato Paranaense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Araucária"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-paranaense-3a-divisao",
+      "nome": "Campeonato Paranaense — 3ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Portuguesa-PR"
+        }
+      ]
+    },
+    {
+      "id": "taca-fpf",
+      "nome": "Taça FPF",
+      "tipo": "Copa Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Rio Branco-PR"
+        }
+      ]
+    }
+  ]
+}

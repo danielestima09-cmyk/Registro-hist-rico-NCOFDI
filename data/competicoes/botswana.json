@@ -1,0 +1,13 @@
+{
+  "id": "botswana",
+  "nome": "Botswana",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "botswana-premier-league",
+      "nome": "Botswana Premier League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    }
+  ]
+}

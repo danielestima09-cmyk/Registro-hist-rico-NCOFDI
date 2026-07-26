@@ -1,0 +1,19 @@
+{
+  "id": "moldavia",
+  "nome": "Moldávia",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "moldovan-super-liga",
+      "nome": "Moldovan Super Liga",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "cupa-moldova",
+      "nome": "Cupa Moldova",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

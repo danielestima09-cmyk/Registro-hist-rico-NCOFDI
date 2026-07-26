@@ -1,0 +1,19 @@
+{
+  "id": "angola",
+  "nome": "Angola",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "girabola",
+      "nome": "Girabola",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "taca-de-angola",
+      "nome": "Taça de Angola",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "br-ma",
+  "nome": "Maranhão",
+  "tipo": "estado",
+  "competicoes": [
+    {
+      "id": "campeonato-maranhense",
+      "nome": "Campeonato Maranhense",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Maranhão"
+        }
+      ]
+    },
+    {
+      "id": "campeonato-maranhense-2a-divisao",
+      "nome": "Campeonato Maranhense — 2ª Divisão",
+      "tipo": "Estadual",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Cordino"
+        }
+      ]
+    }
+  ]
+}

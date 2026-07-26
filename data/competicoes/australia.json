@@ -1,0 +1,19 @@
+{
+  "id": "australia",
+  "nome": "Austrália",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "a-league",
+      "nome": "A-League",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "australia-cup",
+      "nome": "Australia Cup",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}

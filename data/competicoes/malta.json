@@ -1,0 +1,19 @@
+{
+  "id": "malta",
+  "nome": "Malta",
+  "tipo": "pais",
+  "competicoes": [
+    {
+      "id": "yohealth-malta-premier",
+      "nome": "YoHealth Malta Premier",
+      "tipo": "Liga Nacional",
+      "campeoes": []
+    },
+    {
+      "id": "maltese-fa-trophy",
+      "nome": "Maltese FA Trophy",
+      "tipo": "Copa Nacional",
+      "campeoes": []
+    }
+  ]
+}
