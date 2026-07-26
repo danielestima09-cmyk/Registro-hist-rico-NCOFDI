@@ -7,25 +7,76 @@
       "id": "torneo-apertura",
       "nome": "Torneo Apertura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tigre"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Independiente-ARG"
+        }
+      ]
     },
     {
       "id": "torneo-clausura",
       "nome": "Torneo Clausura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Independiente-ARG"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Quilmes"
+        }
+      ]
+    },
+    {
+      "id": "tabela-geral-da-liga",
+      "nome": "Tabela Geral da Liga",
+      "tipo": "Liga Nacional",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Lanús"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Sarmiento"
+        }
+      ]
     },
     {
       "id": "primera-nacional",
       "nome": "Primera Nacional",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Almagro"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Colegiales"
+        }
+      ]
     },
     {
       "id": "copa-argentina",
       "nome": "Copa Argentina",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "All Boys"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Tigre"
+        }
+      ]
     }
   ]
 }

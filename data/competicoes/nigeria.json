@@ -7,13 +7,23 @@
       "id": "nigeria-premier-football-league",
       "nome": "Nigeria Premier Football League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Nasarawa United"
+        }
+      ]
     },
     {
       "id": "nigeria-federation-cup",
       "nome": "Nigeria Federation Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Abia Warriors"
+        }
+      ]
     }
   ]
 }

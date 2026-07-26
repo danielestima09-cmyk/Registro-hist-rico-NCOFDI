@@ -7,19 +7,34 @@
       "id": "trendyol-super-lig",
       "nome": "Trendyol Süper Lig",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Galatasaray"
+        }
+      ]
     },
     {
       "id": "trendyol-1-lig",
       "nome": "Trendyol 1. Lig",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Erzurumspor"
+        }
+      ]
     },
     {
       "id": "turkiye-kupas",
       "nome": "Türkiye Kupası",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Gençlerbirliği"
+        }
+      ]
     }
   ]
 }

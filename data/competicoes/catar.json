@@ -7,13 +7,23 @@
       "id": "qatar-stars-league",
       "nome": "Qatar Stars League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Al Rayyan"
+        }
+      ]
     },
     {
       "id": "amir-cup",
       "nome": "Amir Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Qatar SC"
+        }
+      ]
     }
   ]
 }

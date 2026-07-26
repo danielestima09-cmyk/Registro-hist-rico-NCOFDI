@@ -7,13 +7,31 @@
       "id": "canadian-premier-league",
       "nome": "Canadian Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Forge FC"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Vancouver FC"
+        }
+      ]
     },
     {
       "id": "canadian-championship",
       "nome": "Canadian Championship",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Inter Toronto"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Inter Toronto"
+        }
+      ]
     }
   ]
 }

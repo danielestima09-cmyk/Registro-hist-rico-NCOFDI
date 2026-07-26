@@ -7,13 +7,23 @@
       "id": "philippines-football-league",
       "nome": "Philippines Football League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "One Taguig"
+        }
+      ]
     },
     {
       "id": "copa-paulino-alcantara",
       "nome": "Copa Paulino Alcantara",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Cebu FC"
+        }
+      ]
     }
   ]
 }

@@ -7,19 +7,34 @@
       "id": "liga-portugal-betclic",
       "nome": "Liga Portugal Betclic",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Porto-POR"
+        }
+      ]
     },
     {
       "id": "liga-portugal-2",
       "nome": "Liga Portugal 2",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Marítimo"
+        }
+      ]
     },
     {
       "id": "taca-de-portugal",
       "nome": "Taça de Portugal",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Torreense"
+        }
+      ]
     }
   ]
 }

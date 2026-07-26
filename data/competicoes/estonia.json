@@ -7,13 +7,23 @@
       "id": "premium-liiga",
       "nome": "Premium Liiga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Harju JK"
+        }
+      ]
     },
     {
       "id": "eesti-karikas",
       "nome": "Eesti Karikas",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Narva Trans"
+        }
+      ]
     }
   ]
 }

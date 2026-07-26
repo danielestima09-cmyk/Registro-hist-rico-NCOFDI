@@ -7,13 +7,23 @@
       "id": "misli-premier-league",
       "nome": "Misli Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Sabah"
+        }
+      ]
     },
     {
       "id": "azerbaijan-cup",
       "nome": "Azerbaijan Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Shamakhi FK"
+        }
+      ]
     }
   ]
 }

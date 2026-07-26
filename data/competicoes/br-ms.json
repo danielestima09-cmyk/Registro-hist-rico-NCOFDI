@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Dourados"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Dourados"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Comercial-MS"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Misto"
         }
       ]
     },
@@ -29,7 +37,12 @@
       "id": "copa-ms",
       "nome": "Copa MS",
       "tipo": "Copa Estadual",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Aquidauana"
+        }
+      ]
     }
   ]
 }

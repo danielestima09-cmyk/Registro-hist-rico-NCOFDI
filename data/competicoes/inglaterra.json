@@ -7,31 +7,56 @@
       "id": "premier-league",
       "nome": "Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Arsenal-ING"
+        }
+      ]
     },
     {
       "id": "championship",
       "nome": "Championship",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Coventry City"
+        }
+      ]
     },
     {
       "id": "league-one",
       "nome": "League One",
       "tipo": "3ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Lincoln City"
+        }
+      ]
     },
     {
       "id": "league-two",
       "nome": "League Two",
       "tipo": "4ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Bromley"
+        }
+      ]
     },
     {
       "id": "fa-cup",
       "nome": "FA Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Manchester City"
+        }
+      ]
     },
     {
       "id": "carabao-cup",

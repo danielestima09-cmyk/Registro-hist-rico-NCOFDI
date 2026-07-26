@@ -7,7 +7,12 @@
       "id": "malaysia-super-league",
       "nome": "Malaysia Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "JDT"
+        }
+      ]
     },
     {
       "id": "malaysia-cup",

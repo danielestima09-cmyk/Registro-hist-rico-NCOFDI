@@ -7,13 +7,23 @@
       "id": "tajikistan-higher-league",
       "nome": "Tajikistan Higher League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Sardor Tursunzoda"
+        }
+      ]
     },
     {
       "id": "tajikistan-cup",
       "nome": "Tajikistan Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "FC Ravshan Kulob"
+        }
+      ]
     }
   ]
 }

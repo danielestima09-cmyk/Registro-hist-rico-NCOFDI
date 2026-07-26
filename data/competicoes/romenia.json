@@ -7,13 +7,23 @@
       "id": "romanian-superliga",
       "nome": "Romanian SuperLiga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Universitatea Craiova"
+        }
+      ]
     },
     {
       "id": "cupa-romaniei-betano",
       "nome": "Cupa României Betano",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Dinamo Bucureşti"
+        }
+      ]
     }
   ]
 }

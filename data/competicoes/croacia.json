@@ -7,13 +7,23 @@
       "id": "hnl",
       "nome": "HNL",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Dinamo Zagreb"
+        }
+      ]
     },
     {
       "id": "hrvatski-nogometni-kup",
       "nome": "Hrvatski nogometni kup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Dinamo Zagreb"
+        }
+      ]
     }
   ]
 }

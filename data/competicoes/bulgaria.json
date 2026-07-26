@@ -7,13 +7,23 @@
       "id": "parva-liga",
       "nome": "Parva Liga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Levski Sofia"
+        }
+      ]
     },
     {
       "id": "bulgarian-cup",
       "nome": "Bulgarian Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "CSKA Sofia"
+        }
+      ]
     }
   ]
 }

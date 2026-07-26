@@ -7,13 +7,23 @@
       "id": "mozzart-bet-superliga",
       "nome": "Mozzart Bet Superliga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Crvena Zvezda"
+        }
+      ]
     },
     {
       "id": "mozzart-kup-srbije",
       "nome": "Mozzart Kup Srbije",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Crvena Zvezda"
+        }
+      ]
     }
   ]
 }

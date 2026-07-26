@@ -7,19 +7,34 @@
       "id": "copa-libertadores",
       "nome": "Copa Libertadores",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mirassol"
+        }
+      ]
     },
     {
       "id": "copa-sul-americana",
       "nome": "Copa Sul-Americana",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Caracas"
+        }
+      ]
     },
     {
       "id": "recopa-sul-americana",
       "nome": "Recopa Sul-Americana",
       "tipo": "Supercopa",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Lanús"
+        }
+      ]
     }
   ]
 }

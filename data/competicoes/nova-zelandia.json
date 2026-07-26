@@ -7,13 +7,23 @@
       "id": "new-zealand-national-league",
       "nome": "New Zealand National League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Auckland United"
+        }
+      ]
     },
     {
       "id": "chatham-cup",
       "nome": "Chatham Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Western Springs"
+        }
+      ]
     }
   ]
 }

@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Aparecidense"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Goiás"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Mineiros"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Bom Jesus"
         }
       ]
     },
@@ -33,6 +41,10 @@
         {
           "temporada": "2026",
           "clube": "Aparecida"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Iporá"
         }
       ]
     }

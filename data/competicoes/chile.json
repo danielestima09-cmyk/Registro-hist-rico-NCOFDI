@@ -7,13 +7,31 @@
       "id": "liga-de-primera",
       "nome": "Liga de Primera",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Deportes Concepción"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Deportes La Serena"
+        }
+      ]
     },
     {
       "id": "copa-chile",
       "nome": "Copa Chile",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Deportes La Serena"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Audax Italiano"
+        }
+      ]
     }
   ]
 }

@@ -7,7 +7,12 @@
       "id": "gibraltar-football-league",
       "nome": "Gibraltar Football League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Lincoln Red Imps"
+        }
+      ]
     },
     {
       "id": "rock-cup",

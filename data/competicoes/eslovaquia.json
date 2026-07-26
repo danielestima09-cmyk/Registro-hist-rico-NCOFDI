@@ -7,13 +7,23 @@
       "id": "nike-liga",
       "nome": "Niké Liga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "DAC 1904"
+        }
+      ]
     },
     {
       "id": "slovnaft-cup",
       "nome": "Slovnaft Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Košice"
+        }
+      ]
     }
   ]
 }

@@ -7,13 +7,23 @@
       "id": "russian-premier-league",
       "nome": "Russian Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Krasnodar"
+        }
+      ]
     },
     {
       "id": "russian-cup",
       "nome": "Russian Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Spartak Moscou"
+        }
+      ]
     }
   ]
 }

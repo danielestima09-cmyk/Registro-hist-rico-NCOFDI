@@ -7,13 +7,23 @@
       "id": "south-african-premier-division",
       "nome": "South African Premier Division",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mamelodi Sundowns"
+        }
+      ]
     },
     {
       "id": "nedbank-cup",
       "nome": "Nedbank Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Kaizer Chiefs"
+        }
+      ]
     }
   ]
 }

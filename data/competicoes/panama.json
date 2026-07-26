@@ -7,13 +7,31 @@
       "id": "liga-panamena-apertura",
       "nome": "Liga Panameña — Apertura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tauro"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Unión Coclé"
+        }
+      ]
     },
     {
       "id": "liga-panamena-clausura",
       "nome": "Liga Panameña — Clausura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Árabe Unido"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Independiente-PAN"
+        }
+      ]
     }
   ]
 }

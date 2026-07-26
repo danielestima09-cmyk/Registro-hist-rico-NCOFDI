@@ -7,13 +7,23 @@
       "id": "premier-division",
       "nome": "Premier Division",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Waterford"
+        }
+      ]
     },
     {
       "id": "fai-cup",
       "nome": "FAI Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "St. Patrick's"
+        }
+      ]
     }
   ]
 }

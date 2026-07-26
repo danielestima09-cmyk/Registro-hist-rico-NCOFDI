@@ -7,13 +7,23 @@
       "id": "1-mfl",
       "nome": "1. MFL",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Shkëndija"
+        }
+      ]
     },
     {
       "id": "north-macedonia-cup",
       "nome": "North Macedonia Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Shkëndija"
+        }
+      ]
     }
   ]
 }

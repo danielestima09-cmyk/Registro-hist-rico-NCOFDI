@@ -7,7 +7,12 @@
       "id": "copa-intercontinental",
       "nome": "Copa Intercontinental",
       "tipo": "Torneio Mundial",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "PSG"
+        }
+      ]
     },
     {
       "id": "mundial-de-clubes-da-fifa",

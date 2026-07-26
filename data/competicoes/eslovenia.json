@@ -7,13 +7,23 @@
       "id": "prvaliga",
       "nome": "PrvaLiga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Celje"
+        }
+      ]
     },
     {
       "id": "slovenia-cup",
       "nome": "Slovenia Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "NK Radomlje"
+        }
+      ]
     }
   ]
 }

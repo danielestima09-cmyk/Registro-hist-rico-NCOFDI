@@ -7,13 +7,23 @@
       "id": "moldovan-super-liga",
       "nome": "Moldovan Super Liga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Sheriff"
+        }
+      ]
     },
     {
       "id": "cupa-moldova",
       "nome": "Cupa Moldova",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Bălţi"
+        }
+      ]
     }
   ]
 }

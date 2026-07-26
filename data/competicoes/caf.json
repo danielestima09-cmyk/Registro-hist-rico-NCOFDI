@@ -7,13 +7,23 @@
       "id": "caf-champions-league",
       "nome": "CAF Champions League",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mamelodi Sundowns"
+        }
+      ]
     },
     {
       "id": "caf-confederation-cup",
       "nome": "CAF Confederation Cup",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Zamalek"
+        }
+      ]
     }
   ]
 }

@@ -7,13 +7,23 @@
       "id": "ligue-1-vini",
       "nome": "Ligue 1 Vini",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tefana"
+        }
+      ]
     },
     {
       "id": "coupe-de-polynesie",
       "nome": "Coupe de Polynesie",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mira"
+        }
+      ]
     }
   ]
 }

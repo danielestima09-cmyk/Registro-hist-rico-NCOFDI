@@ -7,19 +7,34 @@
       "id": "k-league-1",
       "nome": "K League 1",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Incheon United"
+        }
+      ]
     },
     {
       "id": "k-league-2",
       "nome": "K League 2",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Busan Ipark"
+        }
+      ]
     },
     {
       "id": "korean-cup",
       "nome": "Korean Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Seoul E-Land"
+        }
+      ]
     }
   ]
 }

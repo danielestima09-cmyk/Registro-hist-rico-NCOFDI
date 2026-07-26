@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Sousa"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Botafogo-PB"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Miramar"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Picuiense"
         }
       ]
     },
@@ -33,6 +41,10 @@
         {
           "temporada": "2026",
           "clube": "Internacional-PB"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Queimadense"
         }
       ]
     },
@@ -40,7 +52,12 @@
       "id": "copa-paraiba",
       "nome": "Copa Paraíba",
       "tipo": "Copa Estadual",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Campinense"
+        }
+      ]
     }
   ]
 }

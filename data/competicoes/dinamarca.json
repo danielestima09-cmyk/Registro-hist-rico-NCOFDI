@@ -7,13 +7,23 @@
       "id": "danish-superliga",
       "nome": "Danish Superliga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "AGF"
+        }
+      ]
     },
     {
       "id": "oddset-pokalen",
       "nome": "Oddset Pokalen",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "København"
+        }
+      ]
     }
   ]
 }

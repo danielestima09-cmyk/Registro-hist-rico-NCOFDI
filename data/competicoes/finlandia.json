@@ -7,13 +7,23 @@
       "id": "veikkausliiga",
       "nome": "Veikkausliiga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Inter Turku"
+        }
+      ]
     },
     {
       "id": "suomen-cup",
       "nome": "Suomen Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Inter Turku"
+        }
+      ]
     }
   ]
 }

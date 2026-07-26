@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Lagarto"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Sergipe"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Barra-SE"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Socorrense"
         }
       ]
     },
@@ -33,6 +41,10 @@
         {
           "temporada": "2026",
           "clube": "Esportiva Aquidabã"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Sete de Junho"
         }
       ]
     },
@@ -44,6 +56,10 @@
         {
           "temporada": "2026",
           "clube": "Atlético Gloriense"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Barra-SE"
         }
       ]
     }

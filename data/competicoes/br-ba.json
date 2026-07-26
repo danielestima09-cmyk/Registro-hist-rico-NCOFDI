@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Juazeirense"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Porto-BA"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Ypiranga-BA"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Barreiras"
         }
       ]
     }

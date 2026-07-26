@@ -7,7 +7,12 @@
       "id": "indian-super-league",
       "nome": "Indian Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Punjab"
+        }
+      ]
     },
     {
       "id": "super-cup-india",

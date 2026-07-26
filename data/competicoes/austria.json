@@ -7,19 +7,34 @@
       "id": "austrian-bundesliga",
       "nome": "Austrian Bundesliga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "LASK"
+        }
+      ]
     },
     {
       "id": "2-liga",
       "nome": "2. Liga",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Austria Lustenau"
+        }
+      ]
     },
     {
       "id": "ofb-cup",
       "nome": "ÖFB Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Wolfsberger"
+        }
+      ]
     }
   ]
 }

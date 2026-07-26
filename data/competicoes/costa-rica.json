@@ -7,19 +7,42 @@
       "id": "costa-rica-primera-division-apertura",
       "nome": "Costa Rica Primera División — Apertura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Cartaginés"
+        }
+      ]
     },
     {
       "id": "costa-rica-primera-division-clausura",
       "nome": "Costa Rica Primera División — Clausura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Puntarenas"
+        },
+        {
+          "temporada": "2027",
+          "clube": "San Carlos"
+        }
+      ]
     },
     {
       "id": "copa-costa-rica",
       "nome": "Copa Costa Rica",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Liberia"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Sporting-CRC"
+        }
+      ]
     }
   ]
 }

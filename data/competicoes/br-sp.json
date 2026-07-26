@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Velo Clube"
+        },
+        {
+          "temporada": "2027",
+          "clube": "São Bernardo"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Ferroviária-SP"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Taubaté"
         }
       ]
     },
@@ -33,6 +41,10 @@
         {
           "temporada": "2026",
           "clube": "União Barbarense"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Francana"
         }
       ]
     },
@@ -44,6 +56,10 @@
         {
           "temporada": "2026",
           "clube": "Barretos"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Guarulhos"
         }
       ]
     },
@@ -55,6 +71,10 @@
         {
           "temporada": "2026",
           "clube": "Guarulhos"
+        },
+        {
+          "temporada": "2027",
+          "clube": "José Bonifácio"
         }
       ]
     },
@@ -66,6 +86,10 @@
         {
           "temporada": "2026",
           "clube": "São-Carlense"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Juventus-SP"
         }
       ]
     }

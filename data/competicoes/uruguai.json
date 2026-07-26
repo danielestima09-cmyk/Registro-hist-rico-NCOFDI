@@ -7,13 +7,31 @@
       "id": "primera-division-uruguaia",
       "nome": "Primera División Uruguaia",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Montevideo City Torque"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Albion"
+        }
+      ]
     },
     {
       "id": "copa-uruguay",
       "nome": "Copa Uruguay",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Cerro"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Boston River-URU"
+        }
+      ]
     }
   ]
 }

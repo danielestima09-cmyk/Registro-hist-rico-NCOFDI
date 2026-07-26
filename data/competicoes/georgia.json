@@ -7,13 +7,23 @@
       "id": "erovnuli-liga",
       "nome": "Erovnuli Liga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Meshakhte Tkibuli"
+        }
+      ]
     },
     {
       "id": "georgian-cup",
       "nome": "Georgian Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Dila Gori"
+        }
+      ]
     }
   ]
 }

@@ -7,7 +7,12 @@
       "id": "singapore-premier-league",
       "nome": "Singapore Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Albirex Niigata"
+        }
+      ]
     },
     {
       "id": "singapore-cup",

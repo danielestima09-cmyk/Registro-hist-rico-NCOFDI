@@ -7,13 +7,23 @@
       "id": "persian-gulf-pro-league",
       "nome": "Persian Gulf Pro League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tractor"
+        }
+      ]
     },
     {
       "id": "hazfi-cup",
       "nome": "Hazfi Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tractor"
+        }
+      ]
     }
   ]
 }

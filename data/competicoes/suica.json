@@ -7,13 +7,23 @@
       "id": "swiss-super-league",
       "nome": "Swiss Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Thun"
+        }
+      ]
     },
     {
       "id": "schweizer-cup",
       "nome": "Schweizer Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Grasshopper"
+        }
+      ]
     }
   ]
 }

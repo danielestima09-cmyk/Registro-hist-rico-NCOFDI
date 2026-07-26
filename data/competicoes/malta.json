@@ -7,13 +7,23 @@
       "id": "yohealth-malta-premier",
       "nome": "YoHealth Malta Premier",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ħamrun Spartans"
+        }
+      ]
     },
     {
       "id": "maltese-fa-trophy",
       "nome": "Maltese FA Trophy",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Gżira United"
+        }
+      ]
     }
   ]
 }

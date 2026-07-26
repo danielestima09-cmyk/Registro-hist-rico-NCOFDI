@@ -7,13 +7,23 @@
       "id": "abissnet-superiore",
       "nome": "Abissnet Superiore",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Dinamo City"
+        }
+      ]
     },
     {
       "id": "kupa-e-shqiperise",
       "nome": "Kupa e Shqipërisë",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Dinamo City"
+        }
+      ]
     }
   ]
 }

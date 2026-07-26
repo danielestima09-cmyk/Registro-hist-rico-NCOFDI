@@ -7,7 +7,12 @@
       "id": "guinea-ligue-1",
       "nome": "Guinea Ligue 1",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "AS Kaloum"
+        }
+      ]
     }
   ]
 }

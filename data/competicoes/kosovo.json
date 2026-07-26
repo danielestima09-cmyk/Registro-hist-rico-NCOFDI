@@ -7,13 +7,23 @@
       "id": "albimall-superliga",
       "nome": "AlbiMall Superliga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Drita"
+        }
+      ]
     },
     {
       "id": "kupa-e-kosoves",
       "nome": "Kupa e Kosovës",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "KF Dukagjini"
+        }
+      ]
     }
   ]
 }

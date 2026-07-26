@@ -7,31 +7,76 @@
       "id": "copa-verde",
       "nome": "Copa Verde",
       "tipo": "Copa Regional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "GAS"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Capixaba"
+        }
+      ]
     },
     {
       "id": "copa-do-nordeste",
       "nome": "Copa do Nordeste",
       "tipo": "Copa Regional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "ABC"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Vitória"
+        }
+      ]
     },
     {
       "id": "copa-norte",
       "nome": "Copa Norte",
       "tipo": "Copa Regional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "GAS"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Baré"
+        }
+      ]
     },
     {
       "id": "copa-centro-oeste",
       "nome": "Copa Centro-Oeste",
       "tipo": "Copa Regional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Atlético-GO"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Capixaba"
+        }
+      ]
     },
     {
       "id": "copa-sul-sudeste",
       "nome": "Copa Sul-Sudeste",
       "tipo": "Copa Regional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Novorizontino"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Portuguesa-RJ"
+        }
+      ]
     }
   ]
 }

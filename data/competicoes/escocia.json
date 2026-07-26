@@ -7,13 +7,23 @@
       "id": "scottish-premiership",
       "nome": "Scottish Premiership",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Hearts"
+        }
+      ]
     },
     {
       "id": "scottish-cup",
       "nome": "Scottish Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "St. Mirren"
+        }
+      ]
     }
   ]
 }

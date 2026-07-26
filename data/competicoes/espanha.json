@@ -7,25 +7,45 @@
       "id": "laliga",
       "nome": "LaLiga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Barcelona-ESP"
+        }
+      ]
     },
     {
       "id": "laliga-hypermotion",
       "nome": "LaLiga Hypermotion",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "La Coruña"
+        }
+      ]
     },
     {
       "id": "primera-federacion",
       "nome": "Primera Federación",
       "tipo": "3ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Atlético de Madrid B"
+        }
+      ]
     },
     {
       "id": "copa-del-rey",
       "nome": "Copa del Rey",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Atlético de Madrid"
+        }
+      ]
     }
   ]
 }

@@ -7,13 +7,23 @@
       "id": "campionato-sammarinese",
       "nome": "Campionato Sammarinese",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tre Penne"
+        }
+      ]
     },
     {
       "id": "coppa-titano",
       "nome": "Coppa Titano",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "La Fiorita"
+        }
+      ]
     }
   ]
 }

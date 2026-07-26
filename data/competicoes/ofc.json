@@ -7,7 +7,12 @@
       "id": "ofc-professional-league",
       "nome": "OFC Professional League",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "South Melbourne"
+        }
+      ]
     }
   ]
 }

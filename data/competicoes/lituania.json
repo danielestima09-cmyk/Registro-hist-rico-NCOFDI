@@ -7,13 +7,23 @@
       "id": "a-lyga",
       "nome": "A Lyga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Kauno Žalgiris"
+        }
+      ]
     },
     {
       "id": "lff-cup",
       "nome": "LFF Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "FK Panevėžys"
+        }
+      ]
     }
   ]
 }

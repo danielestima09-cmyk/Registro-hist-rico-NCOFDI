@@ -7,13 +7,31 @@
       "id": "liga-futve",
       "nome": "Liga FUTVE",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Zamora"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Rayo Zuliano"
+        }
+      ]
     },
     {
       "id": "copa-venezuela",
       "nome": "Copa Venezuela",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Metropolitanos"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Estudiantes de Mérida"
+        }
+      ]
     }
   ]
 }

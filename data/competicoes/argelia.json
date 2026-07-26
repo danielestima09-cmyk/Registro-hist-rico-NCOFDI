@@ -7,13 +7,23 @@
       "id": "algerian-ligue-1",
       "nome": "Algerian Ligue 1",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Belouizdad"
+        }
+      ]
     },
     {
       "id": "algerian-cup",
       "nome": "Algerian Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "MC Alger"
+        }
+      ]
     }
   ]
 }

@@ -7,19 +7,34 @@
       "id": "eredivisie",
       "nome": "Eredivisie",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "PSV"
+        }
+      ]
     },
     {
       "id": "eerste-divisie",
       "nome": "Eerste Divisie",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "ADO Den Haag"
+        }
+      ]
     },
     {
       "id": "knvb-beker",
       "nome": "KNVB Beker",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "NEC"
+        }
+      ]
     }
   ]
 }

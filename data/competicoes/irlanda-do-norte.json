@@ -7,13 +7,23 @@
       "id": "nifl-premiership",
       "nome": "NIFL Premiership",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Larne"
+        }
+      ]
     },
     {
       "id": "irish-cup",
       "nome": "Irish Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Coleraine"
+        }
+      ]
     }
   ]
 }

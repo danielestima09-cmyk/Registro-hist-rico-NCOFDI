@@ -7,13 +7,23 @@
       "id": "uae-pro-league",
       "nome": "UAE Pro League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Al Ain"
+        }
+      ]
     },
     {
       "id": "presidents-cup",
       "nome": "Presidents Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Al Wahda"
+        }
+      ]
     }
   ]
 }

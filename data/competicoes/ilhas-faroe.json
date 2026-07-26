@@ -7,13 +7,23 @@
       "id": "faroe-islands-premier-league",
       "nome": "Faroe Islands Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Skála ÍF"
+        }
+      ]
     },
     {
       "id": "faroe-islands-cup",
       "nome": "Faroe Islands Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "NSÍ Runavík"
+        }
+      ]
     }
   ]
 }

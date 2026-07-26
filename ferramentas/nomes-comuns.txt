@@ -69,3 +69,22 @@ Vasco
 Vila Nova
 Vitória
 Ypiranga
+
+# Nomes compartilhados entre clubes de países diferentes.
+Arsenal
+Barcelona
+Boston River
+Estudiantes
+Everton
+Independiente
+Liverpool
+Olimpia
+Progreso
+Racing
+Rangers
+San Martín
+Sporting
+Universidad Católica
+Universitario
+Victoria
+Wanderers

@@ -7,13 +7,23 @@
       "id": "v-league-1",
       "nome": "V-League 1",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Viettel"
+        }
+      ]
     },
     {
       "id": "vietnam-cup",
       "nome": "Vietnam Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "PVF-Công An Nhân Dân"
+        }
+      ]
     }
   ]
 }

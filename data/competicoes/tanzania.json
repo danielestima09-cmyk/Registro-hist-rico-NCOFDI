@@ -7,13 +7,23 @@
       "id": "tanzanian-premier-league",
       "nome": "Tanzanian Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Young Africans"
+        }
+      ]
     },
     {
       "id": "tanzanian-federation-cup",
       "nome": "Tanzanian Federation Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Coastal Union"
+        }
+      ]
     }
   ]
 }

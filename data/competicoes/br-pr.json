@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Andraus"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Galo Maringá"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Araucária"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Grêmio Maringá"
         }
       ]
     },
@@ -33,6 +41,10 @@
         {
           "temporada": "2026",
           "clube": "Portuguesa-PR"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Paraná"
         }
       ]
     },
@@ -44,6 +56,10 @@
         {
           "temporada": "2026",
           "clube": "Rio Branco-PR"
+        },
+        {
+          "temporada": "2027",
+          "clube": "São Joseense"
         }
       ]
     }

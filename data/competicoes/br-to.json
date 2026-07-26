@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Capital-TO"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Palmas"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Interporto"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Gurupi"
         }
       ]
     }

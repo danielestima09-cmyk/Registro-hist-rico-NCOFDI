@@ -7,7 +7,12 @@
       "id": "botswana-premier-league",
       "nome": "Botswana Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Township Rollers"
+        }
+      ]
     }
   ]
 }

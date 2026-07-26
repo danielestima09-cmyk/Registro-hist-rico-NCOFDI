@@ -7,13 +7,23 @@
       "id": "primera-divisio",
       "nome": "Primera Divisió",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Inter Club D'Escaldes"
+        }
+      ]
     },
     {
       "id": "copa-constitucio",
       "nome": "Copa Constitució",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "FC Santa Coloma"
+        }
+      ]
     }
   ]
 }

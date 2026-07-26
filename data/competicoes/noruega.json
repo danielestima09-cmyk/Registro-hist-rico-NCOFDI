@@ -7,13 +7,23 @@
       "id": "eliteserien",
       "nome": "Eliteserien",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Lillestrøm"
+        }
+      ]
     },
     {
       "id": "nm-cup",
       "nome": "NM Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Molde"
+        }
+      ]
     }
   ]
 }

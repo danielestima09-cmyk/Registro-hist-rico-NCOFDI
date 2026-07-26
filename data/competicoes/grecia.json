@@ -7,13 +7,23 @@
       "id": "stoiximan-super-league",
       "nome": "Stoiximan Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "AEK Atenas"
+        }
+      ]
     },
     {
       "id": "greek-football-cup",
       "nome": "Greek Football Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "PAOK"
+        }
+      ]
     }
   ]
 }

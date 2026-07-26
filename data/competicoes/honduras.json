@@ -7,13 +7,27 @@
       "id": "honduras-liga-nacional-apertura",
       "nome": "Honduras Liga Nacional — Apertura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Real España"
+        }
+      ]
     },
     {
       "id": "honduras-liga-nacional-clausura",
       "nome": "Honduras Liga Nacional — Clausura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Marathón"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Marathón"
+        }
+      ]
     }
   ]
 }

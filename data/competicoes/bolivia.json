@@ -7,13 +7,31 @@
       "id": "division-profesional",
       "nome": "División Profesional",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Universitario-BOL"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Real Tomayapo"
+        }
+      ]
     },
     {
       "id": "copa-de-la-division-profesional",
       "nome": "Copa de la División Profesional",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Universitario-BOL"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Real Tomayapo"
+        }
+      ]
     }
   ]
 }

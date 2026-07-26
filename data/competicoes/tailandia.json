@@ -7,13 +7,23 @@
       "id": "thai-league-1",
       "nome": "Thai League 1",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Buriram United"
+        }
+      ]
     },
     {
       "id": "thai-fa-cup",
       "nome": "Thai FA Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Bangkok United"
+        }
+      ]
     }
   ]
 }

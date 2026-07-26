@@ -4,22 +4,52 @@
   "tipo": "pais",
   "competicoes": [
     {
+      "id": "primera-a",
+      "nome": "Primera A",
+      "tipo": "Liga Nacional",
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Águilas Doradas"
+        }
+      ]
+    },
+    {
       "id": "primera-a-apertura",
       "nome": "Primera A — Apertura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "América de Cali"
+        }
+      ]
     },
     {
       "id": "primera-a-clausura",
       "nome": "Primera A — Clausura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Internacional de Bogotá"
+        }
+      ]
     },
     {
       "id": "copa-colombia",
       "nome": "Copa Colombia",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Llaneros"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Fortaleza"
+        }
+      ]
     }
   ]
 }

@@ -7,13 +7,23 @@
       "id": "a-league",
       "nome": "A-League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Macarthur"
+        }
+      ]
     },
     {
       "id": "australia-cup",
       "nome": "Australia Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Melbourne City"
+        }
+      ]
     }
   ]
 }

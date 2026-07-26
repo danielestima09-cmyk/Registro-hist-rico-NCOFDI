@@ -7,7 +7,12 @@
       "id": "zain-premier-league",
       "nome": "Zain Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Kuwait SC"
+        }
+      ]
     },
     {
       "id": "emir-cup",

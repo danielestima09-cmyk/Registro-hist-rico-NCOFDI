@@ -7,13 +7,27 @@
       "id": "guatemala-liga-nacional-apertura",
       "nome": "Guatemala Liga Nacional — Apertura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Cobán Imperial"
+        }
+      ]
     },
     {
       "id": "guatemala-liga-nacional-clausura",
       "nome": "Guatemala Liga Nacional — Clausura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Antigua"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Comunicaciones"
+        }
+      ]
     }
   ]
 }

@@ -7,7 +7,12 @@
       "id": "zambia-super-league",
       "nome": "Zambia Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Red Arrows"
+        }
+      ]
     }
   ]
 }

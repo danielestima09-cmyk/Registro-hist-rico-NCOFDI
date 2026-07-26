@@ -7,13 +7,23 @@
       "id": "egyptian-premier-league",
       "nome": "Egyptian Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ceramica Cleopatra"
+        }
+      ]
     },
     {
       "id": "egypt-cup",
       "nome": "Egypt Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Smouha SC"
+        }
+      ]
     }
   ]
 }

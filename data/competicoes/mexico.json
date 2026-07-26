@@ -7,13 +7,27 @@
       "id": "liga-mx-apertura",
       "nome": "Liga MX — Apertura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Puebla"
+        }
+      ]
     },
     {
       "id": "liga-mx-clausura",
       "nome": "Liga MX — Clausura",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Monterrey"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Santos Laguna"
+        }
+      ]
     }
   ]
 }

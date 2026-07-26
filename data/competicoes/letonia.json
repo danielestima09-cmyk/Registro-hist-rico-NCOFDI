@@ -7,13 +7,23 @@
       "id": "virsliga",
       "nome": "Virsliga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "FK Auda"
+        }
+      ]
     },
     {
       "id": "latvijas-kauss",
       "nome": "Latvijas Kauss",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "FK Auda"
+        }
+      ]
     }
   ]
 }

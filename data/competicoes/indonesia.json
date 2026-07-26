@@ -7,7 +7,12 @@
       "id": "indonesia-super-league",
       "nome": "Indonesia Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Bali United"
+        }
+      ]
     }
   ]
 }

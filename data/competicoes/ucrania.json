@@ -7,13 +7,23 @@
       "id": "ukrainian-premier-league",
       "nome": "Ukrainian Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Shakhtar Donetsk"
+        }
+      ]
     },
     {
       "id": "ukraine-cup",
       "nome": "Ukraine Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Metalist"
+        }
+      ]
     }
   ]
 }

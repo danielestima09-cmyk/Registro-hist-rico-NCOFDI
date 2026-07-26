@@ -7,13 +7,23 @@
       "id": "chinese-super-league",
       "nome": "Chinese Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Zhejiang"
+        }
+      ]
     },
     {
       "id": "cfa-cup",
       "nome": "CFA Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tianjin Jinmen Tiger"
+        }
+      ]
     }
   ]
 }

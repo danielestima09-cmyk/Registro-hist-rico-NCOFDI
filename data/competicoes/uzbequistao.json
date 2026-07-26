@@ -7,13 +7,23 @@
       "id": "uzbekistan-super-league",
       "nome": "Uzbekistan Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mash'al Mubarek"
+        }
+      ]
     },
     {
       "id": "uzbekistan-cup",
       "nome": "Uzbekistan Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Qizilqum Zarafshon"
+        }
+      ]
     }
   ]
 }

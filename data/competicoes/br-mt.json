@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "CEOV Operário"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Luverdense"
         }
       ]
     },
@@ -22,6 +26,10 @@
         {
           "temporada": "2026",
           "clube": "Uirapuru"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Cacerense"
         }
       ]
     },
@@ -29,7 +37,12 @@
       "id": "copa-fmf",
       "nome": "Copa FMF",
       "tipo": "Copa Estadual",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Várzea Grande"
+        }
+      ]
     }
   ]
 }

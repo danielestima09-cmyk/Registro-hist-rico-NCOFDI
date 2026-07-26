@@ -7,7 +7,12 @@
       "id": "pvfa-super-league",
       "nome": "PVFA Super League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Icount Yatel"
+        }
+      ]
     }
   ]
 }

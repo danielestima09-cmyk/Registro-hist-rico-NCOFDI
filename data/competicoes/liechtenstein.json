@@ -7,7 +7,12 @@
       "id": "fl1-aktiv-cup",
       "nome": "FL1 Aktiv Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Vaduz"
+        }
+      ]
     }
   ]
 }

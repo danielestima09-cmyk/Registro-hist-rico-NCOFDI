@@ -7,13 +7,31 @@
       "id": "liga-1",
       "nome": "Liga 1",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Los Chankas"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Cajamarca"
+        }
+      ]
     },
     {
       "id": "copa-caliente-de-la-liga",
       "nome": "Copa Caliente de la Liga",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "UTC"
+        },
+        {
+          "temporada": "2027",
+          "clube": "ADT"
+        }
+      ]
     }
   ]
 }

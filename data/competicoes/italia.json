@@ -7,25 +7,45 @@
       "id": "serie-a-tim",
       "nome": "Serie A TIM",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Internazionale"
+        }
+      ]
     },
     {
       "id": "serie-bkt",
       "nome": "Serie BKT",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Frosinone"
+        }
+      ]
     },
     {
       "id": "serie-c",
       "nome": "Serie C",
       "tipo": "3ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Arezzo"
+        }
+      ]
     },
     {
       "id": "coppa-italia",
       "nome": "Coppa Italia",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Atalanta"
+        }
+      ]
     }
   ]
 }

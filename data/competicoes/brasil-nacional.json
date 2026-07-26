@@ -7,37 +7,91 @@
       "id": "brasileirao-serie-a",
       "nome": "Brasileirão Série A",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Grêmio"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Corinthians"
+        }
+      ]
     },
     {
       "id": "brasileirao-serie-b",
       "nome": "Brasileirão Série B",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "América-MG"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Coritiba"
+        }
+      ]
     },
     {
       "id": "brasileirao-serie-c",
       "nome": "Brasileirão Série C",
       "tipo": "3ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Inter de Limeira"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Juazeirense"
+        }
+      ]
     },
     {
       "id": "brasileirao-serie-d",
       "nome": "Brasileirão Série D",
       "tipo": "4ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Portuguesa-RJ"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Quixadá"
+        }
+      ]
     },
     {
       "id": "copa-do-brasil",
       "nome": "Copa do Brasil",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Guarani"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Corinthians"
+        }
+      ]
     },
     {
       "id": "supercopa-do-brasil",
       "nome": "Supercopa do Brasil",
       "tipo": "Supercopa",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Flamengo"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Grêmio"
+        }
+      ]
     }
   ]
 }

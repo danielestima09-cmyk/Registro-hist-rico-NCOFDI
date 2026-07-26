@@ -7,13 +7,23 @@
       "id": "allsvenskan",
       "nome": "Allsvenskan",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Degerfors"
+        }
+      ]
     },
     {
       "id": "svenska-cupen",
       "nome": "Svenska Cupen",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Halmstads"
+        }
+      ]
     }
   ]
 }

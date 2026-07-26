@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Baré"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Progresso-RR"
         }
       ]
     },
@@ -18,7 +22,12 @@
       "id": "campeonato-roraimense-2a-divisao",
       "nome": "Campeonato Roraimense — 2ª Divisão",
       "tipo": "Estadual",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Rio Branco-RR"
+        }
+      ]
     }
   ]
 }

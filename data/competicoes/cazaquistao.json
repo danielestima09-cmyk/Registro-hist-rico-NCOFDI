@@ -7,13 +7,23 @@
       "id": "kazakhstan-premier-league",
       "nome": "Kazakhstan Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Tobol"
+        }
+      ]
     },
     {
       "id": "kazakhstan-cup",
       "nome": "Kazakhstan Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Caspiy"
+        }
+      ]
     }
   ]
 }

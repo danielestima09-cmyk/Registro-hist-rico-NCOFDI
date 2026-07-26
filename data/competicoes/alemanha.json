@@ -7,25 +7,45 @@
       "id": "bundesliga",
       "nome": "Bundesliga",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Bayern"
+        }
+      ]
     },
     {
       "id": "2-bundesliga",
       "nome": "2. Bundesliga",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Darmstadt"
+        }
+      ]
     },
     {
       "id": "3-liga",
       "nome": "3. Liga",
       "tipo": "3ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Hansa Rostock"
+        }
+      ]
     },
     {
       "id": "dfb-pokal",
       "nome": "DFB-Pokal",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Freiburg"
+        }
+      ]
     }
   ]
 }

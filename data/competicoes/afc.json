@@ -7,19 +7,34 @@
       "id": "afc-champions-league-elite",
       "nome": "AFC Champions League Elite",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Machida Zelvia"
+        }
+      ]
     },
     {
       "id": "afc-champions-league-two",
       "nome": "AFC Champions League Two",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Al Ahli-CAT"
+        }
+      ]
     },
     {
       "id": "afc-challenge-league",
       "nome": "AFC Challenge League",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Kuwait SC"
+        }
+      ]
     }
   ]
 }

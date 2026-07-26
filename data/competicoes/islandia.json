@@ -7,13 +7,23 @@
       "id": "besta-deild-karla",
       "nome": "Besta Deild Karla",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Þór Akureyri"
+        }
+      ]
     },
     {
       "id": "bikarkeppni",
       "nome": "Bikarkeppni",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Breiðablik"
+        }
+      ]
     }
   ]
 }

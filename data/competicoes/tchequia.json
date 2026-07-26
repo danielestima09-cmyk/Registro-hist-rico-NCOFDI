@@ -7,13 +7,23 @@
       "id": "czech-first-league",
       "nome": "Czech First League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Slavia Praga"
+        }
+      ]
     },
     {
       "id": "mol-cup",
       "nome": "MOL Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Baník Ostrava"
+        }
+      ]
     }
   ]
 }

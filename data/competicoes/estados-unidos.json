@@ -7,13 +7,31 @@
       "id": "mls",
       "nome": "MLS",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Orlando City"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Sporting Kansas City"
+        }
+      ]
     },
     {
       "id": "us-open-cup",
       "nome": "US Open Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "San Jose Earthquakes"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Atlanta United"
+        }
+      ]
     }
   ]
 }

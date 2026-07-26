@@ -7,13 +7,23 @@
       "id": "cymru-premier",
       "nome": "Cymru Premier",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "The New Saints"
+        }
+      ]
     },
     {
       "id": "faw-welsh-cup",
       "nome": "FAW Welsh Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Caernarfon Town"
+        }
+      ]
     }
   ]
 }

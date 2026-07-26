@@ -7,13 +7,23 @@
       "id": "concacaf-champions-cup",
       "nome": "Concacaf Champions Cup",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Mount Pleasant"
+        }
+      ]
     },
     {
       "id": "copa-centroamericana",
       "nome": "Copa Centroamericana",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Aurora"
+        }
+      ]
     }
   ]
 }

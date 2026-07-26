@@ -7,13 +7,31 @@
       "id": "ligapro-serie-a",
       "nome": "LigaPro Serie A",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Delfín"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Barcelona-EQU"
+        }
+      ]
     },
     {
       "id": "copa-ecuador",
       "nome": "Copa Ecuador",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "LDU"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Emelec"
+        }
+      ]
     }
   ]
 }

@@ -7,13 +7,23 @@
       "id": "division-nationale",
       "nome": "Division Nationale",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Atert Bissen"
+        }
+      ]
     },
     {
       "id": "coupe-de-luxembourg",
       "nome": "Coupe de Luxembourg",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Atert Bissen"
+        }
+      ]
     }
   ]
 }

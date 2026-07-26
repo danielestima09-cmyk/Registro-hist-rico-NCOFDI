@@ -7,19 +7,34 @@
       "id": "ekstraklasa",
       "nome": "Ekstraklasa",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Lech Poznań"
+        }
+      ]
     },
     {
       "id": "betclic-1-liga",
       "nome": "Betclic 1. Liga",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ruch Chorzów"
+        }
+      ]
     },
     {
       "id": "puchar-polski",
       "nome": "Puchar Polski",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Górnik Zabrze"
+        }
+      ]
     }
   ]
 }

@@ -7,7 +7,12 @@
       "id": "telekom-s-league",
       "nome": "Telekom S-League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Ghupo FC"
+        }
+      ]
     }
   ]
 }

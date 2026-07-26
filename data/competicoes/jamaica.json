@@ -7,7 +7,16 @@
       "id": "jamaica-premier-league",
       "nome": "Jamaica Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Montego Bay United"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Dunbeholden"
+        }
+      ]
     }
   ]
 }

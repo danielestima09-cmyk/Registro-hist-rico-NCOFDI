@@ -7,19 +7,34 @@
       "id": "uefa-champions-league",
       "nome": "UEFA Champions League",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "PSG"
+        }
+      ]
     },
     {
       "id": "uefa-europa-league",
       "nome": "UEFA Europa League",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Real Betis"
+        }
+      ]
     },
     {
       "id": "uefa-conference-league",
       "nome": "UEFA Conference League",
       "tipo": "Torneio Continental",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Shakhtar Donetsk"
+        }
+      ]
     },
     {
       "id": "uefa-super-cup",

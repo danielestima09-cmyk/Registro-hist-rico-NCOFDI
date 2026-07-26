@@ -7,13 +7,23 @@
       "id": "iraq-stars-league",
       "nome": "Iraq Stars League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Al Karkh"
+        }
+      ]
     },
     {
       "id": "iraqi-fa-cup",
       "nome": "Iraqi FA Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Al Shorta"
+        }
+      ]
     }
   ]
 }

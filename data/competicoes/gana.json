@@ -7,13 +7,23 @@
       "id": "ghana-premier-league",
       "nome": "Ghana Premier League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Medeama"
+        }
+      ]
     },
     {
       "id": "ghana-fa-cup",
       "nome": "Ghana FA Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2026",
+          "clube": "Vision FC"
+        }
+      ]
     }
   ]
 }
