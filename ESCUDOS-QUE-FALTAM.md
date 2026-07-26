@@ -1,41 +1,8 @@
 # Escudos que faltam
 
-81 clubes. O arquivo vai em `assets/escudos/` com o nome da coluna do meio.
+68 clubes. O arquivo vai em `assets/escudos/` com o nome da coluna do meio (minúsculo, sem acento, hífen no lugar do espaço).
 
-Depois de acrescentar, rode `python3 checar.py`.
-
-## Estadual (28)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Aparecida | `aparecida.png` | Brasil |
-| Barra Mansa | `barra-mansa.png` | Brasil |
-| Barretos | `barretos.png` | Brasil |
-| Baré | `bare.png` | Brasil |
-| Esportiva Aquidabã | `esportiva-aquidaba.png` | Brasil |
-| Essube | `essube.png` | Brasil |
-| Francana | `francana.png` | Brasil |
-| Guarulhos | `guarulhos.png` | Brasil |
-| Inter de Lages | `inter-de-lages.png` | Brasil |
-| Internacional-MG | `internacional-mg.png` | Brasil |
-| Internacional-PB | `internacional-pb.png` | Brasil |
-| Iporá | `ipora.png` | Brasil |
-| José Bonifácio | `jose-bonifacio.png` | Brasil |
-| Juventus-SC | `juventus-sc.png` | Brasil |
-| Magé Brescia | `mage-brescia.png` | Brasil |
-| Pacatuba | `pacatuba.png` | Brasil |
-| Paraná | `parana.png` | Brasil |
-| Portuguesa-PR | `portuguesa-pr.png` | Brasil |
-| Queimadense | `queimadense.png` | Brasil |
-| Real-RS | `real-rs.png` | Brasil |
-| Rio Barra | `rio-barra.png` | Brasil |
-| Sete de Junho | `sete-de-junho.png` | Brasil |
-| Sport Belém | `sport-belem.png` | Brasil |
-| São Cristóvão | `sao-cristovao.png` | Brasil |
-| São Gabriel | `sao-gabriel.png` | Brasil |
-| União Barbarense | `uniao-barbarense.png` | Brasil |
-| Vila Real | `vila-real.png` | Brasil |
-| Vila Rica | `vila-rica.png` | Brasil |
+Depois de acrescentar, rode `python3 checar.py`: se o nome não bater, ele acusa como "escudo sem clube correspondente".
 
 ## Copa Nacional (19)
 
@@ -83,6 +50,26 @@ Depois de acrescentar, rode `python3 checar.py`.
 | Tubarão | `tubarao.png` | Brasil |
 | Várzea Grande | `varzea-grande.png` | Brasil |
 
+## Estadual (15)
+
+| clube | arquivo | país |
+| --- | --- | --- |
+| Juventus-SC | `juventus-sc.png` | Brasil |
+| Magé Brescia | `mage-brescia.png` | Brasil |
+| Pacatuba | `pacatuba.png` | Brasil |
+| Paraná | `parana.png` | Brasil |
+| Portuguesa-PR | `portuguesa-pr.png` | Brasil |
+| Queimadense | `queimadense.png` | Brasil |
+| Real-RS | `real-rs.png` | Brasil |
+| Rio Barra | `rio-barra.png` | Brasil |
+| Sete de Junho | `sete-de-junho.png` | Brasil |
+| Sport Belém | `sport-belem.png` | Brasil |
+| São Cristóvão | `sao-cristovao.png` | Brasil |
+| São Gabriel | `sao-gabriel.png` | Brasil |
+| União Barbarense | `uniao-barbarense.png` | Brasil |
+| Vila Real | `vila-real.png` | Brasil |
+| Vila Rica | `vila-rica.png` | Brasil |
+
 ## Torneio Continental (5)
 
 | clube | arquivo | país |
@@ -93,16 +80,6 @@ Depois de acrescentar, rode `python3 checar.py`.
 | Real Betis | `real-betis.png` | Espanha |
 | Zamalek | `zamalek.png` | Egito |
 
-## Copa Regional (5)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Atlético-GO | `atletico-go.png` | Brasil |
-| Baré | `bare.png` | Brasil |
-| GAS | `gas.png` | Brasil |
-| Novorizontino | `novorizontino.png` | Brasil |
-| Vitória-BA | `vitoria-ba.png` | Brasil |
-
 ## Liga Nacional (4)
 
 | clube | arquivo | país |
@@ -111,6 +88,15 @@ Depois de acrescentar, rode `python3 checar.py`.
 | Municipal Jalapa | `municipal-jalapa.png` | Nicarágua |
 | Puntarenas | `puntarenas.png` | Costa Rica |
 | Tobol | `tobol.png` | Cazaquistão |
+
+## Copa Regional (4)
+
+| clube | arquivo | país |
+| --- | --- | --- |
+| Atlético-GO | `atletico-go.png` | Brasil |
+| GAS | `gas.png` | Brasil |
+| Novorizontino | `novorizontino.png` | Brasil |
+| Vitória-BA | `vitoria-ba.png` | Brasil |
 
 ## 2ª Divisão (2)
 

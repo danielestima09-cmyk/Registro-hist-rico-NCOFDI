@@ -9,7 +9,11 @@ ordem de leitura, correspondem à lista de campeões que já está em data/.
 A conferência é feita por hash: um clube campeão de mais de uma competição
 tem de aparecer com exatamente a mesma imagem em todas elas.
 
-Uso:  python3 ferramentas/extrair_escudos.py [--aplicar]
+Uso:  python3 ferramentas/extrair_escudos.py [--aplicar] [--forcar]
+
+Arquivos que já existem em assets/escudos/ são preservados: eles podem ter
+sido colocados à mão para corrigir um escudo errado na apresentação. Use
+--forcar para sobrescrevê-los.
 """
 import zipfile, re, glob, os, io, json, sys, hashlib, collections, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -536,11 +540,18 @@ def main():
         print("\nNão gravei nada: resolva os conflitos antes.")
         return
     os.makedirs(DESTINO, exist_ok=True)
-    outros = {}
+    outros, preservados = {}, []
+    forcar = "--forcar" in sys.argv
     for clube, (_h, dados, _o) in sorted(atrib.items()):
         ext = _extensao(dados)
         nome = slug(clube) + ext
-        with open(os.path.join(DESTINO, nome), "wb") as f:
+        destino = os.path.join(DESTINO, nome)
+        # arquivos colocados à mão têm prioridade: são a correção de um escudo
+        # errado ou ausente na apresentação. Só --forcar sobrescreve.
+        if os.path.exists(destino) and not forcar:
+            preservados.append(nome)
+            continue
+        with open(destino, "wb") as f:
             f.write(dados)
         if ext != ".png":
             outros[clube] = nome
@@ -554,7 +565,10 @@ def main():
         json.dump(clubes, io.open(cam, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         io.open(cam, "a", encoding="utf-8").write("\n")
         print(f"   {len(outros)} escudos em outro formato, apontados em data/clubes.json")
-    print(f"\n✓ {len(atrib)} escudos gravados em assets/escudos/")
+    if preservados:
+        print(f"   {len(preservados)} arquivos já existiam e foram preservados "
+              f"(use --forcar para sobrescrever)")
+    print(f"\n✓ {len(atrib) - len(preservados)} escudos gravados em assets/escudos/")
 
 
 if __name__ == "__main__":
