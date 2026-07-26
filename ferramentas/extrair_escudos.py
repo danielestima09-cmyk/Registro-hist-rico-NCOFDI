@@ -264,30 +264,34 @@ PLANO_MANUAL = {
 }
 
 
-def _campeoes_por_local(secao_id, temporada, tipos, so_primeira, est, comp):
-    """[(local, [campeões])] na ORDEM ALFABÉTICA do nome do país.
+def _campeoes_por_local(secao_id, temporada, tipos, so_primeira, est, comp, todos=False):
+    """[(local, [campeões])] na ordem em que as células aparecem no slide.
 
-    É essa a ordem das células nos slides — confirmada lendo as bandeiras da
-    apresentação europeia. Não dá para usar a ordem das abas da planilha: lá
-    França vem antes de Finlândia, e seguir isso trocava o escudo do PSG com
-    o do Inter Turku.
+    A ordem é alfabética pelo nome do país — confirmada lendo as bandeiras da
+    apresentação europeia. Estados brasileiros vão pela sigla (AM antes de AP).
+
+    Com `todos`, entram também os países que têm a competição mas ficaram sem
+    campeão registrado. Isso mantém o alinhamento quando o slide mostra uma
+    célula que os dados não têm: é o caso da Rock Cup de Gibraltar, que aparece
+    no slide de copas mas não está na planilha do Ano 1.
     """
     secao = next(s for s in est["secoes"] if s["id"] == secao_id)
-    # países vão por nome; estados brasileiros vão pela sigla (AM antes de AP,
-    # ao contrário do que daria a ordem por nome: Amapá antes de Amazonas)
     paises = sorted((secao.get("paises") or []),
                     key=lambda p: p["sigla"] if p.get("sigla") else _norm(p["nome"]))
     saida = []
     for p in paises:
-        nomes = []
+        nomes, tem_competicao = [], False
         for c in comp[p["id"]]["competicoes"]:
             if c["tipo"] not in tipos:
                 continue
             if so_primeira and "Divisão" in c["nome"]:
                 continue
+            tem_competicao = True
             nomes += [t["clube"] for t in c["campeoes"] if str(t["temporada"]) == temporada]
         if nomes:
             saida.append((p["id"], nomes))
+        elif todos and tem_competicao:
+            saida.append((p["id"], [None]))     # célula existe, campeão desconhecido
     return saida
 
 
@@ -335,6 +339,12 @@ def main():
         z = zipfile.ZipFile(cam)
         grupos = celulas_por_pais(z, f"ppt/slides/{sl}.xml")
         locais = _campeoes_por_local(xl, str(2025 + ano), tipos, so1, est, comp)
+        if len(grupos) != len(locais):
+            # o slide pode ter uma célula a mais: país com a competição, mas
+            # sem campeão nos dados
+            alt = _campeoes_por_local(xl, str(2025 + ano), tipos, so1, est, comp, todos=True)
+            if len(alt) == len(grupos):
+                locais = alt
         origem = f"{pres} ANO {ano}/{sl}"
         if len(grupos) != len(locais):
             pulados.append(f"{origem}: {len(grupos)} bandeiras para {len(locais)} locais")
@@ -346,7 +356,7 @@ def main():
                                    f"para {len(campeoes)} campeão(ões)")
                 continue
             for esc, clube in zip(grupo, campeoes):
-                if clube in ESCUDOS_ERRADOS_NA_FONTE:
+                if clube is None or clube in ESCUDOS_ERRADOS_NA_FONTE:
                     continue
                 dados = z.read(f"ppt/media/{esc[4]}")
                 h = hashlib.sha1(dados).hexdigest()[:10]
