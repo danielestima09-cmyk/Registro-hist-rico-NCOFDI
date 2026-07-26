@@ -1,8 +1,8 @@
 # Escudos que faltam
 
-68 clubes. O arquivo vai em `assets/escudos/` com o nome da coluna do meio (minúsculo, sem acento, hífen no lugar do espaço).
+51 clubes. O arquivo vai em `assets/escudos/` com o nome da coluna do meio (minúsculo, sem acento, hífen no lugar do espaço).
 
-Depois de acrescentar, rode `python3 checar.py`: se o nome não bater, ele acusa como "escudo sem clube correspondente".
+Aceito PNG, JPG, WEBP, GIF ou SVG — eu converto e registro. Depois de acrescentar, rode `python3 checar.py`.
 
 ## Copa Nacional (19)
 
@@ -69,50 +69,3 @@ Depois de acrescentar, rode `python3 checar.py`: se o nome não bater, ele acusa
 | União Barbarense | `uniao-barbarense.png` | Brasil |
 | Vila Real | `vila-real.png` | Brasil |
 | Vila Rica | `vila-rica.png` | Brasil |
-
-## Torneio Continental (5)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Al Ahli-CAT | `al-ahli-cat.png` | Catar |
-| Aurora-GUA | `aurora-gua.png` | Guatemala |
-| Caracas | `caracas.png` | Venezuela |
-| Real Betis | `real-betis.png` | Espanha |
-| Zamalek | `zamalek.png` | Egito |
-
-## Liga Nacional (4)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Monterrey | `monterrey.png` | México |
-| Municipal Jalapa | `municipal-jalapa.png` | Nicarágua |
-| Puntarenas | `puntarenas.png` | Costa Rica |
-| Tobol | `tobol.png` | Cazaquistão |
-
-## Copa Regional (4)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Atlético-GO | `atletico-go.png` | Brasil |
-| GAS | `gas.png` | Brasil |
-| Novorizontino | `novorizontino.png` | Brasil |
-| Vitória-BA | `vitoria-ba.png` | Brasil |
-
-## 2ª Divisão (2)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Almagro | `almagro.png` | Argentina |
-| Colegiales | `colegiales.png` | Argentina |
-
-## 4ª Divisão (1)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Bromley | `bromley.png` | Inglaterra |
-
-## 3ª Divisão (1)
-
-| clube | arquivo | país |
-| --- | --- | --- |
-| Arezzo | `arezzo.png` | Itália |

@@ -141,8 +141,7 @@
   "pais": "Gana"
  },
  "Afogados": {
-  "pais": "Brasil",
-  "escudo": "afogados.gif"
+  "pais": "Brasil"
  },
  "Agrimaq": {
   "pais": "Brasil"
@@ -1337,7 +1336,8 @@
   "pais": "País de Gales"
  },
  "Bromley": {
-  "pais": "Inglaterra"
+  "pais": "Inglaterra",
+  "escudo": "bromley.svg"
  },
  "Brommapojkarna": {
   "pais": "Suécia"
@@ -3612,8 +3612,7 @@
   "pais": "Brasil"
  },
  "Itapipoca": {
-  "pais": "Brasil",
-  "escudo": "itapipoca.gif"
+  "pais": "Brasil"
  },
  "Itapirense": {
   "pais": "Brasil"
@@ -5858,7 +5857,8 @@
   "pais": "Índia"
  },
  "Puntarenas": {
-  "pais": "Costa Rica"
+  "pais": "Costa Rica",
+  "escudo": "puntarenas.svg"
  },
  "Puskás Akadémia": {
   "pais": "Hungria"
