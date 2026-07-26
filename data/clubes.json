@@ -228,7 +228,8 @@
   "pais": "Arábia Saudita"
  },
  "Al Hilal": {
-  "pais": "Arábia Saudita"
+  "pais": "Arábia Saudita",
+  "escudo": "al-hilal.svg"
  },
  "Al Hussein": {
   "pais": "Jordânia"
@@ -387,7 +388,8 @@
   "pais": "Itália"
  },
  "Albion": {
-  "pais": "Uruguai"
+  "pais": "Uruguai",
+  "escudo": "albion.svg"
  },
  "Albirex Niigata": {
   "pais": "Singapura"
@@ -423,7 +425,8 @@
   "pais": "Panamá"
  },
  "All Boys": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escudo": "all-boys.svg"
  },
  "Almagro": {
   "pais": "Argentina"
@@ -663,7 +666,8 @@
   "pais": "Montenegro"
  },
  "Arsenal-ING": {
-  "pais": "Inglaterra"
+  "pais": "Inglaterra",
+  "escudo": "arsenal-ing.svg"
  },
  "Arsimi": {
   "pais": "Macedônia do Norte"
@@ -1428,7 +1432,8 @@
   "pais": "Brasil"
  },
  "CSE": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escudo": "cse.svg"
  },
  "CSKA 1948 Sofia": {
   "pais": "Bulgária"
@@ -2211,7 +2216,8 @@
   "pais": "Romênia"
  },
  "Dinamo City": {
-  "pais": "Albânia"
+  "pais": "Albânia",
+  "escudo": "dinamo-city.svg"
  },
  "Dinamo Makhachkala": {
   "pais": "Rússia"
@@ -4224,7 +4230,8 @@
   "pais": "França"
  },
  "Lillestrøm": {
-  "pais": "Noruega"
+  "pais": "Noruega",
+  "escudo": "lillestr-m.svg"
  },
  "Lincoln City": {
   "pais": "Inglaterra"
@@ -5904,7 +5911,8 @@
   "pais": "França"
  },
  "Quilmes": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escudo": "quilmes.svg"
  },
  "Quixadá": {
   "pais": "Brasil"
@@ -6513,7 +6521,8 @@
   "pais": "Tajiquistão"
  },
  "Sarmiento": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escudo": "sarmiento.svg"
  },
  "Sarpsborg": {
   "pais": "Noruega"
@@ -7194,7 +7203,8 @@
   "pais": "China"
  },
  "Tigre": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escudo": "tigre.svg"
  },
  "Tigres": {
   "pais": "México"
