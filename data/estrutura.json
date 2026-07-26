@@ -394,7 +394,8 @@
         {
           "id": "filipinas",
           "nome": "Filipinas",
-          "iso": "ph"
+          "iso": "ph",
+          "calendario": "europeu"
         },
         {
           "id": "hong-kong",
@@ -429,7 +430,8 @@
         {
           "id": "japao",
           "nome": "Japão",
-          "iso": "jp"
+          "iso": "jp",
+          "calendario": "europeu"
         },
         {
           "id": "jordania",
@@ -452,7 +454,8 @@
         {
           "id": "singapura",
           "nome": "Singapura",
-          "iso": "sg"
+          "iso": "sg",
+          "calendario": "europeu"
         },
         {
           "id": "tailandia",
@@ -712,8 +715,7 @@
         {
           "id": "nova-zelandia",
           "nome": "Nova Zelândia",
-          "iso": "nz",
-          "calendario": "europeu"
+          "iso": "nz"
         },
         {
           "id": "taiti",
