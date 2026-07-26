@@ -16,7 +16,8 @@
     locais: {},        // "espanha" -> { id, nome, tipo, secao, ref }
     ranking: [],       // agregação dos campeões (clubes + seleções)
     porChave: {},      // chave -> registro do campeão
-    tipos: []          // tipos de competição encontrados nos dados
+    tipos: [],         // tipos de competição encontrados nos dados
+    falhas: []         // arquivos de dados que não carregaram
   };
 
   var indicePaisPorNome = {};
@@ -128,10 +129,18 @@
 
   /* ------------------------------------------------------------- carga */
 
-  function buscarJSON(caminho) {
+  function buscarJSON(caminho, tentativas) {
+    tentativas = tentativas == null ? 3 : tentativas;
     return fetch(caminho, { cache: "no-cache" }).then(function (r) {
       if (!r.ok) throw new Error(caminho + " → HTTP " + r.status);
       return r.json();
+    }).catch(function (e) {
+      // Uma falha isolada é comum logo após uma publicação, enquanto os
+      // arquivos ainda não chegaram a todos os servidores. Insiste um pouco
+      // antes de desistir — sem isso, a competição simplesmente sumia da tela.
+      if (tentativas <= 1) throw e;
+      return new Promise(function (ok) { setTimeout(ok, 400); })
+        .then(function () { return buscarJSON(caminho, tentativas - 1); });
     });
   }
 
@@ -166,6 +175,7 @@
         return buscarJSON("data/competicoes/" + id + ".json")
           .catch(function (e) {
             console.warn("Não foi possível carregar", id, e);
+            DADOS.falhas.push(id);
             return { id: id, nome: id, competicoes: [] };
           })
           .then(function (arq) {
@@ -671,6 +681,16 @@
       rodape.textContent = totalTitulos() + " títulos · " + DADOS.ranking.length +
         " campeões · " + totalCompeticoes() + " competições · " +
         Object.keys(DADOS.locais).length + " locais";
+    }
+    if (DADOS.falhas.length) {
+      var aviso = document.createElement("div");
+      aviso.className = "container";
+      aviso.innerHTML = '<p class="aviso-caixa"><b>Atenção:</b> ' + DADOS.falhas.length +
+        " arquivo(s) de dados não carregaram, então algumas competições podem " +
+        "aparecer vazias. Recarregue a página. (" +
+        DADOS.falhas.slice(0, 8).map(esc).join(", ") +
+        (DADOS.falhas.length > 8 ? ", …" : "") + ")</p>";
+      app.parentNode.insertBefore(aviso, app);
     }
     window.addEventListener("hashchange", renderizar);
     renderizar();
