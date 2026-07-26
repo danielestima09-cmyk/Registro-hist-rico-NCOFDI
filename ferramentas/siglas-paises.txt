@@ -1,0 +1,130 @@
+# Sigla de país usada como sufixo em clubes de nome comum.
+#   Nacional (Uruguai) -> Nacional-URU
+#   Nacional (Portugal) -> Nacional-POR
+#
+# Clubes brasileiros usam a sigla do ESTADO (Flamengo-RJ), não do país.
+# Para trocar uma sigla, edite a linha correspondente.
+
+
+# Europa
+Albânia	ALB
+Alemanha	ALE
+Andorra	AND
+Armênia	ARM
+Áustria	AUT
+Azerbaijão	AZE
+Belarus	BLR
+Bélgica	BEL
+Bósnia e Herzegovina	BOS
+Bulgária	BUL
+Cazaquistão	CAZ
+Chipre	CHI
+Croácia	CRO
+Dinamarca	DIN
+Escócia	ESC
+Eslováquia	ESL
+Eslovênia	SLO
+Espanha	ESP
+Estônia	EST
+Finlândia	FIN
+França	FRA
+Geórgia	GEO
+Gibraltar	GIB
+Grécia	GRE
+Holanda	HOL
+Hungria	HUN
+Ilhas Faroé	FAR
+Inglaterra	ING
+Irlanda	IRL
+Irlanda do Norte	IRN
+Islândia	ISL
+Israel	ISR
+Itália	ITA
+Kosovo	KOS
+Letônia	LET
+Liechtenstein	LIE
+Lituânia	LIT
+Luxemburgo	LUX
+Macedônia do Norte	MAC
+Malta	MLT
+Moldávia	MOL
+Montenegro	MNE
+Noruega	NOR
+País de Gales	GAL
+Polônia	POL
+Portugal	POR
+Romênia	ROM
+Rússia	RUS
+San Marino	SMR
+Sérvia	SER
+Suécia	SUE
+Suíça	SUI
+Tchéquia	TCH
+Turquia	TUR
+Ucrânia	UCR
+
+# Ásia
+Arábia Saudita	ARA
+Austrália	AUS
+Catar	CAT
+China	CHN
+Coréia do Sul	COR
+Emirados Árabes Unidos	EAU
+Filipinas	FIL
+Hong Kong	HKG
+Índia	IND
+Indonésia	IDN
+Irã	IRA
+Iraque	IRQ
+Japão	JAP
+Jordânia	JOR
+Kuwait	KUW
+Malásia	MAS
+Singapura	SIN
+Tailândia	TAI
+Tajiquistão	TJQ
+Uzbequistão	UZB
+Vietnã	VIE
+
+# África
+África do Sul	AFS
+Angola	ANG
+Argélia	ALG
+Botswana	BOT
+Egito	EGI
+Gana	GAN
+Guiné	GUI
+Marrocos	MAR
+Nigéria	NIG
+Tanzânia	TAN
+Tunísia	TUN
+Zâmbia	ZAM
+
+# América do Sul
+Argentina	ARG
+Bolívia	BOL
+Chile	CHL
+Colômbia	COL
+Equador	EQU
+Paraguai	PAR
+Peru	PER
+Uruguai	URU
+Venezuela	VEN
+
+# América do Norte/Central
+Canadá	CAN
+Costa Rica	CRC
+Estados Unidos	EUA
+Guatemala	GUA
+Honduras	HON
+Jamaica	JAM
+México	MEX
+Nicarágua	NCA
+Panamá	PAN
+
+# Oceania
+Fiji	FIJ
+Ilhas Salomão	SAL
+Nova Zelândia	NZL
+Taiti	TAH
+Vanuatu	VAN
