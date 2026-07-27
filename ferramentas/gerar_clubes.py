@@ -27,6 +27,14 @@ RUIDO = {"time", "pts", "pj", "vit", "e", "der", "gp", "gc", "sg", "#", "campeoe
          "grupo c", "grupo d", "f", "tabela geral", "tabela acumulada"}
 
 
+def slug(t):
+    """Mesma regra do site: minúsculo, sem acento, hífen no lugar do espaço."""
+    t = unicodedata.normalize("NFD", str(t))
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn")
+    t = t.replace("'", "").replace("’", "").replace("ª", "a").replace("º", "o")
+    return re.sub(r"[^a-zA-Z0-9]+", "-", t).strip("-").lower()
+
+
 def norm(t):
     t = unicodedata.normalize("NFD", str(t))
     t = "".join(c for c in t if unicodedata.category(c) != "Mn").lower()
@@ -171,6 +179,30 @@ def main():
         "base": {b: sorted(v)[0] for b, v in base_para_final.items() if len(v) == 1},
         "pais": {k: v["pais"] for k, v in clubes.items()},
     }
+
+    # O site procura <slug>.png por padrão. Quem está na pasta em outro formato
+    # precisa de um apontamento — e ele tem de ser refeito aqui, porque este
+    # arquivo é reescrito do zero: sem isso, cada execução do ciclo apagava os
+    # apontamentos e os escudos em SVG sumiam do site.
+    anterior = {}
+    cam_clubes = os.path.join(RAIZ, "data", "clubes.json")
+    if os.path.exists(cam_clubes):
+        anterior = json.load(io.open(cam_clubes, encoding="utf-8"))
+    dir_escudos = os.path.join(RAIZ, "assets", "escudos")
+    outros = 0
+    for nome, info in clubes.items():
+        # bandeira é escolha manual (seleções); preserva
+        if (anterior.get(nome) or {}).get("bandeira"):
+            info["bandeira"] = anterior[nome]["bandeira"]
+        sl = slug(nome)
+        if os.path.exists(os.path.join(dir_escudos, sl + ".png")):
+            continue
+        alt = next((e for e in (".svg", ".jpg", ".jpeg", ".gif", ".webp")
+                    if os.path.exists(os.path.join(dir_escudos, sl + e))), None)
+        if alt:
+            info["escudo"] = sl + alt
+            outros += 1
+    print(f"{outros} escudos em formato diferente de PNG, apontados em clubes.json")
 
     if aplicar:
         json.dump(indice, io.open(os.path.join(RAIZ, "ferramentas", "indice-clubes.json"),

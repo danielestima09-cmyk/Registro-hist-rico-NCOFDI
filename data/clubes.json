@@ -14,6 +14,12 @@
  "1o de Maio": {
   "pais": "Angola"
  },
+ "1º de Agosto": {
+  "pais": "Angola"
+ },
+ "1º de Maio": {
+  "pais": "Angola"
+ },
  "2 de Mayo": {
   "pais": "Paraguai"
  },
@@ -1111,6 +1117,9 @@
  "Belshina Bobruisk": {
   "pais": "Belarus"
  },
+ "Bem Guerdane": {
+  "pais": "Tunísia"
+ },
  "Ben Aknoun": {
   "pais": "Argélia"
  },
@@ -1148,6 +1157,9 @@
   "pais": "Indonésia"
  },
  "Bibiani Gold Stars": {
+  "pais": "Gana"
+ },
+ "Bibiani Goldstars": {
   "pais": "Gana"
  },
  "Birkenhead United": {
@@ -1420,6 +1432,9 @@
  },
  "CODM": {
   "pais": "Marrocos"
+ },
+ "CR Belouizdad": {
+  "pais": "Argélia"
  },
  "CRAC": {
   "pais": "Brasil"
@@ -2369,6 +2384,15 @@
  },
  "ENPPI": {
   "pais": "Egito"
+ },
+ "ES Bem Aknoun": {
+  "pais": "Argélia"
+ },
+ "ES Ben Aknoun": {
+  "pais": "Argélia"
+ },
+ "ES Mostaganem": {
+  "pais": "Argélia"
  },
  "ES Sétif": {
   "pais": "Argélia"
