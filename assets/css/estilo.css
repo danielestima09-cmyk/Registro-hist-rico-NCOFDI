@@ -321,18 +321,19 @@ tr.p3 .pos { color: var(--bronze); }
 .clube { display: flex; align-items: center; gap: 11px; min-width: 0; }
 .clube-nome { font-weight: 600; white-space: nowrap; }
 
+/* A caixa NÃO recorta: o arredondamento vive no quadrado das iniciais, logo
+   abaixo. Quando estava aqui, junto com overflow:hidden, as pontas dos
+   escudos que preenchem a caixa eram cortadas pelos cantos. */
 .escudo {
   position: relative;
   width: 28px;
   height: 28px;
   flex-shrink: 0;
-  border-radius: 6px;
-  overflow: hidden;
   display: grid;
   place-items: center;
 }
 
-.escudo.g { width: 60px; height: 60px; border-radius: 12px; }
+.escudo.g { width: 60px; height: 60px; }
 
 .escudo img {
   position: relative;
@@ -349,6 +350,7 @@ tr.p3 .pos { color: var(--bronze); }
   z-index: 1;
   display: grid;
   place-items: center;
+  border-radius: 6px;
   font-size: .62rem;
   font-weight: 800;
   letter-spacing: .02em;
@@ -356,7 +358,7 @@ tr.p3 .pos { color: var(--bronze); }
   text-shadow: 0 1px 2px rgba(0, 0, 0, .45);
 }
 
-.escudo.g .iniciais { font-size: 1.25rem; }
+.escudo.g .iniciais { font-size: 1.25rem; border-radius: 12px; }
 
 /* Escudo real carregado: descarta a reserva para não vazar por trás do PNG. */
 .escudo.ok .iniciais { display: none; }

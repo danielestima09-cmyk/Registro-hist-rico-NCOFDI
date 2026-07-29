@@ -12,15 +12,15 @@ cd "$(dirname "$0")"
 APLICAR=""
 [ "$1" = "--aplicar" ] && APLICAR="--aplicar"
 
-echo "── 1/4  país de cada clube, a partir das tabelas das planilhas ──"
+echo "── 1/5  país de cada clube, a partir das tabelas das planilhas ──"
 python3 ferramentas/gerar_clubes.py $APLICAR | tail -4
 
 echo
-echo "── 2/4  campeões ──"
+echo "── 2/5  campeões ──"
 python3 ferramentas/importar.py $APLICAR | head -3
 
 echo
-echo "── 3/4  escudos dos slides (se houver algum em fontes/) ──"
+echo "── 3/5  escudos dos slides (se houver algum em fontes/) ──"
 if ls fontes/*.pptx >/dev/null 2>&1; then
   python3 ferramentas/extrair_escudos.py $APLICAR | head -3
 else
@@ -28,7 +28,11 @@ else
 fi
 
 echo
-echo "── 4/4  conferência ──"
+echo "── 4/5  padroniza os escudos ──"
+python3 ferramentas/padronizar_escudos.py $APLICAR | head -2
+
+echo
+echo "── 5/5  conferência ──"
 python3 checar.py
 
 if [ -z "$APLICAR" ]; then

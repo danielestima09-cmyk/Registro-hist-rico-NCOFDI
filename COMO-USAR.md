@@ -101,7 +101,7 @@ Você ainda pode editar o arquivo à mão para acrescentar campos:
 ```
 
 - **`pais`** — se não informar, o site deduz: clubes que venceram uma liga nacional herdam o país dela; clubes das competições brasileiras (estaduais, Séries A–D, copas regionais) herdam "Brasil".
-- **`escudo`** — nome do arquivo em `assets/escudos/` (veja `assets/escudos/LEIA-ME.md`) ou uma URL completa.
+- **`escudo`** — preenchido sozinho quando o arquivo não é PNG. Você não precisa mexer: solte a imagem em `assets/escudos/` em qualquer formato e o ciclo converte, recorta a margem vazia e padroniza em 160×160.
 - **`bandeira`** — um emoji usado no lugar do escudo. Útil para seleções, que não precisam de PNG.
 
 ---

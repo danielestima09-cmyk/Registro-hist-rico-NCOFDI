@@ -1,6 +1,11 @@
 # Escudos dos clubes
 
-Coloque aqui os escudos em PNG (fundo transparente, algo entre 128×128 e 256×256 é o ideal).
+Coloque aqui os escudos. **Não se preocupe com tamanho nem com formato** —
+PNG, JPG, WEBP, GIF ou SVG, em qualquer dimensão. O `./atualizar.sh` converte,
+recorta a margem vazia em volta e padroniza tudo em 160×160, de modo que dois
+escudos de proporções diferentes ocupem a mesma altura na tela.
+
+O que importa é só o nome do arquivo.
 
 O nome do arquivo deve ser o **nome do clube em minúsculas, sem acento, com hífen no lugar dos espaços** e terminando em `.png`:
 

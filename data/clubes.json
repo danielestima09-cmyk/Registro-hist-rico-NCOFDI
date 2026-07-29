@@ -3331,7 +3331,8 @@
   "pais": "Holanda"
  },
  "Henan FC": {
-  "pais": "China"
+  "pais": "China",
+  "escudo": "henan-fc.svg"
  },
  "Heracles Almelo": {
   "pais": "Holanda"
@@ -4230,7 +4231,8 @@
   "pais": "Brasil"
  },
  "Liaoning Tieren": {
-  "pais": "China"
+  "pais": "China",
+  "escudo": "liaoning-tieren.svg"
  },
  "Liberia": {
   "pais": "Costa Rica"
