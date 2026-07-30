@@ -342,6 +342,9 @@ def main():
         quando o local não diz nada — confederações e competições nacionais
         brasileiras, onde o clube pode ser de qualquer estado.
         """
+        # clube que mudou de nome: a planilha ainda traz o antigo
+        pais_local = locais[lid][1]["nome"]
+        clube = getattr(M, "RENOMEADOS", {}).get((pais_local, clube), clube)
         comum = norm(clube) in comuns
 
         if lid.startswith("br-"):                       # estadual

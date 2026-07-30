@@ -397,9 +397,6 @@
   "pais": "Uruguai",
   "escudo": "albion.svg"
  },
- "Albirex Niigata": {
-  "pais": "Singapura"
- },
  "Alcione": {
   "pais": "Itália"
  },
@@ -2589,6 +2586,9 @@
  "FC Istiklol": {
   "pais": "Tajiquistão"
  },
+ "FC Jurong": {
+  "pais": "Singapura"
+ },
  "FC Kairat": {
   "pais": "Cazaquistão"
  },
@@ -3331,8 +3331,7 @@
   "pais": "Holanda"
  },
  "Henan FC": {
-  "pais": "China",
-  "escudo": "henan-fc.svg"
+  "pais": "China"
  },
  "Heracles Almelo": {
   "pais": "Holanda"

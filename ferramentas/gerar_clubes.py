@@ -116,6 +116,7 @@ def main():
                     continue
                 pais, sufixo = pais_por_aba[chave]
             for clube in clubes_da_aba(wb[aba]):
+                clube = getattr(M, "RENOMEADOS", {}).get((pais, clube), clube)
                 nome = f"{clube}-{sufixo}" if (sufixo and norm(clube) in comuns) else clube
                 origem[nome].add(pais)
 

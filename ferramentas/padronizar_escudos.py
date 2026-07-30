@@ -18,7 +18,7 @@ SVG fica de fora: é vetor, escala sozinho sem perder nada.
 
 Uso:  python3 ferramentas/padronizar_escudos.py [--aplicar]
 """
-import glob, os, sys, io
+import glob, os, sys, io, json, re, unicodedata
 from PIL import Image
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -91,6 +91,48 @@ def padronizar(caminho):
     return True, f"{antes[0]}x{antes[1]} → {TELA}x{TELA}{marca}"
 
 
+def slug(t):
+    t = unicodedata.normalize("NFD", str(t))
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn")
+    t = t.replace("'", "").replace("’", "").replace("ª", "a").replace("º", "o")
+    return re.sub(r"[^a-zA-Z0-9]+", "-", t).strip("-").lower()
+
+
+def corrigir_apontamentos():
+    """Refaz o campo 'escudo' de clubes.json a partir dos arquivos presentes.
+
+    Esta função converte formatos, então é ela que sabe o nome final de cada
+    arquivo. Sem isso, um apontamento gravado antes da conversão ficava preso à
+    extensão antiga — foi o que aconteceu com o fc-jurong.webp.
+    """
+    cam = os.path.join(RAIZ, "data", "clubes.json")
+    if not os.path.exists(cam):
+        return 0
+    clubes = json.load(io.open(cam, encoding="utf-8"))
+    mudou = 0
+    for nome, info in clubes.items():
+        if info.get("bandeira"):
+            continue
+        sl = slug(nome)
+        if os.path.exists(os.path.join(DESTINO, sl + ".png")):
+            if info.pop("escudo", None) is not None:
+                mudou += 1
+            continue
+        alt = next((e for e in (".svg", ".jpg", ".jpeg", ".gif", ".webp")
+                    if os.path.exists(os.path.join(DESTINO, sl + e))), None)
+        novo = sl + alt if alt else None
+        if novo != info.get("escudo"):
+            if novo:
+                info["escudo"] = novo
+            else:
+                info.pop("escudo", None)
+            mudou += 1
+    if mudou:
+        json.dump(clubes, io.open(cam, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        io.open(cam, "a", encoding="utf-8").write("\n")
+    return mudou
+
+
 def main():
     aplicar = "--aplicar" in sys.argv
     arquivos = [f for f in sorted(glob.glob(os.path.join(DESTINO, "*")))
@@ -118,6 +160,10 @@ def main():
             problemas.append(f"{os.path.basename(f)}: {e}")
 
     print(f"{len(arquivos)} escudos · {mudados} padronizados em {TELA}x{TELA} · {svgs} SVG intactos")
+    if aplicar:
+        n = corrigir_apontamentos()
+        if n:
+            print(f"{n} apontamentos de escudo corrigidos em clubes.json")
     if problemas:
         print(f"\nnão consegui tratar ({len(problemas)}):")
         for p in problemas:

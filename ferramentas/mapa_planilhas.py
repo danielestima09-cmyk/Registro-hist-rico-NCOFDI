@@ -173,3 +173,16 @@ CLUBES_MANUAIS = {
 # O escudo válido dessas células é sempre o da direita (o Clausura) — ver
 # POSICAO_NA_CELULA em extrair_escudos.py.
 CAMPEOES_MANUAIS = []
+
+
+# ---------------------------------------------------------------------------
+# Clubes que mudaram de nome no NCOFDI. As planilhas antigas seguem com o nome
+# de antes, então a troca tem de ser feita na leitura — sem isso, cada nova
+# importação traria o nome velho de volta.
+#
+# A chave inclui o país porque o nome antigo pode existir em outro lugar: há um
+# Albirex Niigata no Japão, que não é o de Singapura.
+# (país, nome antigo) -> nome novo
+RENOMEADOS = {
+    ("Singapura", "Albirex Niigata"): "FC Jurong",
+}

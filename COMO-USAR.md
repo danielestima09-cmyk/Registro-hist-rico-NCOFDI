@@ -129,7 +129,26 @@ Dentro do arquivo do local, acrescente um objeto em `competicoes`:
 
 ---
 
-## 5. Corrigir o nome de uma competição
+## 5. Clube que mudou de nome
+
+As planilhas antigas continuam com o nome de antes, então trocar só no JSON não
+resolve: a próxima importação traz o nome velho de volta. A troca vai em
+`RENOMEADOS`, em `ferramentas/mapa_planilhas.py`:
+
+```python
+RENOMEADOS = {
+    ("Singapura", "Albirex Niigata"): "FC Jurong",
+}
+```
+
+A chave inclui o país porque o nome antigo pode existir em outro lugar — há um
+Albirex Niigata no Japão que não é o de Singapura. Depois disso, rode
+`./atualizar.sh --aplicar` e ponha o escudo novo em `assets/escudos/` com o
+nome novo. O escudo antigo pode ser apagado.
+
+---
+
+## 6. Corrigir o nome de uma competição
 
 Troque o campo `nome` no JSON do local. O `id` pode continuar o mesmo — ele só aparece no endereço da página.
 
@@ -137,7 +156,7 @@ Troque o campo `nome` no JSON do local. O `id` pode continuar o mesmo — ele s�
 
 ---
 
-## 6. Adicionar um país novo
+## 7. Adicionar um país novo
 
 **a)** em `data/estrutura.json`, dentro da seção certa, acrescente no array `paises`:
 
@@ -164,7 +183,7 @@ O `id` do arquivo, o `id` dentro dele e o `id` em `estrutura.json` precisam ser 
 
 ---
 
-## 7. Rodar e publicar
+## 8. Rodar e publicar
 
 **Testar na sua máquina** — o navegador bloqueia a leitura dos JSON se você abrir o `index.html` direto do disco, então use um servidor local:
 
@@ -182,7 +201,7 @@ Em ~1 minuto o site fica no ar em `https://<seu-usuario>.github.io/Registro-hist
 
 ---
 
-## 8. Conferir os dados
+## 9. Conferir os dados
 
 Sempre que mexer nos JSON, rode:
 
