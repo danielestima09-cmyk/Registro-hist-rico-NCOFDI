@@ -22,6 +22,21 @@
 
   var indicePaisPorNome = {};
 
+  // Versão dos arquivos, lida do ?v=N com que o index.html carrega este script.
+  // Ela é repassada às buscas de dados: sem isso o navegador podia continuar
+  // servindo JSON antigo do cache mesmo depois de uma publicação, e o site
+  // aparecia sem os campeões recém-adicionados.
+  var VERSAO = (function () {
+    try {
+      var s = document.currentScript ||
+              document.querySelector('script[src*="app.js"]');
+      var m = s && s.src && s.src.match(/[?&]v=([\w.]+)/);
+      return m ? m[1] : "";
+    } catch (e) {
+      return "";
+    }
+  })();
+
   /* ---------------------------------------------------------------- utils */
 
   function slug(txt) {
@@ -131,7 +146,8 @@
 
   function buscarJSON(caminho, tentativas) {
     tentativas = tentativas == null ? 3 : tentativas;
-    return fetch(caminho, { cache: "no-cache" }).then(function (r) {
+    var url = VERSAO ? caminho + "?v=" + VERSAO : caminho;
+    return fetch(url, { cache: "no-cache" }).then(function (r) {
       if (!r.ok) throw new Error(caminho + " → HTTP " + r.status);
       return r.json();
     }).catch(function (e) {
