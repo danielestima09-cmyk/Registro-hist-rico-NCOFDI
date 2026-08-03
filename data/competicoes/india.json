@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Punjab"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Northeast United"
         }
       ]
     },
@@ -18,7 +22,12 @@
       "id": "super-cup-india",
       "nome": "Super Cup India",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Jamshedpur"
+        }
+      ]
     }
   ]
 }

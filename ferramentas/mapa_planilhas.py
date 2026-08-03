@@ -57,8 +57,10 @@ EXPLICITO = {
     ("Sulamericanos", "Argentina", None): ["Torneo Apertura", "Torneo Clausura",
                                            "Tabela Geral da Liga", "Primera Nacional",
                                            "Copa Argentina"],
-    # Fase regular = liga; mata-mata seguinte = copa nacional.
-    ("Asiáticos", "Filipinas", None): ["Philippines Football League", "Copa Paulino Alcantara"],
+    # Fase regular = liga; mata-mata seguinte = copa nacional. No Ano 2 não
+    # houve mata-mata, então só a liga tem campeão.
+    ("Asiáticos", "Filipinas", 2026): ["Philippines Football League", "Copa Paulino Alcantara"],
+    ("Asiáticos", "Filipinas", 2027): ["Philippines Football League"],
     # A coluna da Alemanha não traz o campeão da Bundesliga (vem da tabela,
     # ver COMPLEMENTOS); os três listados são 2. Bundesliga, 3. Liga e a copa.
     ("Europeus", "Alemanha", None): ["2. Bundesliga", "3. Liga", "DFB-Pokal"],

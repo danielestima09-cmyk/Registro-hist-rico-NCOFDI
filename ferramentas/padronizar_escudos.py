@@ -67,6 +67,15 @@ def padronizar(caminho):
     bruto = open(caminho, "rb").read()
     tipo = formato(bruto)
     if tipo == "svg":
+        # SVG salvo com outra extensão: o navegador não renderiza um .png que
+        # na verdade é SVG. Corrige o nome; o apontamento é refeito no fim.
+        if not caminho.endswith(".svg"):
+            destino = os.path.splitext(caminho)[0] + ".svg"
+            if os.path.exists(destino):
+                os.remove(caminho)              # já existe a versão certa
+            else:
+                os.rename(caminho, destino)
+            return True, "extensão corrigida para .svg"
         return False, None
     if tipo == "?":
         return False, "formato não reconhecido"

@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "JDT"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Kuching City"
         }
       ]
     },
@@ -18,7 +22,12 @@
       "id": "malaysia-cup",
       "nome": "Malaysia Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Terengganu"
+        }
+      ]
     }
   ]
 }

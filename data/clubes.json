@@ -397,6 +397,9 @@
   "pais": "Uruguai",
   "escudo": "albion.svg"
  },
+ "Albirex Niigata": {
+  "pais": "Japão"
+ },
  "Alcione": {
   "pais": "Itália"
  },
@@ -880,6 +883,9 @@
   "pais": "Brasil",
   "escudo": "avenida.svg"
  },
+ "Avispa Fukuoka": {
+  "pais": "Japão"
+ },
  "Aymorés": {
   "pais": "Brasil"
  },
@@ -1079,7 +1085,8 @@
   "pais": "Alemanha"
  },
  "Becamex Binh Duong": {
-  "pais": "Vietnã"
+  "pais": "Vietnã",
+  "escudo": "becamex-binh-duong.svg"
  },
  "Bechem United": {
   "pais": "Gana"
@@ -1179,6 +1186,9 @@
  },
  "Blau Weiß Linz": {
   "pais": "Áustria"
+ },
+ "Blaublitz Akita": {
+  "pais": "Japão"
  },
  "Blooming": {
   "pais": "Bolívia"
@@ -1728,6 +1738,9 @@
  },
  "Ceres": {
   "pais": "Brasil"
+ },
+ "Cerezo Osaka": {
+  "pais": "Japão"
  },
  "Cerro": {
   "pais": "Uruguai"
@@ -2580,6 +2593,9 @@
  "FC Hegelmann": {
   "pais": "Lituânia"
  },
+ "FC Imabari": {
+  "pais": "Japão"
+ },
  "FC Istaravshan": {
   "pais": "Tajiquistão"
  },
@@ -2621,6 +2637,9 @@
  },
  "FC Supra du Québec": {
   "pais": "Canadá"
+ },
+ "FC Tokyo": {
+  "pais": "Japão"
  },
  "FC Triesen": {
   "pais": "Liechtenstein"
@@ -2690,6 +2709,9 @@
  },
  "Faetano": {
   "pais": "San Marino"
+ },
+ "Fagiano Okayama": {
+  "pais": "Japão"
  },
  "Fajr Sepasi": {
   "pais": "Irã"
@@ -2877,6 +2899,9 @@
  "Frosinone": {
   "pais": "Itália"
  },
+ "Fujieda MYFC": {
+  "pais": "Japão"
+ },
  "Fulham": {
   "pais": "Inglaterra"
  },
@@ -2924,6 +2949,9 @@
  },
  "Gama": {
   "pais": "Brasil"
+ },
+ "Gamba Osaka": {
+  "pais": "Japão"
  },
  "Gandzasar": {
   "pais": "Armênia"
@@ -3331,7 +3359,8 @@
   "pais": "Holanda"
  },
  "Henan FC": {
-  "pais": "China"
+  "pais": "China",
+  "escudo": "henan-fc.svg"
  },
  "Heracles Almelo": {
   "pais": "Holanda"
@@ -3365,6 +3394,9 @@
  },
  "Hohoe United": {
   "pais": "Gana"
+ },
+ "Hokkaido Consadole Sapporo": {
+  "pais": "Japão"
  },
  "Hong Kong FC": {
   "pais": "Hong Kong"
@@ -3658,6 +3690,9 @@
  "Ivinhema": {
   "pais": "Brasil"
  },
+ "Iwaki FC": {
+  "pais": "Japão"
+ },
  "Izabelense": {
   "pais": "Brasil"
  },
@@ -3707,7 +3742,8 @@
   "pais": "Brasil"
  },
  "Jamshedpur": {
-  "pais": "Índia"
+  "pais": "Índia",
+  "escudo": "jamshedpur.svg"
  },
  "Jaraguá": {
   "pais": "Brasil"
@@ -3720,6 +3756,9 @@
  },
  "Jedinstvo": {
   "pais": "Montenegro"
+ },
+ "Jef United Chiba": {
+  "pais": "Japão"
  },
  "Jeju SK": {
   "pais": "Coréia do Sul"
@@ -3830,6 +3869,9 @@
  "Jwaneng Galaxy": {
   "pais": "Botswana"
  },
+ "Júbilo Iwata": {
+  "pais": "Japão"
+ },
  "KA": {
   "pais": "Islândia"
  },
@@ -3938,8 +3980,17 @@
  "Karviná": {
   "pais": "Tchéquia"
  },
+ "Kashima Antlers": {
+  "pais": "Japão"
+ },
+ "Kashiwa Reysol": {
+  "pais": "Japão"
+ },
  "Kasimpasa": {
   "pais": "Turquia"
+ },
+ "Kataller Toyama": {
+  "pais": "Japão"
  },
  "Katowice": {
   "pais": "Polônia"
@@ -3949,6 +4000,9 @@
  },
  "Kauno Žalgiris": {
   "pais": "Lituânia"
+ },
+ "Kawasaki Frontale": {
+  "pais": "Japão"
  },
  "Kaya-Iloilo": {
   "pais": "Filipinas"
@@ -4063,6 +4117,9 @@
  },
  "Kwara United": {
   "pais": "Nigéria"
+ },
+ "Kyoto Sanga": {
+  "pais": "Japão"
  },
  "Kyzylzhar": {
   "pais": "Cazaquistão"
@@ -4714,6 +4771,9 @@
  "Misto": {
   "pais": "Brasil"
  },
+ "Mito Hollyhock": {
+  "pais": "Japão"
+ },
  "Mitre": {
   "pais": "Argentina"
  },
@@ -4779,6 +4839,9 @@
  },
  "Monte Roraima": {
   "pais": "Brasil"
+ },
+ "Montedio Yamagata": {
+  "pais": "Japão"
  },
  "Montego Bay United": {
   "pais": "Jamaica"
@@ -4947,6 +5010,9 @@
  },
  "Naftan Novopolotsk": {
   "pais": "Belarus"
+ },
+ "Nagoya Grampus": {
+  "pais": "Japão"
  },
  "Naka": {
   "pais": "Vanuatu"
@@ -5208,6 +5274,9 @@
  },
  "Ogre United": {
   "pais": "Letônia"
+ },
+ "Oita Trinita": {
+  "pais": "Japão"
  },
  "Olancho": {
   "pais": "Honduras"
@@ -5570,6 +5639,9 @@
   "pais": "Brasil"
  },
  "Persebaya Surabaya": {
+  "pais": "Indonésia"
+ },
+ "Persebaya Surubaya": {
   "pais": "Indonésia"
  },
  "Persepolis": {
@@ -5952,6 +6024,9 @@
  },
  "RB Leipzig": {
   "pais": "Alemanha"
+ },
+ "RB Omiya Ardija": {
+  "pais": "Japão"
  },
  "RB Salzburg": {
   "pais": "Áustria"
@@ -6376,6 +6451,9 @@
  "Sabugy": {
   "pais": "Brasil"
  },
+ "Sagan Tosu": {
+  "pais": "Japão"
+ },
  "Sagrada Esperança": {
   "pais": "Angola"
  },
@@ -6471,6 +6549,9 @@
  },
  "Sandefjord": {
   "pais": "Noruega"
+ },
+ "Sanfrecce Hiroshima": {
+  "pais": "Japão"
  },
  "Santa Catarina": {
   "pais": "Brasil"
@@ -6683,6 +6764,9 @@
  "Sheriff": {
   "pais": "Moldávia"
  },
+ "Shimizu S-Pulse": {
+  "pais": "Japão"
+ },
  "Shirak": {
   "pais": "Armênia"
  },
@@ -6691,6 +6775,9 @@
  },
  "Shkëndija": {
   "pais": "Macedônia do Norte"
+ },
+ "Shonan Bellmare": {
+  "pais": "Japão"
  },
  "Shooting Stars": {
   "pais": "Nigéria"
@@ -7192,6 +7279,9 @@
  "Tefana": {
   "pais": "Taiti"
  },
+ "Tegevajaro Miyazaki": {
+  "pais": "Japão"
+ },
  "Telstar": {
   "pais": "Holanda"
  },
@@ -7273,6 +7363,15 @@
  },
  "Tocantinópolis": {
   "pais": "Brasil"
+ },
+ "Tochigi City": {
+  "pais": "Japão"
+ },
+ "Tokushima Vortis": {
+  "pais": "Japão"
+ },
+ "Tokyo Verdy": {
+  "pais": "Japão"
  },
  "Toledo": {
   "pais": "Brasil"
@@ -7595,6 +7694,9 @@
  "Urartu": {
   "pais": "Armênia"
  },
+ "Urawa Reds": {
+  "pais": "Japão"
+ },
  "Urumajó": {
   "pais": "Brasil"
  },
@@ -7603,6 +7705,9 @@
  },
  "Utrecht": {
   "pais": "Holanda"
+ },
+ "V-Varen Nagasaki": {
+  "pais": "Japão"
  },
  "VPS": {
   "pais": "Finlândia"
@@ -7646,6 +7751,9 @@
  "Vancouver Whitecaps-EUA": {
   "pais": "Estados Unidos"
  },
+ "Vanraure Hachinohe": {
+  "pais": "Japão"
+ },
  "Vanspor": {
   "pais": "Turquia"
  },
@@ -7661,6 +7769,9 @@
  "Vasco-RJ": {
   "pais": "Brasil"
  },
+ "Vegalta Sendai": {
+  "pais": "Japão"
+ },
  "Vejle": {
   "pais": "Dinamarca"
  },
@@ -7672,6 +7783,9 @@
  },
  "Venezia": {
   "pais": "Itália"
+ },
+ "Ventforet Kofu": {
+  "pais": "Japão"
  },
  "Venus": {
   "pais": "Taiti"
@@ -7756,6 +7870,9 @@
  },
  "Vision FC": {
   "pais": "Gana"
+ },
+ "Vissel Kobe": {
+  "pais": "Japão"
  },
  "Visão Celeste": {
   "pais": "Brasil"
@@ -7954,6 +8071,12 @@
  },
  "Yelimay": {
   "pais": "Cazaquistão"
+ },
+ "Yokohama FC": {
+  "pais": "Japão"
+ },
+ "Yokohama Marinos": {
+  "pais": "Japão"
  },
  "Yongin FC": {
   "pais": "Coréia do Sul"

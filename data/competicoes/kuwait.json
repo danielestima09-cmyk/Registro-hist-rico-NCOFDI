@@ -11,6 +11,10 @@
         {
           "temporada": "2026",
           "clube": "Kuwait SC"
+        },
+        {
+          "temporada": "2027",
+          "clube": "Al Arabi-KUW"
         }
       ]
     },
@@ -18,7 +22,12 @@
       "id": "emir-cup",
       "nome": "Emir Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Al Jahra"
+        }
+      ]
     }
   ]
 }

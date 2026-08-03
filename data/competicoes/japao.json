@@ -7,19 +7,34 @@
       "id": "j1-league",
       "nome": "J1 League",
       "tipo": "Liga Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Fagiano Okayama"
+        }
+      ]
     },
     {
       "id": "j2-league",
       "nome": "J2 League",
       "tipo": "2ª Divisão",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Montedio Yamagata"
+        }
+      ]
     },
     {
       "id": "emperor-cup",
       "nome": "Emperor Cup",
       "tipo": "Copa Nacional",
-      "campeoes": []
+      "campeoes": [
+        {
+          "temporada": "2027",
+          "clube": "Urawa Reds"
+        }
+      ]
     }
   ]
 }
