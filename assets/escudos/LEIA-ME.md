@@ -1,9 +1,14 @@
 # Escudos dos clubes
 
 Coloque aqui os escudos. **Não se preocupe com tamanho nem com formato** —
-PNG, JPG, WEBP, GIF ou SVG, em qualquer dimensão. O `./atualizar.sh` converte,
-recorta a margem vazia em volta e padroniza tudo em 160×160, de modo que dois
-escudos de proporções diferentes ocupem a mesma altura na tela.
+PNG, JPG, WEBP, GIF ou SVG, em qualquer dimensão. O `./atualizar.sh` converte
+tudo para PNG (o SVG é rasterizado), recorta a margem vazia em volta e
+padroniza em 160×160, de modo que dois escudos de proporções diferentes
+ocupem a mesma altura na tela.
+
+Não existe exceção: todos os arquivos da pasta terminam iguais em formato e
+tamanho. O SVG ficava de fora antes, e por isso aparecia maior ou menor que
+os vizinhos.
 
 O que importa é só o nome do arquivo.
 

@@ -14,7 +14,10 @@ A padronização é feita pelo ESCUDO, não pela imagem:
   3. centraliza numa tela quadrada de tamanho fixo.
 
 Assim dois escudos de proporções diferentes ocupam a mesma altura na tela.
-SVG fica de fora: é vetor, escala sozinho sem perder nada.
+
+SVG é rasterizado antes de entrar nesse caminho. Deixá-lo de fora parecia
+razoável — vetor escala sozinho —, mas na prática ele escapava do recorte e da
+escala uniforme, e ficava visivelmente maior ou menor que os vizinhos.
 
 Uso:  python3 ferramentas/padronizar_escudos.py [--aplicar]
 """
@@ -62,21 +65,38 @@ def recortar_margem(im):
     return im.crop(caixa) if caixa else im
 
 
+def _sem_entidades(svg):
+    """Expande as entidades XML declaradas no DOCTYPE e remove a declaração.
+
+    SVG exportado pelo Illustrator costuma declarar entidades e usá-las no
+    próprio cabeçalho (xmlns="&ns_svg;"). O rasterizador recusa arquivos com
+    DOCTYPE por segurança, e apagar a declaração sem substituir os usos deixa
+    referências soltas — o arquivo passa a não ser XML válido.
+    """
+    doc = re.search(rb"<!DOCTYPE.*?\[(.*?)\]\s*>", svg, flags=re.S)
+    if not doc:
+        return svg
+    for nome, valor in re.findall(rb'<!ENTITY\s+(\S+)\s+"([^"]*)"', doc.group(1)):
+        svg = svg.replace(b"&" + nome + b";", valor)
+    return svg[:doc.start()] + svg[doc.end():]
+
+
 def padronizar(caminho):
     """(mudou, descricao)"""
     bruto = open(caminho, "rb").read()
     tipo = formato(bruto)
     if tipo == "svg":
-        # SVG salvo com outra extensão: o navegador não renderiza um .png que
-        # na verdade é SVG. Corrige o nome; o apontamento é refeito no fim.
-        if not caminho.endswith(".svg"):
-            destino = os.path.splitext(caminho)[0] + ".svg"
-            if os.path.exists(destino):
-                os.remove(caminho)              # já existe a versão certa
-            else:
-                os.rename(caminho, destino)
-            return True, "extensão corrigida para .svg"
-        return False, None
+        try:
+            import cairosvg
+        except ImportError:
+            return False, "SVG e cairosvg não está instalado (pip install cairosvg)"
+        # rasteriza grande para que o recorte e a redução saiam nítidos
+        try:
+            bruto = cairosvg.svg2png(bytestring=bruto, output_width=TELA * 4)
+        except Exception:
+            bruto = cairosvg.svg2png(bytestring=_sem_entidades(bruto),
+                                     output_width=TELA * 4)
+        tipo = "svg→png"
     if tipo == "?":
         return False, "formato não reconhecido"
 
@@ -168,7 +188,8 @@ def main():
         except Exception as e:
             problemas.append(f"{os.path.basename(f)}: {e}")
 
-    print(f"{len(arquivos)} escudos · {mudados} padronizados em {TELA}x{TELA} · {svgs} SVG intactos")
+    print(f"{len(arquivos)} escudos · {mudados} padronizados em {TELA}x{TELA}"
+          + (f" · {svgs} sem tratamento" if svgs else ""))
     if aplicar:
         n = corrigir_apontamentos()
         if n:
