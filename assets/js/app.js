@@ -103,13 +103,17 @@
       return '<span class="' + classe + ' emoji">' + info.bandeira + "</span>";
     }
 
-    // escudo escuro ganha uma placa clara atrás: o fundo do site é escuro e
-    // esses desapareciam nele. Quem decide é a padronização, que mede o
-    // contraste de cada arquivo e grava "escuro" em clubes.json.
+    // escudo escuro recebe um contorno claro que acompanha o desenho: o fundo
+    // do site é escuro e esses desapareciam nele. Quem decide é a padronização,
+    // que mede o contraste de cada arquivo e grava "escuro" em clubes.json.
     if (info.escuro) classe += " escuro";
 
     var arquivo = info.escudo || (slug(nome) + ".png");
     var src = /^https?:/.test(arquivo) ? arquivo : "assets/escudos/" + arquivo;
+    // O ?v= vale também para as imagens: sem ele o navegador reaproveita
+    // indefinidamente o escudo antigo em cache e correções de arquivo não
+    // chegam ao usuário, mesmo com CSS e JSON já atualizados.
+    if (VERSAO && !/^https?:/.test(arquivo)) src += "?v=" + VERSAO;
     // As iniciais ficam por baixo como reserva; somem assim que o PNG carrega,
     // para que escudos com fundo transparente não apareçam sobre o texto.
     return '<span class="' + classe + '">' +

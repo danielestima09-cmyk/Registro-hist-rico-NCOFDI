@@ -366,17 +366,24 @@ tr.p3 .pos { color: var(--bronze); }
 /* Escudo real carregado: descarta a reserva para não vazar por trás do PNG. */
 .escudo.ok .iniciais { display: none; }
 
-/* Escudo escuro: placa clara atrás, senão ele se perde no fundo do site.
-   A marca vem de clubes.json, medida pela padronização. */
-.escudo.escuro.ok {
-  background: #eef2f7;
-  border-radius: 5px;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, .18);
+/* Escudo escuro: recebe um contorno claro, senão ele se perde no fundo do site.
+   A marca vem de clubes.json, medida pela padronização.
+
+   drop-shadow e não background: o filtro acompanha o recorte real do PNG, então
+   o realce contorna o desenho do escudo. Uma placa retangular resolvia a
+   visibilidade, mas deixava um "fundo branco" atrás de parte dos escudos e o
+   conjunto ficava desigual. Duas sombras opostas cobrem o contorno todo. */
+.escudo.escuro.ok img {
+  filter:
+    drop-shadow(0 0 1px rgba(255, 255, 255, .95))
+    drop-shadow(0 0 2px rgba(255, 255, 255, .55));
 }
 
-.escudo.escuro.ok img { padding: 1px; box-sizing: border-box; }
-.escudo.escuro.ok.g { border-radius: 10px; }
-.escudo.escuro.ok.g img { padding: 4px; }
+.escudo.escuro.ok.g img {
+  filter:
+    drop-shadow(0 0 2px rgba(255, 255, 255, .95))
+    drop-shadow(0 0 4px rgba(255, 255, 255, .55));
+}
 
 /* Seleções usam a bandeira em vez de um PNG. */
 .escudo.emoji { font-size: 1.35rem; line-height: 1; }
