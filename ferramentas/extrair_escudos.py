@@ -319,6 +319,10 @@ ESCUDOS_ERRADOS_NA_FONTE = {
     # No slide dos estaduais do Ano 2 está o escudo do Cametá, mas o campeão
     # paraense de 2027 é o São Raimundo.
     "São Raimundo-PA",
+    # A extração troca estes dois entre si — os arquivos corretos estão na
+    # pasta, colocados à mão. Melhor não extrair do que extrair errado.
+    "Lincoln City",
+    "Sochaux",
 }
 
 PLANO_MANUAL = {

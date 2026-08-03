@@ -36,7 +36,8 @@
   "pais": "Bolívia"
  },
  "ABC": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "ABD": {
   "pais": "Brasil"
@@ -45,7 +46,8 @@
   "pais": "Vanuatu"
  },
  "ADEC": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "ADO Den Haag": {
   "pais": "Holanda"
@@ -102,7 +104,8 @@
   "pais": "Guiné"
  },
  "ASO Chlef": {
-  "pais": "Argélia"
+  "pais": "Argélia",
+  "escuro": true
  },
  "AVS": {
   "pais": "Portugal"
@@ -183,7 +186,8 @@
   "pais": "Catar"
  },
  "Al Ahli-JOR": {
-  "pais": "Jordânia"
+  "pais": "Jordânia",
+  "escuro": true
  },
  "Al Ahly": {
   "pais": "Egito"
@@ -234,7 +238,8 @@
   "pais": "Arábia Saudita"
  },
  "Al Hilal": {
-  "pais": "Arábia Saudita"
+  "pais": "Arábia Saudita",
+  "escuro": true
  },
  "Al Hussein": {
   "pais": "Jordânia"
@@ -255,7 +260,8 @@
   "pais": "Jordânia"
  },
  "Al Jazira": {
-  "pais": "Emirados Árabes Unidos"
+  "pais": "Emirados Árabes Unidos",
+  "escuro": true
  },
  "Al Kahraba'a": {
   "pais": "Iraque"
@@ -306,7 +312,8 @@
   "pais": "Arábia Saudita"
  },
  "Al Qadisiya": {
-  "pais": "Arábia Saudita"
+  "pais": "Arábia Saudita",
+  "escuro": true
  },
  "Al Qasim": {
   "pais": "Iraque"
@@ -393,7 +400,8 @@
   "pais": "Itália"
  },
  "Albion": {
-  "pais": "Uruguai"
+  "pais": "Uruguai",
+  "escuro": true
  },
  "Albirex Niigata": {
   "pais": "Japão"
@@ -474,7 +482,8 @@
   "pais": "Iraque"
  },
  "Amazonas": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Amazulu": {
   "pais": "África do Sul"
@@ -576,7 +585,8 @@
   "pais": "Brasil"
  },
  "Aparecida": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Aparecidense": {
   "pais": "Brasil"
@@ -615,7 +625,8 @@
   "pais": "Brasil"
  },
  "Araucária": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Araz-Naxçivan": {
   "pais": "Azerbaijão"
@@ -669,7 +680,8 @@
   "pais": "Montenegro"
  },
  "Arsenal-ING": {
-  "pais": "Inglaterra"
+  "pais": "Inglaterra",
+  "escuro": true
  },
  "Arsimi": {
   "pais": "Macedônia do Norte"
@@ -723,7 +735,8 @@
   "pais": "Argentina"
  },
  "Atlanta United": {
-  "pais": "Estados Unidos"
+  "pais": "Estados Unidos",
+  "escuro": true
  },
  "Atlante": {
   "pais": "México"
@@ -822,7 +835,8 @@
   "pais": "Nova Zelândia"
  },
  "Auckland United": {
-  "pais": "Nova Zelândia"
+  "pais": "Nova Zelândia",
+  "escuro": true
  },
  "Audace Cerignola": {
   "pais": "Itália"
@@ -939,7 +953,8 @@
   "pais": "Singapura"
  },
  "Bali United": {
-  "pais": "Indonésia"
+  "pais": "Indonésia",
+  "escuro": true
  },
  "Ballkani": {
   "pais": "Kosovo"
@@ -1080,7 +1095,8 @@
   "pais": "Alemanha"
  },
  "Becamex Binh Duong": {
-  "pais": "Vietnã"
+  "pais": "Vietnã",
+  "escuro": true
  },
  "Bechem United": {
   "pais": "Gana"
@@ -1092,7 +1108,8 @@
   "pais": "China"
  },
  "Beitar Jerusalem": {
-  "pais": "Israel"
+  "pais": "Israel",
+  "escuro": true
  },
  "Bela Vista": {
   "pais": "Brasil"
@@ -1254,10 +1271,12 @@
   "pais": "Brasil"
  },
  "Boston River-URU": {
-  "pais": "Uruguai"
+  "pais": "Uruguai",
+  "escuro": true
  },
  "Botafogo-PB": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Botafogo-RJ": {
   "pais": "Brasil"
@@ -1380,7 +1399,8 @@
   "pais": "Espanha"
  },
  "Buriram United": {
-  "pais": "Tailândia"
+  "pais": "Tailândia",
+  "escuro": true
  },
  "Burnley": {
   "pais": "Inglaterra"
@@ -1554,7 +1574,8 @@
   "pais": "Brasil"
  },
  "Capital-TO": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Capitão Poço": {
   "pais": "Brasil"
@@ -1569,7 +1590,8 @@
   "pais": "Venezuela"
  },
  "Caracas": {
-  "pais": "Venezuela"
+  "pais": "Venezuela",
+  "escuro": true
  },
  "Carajás": {
   "pais": "Brasil"
@@ -1710,7 +1732,8 @@
   "pais": "Brasil"
  },
  "Central Sport": {
-  "pais": "Taiti"
+  "pais": "Taiti",
+  "escuro": true
  },
  "Central-PE": {
   "pais": "Brasil"
@@ -1722,7 +1745,8 @@
   "pais": "Brasil"
  },
  "Ceramica Cleopatra": {
-  "pais": "Egito"
+  "pais": "Egito",
+  "escuro": true
  },
  "Cercle Brugge": {
   "pais": "Bélgica"
@@ -1740,7 +1764,8 @@
   "pais": "Uruguai"
  },
  "Cerro Porteño": {
-  "pais": "Paraguai"
+  "pais": "Paraguai",
+  "escuro": true
  },
  "Cesena": {
   "pais": "Itália"
@@ -1887,7 +1912,8 @@
   "pais": "Inglaterra"
  },
  "Colegiales": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escuro": true
  },
  "Coleraine": {
   "pais": "Irlanda do Norte"
@@ -2142,7 +2168,8 @@
   "pais": "Holanda"
  },
  "Deportes Concepción": {
-  "pais": "Chile"
+  "pais": "Chile",
+  "escuro": true
  },
  "Deportes La Serena": {
   "pais": "Chile"
@@ -2223,7 +2250,8 @@
   "pais": "França"
  },
  "Dila Gori": {
-  "pais": "Geórgia"
+  "pais": "Geórgia",
+  "escuro": true
  },
  "Dimensão Saúde": {
   "pais": "Brasil"
@@ -2484,7 +2512,8 @@
   "pais": "Brasil"
  },
  "Esportiva Aquidabã": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Esportivo-RS": {
   "pais": "Brasil"
@@ -2592,7 +2621,8 @@
   "pais": "Tajiquistão"
  },
  "FC Jurong": {
-  "pais": "Singapura"
+  "pais": "Singapura",
+  "escuro": true
  },
  "FC Kairat": {
   "pais": "Cazaquistão"
@@ -2649,7 +2679,8 @@
   "pais": "Islândia"
  },
  "FK Auda": {
-  "pais": "Letônia"
+  "pais": "Letônia",
+  "escuro": true
  },
  "FK Banga Gargždai": {
   "pais": "Lituânia"
@@ -2775,7 +2806,8 @@
   "pais": "Brasil"
  },
  "Flamengo-RJ": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Flamengo-SE": {
   "pais": "Brasil"
@@ -2835,7 +2867,8 @@
   "pais": "Guiné"
  },
  "Forge FC": {
-  "pais": "Canadá"
+  "pais": "Canadá",
+  "escuro": true
  },
  "Forlì": {
   "pais": "Itália"
@@ -2847,7 +2880,8 @@
   "pais": "Colômbia"
  },
  "Forte": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Fortuna Düsseldorf": {
   "pais": "Alemanha"
@@ -2877,7 +2911,8 @@
   "pais": "Noruega"
  },
  "Freiburg": {
-  "pais": "Alemanha"
+  "pais": "Alemanha",
+  "escuro": true
  },
  "Freipaulistano": {
   "pais": "Brasil"
@@ -2904,7 +2939,8 @@
   "pais": "Suécia"
  },
  "GAS": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "GKS Tychy": {
   "pais": "Polônia"
@@ -3285,7 +3321,8 @@
   "pais": "Alemanha"
  },
  "Hapoel Be'er Sheva": {
-  "pais": "Israel"
+  "pais": "Israel",
+  "escuro": true
  },
  "Hapoel Haifa": {
   "pais": "Israel"
@@ -3429,7 +3466,8 @@
   "pais": "Inglaterra"
  },
  "Humaitá": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Huracán": {
   "pais": "Argentina"
@@ -3471,7 +3509,8 @@
   "pais": "Brasil"
  },
  "Icount Yatel": {
-  "pais": "Vanuatu"
+  "pais": "Vanuatu",
+  "escuro": true
  },
  "Ifira Black Bird": {
   "pais": "Vanuatu"
@@ -3534,7 +3573,8 @@
   "pais": "Argentina"
  },
  "Independiente-PAN": {
-  "pais": "Panamá"
+  "pais": "Panamá",
+  "escuro": true
  },
  "Independência-AC": {
   "pais": "Brasil"
@@ -3552,7 +3592,8 @@
   "pais": "Colômbia"
  },
  "Inter Club D'Escaldes": {
-  "pais": "Andorra"
+  "pais": "Andorra",
+  "escuro": true
  },
  "Inter Kashi": {
   "pais": "Índia"
@@ -3567,7 +3608,8 @@
   "pais": "Canadá"
  },
  "Inter Turku": {
-  "pais": "Finlândia"
+  "pais": "Finlândia",
+  "escuro": true
  },
  "Inter U23": {
   "pais": "Itália"
@@ -3576,7 +3618,8 @@
   "pais": "Brasil"
  },
  "Inter de Lages": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Inter de Limeira": {
   "pais": "Brasil"
@@ -3600,7 +3643,8 @@
   "pais": "Brasil"
  },
  "Internazionale": {
-  "pais": "Itália"
+  "pais": "Itália",
+  "escuro": true
  },
  "Interporto": {
   "pais": "Brasil"
@@ -3846,7 +3890,8 @@
   "pais": "Brasil"
  },
  "Juventus-SP": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Juárez": {
   "pais": "México"
@@ -3924,7 +3969,8 @@
   "pais": "Alemanha"
  },
  "Kaizer Chiefs": {
-  "pais": "África do Sul"
+  "pais": "África do Sul",
+  "escuro": true
  },
  "Kalmar": {
   "pais": "Suécia"
@@ -4071,7 +4117,8 @@
   "pais": "Eslováquia"
  },
  "Krasnodar": {
-  "pais": "Rússia"
+  "pais": "Rússia",
+  "escuro": true
  },
  "Kristiansund": {
   "pais": "Noruega"
@@ -4098,7 +4145,8 @@
   "pais": "Estônia"
  },
  "Kuwait SC": {
-  "pais": "Kuwait"
+  "pais": "Kuwait",
+  "escuro": true
  },
  "Kwara United": {
   "pais": "Nigéria"
@@ -4167,7 +4215,8 @@
   "pais": "Tailândia"
  },
  "Lanús": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escuro": true
  },
  "Laranja Mecânica": {
   "pais": "Brasil"
@@ -4275,7 +4324,8 @@
   "pais": "China"
  },
  "Liberia": {
-  "pais": "Costa Rica"
+  "pais": "Costa Rica",
+  "escuro": true
  },
  "Libertad-EQU": {
   "pais": "Equador"
@@ -4305,7 +4355,8 @@
   "pais": "Noruega"
  },
  "Lincoln City": {
-  "pais": "Inglaterra"
+  "pais": "Inglaterra",
+  "escuro": true
  },
  "Lincoln Red Imps": {
   "pais": "Gibraltar"
@@ -4428,7 +4479,8 @@
   "pais": "Argélia"
  },
  "MC Alger": {
-  "pais": "Argélia"
+  "pais": "Argélia",
+  "escuro": true
  },
  "MC El Bayadh": {
   "pais": "Argélia"
@@ -4440,7 +4492,8 @@
   "pais": "Inglaterra"
  },
  "ML Vitebsk": {
-  "pais": "Belarus"
+  "pais": "Belarus",
+  "escuro": true
  },
  "MTK Budapest": {
   "pais": "Hungria"
@@ -4578,7 +4631,8 @@
   "pais": "Brasil"
  },
  "Maranhão": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Marathón": {
   "pais": "Honduras"
@@ -4692,7 +4746,8 @@
   "pais": "Brasil"
  },
  "Metropolitanos": {
-  "pais": "Venezuela"
+  "pais": "Venezuela",
+  "escuro": true
  },
  "Metz": {
   "pais": "França"
@@ -4830,7 +4885,8 @@
   "pais": "Jamaica"
  },
  "Monterrey": {
-  "pais": "México"
+  "pais": "México",
+  "escuro": true
  },
  "Montevideo City Torque": {
   "pais": "Uruguai"
@@ -5154,7 +5210,8 @@
   "pais": "Inglaterra"
  },
  "Northeast United": {
-  "pais": "Índia"
+  "pais": "Índia",
+  "escuro": true
  },
  "Norwich City": {
   "pais": "Inglaterra"
@@ -5277,7 +5334,8 @@
   "pais": "Honduras"
  },
  "Olimpia-PAR": {
-  "pais": "Paraguai"
+  "pais": "Paraguai",
+  "escuro": true
  },
  "Olimpija Ljubljana": {
   "pais": "Eslovênia"
@@ -5412,7 +5470,8 @@
   "pais": "Indonésia"
  },
  "PSG": {
-  "pais": "França"
+  "pais": "França",
+  "escuro": true
  },
  "PSIM Yogyakarta": {
   "pais": "Indonésia"
@@ -5427,7 +5486,8 @@
   "pais": "Holanda"
  },
  "PT Prachuap": {
-  "pais": "Tailândia"
+  "pais": "Tailândia",
+  "escuro": true
  },
  "PVF-Công An Nhân Dân": {
   "pais": "Vietnã"
@@ -5751,7 +5811,8 @@
   "pais": "Inglaterra"
  },
  "Plácido de Castro": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Podbrezová": {
   "pais": "Eslováquia"
@@ -5775,7 +5836,8 @@
   "pais": "Moldávia"
  },
  "Polokwane": {
-  "pais": "África do Sul"
+  "pais": "África do Sul",
+  "escuro": true
  },
  "Polonia Bytom": {
   "pais": "Polônia"
@@ -5829,7 +5891,8 @@
   "pais": "Brasil"
  },
  "Porto-BA": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Porto-PE": {
   "pais": "Brasil"
@@ -5871,7 +5934,8 @@
   "pais": "Brasil"
  },
  "Pouso Alegre": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Power Dynamos": {
   "pais": "Zâmbia"
@@ -5937,10 +6001,12 @@
   "pais": "México"
  },
  "Punjab": {
-  "pais": "Índia"
+  "pais": "Índia",
+  "escuro": true
  },
  "Puntarenas": {
-  "pais": "Costa Rica"
+  "pais": "Costa Rica",
+  "escuro": true
  },
  "Puskás Akadémia": {
   "pais": "Hungria"
@@ -5961,7 +6027,8 @@
   "pais": "Costa Rica"
  },
  "Pérolas Negras": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "QFC": {
   "pais": "Brasil"
@@ -6075,7 +6142,8 @@
   "pais": "Polônia"
  },
  "Rancho Santana": {
-  "pais": "Nicarágua"
+  "pais": "Nicarágua",
+  "escuro": true
  },
  "Randers": {
   "pais": "Dinamarca"
@@ -6258,7 +6326,8 @@
   "pais": "Portugal"
  },
  "Rio Barra": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Rio Branco VN": {
   "pais": "Brasil"
@@ -6426,7 +6495,8 @@
   "pais": "Espanha"
  },
  "Sabah": {
-  "pais": "Azerbaijão"
+  "pais": "Azerbaijão",
+  "escuro": true
  },
  "Sabah FC": {
   "pais": "Malásia"
@@ -6501,7 +6571,8 @@
   "pais": "San Marino"
  },
  "San Jose Earthquakes": {
-  "pais": "Estados Unidos"
+  "pais": "Estados Unidos",
+  "escuro": true
  },
  "San Lorenzo-ARG": {
   "pais": "Argentina"
@@ -6600,7 +6671,8 @@
   "pais": "Brasil"
  },
  "Santos-PA": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Santos-PB": {
   "pais": "Brasil"
@@ -6714,7 +6786,8 @@
   "pais": "Ucrânia"
  },
  "Shamakhi FK": {
-  "pais": "Azerbaijão"
+  "pais": "Azerbaijão",
+  "escuro": true
  },
  "Shamrock Rovers": {
   "pais": "Irlanda"
@@ -6810,7 +6883,8 @@
   "pais": "Belarus"
  },
  "Slavia Praga": {
-  "pais": "Tchéquia"
+  "pais": "Tchéquia",
+  "escuro": true
  },
  "Slavia Sofia": {
   "pais": "Bulgária"
@@ -6831,7 +6905,8 @@
   "pais": "Egito"
  },
  "Sobradinho-DF": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Sochaux": {
   "pais": "França"
@@ -6909,7 +6984,8 @@
   "pais": "Itália"
  },
  "Sport Belém": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Sport Boys": {
   "pais": "Peru"
@@ -6993,7 +7069,8 @@
   "pais": "Polônia"
  },
  "Stallion Laguna": {
-  "pais": "Filipinas"
+  "pais": "Filipinas",
+  "escuro": true
  },
  "Standard Liege": {
   "pais": "Bélgica"
@@ -7101,7 +7178,8 @@
   "pais": "Brasil"
  },
  "São Francisco-AC": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "São Francisco-PA": {
   "pais": "Brasil"
@@ -7119,7 +7197,8 @@
   "pais": "Brasil"
  },
  "São Joseense": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "São José-AP": {
   "pais": "Brasil"
@@ -7182,7 +7261,8 @@
   "pais": "Tanzânia"
  },
  "TS Galaxy": {
-  "pais": "África do Sul"
+  "pais": "África do Sul",
+  "escuro": true
  },
  "Tafic": {
   "pais": "Botswana"
@@ -7248,7 +7328,8 @@
   "pais": "Brasil"
  },
  "Tauro": {
-  "pais": "Panamá"
+  "pais": "Panamá",
+  "escuro": true
  },
  "Taveirópolis": {
   "pais": "Brasil"
@@ -7275,10 +7356,12 @@
   "pais": "Tchéquia"
  },
  "Terengganu": {
-  "pais": "Malásia"
+  "pais": "Malásia",
+  "escuro": true
  },
  "Teresina": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Ternana": {
   "pais": "Itália"
@@ -7305,7 +7388,8 @@
   "pais": "China"
  },
  "Tigre": {
-  "pais": "Argentina"
+  "pais": "Argentina",
+  "escuro": true
  },
  "Tigres": {
   "pais": "México"
@@ -7389,7 +7473,8 @@
   "pais": "Belarus"
  },
  "Torreense": {
-  "pais": "Portugal"
+  "pais": "Portugal",
+  "escuro": true
  },
  "Torres": {
   "pais": "Itália"
@@ -7407,7 +7492,8 @@
   "pais": "Turquia"
  },
  "Tractor": {
-  "pais": "Irã"
+  "pais": "Irã",
+  "escuro": true
  },
  "Tranmere Rovers": {
   "pais": "Inglaterra"
@@ -7674,7 +7760,8 @@
   "pais": "Armênia"
  },
  "Urawa Reds": {
-  "pais": "Japão"
+  "pais": "Japão",
+  "escuro": true
  },
  "Urumajó": {
   "pais": "Brasil"
@@ -7722,7 +7809,8 @@
   "pais": "Armênia"
  },
  "Vancouver FC": {
-  "pais": "Canadá"
+  "pais": "Canadá",
+  "escuro": true
  },
  "Vancouver Whitecaps-CAN": {
   "pais": "Canadá"
@@ -7905,7 +7993,8 @@
   "pais": "Croácia"
  },
  "Várzea Grande": {
-  "pais": "Brasil"
+  "pais": "Brasil",
+  "escuro": true
  },
  "Västerås": {
   "pais": "Suécia"
@@ -7953,7 +8042,8 @@
   "pais": "Nigéria"
  },
  "Waterford": {
-  "pais": "Irlanda"
+  "pais": "Irlanda",
+  "escuro": true
  },
  "Waterhouse": {
   "pais": "Jamaica"
@@ -8019,7 +8109,8 @@
   "pais": "Polônia"
  },
  "Wolfsberger": {
-  "pais": "Áustria"
+  "pais": "Áustria",
+  "escuro": true
  },
  "Wolfsburg": {
   "pais": "Alemanha"
@@ -8124,7 +8215,8 @@
   "pais": "Zâmbia"
  },
  "Zhejiang": {
-  "pais": "China"
+  "pais": "China",
+  "escuro": true
  },
  "Zimbru": {
   "pais": "Moldávia"
@@ -8169,7 +8261,8 @@
   "pais": "Colômbia"
  },
  "Árabe Unido": {
-  "pais": "Panamá"
+  "pais": "Panamá",
+  "escuro": true
  },
  "Çorum": {
   "pais": "Turquia"

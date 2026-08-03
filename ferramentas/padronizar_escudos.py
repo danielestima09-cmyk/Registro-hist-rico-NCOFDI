@@ -104,13 +104,24 @@ def padronizar(caminho):
     im = Image.open(io.BytesIO(bruto)).convert("RGBA")
     antes = im.size
 
+    # já padronizado: não reprocessa. Redimensionar de novo só perderia
+    # nitidez, e é o tipo de perda que se acumula a cada execução do ciclo.
+    if ext.lower() == ".png" and im.size == (TELA, TELA):
+        caixa = im.getchannel("A").point(lambda v: 255 if v > 12 else 0).getbbox()
+        if caixa and abs(max(caixa[2] - caixa[0], caixa[3] - caixa[1]) - CONTEUDO) <= 2:
+            return False, None
+
     escudo = recortar_margem(im)
     escala = CONTEUDO / max(escudo.size)
     novo = (max(1, round(escudo.size[0] * escala)), max(1, round(escudo.size[1] * escala)))
     escudo = escudo.resize(novo, Image.LANCZOS)
 
     tela = Image.new("RGBA", (TELA, TELA), (0, 0, 0, 0))
-    tela.paste(escudo, ((TELA - novo[0]) // 2, (TELA - novo[1]) // 2), escudo)
+    # alpha_composite, não paste com a própria imagem como máscara: naquele
+    # caminho o Pillow multiplica o alfa por si mesmo, então cada execução
+    # deixava o escudo um pouco mais transparente. Depois de algumas rodadas
+    # os escudos sumiam.
+    tela.alpha_composite(escudo, ((TELA - novo[0]) // 2, (TELA - novo[1]) // 2))
 
     destino = base + ".png"
     if ext.lower() != ".png":
@@ -125,6 +136,34 @@ def slug(t):
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
     t = t.replace("'", "").replace("’", "").replace("ª", "a").replace("º", "o")
     return re.sub(r"[^a-zA-Z0-9]+", "-", t).strip("-").lower()
+
+
+def precisa_de_fundo(caminho):
+    """O escudo é escuro demais para o fundo escuro do site?
+
+    O site é escuro (o cartão tem luminância ~30) e a maioria dos escudos foi
+    desenhada para fundo branco. Os escuros somem. Quem for escuro recebe uma
+    placa clara atrás, no CSS; quem for claro fica como está — uma placa clara
+    atrás de um escudo branco criaria o problema inverso.
+    """
+    try:
+        im = Image.open(caminho).convert("RGBA")
+    except Exception:
+        return False
+    px = im.load()
+    soma = escuros = total = 0
+    for y in range(0, im.size[1], 2):
+        for x in range(0, im.size[0], 2):
+            r, g, b, a = px[x, y]
+            if a < 128:
+                continue
+            lum = 0.2126 * r + 0.7152 * g + 0.0722 * b
+            soma += lum
+            escuros += lum < 60
+            total += 1
+    if not total:
+        return False
+    return (soma / total) < 105 or (escuros / total) > 0.60
 
 
 def corrigir_apontamentos():
@@ -143,6 +182,17 @@ def corrigir_apontamentos():
         if info.get("bandeira"):
             continue
         sl = slug(nome)
+        arquivo = next((os.path.join(DESTINO, sl + e)
+                        for e in (".png", ".svg", ".jpg", ".jpeg", ".gif", ".webp")
+                        if os.path.exists(os.path.join(DESTINO, sl + e))), None)
+        if arquivo:
+            escuro = precisa_de_fundo(arquivo)
+            if escuro != bool(info.get("escuro")):
+                if escuro:
+                    info["escuro"] = True
+                else:
+                    info.pop("escuro", None)
+                mudou += 1
         if os.path.exists(os.path.join(DESTINO, sl + ".png")):
             if info.pop("escudo", None) is not None:
                 mudou += 1
