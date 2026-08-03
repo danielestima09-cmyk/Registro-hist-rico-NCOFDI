@@ -11,6 +11,15 @@ tem de aparecer com exatamente a mesma imagem em todas elas.
 
 Uso:  python3 ferramentas/extrair_escudos.py [--aplicar] [--forcar]
 
+Esta é a fonte autoritativa dos escudos que vêm de slide, e com --forcar ela
+regera todos do zero. Isso importa: recuperar escudos a partir do histórico do
+git parece equivalente, mas não é. Tentei uma vez, escolhendo "a versão mais
+recente cuja opacidade estivesse perto da máxima", e o critério trocou o escudo
+de dois clubes — o inter-turku e o gomel já tiveram, em commits antigos, o
+escudo do PSG e do Borac, e essas versões erradas eram justamente as de maior
+opacidade. As regras de correção (ESCUDOS_ERRADOS_NA_FONTE, POSICAO_NA_CELULA,
+a ordem alfabética das células) vivem aqui, então regerar aplica todas elas.
+
 Arquivos que já existem em assets/escudos/ são preservados: eles podem ter
 sido colocados à mão para corrigir um escudo errado na apresentação. Use
 --forcar para sobrescrevê-los.

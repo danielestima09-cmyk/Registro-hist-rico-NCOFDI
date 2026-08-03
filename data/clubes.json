@@ -2356,7 +2356,8 @@
   "pais": "Tchéquia"
  },
  "Dunbeholden": {
-  "pais": "Jamaica"
+  "pais": "Jamaica",
+  "escuro": true
  },
  "Dundalk": {
   "pais": "Irlanda"
@@ -2621,8 +2622,7 @@
   "pais": "Tajiquistão"
  },
  "FC Jurong": {
-  "pais": "Singapura",
-  "escuro": true
+  "pais": "Singapura"
  },
  "FC Kairat": {
   "pais": "Cazaquistão"
@@ -3643,8 +3643,7 @@
   "pais": "Brasil"
  },
  "Internazionale": {
-  "pais": "Itália",
-  "escuro": true
+  "pais": "Itália"
  },
  "Interporto": {
   "pais": "Brasil"
@@ -4352,7 +4351,8 @@
   "pais": "França"
  },
  "Lillestrøm": {
-  "pais": "Noruega"
+  "pais": "Noruega",
+  "escuro": true
  },
  "Lincoln City": {
   "pais": "Inglaterra",
@@ -4492,8 +4492,7 @@
   "pais": "Inglaterra"
  },
  "ML Vitebsk": {
-  "pais": "Belarus",
-  "escuro": true
+  "pais": "Belarus"
  },
  "MTK Budapest": {
   "pais": "Hungria"
@@ -7688,7 +7687,8 @@
   "pais": "Chile"
  },
  "Universitario-BOL": {
-  "pais": "Bolívia"
+  "pais": "Bolívia",
+  "escuro": true
  },
  "Universitario-PAN": {
   "pais": "Panamá"
@@ -7751,7 +7751,8 @@
   "pais": "Argentina"
  },
  "Unión Coclé": {
-  "pais": "Panamá"
+  "pais": "Panamá",
+  "escuro": true
  },
  "Unión La Calera": {
   "pais": "Chile"

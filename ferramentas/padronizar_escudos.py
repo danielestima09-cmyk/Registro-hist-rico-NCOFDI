@@ -31,6 +31,14 @@ TELA = 160        # lado da imagem final
 CONTEUDO = 152    # lado maior do escudo dentro dela (deixa uma margem mínima)
 TOLERANCIA = 12   # quanto uma cor pode variar e ainda contar como margem
 
+# Escudos cuja imagem de origem traz um fundo chapado em volta do desenho, que
+# no site aparece como um retângulo. Não vale como regra geral: medi os 475
+# escudos e em quase todos a cor que encosta na borda É o escudo (o Al Hilal é
+# azul de ponta a ponta, o PSG tem o círculo azul-marinho). Apagar o fundo por
+# heurística comeria esses. Só a Internazionale precisa, então vai na mão.
+FUNDO_CHAPADO = {"internazionale"}
+TOLERANCIA_FUNDO = 40   # o fundo costuma ter serrilhado do redimensionamento
+
 
 def formato(dados):
     if dados[:8] == b"\x89PNG\r\n\x1a\n":
@@ -44,6 +52,65 @@ def formato(dados):
     if b"<svg" in dados[:600].lower():
         return "svg"
     return "?"
+
+
+def _silhueta_de_caixa(im, limite=0.88):
+    """O alfa preenche quase todo o retângulo? Então há fundo, não recorte.
+
+    Medi os 475 escudos: a mediana é 0.75 e escudos em forma de brasão ou
+    círculo ficam entre 0.70 e 0.80. Acima de 0.88 a silhueta é uma caixa.
+    """
+    m = im.getchannel("A").point(lambda v: 255 if v > 128 else 0)
+    caixa = m.getbbox()
+    if not caixa:
+        return False
+    area = sum(1 for v in m.crop(caixa).tobytes() if v)
+    return area / ((caixa[2] - caixa[0]) * (caixa[3] - caixa[1])) > limite
+
+
+def apagar_fundo_chapado(im):
+    """Torna transparente o fundo chapado que encosta na borda do desenho.
+
+    Preenchimento a partir do contorno externo, então só sai o que está ligado
+    à borda: uma área da mesma cor cercada pelo escudo (o preto dentro do
+    monograma da Inter, por exemplo) fica no lugar.
+    """
+    from collections import deque, Counter
+    im = im.convert("RGBA")
+    l, a = im.size
+    px = im.load()
+    opaco = lambda x, y: px[x, y][3] > 128
+
+    contorno = []
+    for y in range(a):
+        for x in range(l):
+            if not opaco(x, y):
+                continue
+            if x in (0, l - 1) or y in (0, a - 1):
+                contorno.append((x, y))
+                continue
+            if any(not opaco(x + dx, y + dy)
+                   for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))):
+                contorno.append((x, y))
+    if not contorno:
+        return im
+    cor = Counter(px[x, y][:3] for x, y in contorno).most_common(1)[0][0]
+    perto = lambda x, y: sum(abs(px[x, y][i] - cor[i]) for i in range(3)) <= TOLERANCIA_FUNDO
+
+    vis = bytearray(l * a)
+    fila = deque(p for p in contorno if perto(*p))
+    for x, y in fila:
+        vis[y * l + x] = 1
+    while fila:
+        x, y = fila.popleft()
+        px[x, y] = (0, 0, 0, 0)
+        for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            u, v = x + dx, y + dy
+            if 0 <= u < l and 0 <= v < a and not vis[v * l + u] \
+               and px[u, v][3] > 128 and perto(u, v):
+                vis[v * l + u] = 1
+                fila.append((u, v))
+    return im
 
 
 def recortar_margem(im):
@@ -104,9 +171,21 @@ def padronizar(caminho):
     im = Image.open(io.BytesIO(bruto)).convert("RGBA")
     antes = im.size
 
+    # Antes da verificação de "já padronizado": apagar o fundo muda o tamanho do
+    # desenho, então ele precisa ser reescalado e recentralizado depois.
+    #
+    # A condição de silhueta é o que torna isso seguro de repetir: só age quando
+    # o alfa é quase uma caixa (o fundo chapado é retangular). Depois de apagar,
+    # sobra o desenho recortado e a condição deixa de valer — sem ela, a segunda
+    # execução acharia que o contorno é o próprio escudo e o apagaria.
+    mexeu_fundo = False
+    if os.path.basename(base) in FUNDO_CHAPADO and _silhueta_de_caixa(im):
+        im = apagar_fundo_chapado(im)
+        mexeu_fundo = True
+
     # já padronizado: não reprocessa. Redimensionar de novo só perderia
     # nitidez, e é o tipo de perda que se acumula a cada execução do ciclo.
-    if ext.lower() == ".png" and im.size == (TELA, TELA):
+    if ext.lower() == ".png" and im.size == (TELA, TELA) and not mexeu_fundo:
         caixa = im.getchannel("A").point(lambda v: 255 if v > 12 else 0).getbbox()
         if caixa and abs(max(caixa[2] - caixa[0], caixa[3] - caixa[1]) - CONTEUDO) <= 2:
             return False, None
@@ -142,9 +221,13 @@ def precisa_de_fundo(caminho):
     """O escudo é escuro demais para o fundo escuro do site?
 
     O site é escuro (o cartão tem luminância ~30) e a maioria dos escudos foi
-    desenhada para fundo branco. Os escuros somem. Quem for escuro recebe uma
-    placa clara atrás, no CSS; quem for claro fica como está — uma placa clara
-    atrás de um escudo branco criaria o problema inverso.
+    desenhada para fundo branco. Os escuros somem. Quem for escuro recebe um
+    contorno claro, no CSS; quem for claro fica como está — realçar um escudo
+    branco criaria o problema inverso.
+
+    O contorno é um drop-shadow, que acompanha o recorte do PNG. A primeira
+    tentativa foi uma placa retangular atrás do escudo, mas ela aparecia como um
+    fundo branco em parte deles e o conjunto ficava desigual.
     """
     try:
         im = Image.open(caminho).convert("RGBA")
