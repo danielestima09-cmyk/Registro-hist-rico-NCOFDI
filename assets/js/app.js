@@ -734,18 +734,25 @@
       });
     }
 
-    // Não há data de cadastro nos dados, então "último registrado" é o último na
-    // ordem de leitura dos arquivos, dentro da temporada mais recente.
-    var ultimoReg = null;
-    Object.keys(DADOS.competicoes).forEach(function (localId) {
-      (DADOS.competicoes[localId].competicoes || []).forEach(function (comp) {
-        (comp.campeoes || []).forEach(function (t) {
-          if (anoDe(t.temporada) === ultima) {
-            ultimoReg = { clube: t.clube, competicao: comp.nome, localId: localId, compId: comp.id };
-          }
-        });
+    // Renovação: das competições disputadas nas duas últimas temporadas,
+    // quantas trocaram de campeão.
+    var renovacao = null;
+    if (anterior) {
+      var antes = {}, depois = {};
+      titulosDaTemporada(anterior).forEach(function (t) {
+        antes[t.localId + "/" + t.competicaoId] = t.chave;
       });
-    });
+      titulosDaTemporada(ultima).forEach(function (t) {
+        depois[t.localId + "/" + t.competicaoId] = t.chave;
+      });
+      var comuns = Object.keys(depois).filter(function (k) { return antes[k]; });
+      if (comuns.length) {
+        renovacao = {
+          trocaram: comuns.filter(function (k) { return antes[k] !== depois[k]; }).length,
+          total: comuns.length
+        };
+      }
+    }
 
     var h = '<section class="secao"><h2 class="secao-titulo">Destaques</h2>' +
       '<p class="secao-nota">Calculados a partir da temporada mais recente registrada (' +
@@ -774,11 +781,11 @@
     h += linhaFato("Campeões inéditos em " + ultima,
       "<b>" + ineditos + "</b> " +
       '<a class="chip" href="#/temporadas/' + ultima + '">ver a temporada →</a>');
-    if (ultimoReg) {
-      h += linhaFato("Último campeão registrado",
-        chipClube(slug(ultimoReg.clube), ultimoReg.clube) +
-        ' <span class="cartao-sub"><a href="#/local/' + ultimoReg.localId + "/" +
-        ultimoReg.compId + '">' + esc(ultimoReg.competicao) + "</a></span>");
+    if (renovacao) {
+      h += linhaFato("Renovação em " + ultima,
+        "<b>" + renovacao.trocaram + "</b> de " + renovacao.total +
+        " competições trocaram de campeão " +
+        '<a class="chip" href="#/comparar/' + anterior + "/" + ultima + '">ver a comparação →</a>');
     }
     return h + "</div></section>";
   }
