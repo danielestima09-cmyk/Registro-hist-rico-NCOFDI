@@ -499,6 +499,156 @@ details.secao-lista .tabela-wrap { border: none; border-top: 1px solid var(--bor
 .controles input { flex: 1; min-width: 200px; }
 .controles input:focus, .controles select:focus { border-color: var(--ouro-escuro); }
 
+.controles-sep { align-self: center; color: var(--texto-3); font-weight: 600; }
+
+/* ----------------------------------------------------------- busca global */
+
+.busca { position: relative; flex: 1 1 260px; max-width: 420px; }
+
+.busca input {
+  width: 100%;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  color: var(--texto);
+  border-radius: 999px;
+  padding: 9px 16px;
+  font-family: inherit;
+  font-size: .88rem;
+  outline: none;
+}
+
+.busca input::placeholder { color: var(--texto-3); }
+.busca input:focus { border-color: var(--ouro-escuro); background: var(--fundo-2); }
+
+.busca-painel {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  max-height: min(70vh, 460px);
+  overflow-y: auto;
+  background: var(--fundo-2);
+  border: 1px solid var(--borda-forte);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  padding: 6px;
+  z-index: 40;
+}
+
+.busca-painel.aberto { display: block; }
+
+.busca-grupo + .busca-grupo { margin-top: 4px; border-top: 1px solid var(--borda); padding-top: 4px; }
+
+.busca-grupo h4 {
+  margin: 6px 10px 4px;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--texto-3);
+  font-weight: 600;
+}
+
+.busca-grupo h4 span { color: var(--ouro); }
+
+.busca-item {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 10px;
+  border-radius: var(--raio-p);
+  line-height: 1.3;
+}
+
+.busca-item:hover, .busca-item.ativo { background: var(--cartao-hover); }
+.busca-nome { font-size: .9rem; color: var(--texto); }
+.busca-sub { font-size: .76rem; color: var(--texto-3); }
+.busca-vazio { margin: 0; padding: 14px; text-align: center; color: var(--texto-3); font-size: .86rem; }
+
+/* --------------------------------------------------- fatos e selos */
+
+.fatos {
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  overflow: hidden;
+}
+
+.fato {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 11px 16px;
+  font-size: .9rem;
+}
+
+.fato + .fato { border-top: 1px solid var(--borda); }
+.fato:nth-child(odd) { background: rgba(255, 255, 255, .015); }
+
+.fato-rotulo {
+  flex: 0 0 230px;
+  color: var(--texto-2);
+  font-size: .82rem;
+}
+
+.fato-valor { flex: 1; min-width: 200px; display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.fato-valor em { color: var(--texto-3); font-style: normal; }
+.fato-valor b { color: var(--ouro); font-variant-numeric: tabular-nums; }
+
+.secao-nota { margin: -6px 0 14px; color: var(--texto-3); font-size: .85rem; }
+
+.selos { display: flex; flex-wrap: wrap; gap: 7px; margin: -8px 0 22px; }
+
+.selo {
+  border: 1px solid var(--borda-forte);
+  background: var(--cartao);
+  color: var(--texto-2);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: .78rem;
+  cursor: help;
+}
+
+.selo.forte { border-color: var(--ouro-escuro); color: var(--ouro); background: rgba(229, 181, 103, .08); }
+
+/* ------------------------------------------------------- variação e frases */
+
+.var { font-variant-numeric: tabular-nums; font-size: .85rem; }
+.var.sobe { color: var(--verde); }
+.var.desce { color: #e0736b; }
+.var.igual { color: var(--texto-3); }
+.var.nova { color: var(--ouro); }
+
+.frases { margin: 0; padding-left: 20px; color: var(--texto-2); }
+.frases li { margin: 5px 0; font-size: .9rem; }
+
+/* ---------------------------------------------------------- linha do tempo */
+
+.linha-tempo {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 4px 2px 10px;
+  margin-top: 16px;
+}
+
+.marco {
+  flex: 0 0 auto;
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 12px 8px;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  background: var(--cartao);
+  text-align: center;
+}
+
+.marco:hover { background: var(--cartao-hover); border-color: var(--borda-forte); }
+.marco-ano { font-size: .74rem; color: var(--ouro); font-variant-numeric: tabular-nums; }
+.marco-clube { font-size: .78rem; color: var(--texto-2); line-height: 1.25; }
+
 /* ---------------------------------------------------------------- avisos */
 
 .aviso-caixa {
@@ -539,9 +689,17 @@ details.secao-lista .tabela-wrap { border: none; border-top: 1px solid var(--bor
 
 /* ------------------------------------------------------------------ mobile */
 
+@media (max-width: 900px) {
+  /* A busca desce para a própria linha antes de espremer o menu. */
+  .busca { order: 3; flex-basis: 100%; max-width: none; }
+}
+
 @media (max-width: 620px) {
   .topo-conteudo { min-height: 0; }
   .marca-nome { display: none; }
   .grade { grid-template-columns: 1fr; }
   tbody td, thead th { padding: 10px 12px; }
+  .fato { flex-direction: column; gap: 4px; }
+  .fato-rotulo { flex-basis: auto; }
+  .menu a { padding: 7px 11px; font-size: .84rem; }
 }

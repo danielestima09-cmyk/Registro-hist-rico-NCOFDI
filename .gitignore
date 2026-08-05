@@ -10,3 +10,7 @@ desktop.ini
 # Python
 __pycache__/
 *.pyc
+
+# Dependências só de teste (jsdom, usado para exercitar o site fora do navegador)
+node_modules/
+package-lock.json
