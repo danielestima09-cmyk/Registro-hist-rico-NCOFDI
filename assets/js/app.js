@@ -444,27 +444,42 @@
     return por;
   }
 
-  // Dobradinha: liga principal + copa nacional do mesmo país na mesma temporada.
+  // A liga principal do lugar — não uma divisão de acesso. Nos estaduais todas
+  // as divisões compartilham o tipo "Estadual", então o que separa é o nome.
+  function ehLigaPrincipal(t) {
+    if (t.tipo === "Liga Nacional") return true;
+    return t.tipo === "Estadual" && !/\d+ª\s*divis/i.test(t.competicao);
+  }
+
+  // Dobradinha: liga principal + copa do mesmo lugar na mesma temporada.
   function dobradinhasDoClube(c) {
     var por = porTemporadaDoClube(c), out = [];
     Object.keys(por).forEach(function (ano) {
-      var doAno = por[ano];
       var porLocal = {};
-      doAno.forEach(function (t) {
-        if (t.localTipo !== "pais" && t.localTipo !== "estado") return;
+      por[ano].forEach(function (t) {
+        // As competições nacionais brasileiras ficam sob uma "confederação",
+        // porque a seção Brasil é dividida por estado. Brasileirão + Copa do
+        // Brasil é uma dobradinha nacional como qualquer outra.
+        var local = DADOS.locais[t.localId];
+        var nacionalDoPais = t.localTipo === "confederacao" &&
+                             local && local.secao && local.secao.pais;
+        if (t.localTipo !== "pais" && t.localTipo !== "estado" && !nacionalDoPais) return;
         (porLocal[t.localId] = porLocal[t.localId] || []).push(t);
       });
       Object.keys(porLocal).forEach(function (localId) {
         var itens = porLocal[localId];
-        var liga = itens.filter(function (t) {
-          return t.tipo === "Liga Nacional" || t.tipo === "Estadual";
-        })[0];
+        var liga = itens.filter(ehLigaPrincipal)[0];
         var copa = itens.filter(function (t) { return formaDoTitulo(t) === "copa"; })[0];
-        if (liga && copa) {
-          out.push({ ano: Number(ano), localId: localId, localNome: liga.localNome,
-                     liga: liga, copa: copa,
-                     nacional: liga.localTipo === "pais" });
-        }
+        if (!liga || !copa) return;
+        // "Competições Nacionais" é o nome do agrupamento, não do lugar: para o
+        // leitor o que importa é que a dobradinha foi no Brasil.
+        var l = DADOS.locais[localId];
+        var ehConfedDoPais = liga.localTipo === "confederacao" && l.secao.pais;
+        out.push({
+          ano: Number(ano), localId: localId,
+          localNome: ehConfedDoPais ? l.secao.pais.nome : liga.localNome,
+          liga: liga, copa: copa, nacional: liga.localTipo !== "estado"
+        });
       });
     });
     return out.sort(function (a, b) { return b.ano - a.ano; });
@@ -711,16 +726,24 @@
 
     var ineditos = DADOS.ranking.filter(function (c) { return c.estreia === ultima; }).length;
 
-    // Sequência ativa: a que chega até a temporada mais recente.
-    var ativa = null, dobradinha = null;
+    // Sequências ativas: as que chegam até a temporada mais recente. Guarda
+    // todas — nove clubes empatam em duas seguidas, e escolher um só seria
+    // escolher pela ordem do ranking.
+    var ativas = [], dobradinhas = [];
     DADOS.ranking.forEach(function (c) {
       sequenciasDoClube(c).forEach(function (s) {
-        if (s.anos[s.anos.length - 1] !== ultima) return;
-        if (!ativa || s.anos.length > ativa.seq.anos.length) ativa = { clube: c, seq: s };
+        if (s.anos[s.anos.length - 1] === ultima) {
+          ativas.push({ chave: c.chave, nome: c.nome, n: s.anos.length, competicao: s.competicao });
+        }
       });
       dobradinhasDoClube(c).forEach(function (d) {
-        if (!dobradinha || d.ano > dobradinha.d.ano) dobradinha = { clube: c, d: d };
+        if (d.ano === ultima) dobradinhas.push({ chave: c.chave, nome: c.nome, d: d });
       });
+    });
+    ativas.sort(function (a, b) { return b.n - a.n || a.nome.localeCompare(b.nome, "pt-BR"); });
+    dobradinhas.sort(function (a, b) {
+      return (b.d.nacional ? 1 : 0) - (a.d.nacional ? 1 : 0) ||
+        a.nome.localeCompare(b.nome, "pt-BR");
     });
 
     var subiu = null;
@@ -763,15 +786,18 @@
     if (topoAno) {
       h += linhaFato("Mais títulos em " + ultima, chipClube(topoAno.chave, topoAno.nome, topoAno.n));
     }
-    if (ativa) {
-      h += linhaFato("Maior sequência ativa",
-        chipClube(ativa.clube.chave, ativa.clube.nome, ativa.seq.anos.length) +
-        ' <span class="cartao-sub">' + esc(ativa.seq.competicao) + "</span>");
+    if (ativas.length) {
+      h += linhaFato("Maiores sequências ativas", listaEmpatados(ativas, function (s) {
+        return chipClube(s.chave, s.nome, s.n) +
+          ' <span class="cartao-sub">' + esc(s.competicao) + "</span>";
+      }, 4));
     }
-    if (dobradinha) {
-      h += linhaFato("Última dobradinha",
-        chipClube(dobradinha.clube.chave, dobradinha.clube.nome) +
-        ' <span class="cartao-sub">' + esc(dobradinha.d.localNome) + ", " + dobradinha.d.ano + "</span>");
+    if (dobradinhas.length) {
+      h += linhaFato("Dobradinhas em " + ultima, dobradinhas.slice(0, 6).map(function (x) {
+        return chipClube(x.chave, x.nome) + ' <span class="cartao-sub">' +
+          (x.d.nacional ? "nacional" : "estadual") + ", " + esc(x.d.localNome) + "</span>";
+      }).join(" ") + (dobradinhas.length > 6
+        ? ' <span class="cartao-sub">e mais ' + (dobradinhas.length - 6) + "</span>" : ""));
     }
     if (subiu) {
       h += linhaFato("Quem mais subiu no ranking",
@@ -1421,6 +1447,21 @@
       '</span><span class="fato-valor">' + valor + "</span></div>";
   }
 
+  /* Recorde quase nunca tem dono único aqui: com poucas temporadas, dezenas de
+     clubes empatam. Mostrar só o primeiro (que era o primeiro do ranking, por
+     acaso) apresentava um empate de nove como se fosse feito de um só. Este
+     componente lista os empatados e diz quantos ficaram de fora. */
+  function listaEmpatados(itens, render, limite) {
+    if (!itens.length) return "<em>nenhum ainda</em>";
+    limite = limite || 6;
+    var topo = itens[0].n;
+    var empatados = itens.filter(function (x) { return x.n === topo; });
+    return empatados.slice(0, limite).map(render).join(" ") +
+      (empatados.length > limite
+        ? ' <span class="cartao-sub">e mais ' + (empatados.length - limite) + " empatados</span>"
+        : "");
+  }
+
   function chipClube(chave, nome, n) {
     return '<a class="chip" href="#/campeao/' + chave + '">' + esc(nome) +
       (n == null ? "" : " <b>" + n + "</b>") + "</a>";
@@ -1973,12 +2014,9 @@
 
   function recordeHTML(reg) {
     if (!reg) return "";
-    var topo = reg.lista[0];
-    var empatados = reg.lista.filter(function (x) { return x.n === topo.n; });
-    return linhaFato(reg.rotulo, empatados.slice(0, 4).map(function (x) {
+    return linhaFato(reg.rotulo, listaEmpatados(reg.lista, function (x) {
       return chipClube(x.chave, x.nome, x.n);
-    }).join(" ") + (empatados.length > 4
-      ? ' <span class="cartao-sub">e mais ' + (empatados.length - 4) + " empatados</span>" : ""));
+    }));
   }
 
   function paginaRecordes() {
@@ -2024,37 +2062,26 @@
     seqs.sort(function (a, b) { return b.n - a.n || a.nome.localeCompare(b.nome, "pt-BR"); });
     corridas.sort(function (a, b) { return b.n - a.n || a.nome.localeCompare(b.nome, "pt-BR"); });
 
-    var empatadosDe = function (lista) {
-      return lista.length ? lista.filter(function (x) { return x.n === lista[0].n; }) : [];
-    };
-
     h += '<section class="secao"><h2 class="secao-titulo">Recordes gerais</h2><div class="fatos">';
     h += recordeHTML(melhorPor(function () { return true; }, "Maior campeão da era"));
     if (melhorAno.length) {
       h += linhaFato("Mais títulos numa única temporada",
-        empatadosDe(melhorAno).slice(0, 4).map(function (x) {
+        listaEmpatados(melhorAno, function (x) {
           return chipClube(x.chave, x.nome, x.n) +
             ' <span class="cartao-sub">' + x.ano + "</span>";
-        }).join(" "));
+        }));
     }
     if (maisComps.length) {
       h += linhaFato("Mais competições diferentes vencidas",
-        empatadosDe(maisComps).slice(0, 4).map(function (x) {
-          return chipClube(x.chave, x.nome, x.n);
-        }).join(" "));
+        listaEmpatados(maisComps, function (x) { return chipClube(x.chave, x.nome, x.n); }));
     }
-    h += linhaFato("Maior sequência na mesma competição", seqs.length
-      ? empatadosDe(seqs).slice(0, 4).map(function (s) {
-          return chipClube(s.chave, s.nome, s.n) +
-            ' <span class="cartao-sub">' + esc(s.competicao) + ", " +
-            s.anos[0] + "–" + s.anos[s.anos.length - 1] + "</span>";
-        }).join(" ")
-      : "<em>nenhuma ainda</em>");
-    h += linhaFato("Mais temporadas seguidas com título", corridas.length
-      ? empatadosDe(corridas).slice(0, 6).map(function (x) {
-          return chipClube(x.chave, x.nome, x.n);
-        }).join(" ")
-      : "<em>nenhuma ainda</em>");
+    h += linhaFato("Maior sequência na mesma competição",
+      listaEmpatados(seqs, function (s) {
+        return chipClube(s.chave, s.nome, s.n) +
+          ' <span class="cartao-sub">' + esc(s.competicao) + "</span>";
+      }));
+    h += linhaFato("Mais temporadas seguidas com título",
+      listaEmpatados(corridas, function (x) { return chipClube(x.chave, x.nome, x.n); }));
     h += recordeHTML(melhorPor(function (t) { return t.ambito === "nacional"; }, "Mais títulos nacionais"));
     h += recordeHTML(melhorPor(function (t) { return t.ambito === "estadual"; }, "Mais títulos estaduais"));
     h += recordeHTML(melhorPor(function (t) { return t.ambito === "continental"; }, "Mais títulos continentais"));
@@ -2112,9 +2139,7 @@
         " <b>" + maisTitulos[0].n + "</b></a>");
       if (catLista.length) {
         h += linhaFato("Títulos em mais categorias diferentes",
-          empatadosDe(catLista).slice(0, 4).map(function (x) {
-            return chipClube(x.chave, x.nome, x.n);
-          }).join(" "));
+          listaEmpatados(catLista, function (x) { return chipClube(x.chave, x.nome, x.n); }));
       }
       h += "</div></section>";
     }
